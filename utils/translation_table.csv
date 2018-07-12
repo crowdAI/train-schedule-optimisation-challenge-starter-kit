@@ -11,7 +11,7 @@ challenge, challenge
 id, id
 abschnittskennzeichen, section_marker
 abschnittsvorgaben, section_requirements
-reihenfolge, sequence
+reihenfolge, sequence_number
 typ, type
 minHaltezeit, min_stopping_time
 einVerspaetungsfaktor, entry_delay_weight

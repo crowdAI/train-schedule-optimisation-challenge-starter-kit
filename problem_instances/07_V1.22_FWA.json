@@ -4,7 +4,6 @@
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 2408,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50,7 +49,6 @@
 		},
 		{
 			 "id": 1456,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -96,7 +94,6 @@
 		},
 		{
 			 "id": 1458,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -142,7 +139,6 @@
 		},
 		{
 			 "id": 2412,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -188,7 +184,6 @@
 		},
 		{
 			 "id": 12,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -234,7 +229,6 @@
 		},
 		{
 			 "id": 2416,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -280,7 +274,6 @@
 		},
 		{
 			 "id": 14,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -326,7 +319,6 @@
 		},
 		{
 			 "id": 2420,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -372,7 +364,6 @@
 		},
 		{
 			 "id": 16,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -418,7 +409,6 @@
 		},
 		{
 			 "id": 2424,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -464,7 +454,6 @@
 		},
 		{
 			 "id": 18,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -510,7 +499,6 @@
 		},
 		{
 			 "id": 2428,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -556,7 +544,6 @@
 		},
 		{
 			 "id": 20,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -602,7 +589,6 @@
 		},
 		{
 			 "id": 2432,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -648,7 +634,6 @@
 		},
 		{
 			 "id": 22,
-			 "name": null,
 			 "fahrweg": "EC_GD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -694,7 +679,6 @@
 		},
 		{
 			 "id": 2618,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -766,7 +750,6 @@
 		},
 		{
 			 "id": 2622,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -838,7 +821,6 @@
 		},
 		{
 			 "id": 2626,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -910,7 +892,6 @@
 		},
 		{
 			 "id": 2630,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -982,7 +963,6 @@
 		},
 		{
 			 "id": 2634,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1054,7 +1034,6 @@
 		},
 		{
 			 "id": 2638,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1126,7 +1105,6 @@
 		},
 		{
 			 "id": 2642,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1198,7 +1176,6 @@
 		},
 		{
 			 "id": 2646,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1270,7 +1247,6 @@
 		},
 		{
 			 "id": 2650,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1342,7 +1318,6 @@
 		},
 		{
 			 "id": 2654,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1414,7 +1389,6 @@
 		},
 		{
 			 "id": 2658,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1486,7 +1460,6 @@
 		},
 		{
 			 "id": 2662,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1558,7 +1531,6 @@
 		},
 		{
 			 "id": 2666,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1630,7 +1602,6 @@
 		},
 		{
 			 "id": 2670,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1702,7 +1673,6 @@
 		},
 		{
 			 "id": 2674,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1774,7 +1744,6 @@
 		},
 		{
 			 "id": 2678,
-			 "name": null,
 			 "fahrweg": "IR_LZ-BAA-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1846,7 +1815,6 @@
 		},
 		{
 			 "id": 2620,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1905,7 +1873,6 @@
 		},
 		{
 			 "id": 2624,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -1964,7 +1931,6 @@
 		},
 		{
 			 "id": 2628,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2023,7 +1989,6 @@
 		},
 		{
 			 "id": 2632,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2082,7 +2047,6 @@
 		},
 		{
 			 "id": 2636,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2141,7 +2105,6 @@
 		},
 		{
 			 "id": 2640,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2200,7 +2163,6 @@
 		},
 		{
 			 "id": 2644,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2259,7 +2221,6 @@
 		},
 		{
 			 "id": 2648,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2318,7 +2279,6 @@
 		},
 		{
 			 "id": 2652,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2377,7 +2337,6 @@
 		},
 		{
 			 "id": 2656,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2436,7 +2395,6 @@
 		},
 		{
 			 "id": 2660,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2495,7 +2453,6 @@
 		},
 		{
 			 "id": 2664,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2554,7 +2511,6 @@
 		},
 		{
 			 "id": 2668,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2613,7 +2569,6 @@
 		},
 		{
 			 "id": 2672,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2672,7 +2627,6 @@
 		},
 		{
 			 "id": 2676,
-			 "name": null,
 			 "fahrweg": "IR_LZ-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2731,7 +2685,6 @@
 		},
 		{
 			 "id": 2208,
-			 "name": null,
 			 "fahrweg": "RE_LZ-ZEN-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2803,7 +2756,6 @@
 		},
 		{
 			 "id": 2210,
-			 "name": null,
 			 "fahrweg": "RE_LZ-ZEN-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2875,7 +2827,6 @@
 		},
 		{
 			 "id": 556,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2934,7 +2885,6 @@
 		},
 		{
 			 "id": 558,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -2993,7 +2943,6 @@
 		},
 		{
 			 "id": 560,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3052,7 +3001,6 @@
 		},
 		{
 			 "id": 562,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3111,7 +3059,6 @@
 		},
 		{
 			 "id": 564,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3170,7 +3117,6 @@
 		},
 		{
 			 "id": 566,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3229,7 +3175,6 @@
 		},
 		{
 			 "id": 568,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3288,7 +3233,6 @@
 		},
 		{
 			 "id": 570,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3347,7 +3291,6 @@
 		},
 		{
 			 "id": 572,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3406,7 +3349,6 @@
 		},
 		{
 			 "id": 574,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3465,7 +3407,6 @@
 		},
 		{
 			 "id": 576,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3524,7 +3465,6 @@
 		},
 		{
 			 "id": 578,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3583,7 +3523,6 @@
 		},
 		{
 			 "id": 580,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3642,7 +3581,6 @@
 		},
 		{
 			 "id": 582,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3701,7 +3639,6 @@
 		},
 		{
 			 "id": 584,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3760,7 +3697,6 @@
 		},
 		{
 			 "id": "[77]586",
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3819,7 +3755,6 @@
 		},
 		{
 			 "id": 466,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3852,7 +3787,6 @@
 		},
 		{
 			 "id": 464,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3885,7 +3819,6 @@
 		},
 		{
 			 "id": 360,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3918,7 +3851,6 @@
 		},
 		{
 			 "id": 368,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3951,7 +3883,6 @@
 		},
 		{
 			 "id": 160,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -3984,7 +3915,6 @@
 		},
 		{
 			 "id": 162,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4017,7 +3947,6 @@
 		},
 		{
 			 "id": 164,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4050,7 +3979,6 @@
 		},
 		{
 			 "id": 166,
-			 "name": null,
 			 "fahrweg": "EC_BU-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4083,7 +4011,6 @@
 		},
 		{
 			 "id": "[15]912",
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4142,7 +4069,6 @@
 		},
 		{
 			 "id": 916,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4201,7 +4127,6 @@
 		},
 		{
 			 "id": 72,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4260,7 +4185,6 @@
 		},
 		{
 			 "id": 70,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4319,7 +4243,6 @@
 		},
 		{
 			 "id": 928,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4378,7 +4301,6 @@
 		},
 		{
 			 "id": 1256,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4437,7 +4359,6 @@
 		},
 		{
 			 "id": 936,
-			 "name": null,
 			 "fahrweg": "IC_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4496,7 +4417,6 @@
 		},
 		{
 			 "id": 911,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4555,7 +4475,6 @@
 		},
 		{
 			 "id": 913,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4614,7 +4533,6 @@
 		},
 		{
 			 "id": 271,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4673,7 +4591,6 @@
 		},
 		{
 			 "id": 921,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4732,7 +4649,6 @@
 		},
 		{
 			 "id": 71,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4791,7 +4707,6 @@
 		},
 		{
 			 "id": 929,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4850,7 +4765,6 @@
 		},
 		{
 			 "id": 931,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4909,7 +4823,6 @@
 		},
 		{
 			 "id": 75,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -4968,7 +4881,6 @@
 		},
 		{
 			 "id": 11,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5014,7 +4926,6 @@
 		},
 		{
 			 "id": 13,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5060,7 +4971,6 @@
 		},
 		{
 			 "id": 1463,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5106,7 +5016,6 @@
 		},
 		{
 			 "id": 15,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5152,7 +5061,6 @@
 		},
 		{
 			 "id": 2417,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5198,7 +5106,6 @@
 		},
 		{
 			 "id": 17,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5244,7 +5151,6 @@
 		},
 		{
 			 "id": 2421,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5290,7 +5196,6 @@
 		},
 		{
 			 "id": 19,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5336,7 +5241,6 @@
 		},
 		{
 			 "id": 2425,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5382,7 +5286,6 @@
 		},
 		{
 			 "id": 21,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5428,7 +5331,6 @@
 		},
 		{
 			 "id": 2429,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5474,7 +5376,6 @@
 		},
 		{
 			 "id": 23,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5520,7 +5421,6 @@
 		},
 		{
 			 "id": 2433,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5566,7 +5466,6 @@
 		},
 		{
 			 "id": 25,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5612,7 +5511,6 @@
 		},
 		{
 			 "id": 2437,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5658,7 +5556,6 @@
 		},
 		{
 			 "id": 861,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5704,7 +5601,6 @@
 		},
 		{
 			 "id": "[67]865",
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5750,7 +5646,6 @@
 		},
 		{
 			 "id": 867,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5796,7 +5691,6 @@
 		},
 		{
 			 "id": "[67]869",
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5842,7 +5736,6 @@
 		},
 		{
 			 "id": 871,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5888,7 +5781,6 @@
 		},
 		{
 			 "id": 875,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5934,7 +5826,6 @@
 		},
 		{
 			 "id": "77]877",
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -5980,7 +5871,6 @@
 		},
 		{
 			 "id": 879,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6026,7 +5916,6 @@
 		},
 		{
 			 "id": 883,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6072,7 +5961,6 @@
 		},
 		{
 			 "id": 887,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-GD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6118,7 +6006,6 @@
 		},
 		{
 			 "id": 5059,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6275,7 +6162,6 @@
 		},
 		{
 			 "id": 5061,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6432,7 +6318,6 @@
 		},
 		{
 			 "id": 5063,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6589,7 +6474,6 @@
 		},
 		{
 			 "id": 5065,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6746,7 +6630,6 @@
 		},
 		{
 			 "id": 5067,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -6896,7 +6779,6 @@
 		},
 		{
 			 "id": 5069,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7046,7 +6928,6 @@
 		},
 		{
 			 "id": 5071,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7196,7 +7077,6 @@
 		},
 		{
 			 "id": 5073,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7346,7 +7226,6 @@
 		},
 		{
 			 "id": 5075,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7496,7 +7375,6 @@
 		},
 		{
 			 "id": 5077,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7646,7 +7524,6 @@
 		},
 		{
 			 "id": 5079,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7796,7 +7673,6 @@
 		},
 		{
 			 "id": 5081,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -7946,7 +7822,6 @@
 		},
 		{
 			 "id": 5083,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8096,7 +7971,6 @@
 		},
 		{
 			 "id": 5085,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8246,7 +8120,6 @@
 		},
 		{
 			 "id": 5087,
-			 "name": null,
 			 "fahrweg": "RE_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8396,7 +8269,6 @@
 		},
 		{
 			 "id": 5058,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8546,7 +8418,6 @@
 		},
 		{
 			 "id": 5060,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8696,7 +8567,6 @@
 		},
 		{
 			 "id": 5062,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8846,7 +8716,6 @@
 		},
 		{
 			 "id": 5064,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -8996,7 +8865,6 @@
 		},
 		{
 			 "id": 5066,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9146,7 +9014,6 @@
 		},
 		{
 			 "id": 5068,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9296,7 +9163,6 @@
 		},
 		{
 			 "id": 5070,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9446,7 +9312,6 @@
 		},
 		{
 			 "id": 5072,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9596,7 +9461,6 @@
 		},
 		{
 			 "id": 5074,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9746,7 +9610,6 @@
 		},
 		{
 			 "id": 5076,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -9896,7 +9759,6 @@
 		},
 		{
 			 "id": 5078,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10046,7 +9908,6 @@
 		},
 		{
 			 "id": 5080,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10196,7 +10057,6 @@
 		},
 		{
 			 "id": 5082,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10346,7 +10206,6 @@
 		},
 		{
 			 "id": 5084,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10496,7 +10355,6 @@
 		},
 		{
 			 "id": 5086,
-			 "name": null,
 			 "fahrweg": "RE_CH-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10646,7 +10504,6 @@
 		},
 		{
 			 "id": 2619,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10718,7 +10575,6 @@
 		},
 		{
 			 "id": 2623,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10790,7 +10646,6 @@
 		},
 		{
 			 "id": 2627,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10862,7 +10717,6 @@
 		},
 		{
 			 "id": 2631,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -10934,7 +10788,6 @@
 		},
 		{
 			 "id": 2635,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11006,7 +10859,6 @@
 		},
 		{
 			 "id": 2639,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11078,7 +10930,6 @@
 		},
 		{
 			 "id": 2643,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11150,7 +11001,6 @@
 		},
 		{
 			 "id": 2647,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11222,7 +11072,6 @@
 		},
 		{
 			 "id": 2651,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11294,7 +11143,6 @@
 		},
 		{
 			 "id": 2655,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11366,7 +11214,6 @@
 		},
 		{
 			 "id": 2659,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11438,7 +11285,6 @@
 		},
 		{
 			 "id": 2663,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11510,7 +11356,6 @@
 		},
 		{
 			 "id": 2667,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11582,7 +11427,6 @@
 		},
 		{
 			 "id": 2671,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11654,7 +11498,6 @@
 		},
 		{
 			 "id": 2675,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11726,7 +11569,6 @@
 		},
 		{
 			 "id": 2679,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-BAA-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11798,7 +11640,6 @@
 		},
 		{
 			 "id": 2621,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11857,7 +11698,6 @@
 		},
 		{
 			 "id": 2625,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11916,7 +11756,6 @@
 		},
 		{
 			 "id": 2629,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -11975,7 +11814,6 @@
 		},
 		{
 			 "id": 2633,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12034,7 +11872,6 @@
 		},
 		{
 			 "id": 2637,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12093,7 +11930,6 @@
 		},
 		{
 			 "id": 2641,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12152,7 +11988,6 @@
 		},
 		{
 			 "id": 2645,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12211,7 +12046,6 @@
 		},
 		{
 			 "id": 2649,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12270,7 +12104,6 @@
 		},
 		{
 			 "id": 2653,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12329,7 +12162,6 @@
 		},
 		{
 			 "id": 2657,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12388,7 +12220,6 @@
 		},
 		{
 			 "id": 2661,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12447,7 +12278,6 @@
 		},
 		{
 			 "id": 2665,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12506,7 +12336,6 @@
 		},
 		{
 			 "id": 2669,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12565,7 +12394,6 @@
 		},
 		{
 			 "id": 2673,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12624,7 +12452,6 @@
 		},
 		{
 			 "id": 2677,
-			 "name": null,
 			 "fahrweg": "IR_ZUE-LZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12683,7 +12510,6 @@
 		},
 		{
 			 "id": 557,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12742,7 +12568,6 @@
 		},
 		{
 			 "id": 559,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12801,7 +12626,6 @@
 		},
 		{
 			 "id": 1255,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12860,7 +12684,6 @@
 		},
 		{
 			 "id": 563,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12919,7 +12742,6 @@
 		},
 		{
 			 "id": 565,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -12978,7 +12800,6 @@
 		},
 		{
 			 "id": 567,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13037,7 +12858,6 @@
 		},
 		{
 			 "id": 569,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13096,7 +12916,6 @@
 		},
 		{
 			 "id": 571,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13155,7 +12974,6 @@
 		},
 		{
 			 "id": 573,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13214,7 +13032,6 @@
 		},
 		{
 			 "id": 575,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13273,7 +13090,6 @@
 		},
 		{
 			 "id": 577,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13332,7 +13148,6 @@
 		},
 		{
 			 "id": 579,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13391,7 +13206,6 @@
 		},
 		{
 			 "id": 581,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13450,7 +13264,6 @@
 		},
 		{
 			 "id": 583,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13509,7 +13322,6 @@
 		},
 		{
 			 "id": 585,
-			 "name": null,
 			 "fahrweg": "IC_ZUE-CH_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13568,7 +13380,6 @@
 		},
 		{
 			 "id": 161,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13601,7 +13412,6 @@
 		},
 		{
 			 "id": 163,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13634,7 +13444,6 @@
 		},
 		{
 			 "id": 165,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13667,7 +13476,6 @@
 		},
 		{
 			 "id": 167,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13700,7 +13508,6 @@
 		},
 		{
 			 "id": 169,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13733,7 +13540,6 @@
 		},
 		{
 			 "id": 367,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13766,7 +13572,6 @@
 		},
 		{
 			 "id": 369,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13799,7 +13604,6 @@
 		},
 		{
 			 "id": 465,
-			 "name": null,
 			 "fahrweg": "EC_ZUE-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13832,7 +13636,6 @@
 		},
 		{
 			 "id": 18221,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -13995,7 +13798,6 @@
 		},
 		{
 			 "id": 18223,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14158,7 +13960,6 @@
 		},
 		{
 			 "id": 18225,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14321,7 +14122,6 @@
 		},
 		{
 			 "id": 18227,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14484,7 +14284,6 @@
 		},
 		{
 			 "id": 18229,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14647,7 +14446,6 @@
 		},
 		{
 			 "id": 18231,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14810,7 +14608,6 @@
 		},
 		{
 			 "id": 18233,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -14973,7 +14770,6 @@
 		},
 		{
 			 "id": 18235,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15136,7 +14932,6 @@
 		},
 		{
 			 "id": 18237,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15299,7 +15094,6 @@
 		},
 		{
 			 "id": 18239,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15462,7 +15256,6 @@
 		},
 		{
 			 "id": 18241,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15625,7 +15418,6 @@
 		},
 		{
 			 "id": 18243,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15788,7 +15580,6 @@
 		},
 		{
 			 "id": 18245,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -15951,7 +15742,6 @@
 		},
 		{
 			 "id": 18247,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16114,7 +15904,6 @@
 		},
 		{
 			 "id": 18249,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16277,7 +16066,6 @@
 		},
 		{
 			 "id": 18251,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16440,7 +16228,6 @@
 		},
 		{
 			 "id": 18253,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16603,7 +16390,6 @@
 		},
 		{
 			 "id": 18255,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16766,7 +16552,6 @@
 		},
 		{
 			 "id": 18257,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -16929,7 +16714,6 @@
 		},
 		{
 			 "id": 18259,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17092,7 +16876,6 @@
 		},
 		{
 			 "id": 18261,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17255,7 +17038,6 @@
 		},
 		{
 			 "id": 18263,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17418,7 +17200,6 @@
 		},
 		{
 			 "id": 18265,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17581,7 +17362,6 @@
 		},
 		{
 			 "id": 18267,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17744,7 +17524,6 @@
 		},
 		{
 			 "id": 18269,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -17907,7 +17686,6 @@
 		},
 		{
 			 "id": 18271,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18070,7 +17848,6 @@
 		},
 		{
 			 "id": 18273,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18233,7 +18010,6 @@
 		},
 		{
 			 "id": 18275,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18396,7 +18172,6 @@
 		},
 		{
 			 "id": 18277,
-			 "name": null,
 			 "fahrweg": "S2_ZLOE-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18559,7 +18334,6 @@
 		},
 		{
 			 "id": 18222,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18722,7 +18496,6 @@
 		},
 		{
 			 "id": 18224,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -18885,7 +18658,6 @@
 		},
 		{
 			 "id": 18226,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19048,7 +18820,6 @@
 		},
 		{
 			 "id": 18228,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19211,7 +18982,6 @@
 		},
 		{
 			 "id": 18230,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19374,7 +19144,6 @@
 		},
 		{
 			 "id": 18232,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19537,7 +19306,6 @@
 		},
 		{
 			 "id": 18234,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19700,7 +19468,6 @@
 		},
 		{
 			 "id": 18236,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -19863,7 +19630,6 @@
 		},
 		{
 			 "id": 18238,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20026,7 +19792,6 @@
 		},
 		{
 			 "id": 18240,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20189,7 +19954,6 @@
 		},
 		{
 			 "id": 18242,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20352,7 +20116,6 @@
 		},
 		{
 			 "id": 18244,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20515,7 +20278,6 @@
 		},
 		{
 			 "id": 18246,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20678,7 +20440,6 @@
 		},
 		{
 			 "id": 18248,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -20841,7 +20602,6 @@
 		},
 		{
 			 "id": 18250,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21004,7 +20764,6 @@
 		},
 		{
 			 "id": 18252,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21167,7 +20926,6 @@
 		},
 		{
 			 "id": 18254,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21330,7 +21088,6 @@
 		},
 		{
 			 "id": 18256,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21493,7 +21250,6 @@
 		},
 		{
 			 "id": 18258,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21656,7 +21412,6 @@
 		},
 		{
 			 "id": 18260,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21819,7 +21574,6 @@
 		},
 		{
 			 "id": 18262,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -21982,7 +21736,6 @@
 		},
 		{
 			 "id": 18264,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22145,7 +21898,6 @@
 		},
 		{
 			 "id": 18266,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22308,7 +22060,6 @@
 		},
 		{
 			 "id": 18268,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22471,7 +22222,6 @@
 		},
 		{
 			 "id": 18270,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22634,7 +22384,6 @@
 		},
 		{
 			 "id": 18272,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22797,7 +22546,6 @@
 		},
 		{
 			 "id": 18274,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -22960,7 +22708,6 @@
 		},
 		{
 			 "id": 18276,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -23123,7 +22870,6 @@
 		},
 		{
 			 "id": 18278,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -23286,7 +23032,6 @@
 		},
 		{
 			 "id": 18280,
-			 "name": null,
 			 "fahrweg": "S2_ZB-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -23449,7 +23194,6 @@
 		},
 		{
 			 "id": 18819,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -23651,7 +23395,6 @@
 		},
 		{
 			 "id": 18821,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -23853,7 +23596,6 @@
 		},
 		{
 			 "id": 18823,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -24062,7 +23804,6 @@
 		},
 		{
 			 "id": 18825,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -24264,7 +24005,6 @@
 		},
 		{
 			 "id": 18827,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -24473,7 +24213,6 @@
 		},
 		{
 			 "id": 18829,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -24675,7 +24414,6 @@
 		},
 		{
 			 "id": 18831,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -24884,7 +24622,6 @@
 		},
 		{
 			 "id": 18833,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -25086,7 +24823,6 @@
 		},
 		{
 			 "id": 18835,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -25288,7 +25024,6 @@
 		},
 		{
 			 "id": 18837,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -25490,7 +25225,6 @@
 		},
 		{
 			 "id": 18839,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -25692,7 +25426,6 @@
 		},
 		{
 			 "id": 18841,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -25894,7 +25627,6 @@
 		},
 		{
 			 "id": 18843,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -26096,7 +25828,6 @@
 		},
 		{
 			 "id": 18845,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -26298,7 +26029,6 @@
 		},
 		{
 			 "id": 18847,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -26500,7 +26230,6 @@
 		},
 		{
 			 "id": 18849,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -26702,7 +26431,6 @@
 		},
 		{
 			 "id": 18851,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -26904,7 +26632,6 @@
 		},
 		{
 			 "id": 18853,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -27106,7 +26833,6 @@
 		},
 		{
 			 "id": 18855,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -27308,7 +27034,6 @@
 		},
 		{
 			 "id": 18857,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -27510,7 +27235,6 @@
 		},
 		{
 			 "id": 18859,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -27712,7 +27436,6 @@
 		},
 		{
 			 "id": 18861,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -27914,7 +27637,6 @@
 		},
 		{
 			 "id": 18863,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -28116,7 +27838,6 @@
 		},
 		{
 			 "id": 18865,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -28318,7 +28039,6 @@
 		},
 		{
 			 "id": 18867,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -28520,7 +28240,6 @@
 		},
 		{
 			 "id": 18869,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -28722,7 +28441,6 @@
 		},
 		{
 			 "id": 18871,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -28924,7 +28642,6 @@
 		},
 		{
 			 "id": 18873,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -29126,7 +28843,6 @@
 		},
 		{
 			 "id": 18875,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -29328,7 +29044,6 @@
 		},
 		{
 			 "id": 18877,
-			 "name": null,
 			 "fahrweg": "S8_ZLOE-PF_std",
 			 "abschnittsvorgaben": [
 				{
@@ -29530,7 +29245,6 @@
 		},
 		{
 			 "id": 18822,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -29732,7 +29446,6 @@
 		},
 		{
 			 "id": 18824,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -29934,7 +29647,6 @@
 		},
 		{
 			 "id": 18826,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -30136,7 +29848,6 @@
 		},
 		{
 			 "id": 18828,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -30338,7 +30049,6 @@
 		},
 		{
 			 "id": 18830,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -30540,7 +30250,6 @@
 		},
 		{
 			 "id": 18832,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -30742,7 +30451,6 @@
 		},
 		{
 			 "id": 18834,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -30944,7 +30652,6 @@
 		},
 		{
 			 "id": 18836,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -31146,7 +30853,6 @@
 		},
 		{
 			 "id": 18838,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -31348,7 +31054,6 @@
 		},
 		{
 			 "id": 18840,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -31550,7 +31255,6 @@
 		},
 		{
 			 "id": 18842,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -31752,7 +31456,6 @@
 		},
 		{
 			 "id": 18844,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -31954,7 +31657,6 @@
 		},
 		{
 			 "id": 18846,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -32156,7 +31858,6 @@
 		},
 		{
 			 "id": 18848,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -32358,7 +32059,6 @@
 		},
 		{
 			 "id": 18850,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -32560,7 +32260,6 @@
 		},
 		{
 			 "id": 18852,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -32762,7 +32461,6 @@
 		},
 		{
 			 "id": 18854,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -32964,7 +32662,6 @@
 		},
 		{
 			 "id": 18856,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -33166,7 +32863,6 @@
 		},
 		{
 			 "id": 18858,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -33368,7 +33064,6 @@
 		},
 		{
 			 "id": 18860,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -33570,7 +33265,6 @@
 		},
 		{
 			 "id": 18862,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -33772,7 +33466,6 @@
 		},
 		{
 			 "id": 18864,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -33974,7 +33667,6 @@
 		},
 		{
 			 "id": 18866,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -34176,7 +33868,6 @@
 		},
 		{
 			 "id": 18868,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -34378,7 +34069,6 @@
 		},
 		{
 			 "id": 18870,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -34580,7 +34270,6 @@
 		},
 		{
 			 "id": 18872,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -34782,7 +34471,6 @@
 		},
 		{
 			 "id": 18874,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -34984,7 +34672,6 @@
 		},
 		{
 			 "id": 18876,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35186,7 +34873,6 @@
 		},
 		{
 			 "id": 18878,
-			 "name": null,
 			 "fahrweg": "S8_PF-ZLOE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35388,7 +35074,6 @@
 		},
 		{
 			 "id": 20419,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35538,7 +35223,6 @@
 		},
 		{
 			 "id": 20421,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35688,7 +35372,6 @@
 		},
 		{
 			 "id": 20423,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35838,7 +35521,6 @@
 		},
 		{
 			 "id": 20425,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -35988,7 +35670,6 @@
 		},
 		{
 			 "id": 20427,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36138,7 +35819,6 @@
 		},
 		{
 			 "id": 20429,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36288,7 +35968,6 @@
 		},
 		{
 			 "id": 20431,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36438,7 +36117,6 @@
 		},
 		{
 			 "id": 20433,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36588,7 +36266,6 @@
 		},
 		{
 			 "id": 20435,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36738,7 +36415,6 @@
 		},
 		{
 			 "id": 20437,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -36888,7 +36564,6 @@
 		},
 		{
 			 "id": 20439,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37038,7 +36713,6 @@
 		},
 		{
 			 "id": 20441,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37188,7 +36862,6 @@
 		},
 		{
 			 "id": 20443,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37338,7 +37011,6 @@
 		},
 		{
 			 "id": 20445,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37488,7 +37160,6 @@
 		},
 		{
 			 "id": 20447,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37638,7 +37309,6 @@
 		},
 		{
 			 "id": 20449,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37788,7 +37458,6 @@
 		},
 		{
 			 "id": 20451,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -37938,7 +37607,6 @@
 		},
 		{
 			 "id": 20453,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38088,7 +37756,6 @@
 		},
 		{
 			 "id": 20455,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38238,7 +37905,6 @@
 		},
 		{
 			 "id": 20457,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38388,7 +38054,6 @@
 		},
 		{
 			 "id": 20459,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38538,7 +38203,6 @@
 		},
 		{
 			 "id": 20461,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38688,7 +38352,6 @@
 		},
 		{
 			 "id": 20463,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38838,7 +38501,6 @@
 		},
 		{
 			 "id": 20465,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -38988,7 +38650,6 @@
 		},
 		{
 			 "id": 20467,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39138,7 +38799,6 @@
 		},
 		{
 			 "id": 20469,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39288,7 +38948,6 @@
 		},
 		{
 			 "id": 20471,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39438,7 +39097,6 @@
 		},
 		{
 			 "id": 20473,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39588,7 +39246,6 @@
 		},
 		{
 			 "id": 20475,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39738,7 +39395,6 @@
 		},
 		{
 			 "id": 20477,
-			 "name": null,
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
@@ -39888,7 +39544,6 @@
 		},
 		{
 			 "id": 20420,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40038,7 +39693,6 @@
 		},
 		{
 			 "id": 20422,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40188,7 +39842,6 @@
 		},
 		{
 			 "id": 20424,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40338,7 +39991,6 @@
 		},
 		{
 			 "id": 20426,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40488,7 +40140,6 @@
 		},
 		{
 			 "id": 20428,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40638,7 +40289,6 @@
 		},
 		{
 			 "id": 20430,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40788,7 +40438,6 @@
 		},
 		{
 			 "id": 20432,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -40938,7 +40587,6 @@
 		},
 		{
 			 "id": 20434,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41088,7 +40736,6 @@
 		},
 		{
 			 "id": 20436,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41238,7 +40885,6 @@
 		},
 		{
 			 "id": 20438,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41388,7 +41034,6 @@
 		},
 		{
 			 "id": 20440,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41538,7 +41183,6 @@
 		},
 		{
 			 "id": 20442,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41688,7 +41332,6 @@
 		},
 		{
 			 "id": 20444,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41838,7 +41481,6 @@
 		},
 		{
 			 "id": 20446,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -41988,7 +41630,6 @@
 		},
 		{
 			 "id": 20448,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42138,7 +41779,6 @@
 		},
 		{
 			 "id": 20450,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42288,7 +41928,6 @@
 		},
 		{
 			 "id": 20452,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42438,7 +42077,6 @@
 		},
 		{
 			 "id": 20454,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42588,7 +42226,6 @@
 		},
 		{
 			 "id": 20456,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42738,7 +42375,6 @@
 		},
 		{
 			 "id": 20458,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -42888,7 +42524,6 @@
 		},
 		{
 			 "id": 20460,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43038,7 +42673,6 @@
 		},
 		{
 			 "id": 20462,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43188,7 +42822,6 @@
 		},
 		{
 			 "id": 20464,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43338,7 +42971,6 @@
 		},
 		{
 			 "id": 20466,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43488,7 +43120,6 @@
 		},
 		{
 			 "id": 20468,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43638,7 +43269,6 @@
 		},
 		{
 			 "id": 20470,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43788,7 +43418,6 @@
 		},
 		{
 			 "id": 20472,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -43938,7 +43567,6 @@
 		},
 		{
 			 "id": 20474,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44088,7 +43716,6 @@
 		},
 		{
 			 "id": 20476,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44238,7 +43865,6 @@
 		},
 		{
 			 "id": 20478,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44388,7 +44014,6 @@
 		},
 		{
 			 "id": 20480,
-			 "name": null,
 			 "fahrweg": "S24_ZG-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44538,7 +44163,6 @@
 		},
 		{
 			 "id": 20523,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44643,7 +44267,6 @@
 		},
 		{
 			 "id": 20527,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44748,7 +44371,6 @@
 		},
 		{
 			 "id": 20531,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44853,7 +44475,6 @@
 		},
 		{
 			 "id": 20535,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -44951,7 +44572,6 @@
 		},
 		{
 			 "id": 20539,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45049,7 +44669,6 @@
 		},
 		{
 			 "id": 20543,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45147,7 +44766,6 @@
 		},
 		{
 			 "id": 20547,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45245,7 +44863,6 @@
 		},
 		{
 			 "id": 20551,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45343,7 +44960,6 @@
 		},
 		{
 			 "id": 20555,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45441,7 +45057,6 @@
 		},
 		{
 			 "id": 20559,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45539,7 +45154,6 @@
 		},
 		{
 			 "id": 20563,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45637,7 +45251,6 @@
 		},
 		{
 			 "id": 20567,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45735,7 +45348,6 @@
 		},
 		{
 			 "id": 20571,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45833,7 +45445,6 @@
 		},
 		{
 			 "id": 20575,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -45931,7 +45542,6 @@
 		},
 		{
 			 "id": 20579,
-			 "name": null,
 			 "fahrweg": "S25_ZUE-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46029,7 +45639,6 @@
 		},
 		{
 			 "id": 20524,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46127,7 +45736,6 @@
 		},
 		{
 			 "id": 20528,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46225,7 +45833,6 @@
 		},
 		{
 			 "id": 20532,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46323,7 +45930,6 @@
 		},
 		{
 			 "id": 20536,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46421,7 +46027,6 @@
 		},
 		{
 			 "id": 20540,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46519,7 +46124,6 @@
 		},
 		{
 			 "id": 20544,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46617,7 +46221,6 @@
 		},
 		{
 			 "id": 20548,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46715,7 +46318,6 @@
 		},
 		{
 			 "id": 20552,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46813,7 +46415,6 @@
 		},
 		{
 			 "id": 20556,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -46911,7 +46512,6 @@
 		},
 		{
 			 "id": 20560,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47009,7 +46609,6 @@
 		},
 		{
 			 "id": 20564,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47107,7 +46706,6 @@
 		},
 		{
 			 "id": 20568,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47205,7 +46803,6 @@
 		},
 		{
 			 "id": 20572,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47303,7 +46900,6 @@
 		},
 		{
 			 "id": 20576,
-			 "name": null,
 			 "fahrweg": "S25_SCHD-ZUE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47401,7 +46997,6 @@
 		},
 		{
 			 "id": 8224,
-			 "name": null,
 			 "fahrweg": "S27_ZB-LA_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47493,7 +47088,6 @@
 		},
 		{
 			 "id": 8228,
-			 "name": null,
 			 "fahrweg": "S27_ZB-LA_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47585,7 +47179,6 @@
 		},
 		{
 			 "id": 8264,
-			 "name": null,
 			 "fahrweg": "S27_ZB-LA_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47670,7 +47263,6 @@
 		},
 		{
 			 "id": 8268,
-			 "name": null,
 			 "fahrweg": "S27_ZB-LA_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47755,7 +47347,6 @@
 		},
 		{
 			 "id": 8272,
-			 "name": null,
 			 "fahrweg": "S27_ZB-LA_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47840,7 +47431,6 @@
 		},
 		{
 			 "id": 8221,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -47925,7 +47515,6 @@
 		},
 		{
 			 "id": 8223,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48010,7 +47599,6 @@
 		},
 		{
 			 "id": 8225,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48095,7 +47683,6 @@
 		},
 		{
 			 "id": 8227,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48180,7 +47767,6 @@
 		},
 		{
 			 "id": 8261,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48265,7 +47851,6 @@
 		},
 		{
 			 "id": 8263,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48350,7 +47935,6 @@
 		},
 		{
 			 "id": 8265,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48435,7 +48019,6 @@
 		},
 		{
 			 "id": 8267,
-			 "name": null,
 			 "fahrweg": "S27_LA-ZB_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48520,7 +48103,6 @@
 		},
 		{
 			 "id": 19320,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48553,7 +48135,6 @@
 		},
 		{
 			 "id": 19322,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48586,7 +48167,6 @@
 		},
 		{
 			 "id": 18018,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48619,7 +48199,6 @@
 		},
 		{
 			 "id": 19324,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48652,7 +48231,6 @@
 		},
 		{
 			 "id": 19326,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48685,7 +48263,6 @@
 		},
 		{
 			 "id": 19328,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48718,7 +48295,6 @@
 		},
 		{
 			 "id": 19330,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48751,7 +48327,6 @@
 		},
 		{
 			 "id": 19332,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48784,7 +48359,6 @@
 		},
 		{
 			 "id": 19334,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48817,7 +48391,6 @@
 		},
 		{
 			 "id": 19336,
-			 "name": null,
 			 "fahrweg": "S13_WAE-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48850,7 +48423,6 @@
 		},
 		{
 			 "id": 19319,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48883,7 +48455,6 @@
 		},
 		{
 			 "id": 18013,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48923,7 +48494,6 @@
 		},
 		{
 			 "id": 19321,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -48969,7 +48539,6 @@
 		},
 		{
 			 "id": 19323,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49009,7 +48578,6 @@
 		},
 		{
 			 "id": 19325,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49057,7 +48625,6 @@
 		},
 		{
 			 "id": 19327,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49097,7 +48664,6 @@
 		},
 		{
 			 "id": 19329,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49145,7 +48711,6 @@
 		},
 		{
 			 "id": 19331,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49185,7 +48750,6 @@
 		},
 		{
 			 "id": 19333,
-			 "name": null,
 			 "fahrweg": "S13_EIS-WAE_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49225,7 +48789,6 @@
 		},
 		{
 			 "id": 16919,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49271,7 +48834,6 @@
 		},
 		{
 			 "id": 16920,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49317,7 +48879,6 @@
 		},
 		{
 			 "id": 16921,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49363,7 +48924,6 @@
 		},
 		{
 			 "id": 16922,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49409,7 +48969,6 @@
 		},
 		{
 			 "id": 16923,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49455,7 +49014,6 @@
 		},
 		{
 			 "id": 16924,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49501,7 +49059,6 @@
 		},
 		{
 			 "id": 16925,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49547,7 +49104,6 @@
 		},
 		{
 			 "id": 16926,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49593,7 +49149,6 @@
 		},
 		{
 			 "id": 16927,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49639,7 +49194,6 @@
 		},
 		{
 			 "id": 16928,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49685,7 +49239,6 @@
 		},
 		{
 			 "id": 16929,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49731,7 +49284,6 @@
 		},
 		{
 			 "id": 16930,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49777,7 +49329,6 @@
 		},
 		{
 			 "id": 16931,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49823,7 +49374,6 @@
 		},
 		{
 			 "id": 16932,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49869,7 +49419,6 @@
 		},
 		{
 			 "id": 16933,
-			 "name": null,
 			 "fahrweg": "S40_EIS-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49915,7 +49464,6 @@
 		},
 		{
 			 "id": 16934,
-			 "name": null,
 			 "fahrweg": "S40_RW-EIS_std",
 			 "abschnittsvorgaben": [
 				{
@@ -49961,7 +49509,6 @@
 		},
 		{
 			 "id": 23428,
-			 "name": null,
 			 "fahrweg": "S4_UZ-SA-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50111,7 +49658,6 @@
 		},
 		{
 			 "id": 23432,
-			 "name": null,
 			 "fahrweg": "S4_UZ-SA-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50261,7 +49807,6 @@
 		},
 		{
 			 "id": 23436,
-			 "name": null,
 			 "fahrweg": "S4_UZ-SA-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50411,7 +49956,6 @@
 		},
 		{
 			 "id": 23440,
-			 "name": null,
 			 "fahrweg": "S4_UZ-SA-BU_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50561,7 +50105,6 @@
 		},
 		{
 			 "id": 23421,
-			 "name": null,
 			 "fahrweg": "S4_BU-SA-UZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50711,7 +50254,6 @@
 		},
 		{
 			 "id": 23425,
-			 "name": null,
 			 "fahrweg": "S4_BU-SA-UZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -50861,7 +50403,6 @@
 		},
 		{
 			 "id": 23429,
-			 "name": null,
 			 "fahrweg": "S4_BU-SA-UZ_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51011,7 +50552,6 @@
 		},
 		{
 			 "id": 23617,
-			 "name": null,
 			 "fahrweg": "S6_RW-ZB-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51083,7 +50623,6 @@
 		},
 		{
 			 "id": 23621,
-			 "name": null,
 			 "fahrweg": "S6_RW-ZB-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51155,7 +50694,6 @@
 		},
 		{
 			 "id": 23625,
-			 "name": null,
 			 "fahrweg": "S6_RW-ZB-SCHD_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51227,7 +50765,6 @@
 		},
 		{
 			 "id": 23626,
-			 "name": null,
 			 "fahrweg": "S6_SCHD-ZB-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51299,7 +50836,6 @@
 		},
 		{
 			 "id": 23630,
-			 "name": null,
 			 "fahrweg": "S6_SCHD-ZB-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51371,7 +50907,6 @@
 		},
 		{
 			 "id": 23634,
-			 "name": null,
 			 "fahrweg": "S6_SCHD-ZB-RW_std",
 			 "abschnittsvorgaben": [
 				{
@@ -51443,7 +50978,6 @@
 		},
 		{
 			 "id": 68333,
-			 "name": null,
 			 "fahrweg": "G_ZVB-BU_1200t_500m_A80",
 			 "abschnittsvorgaben": [
 				{
@@ -51489,7 +51023,6 @@
 		},
 		{
 			 "id": 44673,
-			 "name": null,
 			 "fahrweg": "G_ZVB-BU_1200t_500m_A80",
 			 "abschnittsvorgaben": [
 				{

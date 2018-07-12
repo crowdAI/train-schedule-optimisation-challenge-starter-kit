@@ -77,7 +77,7 @@ Finally, section requirements have a _sequence_number_. They must be fulfilled i
 
 Summarizing: The formal model for a _section_requirement_ is as follows
 
-| Field             | Format            | Description    |
+| Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
 | sequence_number (reihenfolge)                                                                 | integer                           | see text above    |
 | type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent. Has no effect on processing. You may ignore it.   |
@@ -85,4 +85,19 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 | entry_earliest (einMin) and/or entry_latest (einMax)                                          | HH:MM[:SS] formatted time-of-day  |  see text above |
 | exit_earliest (ausMin) and/or exit_latest (ausMax)                                            | HH:MM[:SS] formatted time-of-day  |  see text above |
 | entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](data_model/objective_function.md) |
+| connections (anschluesse)                                                                     | list of connections, see below    |  see below |
+
+#### connections (anschluesse)
+Connections are directed. They point _from_ a train that gives a connection _to_ another train that accepts the connection. In our model, a connection is listed under the train that _gives_ it.
+
+The model is as follows:
+
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Planning Rules](planning_rules/planning_rules.md) for details.    |
+| id                                                                                            | text                              | technical id. Irrelevant during processing |
+| onto_service_intention (aufZugfahrt)                                                          | text                              | reference to the _service_intention_ that accepts the connection|
+| onto_section_marker (aufAbschnittskennzeichen)                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|
+
+
 

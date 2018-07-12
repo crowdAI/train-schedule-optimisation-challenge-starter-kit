@@ -77,11 +77,12 @@ Finally, section requirements have a _sequence_number_. They must be fulfilled i
 
 Summarizing: The formal model for a _section_requirement_ is as follows
 
-* sequence_number (reihenfolge): see description above
-* type (typ): a text field describing what this requirement is meant to represent. Has no effect on processing. You may ignore it.
-* minimum_stopping_time (minHaltezeit): ISO-duration as discussed above
-* entry_earliest (einMin) and/or entry_latest (einMax): HH:MM[:SS] formatted time-of-day.
-* same for exit_earliest and exit_latest
-* entry_delay_weight and _exit_delay_weight_: non-negative float. Is used to calculate total delay penalties in the [objective function](data_model/objective_function.md).
-
+| Field             | Format            | Description    |
+| -------------     |-------------      | -----         |
+| sequence_number (reihenfolge)                                                                 | integer                           | see text above    |
+| type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent. Has no effect on processing. You may ignore it.   |
+| minimum_stopping_t    ime (minHaltezeit)                                                      | ISO duration                      |  see text above |
+| entry_earliest (einMin) and/or entry_latest (einMax)                                          | HH:MM[:SS] formatted time-of-day  |  see text above |
+| exit_earliest (ausMin) and/or exit_latest (ausMax)                                            | HH:MM[:SS] formatted time-of-day  |  see text above |
+| entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](data_model/objective_function.md) |
 

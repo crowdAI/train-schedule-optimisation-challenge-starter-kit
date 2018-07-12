@@ -43,9 +43,15 @@ An individual _service_intention_ consists of
 
 
 ## routes (fahrwege)
-A _route_ describes the possible ways for the train to move through the railway network. We model it as a directed acyclic graph (DAG). The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. The directed arcs have associated to them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while
+Recall from the [Quick Introduction](data_model/quick_intro_scheduling.md) that a _route_ is modeled as a directed acyclic graph (DAG). It describes the possible ways for the train to move through the railway network. The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. For a directed arc we call the node at its tail the _entry event_ and the node at its head the _exit event_ from this arc.The directed arcs have associated to them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while it is traveling on this arc, i.e. in the timespan between the entry event and the exit event. Each arc also has a minimum running time, which gives the _minimum_ duration between entry and exit event. There is no maximum duration, by the way. A train may spend as much time on a section as it likes. Of course, it keeps using the resources of this route section during this time.
+
+A specialty of route graph are the _section markers_ that may be associated to certain arcs (route sections). These provide the link to the section requirements in the service intentions. We will discuss these below.
+
+The following image illustrates a typical route DAG. The red labels denote the resource occupations of each route section. The blue labels denote the section markers, which are typically not present on every section.
+
 ![](data_model/img/img.png)
 ..._and even more complicated_...
+
 
 
 ### section requirement (abschnittsvorgabe)

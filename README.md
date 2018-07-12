@@ -9,3 +9,5 @@
 In this repo you will find background material, sample files and support scripts that help you getting started with the challenge.
 
 ## What do I find where?
+* blah
+* bluh

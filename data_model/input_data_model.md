@@ -54,14 +54,34 @@ _**ToDo: insert proper image**_
 
 Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the route paths are highlighted.
 
-_Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually.
+_Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
 
 _**ToDo: insert proper image**_
 ![](data_model/img/img.png)
 
 
-### section requirement (abschnittsvorgabe)
-This is where the actual requirements are specified. In order to understand what these mean, it is helpful to think of a train (service intention) as a sequence of _events_. 
+_**ToDo: describe the formal model**_
 
+### section requirement (abschnittsvorgabe)
+With the understanding of the routes, the meaning of the _section requirements_ in a service intention is now easily understood.
+
+Each section requirement references a _section_marker_. This means that "this requirement is meant for a route section that carries this label as a _section_marker_". The section requirement can ask:
+* that a certain time window be respected for the entry event by setting entry_earliest (einMin) and/or entry_latest (einMax) accordingly
+* same thing for the exit event by setting exit_earliest (ausMin) and/or exit_latest (ausMax)
+* a minimum stopping time be observed on this route section by setting min_stopping_time (minHaltezeit). This stopping time will be _in addition_ to the minimum_running_time
+* the connections to other trains (service intentions) to be observed
+
+Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](data_model/objective_function.md).
+
+Finally, section requirements have a _sequence_number_. They must be fulfilled in the order given by the sequence number. You do not need to worry about this. The route graphs provided are always such that it is _impossible_ to fulfil them in any other order (remember the route graph is acyclic). So the sequence field is not important for you as a solver.
+
+Summarizing: The formal model for a _section_requirement_ is as follows
+
+* sequence_number (reihenfolge): see description above
+* type (typ): a text field describing what this requirement is meant to represent. Has no effect on processing. You may ignore it.
+* minimum_stopping_time (minHaltezeit): ISO-duration as discussed above
+* entry_earliest (einMin) and/or entry_latest (einMax): HH:MM[:SS] formatted time-of-day.
+* same for exit_earliest and exit_latest
+* entry_delay_weight and _exit_delay_weight_: non-negative float. Is used to calculate total delay penalties in the [objective function](data_model/objective_function.md).
 
 

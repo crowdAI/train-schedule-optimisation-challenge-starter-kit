@@ -47,11 +47,17 @@ Recall from the [Quick Introduction](data_model/quick_intro_scheduling.md) that 
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (route sections). These provide the link to the section requirements in the service intentions. We will discuss these below.
 
-The following image illustrates a typical route DAG. The red labels denote the resource occupations of each route section. The blue labels denote the section markers, which are typically not present on every section.
+The following image illustrates a typical route DAG. It represents route XYZ (_**ToDo: modify sample scenario so it fits with the picture**_) in the [sample scenario](sample_files/sample_scenario.json). The red labels denote the resource occupations of each route section. The blue labels denote the section markers, which are typically not present on every section.
 
+_**ToDo: insert proper image**_
 ![](data_model/img/img.png)
-..._and even more complicated_...
 
+Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the route paths are highlighted.
+
+_Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually.
+
+_**ToDo: insert proper image**_
+![](data_model/img/img.png)
 
 
 ### section requirement (abschnittsvorgabe)

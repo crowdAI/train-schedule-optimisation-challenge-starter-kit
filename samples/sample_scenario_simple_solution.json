@@ -1,0 +1,1453 @@
+{
+	 "verkehrsplanLabel": "testszenario",
+	 "verkehrsplanHash": -2079483856,
+	 "hash": 1303985487,
+	 "properties": {
+		 "presolveTicks": 1.0,
+		 "anzahlNichtFixiertePGruppen": 2,
+		 "columnsBeforePresolve": 499,
+		 "binariesAfterPresolve": -1,
+		 "binariesBeforePresolve": 20,
+		 "rootProcessingTicks": 1.1,
+		 "objValue": 163233.97,
+		 "nonzerosBeforePresolve": 1817,
+		 "branchCutProcessingTime": 0.0,
+		 "rowsAfterPresolve": -1,
+		 "presolveTime": 0.0,
+		 "columnsAfterPresolve": -1,
+		 "branchCutProcessingTicks": 0.0,
+		 "fahrzeitreserveInProzent": 2.0,
+		 "anzahlPVariables": 2,
+		 "totalProcessingTime": 0.0,
+		 "rootProcessingTime": 0.0,
+		 "nonzerosAfterPresolve": -1,
+		 "rowsBeforePresolve": 520,
+		 "totalProcessingTicks": 1.1,
+		 "status": "Optimal",
+		 "anzahlFixiertePGruppen": 12
+	},
+	 "zugfahrten": [
+		{
+			 "funktionaleAngebotsbeschreibungId": "EC/163-001/PF-SA",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "09:02:30",
+					 "aus": "09:04:50.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "PF"
+				},
+				{
+					 "ein": "09:04:50.76",
+					 "aus": "09:06:10.32",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:06:10.32",
+					 "aus": "09:08:18.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:08:18.84",
+					 "aus": "09:09:56.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:09:56.76",
+					 "aus": "09:11:46.92",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:11:46.92",
+					 "aus": "09:14:01.56",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:14:01.56",
+					 "aus": "09:15:57.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:15:57.84",
+					 "aus": "09:17:41.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:17:41.88",
+					 "aus": "09:20:57.72",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:20:57.72",
+					 "aus": "09:22:17.28",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:22:17.28",
+					 "aus": "09:23:24.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:23:24.6",
+					 "aus": "09:25:20.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:25:20.88",
+					 "aus": "09:26:22.08",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:26:22.08",
+					 "aus": "09:28:06.12",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:28:06.12",
+					 "aus": "09:30:02.4",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:30:02.4",
+					 "aus": "09:33:36.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:33:36.6",
+					 "aus": "09:35:39",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "MELS"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/559-001/PF-SA",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "07:59:30",
+					 "aus": "08:01:50.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "PF"
+				},
+				{
+					 "ein": "08:01:50.76",
+					 "aus": "08:03:10.32",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:03:10.32",
+					 "aus": "08:05:18.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:05:18.84",
+					 "aus": "08:06:56.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:06:56.76",
+					 "aus": "08:08:46.92",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:08:46.92",
+					 "aus": "08:11:01.56",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:11:01.56",
+					 "aus": "08:12:57.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:12:57.84",
+					 "aus": "08:14:41.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:14:41.88",
+					 "aus": "08:17:57.72",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:17:57.72",
+					 "aus": "08:19:17.28",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:19:17.28",
+					 "aus": "08:20:24.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:20:24.6",
+					 "aus": "08:22:20.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:22:20.88",
+					 "aus": "08:23:22.08",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:23:22.08",
+					 "aus": "08:25:06.12",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:25:06.12",
+					 "aus": "08:27:02.4",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:27:02.4",
+					 "aus": "08:30:36.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:30:36.6",
+					 "aus": "08:32:39",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "MELS"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/560-001/SA-PF",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "07:28:18",
+					 "aus": "07:30:20.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "SA"
+				},
+				{
+					 "ein": "07:30:20.4",
+					 "aus": "07:33:24",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:33:24",
+					 "aus": "07:35:20.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:35:20.28",
+					 "aus": "07:37:04.32",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:37:04.32",
+					 "aus": "07:38:05.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:38:05.52",
+					 "aus": "07:40:01.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:40:01.8",
+					 "aus": "07:49:27.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:49:27.28",
+					 "aus": "07:50:46.84",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:50:46.84",
+					 "aus": "07:54:02.68",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:54:02.68",
+					 "aus": "07:55:46.72",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:55:46.72",
+					 "aus": "07:57:43",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:57:43",
+					 "aus": "07:59:57.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:59:57.64",
+					 "aus": "08:01:47.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:01:47.8",
+					 "aus": "08:03:25.72",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:03:25.72",
+					 "aus": "08:05:34.24",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:05:34.24",
+					 "aus": "08:06:53.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:06:53.8",
+					 "aus": "08:09:14.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "ALTD"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/562-001/SA-PF",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "08:28:18",
+					 "aus": "08:30:20.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "SA"
+				},
+				{
+					 "ein": "08:30:20.4",
+					 "aus": "08:33:24",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:33:24",
+					 "aus": "08:35:20.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:35:20.28",
+					 "aus": "08:37:04.32",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:37:04.32",
+					 "aus": "08:38:05.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:38:05.52",
+					 "aus": "08:40:01.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:40:01.8",
+					 "aus": "08:49:27.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:49:27.28",
+					 "aus": "08:50:46.84",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:50:46.84",
+					 "aus": "08:54:02.68",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:54:02.68",
+					 "aus": "08:55:46.72",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:55:46.72",
+					 "aus": "08:57:43",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:57:43",
+					 "aus": "08:59:57.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:59:57.64",
+					 "aus": "09:01:47.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:01:47.8",
+					 "aus": "09:03:25.72",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:03:25.72",
+					 "aus": "09:05:34.24",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:05:34.24",
+					 "aus": "09:06:53.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:06:53.8",
+					 "aus": "09:09:14.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "ALTD"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/563-001/PF-SA",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "09:59:30",
+					 "aus": "10:01:50.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "PF"
+				},
+				{
+					 "ein": "10:01:50.76",
+					 "aus": "10:03:10.32",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:03:10.32",
+					 "aus": "10:05:18.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:05:18.84",
+					 "aus": "10:06:56.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:06:56.76",
+					 "aus": "10:08:46.92",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:08:46.92",
+					 "aus": "10:11:01.56",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:11:01.56",
+					 "aus": "10:12:57.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:12:57.84",
+					 "aus": "10:14:41.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:14:41.88",
+					 "aus": "10:17:57.72",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:17:57.72",
+					 "aus": "10:19:17.28",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:19:17.28",
+					 "aus": "10:20:24.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:20:24.6",
+					 "aus": "10:22:20.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:22:20.88",
+					 "aus": "10:23:22.08",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:23:22.08",
+					 "aus": "10:25:06.12",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:25:06.12",
+					 "aus": "10:27:02.4",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:27:02.4",
+					 "aus": "10:30:36.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "10:30:36.6",
+					 "aus": "10:32:39",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "MELS"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/564-001/SA-PF",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "09:28:18",
+					 "aus": "09:30:20.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "SA"
+				},
+				{
+					 "ein": "09:30:20.4",
+					 "aus": "09:33:24",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:33:24",
+					 "aus": "09:35:20.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:35:20.28",
+					 "aus": "09:37:04.32",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:37:04.32",
+					 "aus": "09:38:05.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:38:05.52",
+					 "aus": "09:40:01.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:40:01.8",
+					 "aus": "09:41:09.12",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:41:09.12",
+					 "aus": "09:42:28.68",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:42:28.68",
+					 "aus": "09:45:44.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:45:44.52",
+					 "aus": "09:47:28.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:47:28.56",
+					 "aus": "09:49:24.84",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:49:24.84",
+					 "aus": "09:51:39.48",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:51:39.48",
+					 "aus": "09:53:29.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:53:29.64",
+					 "aus": "09:55:07.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:55:07.56",
+					 "aus": "09:57:16.08",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:57:16.08",
+					 "aus": "09:58:35.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:58:35.64",
+					 "aus": "10:00:56.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "ALTD"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/911-001/PF-SA",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "07:29:30",
+					 "aus": "07:31:50.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "PF"
+				},
+				{
+					 "ein": "07:31:50.76",
+					 "aus": "07:33:10.32",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:33:10.32",
+					 "aus": "07:35:18.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:35:18.84",
+					 "aus": "07:36:56.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:36:56.76",
+					 "aus": "07:38:46.92",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:38:46.92",
+					 "aus": "07:41:01.56",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:41:01.56",
+					 "aus": "07:42:57.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:42:57.84",
+					 "aus": "07:44:41.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:44:41.88",
+					 "aus": "07:47:57.72",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:47:57.72",
+					 "aus": "07:49:17.28",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:49:17.28",
+					 "aus": "07:50:24.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:50:24.6",
+					 "aus": "07:52:20.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:52:20.88",
+					 "aus": "07:53:22.08",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:53:22.08",
+					 "aus": "07:55:06.12",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:55:06.12",
+					 "aus": "07:57:02.4",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "07:57:02.4",
+					 "aus": "08:00:36.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:00:36.6",
+					 "aus": "08:02:39",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "MELS"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/913-001/PF-SA",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "08:29:30",
+					 "aus": "08:31:50.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "PF"
+				},
+				{
+					 "ein": "08:31:50.76",
+					 "aus": "08:33:10.32",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:33:10.32",
+					 "aus": "08:35:18.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:35:18.84",
+					 "aus": "08:36:56.76",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:36:56.76",
+					 "aus": "08:38:46.92",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:38:46.92",
+					 "aus": "08:41:01.56",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:41:01.56",
+					 "aus": "08:42:57.84",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:42:57.84",
+					 "aus": "08:44:41.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:44:41.88",
+					 "aus": "08:47:57.72",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:47:57.72",
+					 "aus": "08:49:17.28",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:49:17.28",
+					 "aus": "08:50:24.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:50:24.6",
+					 "aus": "08:52:20.88",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:52:20.88",
+					 "aus": "08:53:22.08",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:53:22.08",
+					 "aus": "08:55:06.12",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:55:06.12",
+					 "aus": "08:57:02.4",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "08:57:02.4",
+					 "aus": "09:00:36.6",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:00:36.6",
+					 "aus": "09:02:39",
+					 "fahrweg": "PF_SA/IC",
+					 "fahrwegabschnittId": "PF_SA/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "PF_SA/IC",
+					 "abschnittsvorgabe": "MELS"
+				}
+			]
+		},
+		{
+			 "funktionaleAngebotsbeschreibungId": "IC/916-001/SA-PF",
+			 "zugfahrtabschnitte": [
+				{
+					 "ein": "08:58:24",
+					 "aus": "09:00:26.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#1",
+					 "reihenfolge": 1,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "SA"
+				},
+				{
+					 "ein": "09:00:26.4",
+					 "aus": "09:03:30",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#2",
+					 "reihenfolge": 2,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:03:30",
+					 "aus": "09:05:26.28",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#3",
+					 "reihenfolge": 3,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:05:26.28",
+					 "aus": "09:07:10.32",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#4",
+					 "reihenfolge": 4,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:07:10.32",
+					 "aus": "09:08:11.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#5",
+					 "reihenfolge": 5,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:08:11.52",
+					 "aus": "09:10:07.8",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#6",
+					 "reihenfolge": 6,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:10:07.8",
+					 "aus": "09:11:15.12",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#7",
+					 "reihenfolge": 7,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:11:15.12",
+					 "aus": "09:12:34.68",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#8",
+					 "reihenfolge": 8,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:12:34.68",
+					 "aus": "09:15:50.52",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#9",
+					 "reihenfolge": 9,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:15:50.52",
+					 "aus": "09:17:34.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#10",
+					 "reihenfolge": 10,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:17:34.56",
+					 "aus": "09:19:30.84",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#11",
+					 "reihenfolge": 11,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:19:30.84",
+					 "aus": "09:21:45.48",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#12",
+					 "reihenfolge": 12,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:21:45.48",
+					 "aus": "09:23:35.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#13",
+					 "reihenfolge": 13,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:23:35.64",
+					 "aus": "09:25:13.56",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#14",
+					 "reihenfolge": 14,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:25:13.56",
+					 "aus": "09:27:22.08",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#15",
+					 "reihenfolge": 15,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:27:22.08",
+					 "aus": "09:28:41.64",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#16",
+					 "reihenfolge": 16,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": null
+				},
+				{
+					 "ein": "09:28:41.64",
+					 "aus": "09:31:02.4",
+					 "fahrweg": "SA_PF/IC",
+					 "fahrwegabschnittId": "SA_PF/IC#17",
+					 "reihenfolge": 17,
+					 "abschnittsfolge": "SA_PF/IC_1",
+					 "abschnittsvorgabe": "ALTD"
+				}
+			]
+		}
+	]
+}

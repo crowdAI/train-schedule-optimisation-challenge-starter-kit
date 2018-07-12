@@ -84,7 +84,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 | minimum_stopping_t    ime (minHaltezeit)                                                      | ISO duration                      |  see text above |
 | entry_earliest (einMin) and/or entry_latest (einMax)                                          | HH:MM[:SS] formatted time-of-day  |  see text above |
 | exit_earliest (ausMin) and/or exit_latest (ausMax)                                            | HH:MM[:SS] formatted time-of-day  |  see text above |
-| entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](data_model/objective_function.md) |
+| entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md#ojective-function) |
 | connections (anschluesse)                                                                     | list of connections, see below    |  see below |
 
 #### connections (anschluesse)
@@ -94,7 +94,7 @@ The model is as follows:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Planning Rules](planning_rules/planning_rules.md) for details.    |
+| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Planning Rules](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md) for details.    |
 | id                                                                                            | text                              | technical id. Irrelevant during processing |
 | onto_service_intention (aufZugfahrt)                                                          | text                              | reference to the _service_intention_ that accepts the connection|
 | onto_section_marker (aufAbschnittskennzeichen)                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|

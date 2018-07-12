@@ -18,7 +18,7 @@ A _problem instance_, or a _scenario_ is a JSON file containing the following to
 Let's go through them. You may use the small [sample scenario](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario.json) as a concrete example.
 
 
-![alt text](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/data_model/img/img.png "Logo Title Text 1")
+![](data_model/img/img.png)
 
 
 

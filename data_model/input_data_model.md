@@ -71,7 +71,7 @@ Each section requirement references a _section_marker_. This means that "this re
 * a minimum stopping time be observed on this route section by setting min_stopping_time (minHaltezeit). This stopping time will be _in addition_ to the minimum_running_time
 * the connections to other trains (service intentions) to be observed
 
-Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](data_model/objective_function.md).
+Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md#ojective-function).
 
 Finally, section requirements have a _sequence_number_. They must be fulfilled in the order given by the sequence number. You do not need to worry about this. The route graphs provided are always such that it is _impossible_ to fulfil them in any other order (remember the route graph is acyclic). So the sequence field is not important for you as a solver.
 

@@ -13,14 +13,10 @@ A _problem instance_, or a _scenario_ is a JSON file containing the following to
 * hash
 * service_intentions (funktionale Angebotsbeschreibungen)
 * routes (fahrwege)
+* ressourcen (resources)
 * parameters
 
 Let's go through them. You may use the small [sample scenario](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario.json) as a concrete example.
-
-
-![](data_model/img/img.png)
-
-
 
 
 ## label
@@ -43,9 +39,17 @@ This is a list. Each item in the list is an individual _service_intention_. A _s
 An individual _service_intention_ consists of
 * id: identifier for the train, or "service"
 * route (fahrweg): a reference to the route graph, see below for details on the routes
-* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_, see next paragraph
+* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes.
 
-### section requirement (abschnittsvorgabe)
 
 ## routes (fahrwege)
+A _route_ describes the possible ways for the train to move through the railway network. We model it as a directed acyclic graph (DAG). The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. The directed arcs have associated to them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while
+![](data_model/img/img.png)
 ..._and even more complicated_...
+
+
+### section requirement (abschnittsvorgabe)
+This is where the actual requirements are specified. In order to understand what these mean, it is helpful to think of a train (service intention) as a sequence of _events_. 
+
+
+

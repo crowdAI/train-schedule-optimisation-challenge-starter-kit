@@ -59,8 +59,29 @@ _Note: There are many ways to cut the graph into segments of linear paths. In th
 _**ToDo: insert proper image**_
 ![](data_model/img/img.png)
 
+In the data model, a _route_ has
+* an id
+* a list of route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows
 
-_**ToDo: describe the formal model**_
+Data model for a _route_section_:
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| sequence_number (reihenfolge)                                                                 | integer                           | an ordering number. The train passes over the route_section in this order. This is necessary because the JSON specification does not guarantee that the sequence in the file is preserved    |
+| penalty                                                                                       | non-negative float                | used in the objective function for the timetable. If a train uses this route_section, this penalty accrues     |
+|  route_alternative_marker_at_entry (vonVerzweigungen)                                         | text                              | a label for the _entry event_ into this route_section. Other route sections 
+|  route_alternative_marker_at_exit (nachVerzweigungen)                                         | text                              | dito for the _exit event_ from this route_section    |
+| _starting_point_ and _ending_point_ (startpunkt and endpunkt)                                 | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends.    |
+|   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time the train must spend on this _route_section_
+|   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see below
+|   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. In our examples, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one.
+
+
+Data model for a _resource_occupation_:
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
+| occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources below. |
+
 
 ### section requirement (abschnittsvorgabe)
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention is now easily understood.

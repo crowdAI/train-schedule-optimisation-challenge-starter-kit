@@ -29,7 +29,7 @@ endpunkt, ending_point
 minimaleFahrzeit, minimum_running_time
 ressourcenbelegungen, resource_occupations
 belegungsrichtung, occupation_direction
-zugfolgezeit, following_train_separation
+zugfolgezeit, following_separation
 zugfolgeErlaubt, following_allowed
 freigabezeit, release_time
 aufZugfahrt, onto_service_intention

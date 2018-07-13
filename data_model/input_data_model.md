@@ -63,7 +63,7 @@ In the data model, a _route_ has
 * an id
 * a list of _route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows
 
-Data model for a _route_section_:
+#### Data model for a _route_section_ (fahrwegabschnitt):
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
@@ -77,7 +77,7 @@ Data model for a _route_section_:
 |   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. In our examples, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
 
 
-Data model for a _resource_occupation_:
+#### Data model for a _resource_occupation_ (ressourcenbelegung):
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
@@ -122,5 +122,23 @@ The model is as follows:
 | onto_service_intention (aufZugfahrt)                                                          | text                              | reference to the _service_intention_ that accepts the connection|
 | onto_section_marker (aufAbschnittskennzeichen)                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|
 
+## resources (ressourcen)
 
+Resources are used to model which parts of the track infrastructure is used by a train. A resource that is used is modeled as a _resource_occupation_, see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several route_sections.
 
+In general, we use two kinds of resources to model different behaviour and level-of-detail:
+
+* _blocking_ resources which means they must be released by a train before another train can start occupying them
+* _following_ resources, which allow two trains to occupy them concurrently, as long as
+    - they are separated at entry and exit by at least the _following_separation_
+    - the order of the trains is the same at entry and exit, i.e. they do not overtake each other.
+
+**However, in the problem instances provided for this Challenge, you will only find resources of _blocking_ type. To participate in this challenge, it is therefore sufficient for you to consider only blocking logic.**
+
+The model for a _resource_ is as follows:
+
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| id                                                        | text                      | unique identifier for the resource. Used in _resource_occupation_s    |
+| release_time (freigabezeit)                               | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Planning Rules](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md) for details.  |
+|  following_allowed (zugfolgeErlaubt)                      | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). As mentioned, all resources in all the provided problem instances have this field set to _false_|

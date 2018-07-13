@@ -37,9 +37,12 @@ This is a list. Each item in the list is an individual _service_intention_. A _s
 
 ### service intention (funktionaleAngebotsbeschreibungen)
 An individual _service_intention_ consists of
-* id: identifier for the train, or "service"
-* route (fahrweg): a reference to the route graph, see below for details on the routes
-* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes.
+
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| id                                        | text                           | identifier for the train, or "service" |
+| route (fahrweg)                           | text                           | a reference to the route graph, see below for details on the routes |
+| section_requirements (abschnittsvorgaben) | text                           | a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes. |
 
 
 ## routes (fahrwege)

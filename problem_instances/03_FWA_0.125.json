@@ -73053,5274 +73053,3297 @@
 		{
 			 "id": "ZUE_A3-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A3-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A4-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A4-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A5-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A5-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A6-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A6-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A7-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A7-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A8-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A8-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A9-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A9-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A10-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A10-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A11-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A11-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A12-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A12-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A13-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A13-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A14-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A14-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A15-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A15-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A16-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A16-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A17-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A17-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A18-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_A18-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T31-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T31-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T32-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T32-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T33-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T33-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T34-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T34-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T82",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P51",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T63",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_T73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_B7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P15",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P35",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P55",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P75",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P56",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_P76",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W18",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W17",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_W63",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_C7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_Z7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE_L8",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE-ZAU_101",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZUE-ZAU_151",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU-ZUE_201",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU-ZUE_251",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_12",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_14",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_15",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_W6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_GD",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_22",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZAU_25",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_41",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE-ZGH_350",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_71",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWIE_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_12",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_61",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZEN_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_14",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_13",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_44",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_84",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL-KIL_105",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL-ZWOL_205",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZWOL-KIL_106",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL-ZWOL_206",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_12",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_51",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_71",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "KIL-RUES_107",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES-KIL_207",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_61",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_71",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RUES_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL_44",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL_45",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL_64",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL_65",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL-NIDB_153",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-ZKOL_253",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL-NIDB_154",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-ZKOL_254",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL-NIDB_155",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-ZKOL_255",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL-NIDB_156",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-ZKOL_256",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZKOL-NIDB_157",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-ZKOL_257",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB_N12",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB_N13",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB_N91",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB_N94",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "NIDB-TW_158",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW-NIDB_258",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_25",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_GD",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_26",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_45",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_46",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_8",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_63",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_64",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_55",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_56",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_84",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_85",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW-ORDD_311",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD-TW_411",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_86",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_93",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW_96",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW-ORD_110",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORD-TW_210",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW-ORD_111",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORD-TW_211",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORD_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORD_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORD-HG_113",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG-ORD_213",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_94",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG_93",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG-AU_118",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU-HG_218",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HG-AU_119",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU-HG_219",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_54",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_53",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU_52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU-WAE_121",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU-WAE_122",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "AU-WAE_123",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-AU_221",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-AU_222",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-AU_223",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_9",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_51",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_61",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_71",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_60",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_82",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_93",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE_92",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-BGH_701",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BGH_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BGH_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-RI_125",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAE-RI_126",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RI-WAE_225",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RI-WAE_226",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RI_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RI_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RI-HAF_128",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HAF_81",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAE_1",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HAF-RI_228",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HAF_82",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAE_2",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAE-FRB_130",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAE-FRB_131",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB-BAE_230",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB-BAE_231",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB-PF_132",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FRB-PF_133",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-FRB_232",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-FRB_233",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-FRBS_604",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_25",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_22",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_7-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_7-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_6-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_6-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_5-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_5-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_4-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_4-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_3-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_3-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_2-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_2-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_66",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_76",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_79",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_75",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_85",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_96",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_92",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF_98",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HUR_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-ALTD_135",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-ALTD_136",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD-PF_235",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD-PF_236",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD-LA_138",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ALTD-LA_139",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA-ALTD_238",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA-ALTD_239",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA-SIB_141",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB-LA_241",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TW-ORDD_312",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD-TW_412",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD-HGO_314",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ORDD-HGO_315",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO-ORDD_414",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO-ORDD_415",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO_94",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO-SBG_416",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO-SBG_417",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HGO-SBG_418",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_14",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_34",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG_94",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG-LITT_420",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG-LITT_421",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG-LITT_422",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SBG-LITT_424",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_61",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_92",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT_91",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LITT-BAA_325",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA-LITT_425",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_63",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_82",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_92",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA_93",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAAN_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAAN_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAA-ZG_328",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG-BAA_428",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAAL_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAAL_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BAAL_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_18",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_13",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_31",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_40",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_51",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W54",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W53",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W55",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W58",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W56",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_W59",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZGPP_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_84",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZG_85",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZGSE_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZGSE_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA-SIB_142",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB-LA_242",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LA-SIB_143",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB-LA_243",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_34",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB-SCBU_145",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU-SIB_245",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SIB-SCBU_146",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU-SIB_246",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU-RG_148",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG-SCBU_248",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCBU-RG_149",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG-SCBU_249",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_64",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG_63",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG-BIL_151",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL-RG_251",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG-BIL_152",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL-RG_252",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RG-BIL_153",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL-RG_253",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BIL-ZB_155",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB-BIL_255",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_29",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_26",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_40",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_49",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_36",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_46",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_11",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_10",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_60",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_9-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_9-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_8-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_8-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_7-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_7-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_6-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_6-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_5-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_5-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_89",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_99",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_86",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB_75",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB-WN_231",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN-ZB_131",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN_44",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN-MH_228",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH-WN_128",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN-MH_227",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH-WN_127",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WN-MH_226",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH-WN_126",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_62",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_61",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_42",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_41",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH_31",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MH-TIEF_123",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TIEF_21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "TIEF-MG_222",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MG-TIEF_122",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MG_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MG_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MG-UNT_220",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT-MG_120",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_82",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_81",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_22",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT_21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UNT-MOLS_215",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MOLS-UNT_115",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MOLS_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MOLS_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MOLS-WAL_214",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL-MOLS_114",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_84",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "WAL-FMS_212",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS-WAL_112",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_84",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_83",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS-MELS_208",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS-FMS_108",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "FMS-MELS_204",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS-FMS_104",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_74",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MELS-SA_201",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA-MELS_101",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_81",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_82",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_5",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_6",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_64-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_64-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_65",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_53",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_54",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_55",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_35",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_34",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_15",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_14",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA_10",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA-TRUE_502",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA-TRUE_602",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA-BRAG_302",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG-SA_402",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SA-BRAG_303",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG-SA_403",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "BRAG-MF_307",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MF-BRAG_407",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MF_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "MF_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ROR_84",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ROR_83",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ROR-LQ_309",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ-ROR_409",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ROR-LQ_311",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ-ROR_411",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_22",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_32",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_41",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_1",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_52",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_72",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ_73",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ-ZIZS_313",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-LQ_413",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ-ZIZS_314",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-LQ_414",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "LQ-ZIZS_316",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-LQ_416",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS_901",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS_906",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS_917",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-CH_317",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH-ZIZS_417",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-CH_319",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH-ZIZS_419",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-CH_320",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH-ZIZS_420",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-CH_322",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH-ZIZS_422",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZIZS-CH_324",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH-ZIZS_424",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_21",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_22",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_23",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_24",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_33",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_34",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_43",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_44",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_4",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_5-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_5-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_6-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_6-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_7-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_7-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_8-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_8-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_9-A",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "CH_9-B",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "ZB-NOU_557",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "SCAE-ZB_735",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UZ_2",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "UZ_3",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "HURD_1",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "PF-RW_703",
 			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		},
 		{
 			 "id": "RW_7",
 			 "freigabezeit": "PT10S",
-			 "zugfolgeErlaubt": false,
-			 "disabled": false,
-			 "zugfolgezeit": "PT2M",
-			 "zustaendigesGebiet": null
+			 "zugfolgeErlaubt": false
 		}
 	],
 	 "parameters": {

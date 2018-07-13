@@ -124,14 +124,14 @@ The model is as follows:
 
 ## resources (ressourcen)
 
-Resources are used to model which parts of the track infrastructure is used by a train. A resource that is used is modeled as a _resource_occupation_, see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several route_sections.
+Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ , see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several route_sections.
 
 In general, we use two kinds of resources to model different behaviour and level-of-detail:
 
 * _blocking_ resources which means they must be released by a train before another train can start occupying them
 * _following_ resources, which allow two trains to occupy them concurrently, as long as
     - they are separated at entry and exit by at least the _following_separation_
-    - the order of the trains is the same at entry and exit, i.e. they do not overtake each other.
+    - the order of the trains is the same at entry and exit, i.e. they do not overtake each other while using this resource.
 
 **However, in the problem instances provided for this Challenge, you will only find resources of _blocking_ type. To participate in this challenge, it is therefore sufficient for you to consider only blocking logic.**
 

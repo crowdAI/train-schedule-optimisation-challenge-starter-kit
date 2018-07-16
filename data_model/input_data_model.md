@@ -29,7 +29,7 @@ A machine-readable identifier for the instance. This hash must be referenced whe
 Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance.
 
 ## service_intentions (funktionaleAngebotsbeschreibungen)
-This is a list. Each item in the list is an individual _service_intention_. A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
+This is a list. Each item in the list is an individual _service_intention_. A _service_intention_ describes a specific train to be run. In particular, it specifies **all "commerical" requirements** that the scheduler needs to observe when planning this particular train. "Commercial" here refers to the fact that these are relevant for a passenger. These requirements can be of the following type:
 * earliest allowed departure at certain points
 * latest desired arrival at certain points
 * commercial stops to be observed, including minimum stopping time at these stops
@@ -37,9 +37,12 @@ This is a list. Each item in the list is an individual _service_intention_. A _s
 
 ### service intention (funktionaleAngebotsbeschreibungen)
 An individual _service_intention_ consists of
-* id: identifier for the train, or "service"
-* route (fahrweg): a reference to the route graph, see below for details on the routes
-* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes.
+
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| id                                        | text                           | identifier for the train, or "service" |
+| route (fahrweg)                           | text                           | a reference to the route graph, see below for details on the routes |
+| section_requirements (abschnittsvorgaben) | text                           | a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes. |
 
 
 ## routes (fahrwege)

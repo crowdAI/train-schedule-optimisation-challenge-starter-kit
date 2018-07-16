@@ -45,19 +45,21 @@ An individual _service_intention_ consists of
 ## routes (fahrwege)
 Recall from the [Quick Introduction](data_model/quick_intro_scheduling.md) that a _route_ is modeled as a directed acyclic graph (DAG). It describes the possible ways for the train to move through the railway network. The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. For a directed arc we call the node at its tail the _entry event_ and the node at its head the _exit event_ from this arc.The directed arcs have associated to them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while it is traveling on this arc, i.e. in the timespan between the entry event and the exit event. Each arc also has a minimum running time, which gives the _minimum_ duration between entry and exit event. There is no maximum duration, by the way. A train may spend as much time on a section as it likes. Of course, it keeps using the resources of this route section during this time.
 
-A specialty of route graph are the _section markers_ that may be associated to certain arcs (route sections). These provide the link to the section requirements in the service intentions. We will discuss these below.
+The following images illustrates a typical route DAG. They represent route _route_1_ in the [sample scenario](sample_files/sample_scenario_with_routing_alternatives.json). 
 
-The following image illustrates a typical route DAG. It represents route XYZ (_**ToDo: modify sample scenario so it fits with the picture**_) in the [sample scenario](sample_files/sample_scenario.json). The red labels denote the resource occupations of each route section. The blue labels denote the section markers, which are typically not present on every section.
+The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_, the black labels are the _sequence_number_ of the individual _route_section_. 
 
-_**ToDo: insert proper image**_
-![](data_model/img/img.png)
+![](data_model/img/route_DAG_1.png)
 
-Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the route paths are highlighted.
+A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
+
+![](data_model/img/route_DAG_section_markers.png)
+
+Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the individual _route_paths_ are encircled for clarity.
 
 _Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
 
-_**ToDo: insert proper image**_
-![](data_model/img/img.png)
+![](data_model/img/route_DAG_route_paths.png)
 
 In the data model, a _route_ has
 * an id
@@ -83,7 +85,6 @@ In the data model, a _route_ has
 | -------------     |-------------      | -----         |
 | resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
 | occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources below. |
-
 
 ### section requirement (abschnittsvorgabe)
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention is now easily understood.

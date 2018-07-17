@@ -8,7 +8,7 @@ import pathlib
 ############################################################################################################
 GER_2_ENG = dict()
 ENG_2_GER = dict()
-with open("translation_table.csv") as fp:
+with open("utils/translation_table.csv") as fp:
     a = csv.reader(fp, skipinitialspace=True)
     next(a)  # skip first line
     for ger, eng in a:
@@ -78,7 +78,7 @@ file = pathlib.Path("sample_scenario.json")
 with open(file) as fp:
     to_translate = json.load(fp)
 
-translated = translate_scenario_file(to_translate, translate_to_eng)
+translated = translate_scenario_file(to_translate, translate_to_ger)
 
 # dump the json if desired
 out_suffix = "_eng"  # e.g. filename.json will be translated into filename_eng.json

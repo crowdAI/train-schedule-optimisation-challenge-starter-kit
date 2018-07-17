@@ -37,3 +37,13 @@ minAnschlusszeit, min_connection_time
 aufAbschnittskennzeichen, onto_section_marker
 vonVerzweigungen, route_alternative_marker_at_entry
 nachVerzweigungen, route_alternative_marker_at_exit
+verkehrsplanHash, problem_instance_hash
+verkehrsplanLabel, problem_instance_label
+zugfahrten, train_runs
+funktionaleAngebotsbeschreibungId, service_intention_id
+zugfahrtabschnitte, train_run_sections
+ein, entry_time
+aus, exit_time
+fahrwegabschnitt, route_section
+abschnittsfolge, route_path
+abschnittsvorgabe, section_requirement

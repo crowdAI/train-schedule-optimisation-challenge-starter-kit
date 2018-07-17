@@ -78,7 +78,7 @@ file = pathlib.Path("sample_scenario.json")
 with open(file) as fp:
     to_translate = json.load(fp)
 
-translated = translate_scenario_file(to_translate, translate_to_ger)
+translated = translate_scenario_file(to_translate, translate_to_eng)
 
 # dump the json if desired
 out_suffix = "_eng"  # e.g. filename.json will be translated into filename_eng.json

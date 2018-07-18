@@ -16,7 +16,7 @@ A _solution_ to a _problem_instance_ has the following elements:
 * train_runs (zugfahrten)
 * [properties]
 
-Let's go through them. You may use this [sample solution](sample_files\sample_scenario_with_routing_alternatives_solution.json) as a reference.
+Let's go through them. You may use this [sample solution](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives_solution.json) as a reference.
 
 # problem_instance_label (verkehrsplanLabel)
 The _label_ of the _problem_instance_ that this solution is intended for.
@@ -34,7 +34,7 @@ In other words, a solution means
 * picking exactly one of all possible routes for this train, and
 * assigning a time to each _event_ (entry into and exit from _route_sections_)
 
-For example, the reference [sample solution](dhttps://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives.json) looks as follows:
+For example, the reference [sample solution](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives.json) looks as follows:
 
 The solution picks the following routes for the two _service_intentions_:
 

@@ -59,7 +59,5 @@ A _train_run_section_ is built as follows
 | sequence_number (reihenfolge)   | positive Integer                         | an ordering for the _train_run_sections_. Necessary because the JSON specification does not guarantee that the order in the file is respected when it is deserialized. |
 | section_requirement (abschnittsvorgabe)   | text                         | must be set to the corresponding _section_requirement_ of the service intention if this requirement is to be satisfied on this particular _train_run_section_. <br> __Note:__  We guarantee that the route graphs in our problem instances are such that whatever route you happen to choose, you will pass each required _section_marker_ exactly once. So once you have picked your route, you can just check if the _route_section_ referenced by this _train_run_section_ has a _section_marker_ that also occurs in the _service_intention_. If so, put this _section_marker_ in this field.
 
-__ToDo: Hier weiter__
-
 # properties
 An optional field that can be used to collect information/statistics on the solution. You do not need to submit any properties. Omit this field.

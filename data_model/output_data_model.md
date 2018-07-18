@@ -34,7 +34,7 @@ In other words, a solution means
 * picking exactly one of all possible routes for this train, and
 * assigning a time to each _event_ (entry into and exit from _route_sections_)
 
-For example, the reference [sample solution](sample_files\sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](sample_files\sample_scenario_with_routing_alternatives.json) looks as follows:
+For example, the reference [sample solution](data_model/sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](data_model/sample_files\/ample_scenario_with_routing_alternatives.json) looks as follows:
 
 The solution picks the following routes for the two _service_intentions_:
 

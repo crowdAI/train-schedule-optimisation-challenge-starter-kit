@@ -43,3 +43,23 @@ The solution picks the following routes for the two _service_intentions_:
 This results in the following _train_run_sections_ for the _service_intentions_:
 
 ![](data_model/img/solution_sections_and_times.png)
+
+Let's look at the formal model for _train_run_sections_
+
+## train_run_section (zugfahrtabschnitt)
+A _train_run_section_ is built as follows
+
+| Field                                                                                         | Format                            | Description    |
+| -------------     |-------------      | -----         |
+| entry_time (ein)   | time of day in HH24:MM:SS                         | event time for the _entry_event_ into this _train_run_section_. <br>__Note__: This time must always be equal to the _exit_time_ of the previous _train_run_section_    |
+| exit_time (aus)   | time of day in HH24:MM:SS                         | event time for the _exit_event_ from this _train_run_section_. <br>__Note__: This time must always be equal to the _entry_time_ into the next _train_run_section_    |
+| route (fahrweg)   | text                         | reference to the _id_ of the _route_ for this _service_intention_ |
+| route_section (fahrwegabschnitt)   | text                         | reference to the _id_ of the particular _route_section_ that this _train_run_section_ represents |
+| route_path (abschnittsfolge)   | text                         | reference to the _id_ of the _route_path_ in which the _route_section_ represented by this _train_run_section_ is located |
+| sequence_number (reihenfolge)   | positive Integer                         | an ordering for the _train_run_sections_. Necessary because the JSON specification does not guarantee that the order in the file is respected when it is deserialized. |
+| section_requirement (abschnittsvorgabe)   | text                         | must be set to the corresponding _section_requirement_ of the service intention if this requirement is to be satisfied on this particular _train_run_section_. <br> __Note:__  We guarantee that the route graphs in our problem instances are such that whatever route you happen to choose, you will pass each required _section_marker_ exactly once. So once you have picked your route, you can just check if the _route_section_ referenced by this _train_run_section_ has a _section_marker_ that also occurs in the _service_intention_. If so, put this _section_marker_ in this field.
+
+__ToDo: Hier weiter__
+
+# properties
+An optional field that can be used to collect information/statistics on the solution. You do not need to submit any properties. Omit this field.

@@ -36,3 +36,5 @@ __Remember you have to submit solutions in the _German_ format.__ If you prefer 
 The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the weighted sum of all delays plus the sum of routing penalties. 
 
 The best possible objective value a solution can obtain is 0 (zero). A value > 0 means some _latest_entry_/_latest_exit_ _section_requirement_ is not satisfied in the solution, or a route involving _routing_sections_ with _penalty_ > 0 was chosen.
+
+__ToDo: Hier weiter. Bilder einfügen__

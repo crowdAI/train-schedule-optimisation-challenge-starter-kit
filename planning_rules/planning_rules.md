@@ -33,8 +33,20 @@ __Remember you have to submit solutions in the _German_ format.__ If you prefer 
 | Connections     | Let C be a connection defined in _service_intention_ SI1 onto _service_intention_ SI2 with _section_marker_ M and let d<sub>C</sub> be the connection's _min_connection_time_. <br> Let S1 be the _train_run_section_ for SI1 where the connection will take place (i.e. the section which has 'M' in the _section_requirement_ attribute) and S2 the same for SI2. Then the following must hold:<br> t<sub>S2, exit</sub> - t<sub>S1, entry</sub> >= d<sub>C</sub>, <br> where, again, t<sub>S1, entry</sub> denotes the time for the _entry_event_ into _train_run_section_ S1 and t<sub>S2, exit</sub> the time for the _exit_event_ from _train_run_section_ S2. | 
 
 ## Ojective Function
-The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the weighted sum of all delays plus the sum of routing penalties. 
+The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the weighted sum of all delays plus the sum of routing penalties.
+
+A _delay_ in this context means a violation of a _section_requirement_ with an _exit_latest_ or _entry_latest_ time, i.e. these  events are scheduled too late. Each such violation is multiplied by its _entry_delay_weight_/_exit_delay_weight_ and then summed up to get the total delay penalties. <br>
+The normation is that if the _delay_weight_ is equal to 1, then 60s of delay will incur 1 penalty point. In other words, we count the delay 'minutes'.
 
 The best possible objective value a solution can obtain is 0 (zero). A value > 0 means some _latest_entry_/_latest_exit_ _section_requirement_ is not satisfied in the solution, or a route involving _routing_sections_ with _penalty_ > 0 was chosen.
 
+The "formula", if you will, for the objective function is as follows:
+
+```math
+\sum_{\textrm{ZF, Abfahrt/Ankunft}} VFK_{\textrm{ZF, Abfahrt/Ankunft}} \cdot d_{\textrm{ZF, Abfahrt/Ankunft}} + \sum_{\textrm{ZF, FABs}} FWP_{\textrm{FAB}} \cdot f_{\textrm{ZF, Alternative}}
+```
+
+### Example for delay penalties
+In this example, the _service_intention_ has the following three _section_requirements_:
+* _entry_earliest_ = 8:50 for _section_marker_ A
 __ToDo: Hier weiter. Bilder einfügen__

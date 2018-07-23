@@ -48,7 +48,7 @@ where:
 * The second sum is taken over all _train_run_sections_ $`TRS`$,
 * $`\textrm{entry\_delay\_weight}_{SR}`$ stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
 * $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ where this _section_requirement_ is satisfied,
-* $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`+\infinity`$, i.e. the $`max`$ will be zero and the term ignored.
+* $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`+\infty`$, i.e. the $`max`$ will be zero and the term ignored.
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 

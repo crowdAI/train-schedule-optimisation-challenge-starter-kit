@@ -41,10 +41,14 @@ The best possible objective value a solution can obtain is 0 (zero). A value > 0
 The "formula", if you will, for the objective function is as follows:
 
 ```math
-\frac{1}{60} \cdot \Big( \sum_{\textrm{SI, SR}} \textrm{entry\_delay\_weight}_{SR} \; \cdot \; max(0, t_{entry} - \textrm{entry\_latest}) \; + \; \textrm{exit\_delay\_weight}_{SR} \; \cdot \; max(0, t_{exit} - \textrm{exit\_latest}) \Big) + \sum_{\textrm{TRS}} \textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}}
+\frac{1}{60} \cdot \Big( \sum_{\textrm{SI, SR}} \textrm{entry\_delay\_weight}_{SR} \; \cdot \; max(0, t_{entry} - \textrm{entry\_latest}_{SR}) \; + \; \textrm{exit\_delay\_weight}_{SR} \; \cdot \; max(0, t_{exit} - \textrm{exit\_latest}_{SR}) \Big) + \sum_{\textrm{TRS}} \textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}}
 ```
 where:
-* blah
+* The first sum is taken over all _service_intentions_ $`SI`$ and all _section_requirements_ $`SR`$ therein,
+* The second sum is taken over all _train_run_sections_ $`TRS`$,
+* $`\textrm{entry\_delay\_weight}_{SR}`$ stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
+* $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ where this _section_requirement_ is satisfied,
+* $`\textrm{entry\_latest}`$ denotes the 
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 

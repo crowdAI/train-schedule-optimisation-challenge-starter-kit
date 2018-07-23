@@ -33,7 +33,7 @@ __Remember you have to submit solutions in the _German_ format.__ If you prefer 
 | Connections     | Let C be a connection defined in _service_intention_ SI1 onto _service_intention_ SI2 with _section_marker_ M and let d<sub>C</sub> be the connection's _min_connection_time_. <br> Let S1 be the _train_run_section_ for SI1 where the connection will take place (i.e. the section which has 'M' in the _section_requirement_ attribute) and S2 the same for SI2. Then the following must hold:<br> t<sub>S2, exit</sub> - t<sub>S1, entry</sub> >= d<sub>C</sub>, <br> where, again, t<sub>S1, entry</sub> denotes the time for the _entry_event_ into _train_run_section_ S1 and t<sub>S2, exit</sub> the time for the _exit_event_ from _train_run_section_ S2. | 
 
 ## Ojective Function
-The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the weighted sum of all delays plus the sum of routing penalties.
+The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the __weighted sum of all delays plus the sum of routing penalties__.
 A _delay_ in this context means a violation of a _section_requirement_ with an _exit_latest_ or _entry_latest_ time, i.e. these  events are scheduled too late. Each such violation is multiplied by its _entry_delay_weight_/_exit_delay_weight_ and then summed up to get the total delay penalties. <br>
 
 The best possible objective value a solution can obtain is 0 (zero). A value > 0 means some _latest_entry_/_latest_exit_ _section_requirement_ is not satisfied in the solution, or a route involving _routing_sections_ with _penalty_ > 0 was chosen.
@@ -48,7 +48,7 @@ where:
 * The second sum is taken over all _train_run_sections_ $`TRS`$,
 * $`\textrm{entry\_delay\_weight}_{SR}`$ stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
 * $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ where this _section_requirement_ is satisfied,
-* $`\textrm{entry\_latest}`$ denotes the 
+* $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`+\infinity`$, i.e. the $`max`$ will be zero and the term ignored.
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 

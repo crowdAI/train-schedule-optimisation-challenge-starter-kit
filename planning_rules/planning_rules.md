@@ -51,8 +51,8 @@ where:
 * $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`+\infty`$, i.e. the $`max`$ will be zero and the term can be ignored.
 * $`\textrm{exit\_delay\_weight}_{SR}`$ is analogous to $`\textrm{entry\_delay\_weight}_{SR}`$, except for the _exit_delay_weight of this particular _section_requirement_,
 * $`t_{exit}`$ denotes the scheduled time of the _exit_event_ from this _train_run_section_ (),
-* $`\textrm{exit\_latest}_{SR}`$ is analogous to $`\textrm{entry\_latest}_{SR}`$, except for the exit time as specified in _exit_latest_ of the _section_requirement_,
-* $`\textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}`$ denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
+* $`\textrm{exit\_latest}_{SR}`$ is analogous to $`\textrm{entry\_latest}_{SR}`$, except for the exit time as specified in _exit_latest_ of the _section_requirement_ ,
+* $`\textrm{penalty}`$ denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 

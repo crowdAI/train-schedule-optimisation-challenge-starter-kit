@@ -40,11 +40,13 @@ The best possible objective value a solution can obtain is 0 (zero). A value > 0
 
 The "formula", if you will, for the objective function is as follows:
 
-The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
-
 ```math
-\frac{1}{60} \cdot (\sum_{\textrm{ZF, Abfahrt/Ankunft}} VFK_{\textrm{ZF, Abfahrt/Ankunft}} \cdot d_{\textrm{ZF, Abfahrt/Ankunft}}) + \sum_{\textrm{ZF, FABs}} FWP_{\textrm{FAB}} \cdot f_{\textrm{ZF, Alternative}}
+\frac{1}{60} \cdot \Big( \sum_{\textrm{SI, SR}} \textrm{entry\_delay\_weight}_{SR} \; \cdot \; max(0, t_{entry} - \textrm{entry\_latest}) \; + \; \textrm{exit\_delay\_weight}_{SR} \; \cdot \; max(0, t_{exit} - \textrm{exit\_latest}) \Big) + \sum_{\textrm{TRS}} \textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}}
 ```
+where:
+* blah
+
+_Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 
 ### Example for delay penalties
 In this example, the _service_intention_ has the following three _section_requirements_:

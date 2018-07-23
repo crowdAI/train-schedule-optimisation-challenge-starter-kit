@@ -73,6 +73,9 @@ Suppose also that the routes are rather simple, so that on the first _train_run_
 We now give several example solutions and the value of the objective function for them. Blue dots denote the actual _event_times_ of the solution, i.e. entry and exit times from _train_run_sections_. The blue lines joining them are purely a visualisation aid, they are not part of the solution.
 
 #### Example 1: no delay
+
+In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero.
+
 ![](planning_rules/img/ex_1.png)
 
 __ToDo: Hier weiter. Bilder einfügen__

@@ -66,7 +66,12 @@ Suppose the _service_intention_ has the following three _section_requirements_:
     - _exit_latest_ = 09:10:00 with _exit_delay_weight_ = 3
 * for _section_marker_ C: _exit_latest_ = 09:220:00 with _exit_delay_weight_ = 1
 
-Suppose also that the routes are rather simple, so that on the first _train_run_section_ we have _section_marker_ A, then a section without marker, then B, then a section without marker and finally C. The complete picture with the _train_run_sections_ and the respective _section_requirements_ would therefore look like this:
+Suppose also that the routes are rather simple, namely 
+* there is only one _route_ (no alterntives), 
+* all its _route_sections_ have zero _penalty_ and 
+* on the first _train_run_section_ we have _section_marker_ A, then a section without marker, then B, then a section without marker and finally C. 
+
+The complete picture with the _train_run_sections_ and the respective _section_requirements_ would therefore look like this:
 
 ![](planning_rules/img/si_section_requirements.png)
 
@@ -74,11 +79,23 @@ We now give several example solutions and the value of the objective function fo
 
 #### Example 1: no delay
 
-In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero.
+In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: __objective_value = 0__
 
 ![](planning_rules/img/ex_1.png)
 
-__ToDo: Hier weiter. Bilder einfügen__
+#### Example 2: no delay
+In this solution, the train runs earlier than in [Example 1](#example-1-no-delay). But this is not "better"; it does not get any "bonus points". This solution's objective value is identical to the one of Example 1, i.e. <br> __objective_value = 0__
 
+![](planning_rules/img/ex_2.png)
+
+#### Example 3: delayed departure at B
+In this solution, the _exit_ from the _train_run_section_ with _section_marker_ 'B' happens only at 09:13:00. This is 3 minutes later than the desired _exit_latest_ of the _section_requirement_ for 'B'. Since the _exit_delay_weight_ is 3, for this solution we have <br> __objective_value = 3 * 3 = 9__
+
+![](planning_rules/img/ex_3.png)
+
+#### Example 4: delayed departure at B _and_ delayed arrival at C
+In this solution, in addition to the delayed departure at B as in Example 3, we also have a delayed _exit_event_ from _section_ C, namely this event occurs 5.5 minutes after the desired _exit_latest_ of 09:20:00. The _exit_delay_weight_ for this _section_requirement_ is 1, therefore: <br>__objective_value = 3 * 3 + 1 * 5.5 = 14.5__
+
+![](planning_rules/img/ex_4.png)
 
 ### Example for routing penalties

@@ -66,9 +66,9 @@ Suppose the _service_intention_ has the following three _section_requirements_:
     - _exit_latest_ = 09:10:00 with _exit_delay_weight_ = 3
 * for _section_marker_ C: _exit_latest_ = 09:220:00 with _exit_delay_weight_ = 1
 
-Suppose also that the routes are rather simple, so that on the first _train_run_section_ we have _section_marker_ A, then a section without marker, then B, then a section without marker and finally B. The complete picture with the _train_run_sections_ and the respective _section_requirements_ would therefore look like this:
+Suppose also that the routes are rather simple, so that on the first _train_run_section_ we have _section_marker_ A, then a section without marker, then B, then a section without marker and finally C. The complete picture with the _train_run_sections_ and the respective _section_requirements_ would therefore look like this:
 
-![](data_model/img/si_section_requirements.png)
+![](planning_rules/img/si_section_requirements.png)
 
 __ToDo: Hier weiter. Bilder einfügen__
 

@@ -52,7 +52,7 @@ where:
 * $`\textrm{exit\_delay\_weight}_{SR}`$ is analogous to $`\textrm{entry\_delay\_weight}_{SR}`$, except for the _exit_delay_weight of this particular _section_requirement_,
 * $`t_{exit}`$ denotes the scheduled time of the _exit_event_ from this _train_run_section_ (),
 * $`\textrm{exit\_latest}_{SR}`$ is analogous to $`\textrm{entry\_latest}_{SR}`$, except for the exit time as specified in _exit_latest_ of the _section_requirement_,
-* $`\textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}`$ denotes the value of the filed _penalty_ of the _route_section_ associated to this _train_run_section_.
+* $`\textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}`$ denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 
@@ -79,10 +79,10 @@ We now give several example solutions and the value of the objective function fo
 
 #### Example 1: no delay
 
-In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: __objective_value = 0__
+In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: <br>__objective_value = 0__
 
 ![](planning_rules/img/ex_1.png)
-
+ybr>
 #### Example 2: no delay
 In this solution, the train runs earlier than in [Example 1](#example-1-no-delay). But this is not "better"; it does not get any "bonus points". This solution's objective value is identical to the one of Example 1, i.e. <br> __objective_value = 0__
 

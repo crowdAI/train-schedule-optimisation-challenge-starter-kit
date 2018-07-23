@@ -34,16 +34,16 @@ __Remember you have to submit solutions in the _German_ format.__ If you prefer 
 
 ## Ojective Function
 The objective function is used by the grader to determine how good your solution is. We give a more exact formula below, but basically it is calculated as the weighted sum of all delays plus the sum of routing penalties.
-
 A _delay_ in this context means a violation of a _section_requirement_ with an _exit_latest_ or _entry_latest_ time, i.e. these  events are scheduled too late. Each such violation is multiplied by its _entry_delay_weight_/_exit_delay_weight_ and then summed up to get the total delay penalties. <br>
-The normation is that if the _delay_weight_ is equal to 1, then 60s of delay will incur 1 penalty point. In other words, we count the delay 'minutes'.
 
 The best possible objective value a solution can obtain is 0 (zero). A value > 0 means some _latest_entry_/_latest_exit_ _section_requirement_ is not satisfied in the solution, or a route involving _routing_sections_ with _penalty_ > 0 was chosen.
 
 The "formula", if you will, for the objective function is as follows:
 
+The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
+
 ```math
-\sum_{\textrm{ZF, Abfahrt/Ankunft}} VFK_{\textrm{ZF, Abfahrt/Ankunft}} \cdot d_{\textrm{ZF, Abfahrt/Ankunft}} + \sum_{\textrm{ZF, FABs}} FWP_{\textrm{FAB}} \cdot f_{\textrm{ZF, Alternative}}
+\frac{1}{60} \cdot (\sum_{\textrm{ZF, Abfahrt/Ankunft}} VFK_{\textrm{ZF, Abfahrt/Ankunft}} \cdot d_{\textrm{ZF, Abfahrt/Ankunft}}) + \sum_{\textrm{ZF, FABs}} FWP_{\textrm{FAB}} \cdot f_{\textrm{ZF, Alternative}}
 ```
 
 ### Example for delay penalties

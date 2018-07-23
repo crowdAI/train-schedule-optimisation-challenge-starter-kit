@@ -6,7 +6,7 @@ We categorize the rules roughly in two groups:
 * _Consistency rules_, which mostly check technical conformity to the data model
 * _Planning rules_,  which represent the actual business rules involved in generating a timetable
 
-__Remember you have to submit solutions in the _German_ format.__ If you prefer to work with English terms internally, you may use the [translation script](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/translate.py) to translate an English solution to a German one.
+__Remember you have to submit solutions in the _German_ format.__ If you prefer to work with English terms internally, you may use the [translation script](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/translate.py) to translate an English solution to a German one before submitting.
 
 # Concistency Rules
 

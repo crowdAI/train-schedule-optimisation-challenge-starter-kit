@@ -49,11 +49,28 @@ where:
 * $`\textrm{entry\_delay\_weight}_{SR}`$ stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
 * $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ where this _section_requirement_ is satisfied,
 * $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`+\infty`$, i.e. the $`max`$ will be zero and the term can be ignored.
-* $` 
+* $`\textrm{exit\_delay\_weight}_{SR}`$ is analogous to $`\textrm{entry\_delay\_weight}_{SR}`$, except for the _exit_delay_weight of this particular _section_requirement_,
+* $`t_{exit}`$ denotes the scheduled time of the _exit_event_ from this _train_run_section_ (),
+* $`\textrm{exit\_latest}_{SR}`$ is analogous to $`\textrm{entry\_latest}_{SR}`$, except for the exit time as specified in _exit_latest_ of the _section_requirement_,
+* $`\textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}`$ denotes the value of the filed _penalty_ of the _route_section_ associated to this _train_run_section_.
 
 _Note:_ The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1. In other words, we count the delay 'minutes'.
 
+We give a couple of simple examples illustrating the calculation of the delay and routing penalties.
+
 ### Example for delay penalties
-In this example, the _service_intention_ has the following three _section_requirements_:
-* _entry_earliest_ = 8:50 for _section_marker_ A
+Suppose the _service_intention_ has the following three _section_requirements_:
+* for _section_marker_ A: _entry_earliest_ = 08:50:00
+* for _section_marker_ B: 
+    - _entry_latest_ = 09:00:00 with _entry_delay_weight_ = 2
+    - _exit_latest_ = 09:10:00 with _exit_delay_weight_ = 3
+* for _section_marker_ C: _exit_latest_ = 09:220:00 with _exit_delay_weight_ = 1
+
+Suppose also that the routes are rather simple, so that on the first _train_run_section_ we have _section_marker_ A, then a section without marker, then B, then a section without marker and finally B. The complete picture with the _train_run_sections_ and the respective _section_requirements_ would therefore look like this:
+
+![](data_model/img/si_section_requirements.png)
+
 __ToDo: Hier weiter. Bilder einfügen__
+
+
+### Example for routing penalties

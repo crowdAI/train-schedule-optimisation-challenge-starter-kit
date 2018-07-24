@@ -114,7 +114,7 @@ This route passes through the _route_sections_ 2 -> 4 -> 5 -> 6 -> 11 -> 12 -> 1
 ![](planning_rules/img/route_ex_1.png)
 
 #### Example 2: Also no Routing Penalty
-Also the following solution does not involve any _route_sections_ with positive _penalty_ and therefore does not incur any routing penalty either.
+Also the following solution does not involve any _route_sections_ with positive _penalty_ and therefore does not incur any routing penalty either. It is an equally good route as the one in Example 1.
 
 ![](planning_rules/img/route_ex_2.png)
 

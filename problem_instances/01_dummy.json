@@ -2721,8 +2721,7 @@
 						}
 					]
 				}
-			],
-			 "fahrwegabschnitte": null
+			]
 		},
 		{
 			 "id": "S24_ZG-ZUE_std",
@@ -5011,8 +5010,7 @@
 						}
 					]
 				}
-			],
-			 "fahrwegabschnitte": null
+			]
 		},
 		{
 			 "id": "S24_ZUE-ZG_std",
@@ -7209,8 +7207,7 @@
 						}
 					]
 				}
-			],
-			 "fahrwegabschnitte": null
+			]
 		}
 	],
 	 "ressourcen": [

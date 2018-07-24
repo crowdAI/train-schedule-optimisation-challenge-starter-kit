@@ -3019,8 +3019,7 @@
 									 "ressource": 141,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -3036,8 +3035,7 @@
 									 "ressource": 142,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -3053,8 +3051,7 @@
 									 "ressource": 143,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -3070,8 +3067,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -3087,8 +3083,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -3104,8 +3099,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -3121,8 +3115,7 @@
 									 "ressource": 145,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -3138,8 +3131,7 @@
 									 "ressource": 146,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -3155,8 +3147,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -3172,8 +3163,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -3189,8 +3179,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -3206,8 +3195,7 @@
 									 "ressource": 148,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -3223,8 +3211,7 @@
 									 "ressource": 149,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -3240,8 +3227,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -3257,8 +3243,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -3274,8 +3259,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -3291,8 +3275,7 @@
 									 "ressource": 151,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -3308,8 +3291,7 @@
 									 "ressource": 152,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -3325,8 +3307,7 @@
 									 "ressource": 153,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -3342,8 +3323,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -3359,8 +3339,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -3376,8 +3355,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -3393,8 +3371,7 @@
 									 "ressource": 155,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -3414,8 +3391,7 @@
 									 "ressource": 29,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -3437,8 +3413,7 @@
 									 "ressource": "ZB8",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -3466,8 +3441,7 @@
 									 "ressource": "NAEF1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -3483,8 +3457,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -3500,8 +3473,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -3517,8 +3489,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -3534,8 +3505,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -3551,8 +3521,7 @@
 									 "ressource": 557,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -3572,8 +3541,7 @@
 									 "ressource": "ZB5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -3591,8 +3559,7 @@
 									 "ressource": "ZB5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -3616,8 +3583,7 @@
 									 "ressource": "ZB5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -3637,8 +3603,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -3654,8 +3619,7 @@
 									 "ressource": 255,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -3671,8 +3635,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -3688,8 +3651,7 @@
 									 "ressource": 253,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -3705,8 +3667,7 @@
 									 "ressource": 252,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -3722,8 +3683,7 @@
 									 "ressource": 251,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -3739,8 +3699,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -3756,8 +3715,7 @@
 									 "ressource": 249,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -3773,8 +3731,7 @@
 									 "ressource": 248,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -3790,8 +3747,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -3807,8 +3763,7 @@
 									 "ressource": 246,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -3824,8 +3779,7 @@
 									 "ressource": 245,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -3841,8 +3795,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -3858,8 +3811,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -3883,8 +3835,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -3904,8 +3855,7 @@
 									 "ressource": 243,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -3921,8 +3871,7 @@
 									 "ressource": 241,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -3938,8 +3887,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -3955,8 +3903,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -3972,8 +3919,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -3989,8 +3935,7 @@
 									 "ressource": 239,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -4006,8 +3951,7 @@
 									 "ressource": 238,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -4027,8 +3971,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -4044,8 +3987,7 @@
 									 "ressource": 235,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -4063,8 +4005,7 @@
 									 "ressource": "PF3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -4092,8 +4033,7 @@
 									 "ressource": "NAEF1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -4109,8 +4049,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -4126,8 +4065,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -4143,8 +4081,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -4160,8 +4097,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -4177,8 +4113,7 @@
 									 "ressource": 557,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -4198,8 +4133,7 @@
 									 "ressource": "ZB5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -4217,8 +4151,7 @@
 									 "ressource": "ZB5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -4246,8 +4179,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -4263,8 +4195,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -4280,8 +4211,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -4297,8 +4227,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -4314,8 +4243,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -4331,8 +4259,7 @@
 									 "ressource": "RUFI735B",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -4348,8 +4275,7 @@
 									 "ressource": "BNK735C",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -4365,8 +4291,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -4382,8 +4307,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -4399,8 +4323,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -4416,8 +4339,7 @@
 									 "ressource": "UZ735D",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -4435,8 +4357,7 @@
 									 "ressource": "UZ2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -4464,8 +4385,7 @@
 									 "ressource": "PF5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -4481,8 +4401,7 @@
 									 "ressource": 135,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -4498,8 +4417,7 @@
 									 "ressource": 136,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -4515,8 +4433,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -4532,8 +4449,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -4549,8 +4465,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -4570,8 +4485,7 @@
 									 "ressource": 139,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -4587,8 +4501,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -4604,8 +4517,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -4621,8 +4533,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -4638,8 +4549,7 @@
 									 "ressource": 141,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -4655,8 +4565,7 @@
 									 "ressource": 142,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -4672,8 +4581,7 @@
 									 "ressource": 143,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -4689,8 +4597,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -4706,8 +4613,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -4723,8 +4629,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -4740,8 +4645,7 @@
 									 "ressource": 145,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -4757,8 +4661,7 @@
 									 "ressource": 146,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -4774,8 +4677,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -4791,8 +4693,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -4808,8 +4709,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -4825,8 +4725,7 @@
 									 "ressource": 148,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -4842,8 +4741,7 @@
 									 "ressource": 149,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -4859,8 +4757,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -4876,8 +4773,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -4893,8 +4789,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -4910,8 +4805,7 @@
 									 "ressource": 151,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -4927,8 +4821,7 @@
 									 "ressource": 152,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -4944,8 +4837,7 @@
 									 "ressource": 153,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -4961,8 +4853,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -4978,8 +4869,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -4995,8 +4885,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -5012,8 +4901,7 @@
 									 "ressource": 155,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -5033,8 +4921,7 @@
 									 "ressource": 29,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -5054,8 +4941,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -5073,8 +4959,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -5118,8 +5003,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -5159,8 +5043,7 @@
 									 "ressource": 557,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -5176,8 +5059,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -5193,8 +5075,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -5214,8 +5095,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -5231,8 +5111,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -5250,8 +5129,7 @@
 									 "ressource": "NAEF1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -5283,8 +5161,7 @@
 									 "ressource": 135,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -5300,8 +5177,7 @@
 									 "ressource": 136,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -5317,8 +5193,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -5338,8 +5213,7 @@
 									 "ressource": 139,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -5355,8 +5229,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -5372,8 +5245,7 @@
 									 "ressource": 141,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -5389,8 +5261,7 @@
 									 "ressource": 142,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -5406,8 +5277,7 @@
 									 "ressource": 143,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -5423,8 +5293,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -5440,8 +5309,7 @@
 									 "ressource": 145,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -5457,8 +5325,7 @@
 									 "ressource": 146,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -5474,8 +5341,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -5491,8 +5357,7 @@
 									 "ressource": 148,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -5508,8 +5373,7 @@
 									 "ressource": 149,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -5525,8 +5389,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -5542,8 +5405,7 @@
 									 "ressource": 151,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -5559,8 +5421,7 @@
 									 "ressource": 152,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -5576,8 +5437,7 @@
 									 "ressource": 153,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -5593,8 +5453,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -5610,8 +5469,7 @@
 									 "ressource": 155,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -5631,8 +5489,7 @@
 									 "ressource": 29,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -5652,8 +5509,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -5677,8 +5533,7 @@
 									 "ressource": 85,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -5694,8 +5549,7 @@
 									 "ressource": "WN3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -5711,8 +5565,7 @@
 									 "ressource": 228,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -5728,8 +5581,7 @@
 									 "ressource": 227,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -5745,8 +5597,7 @@
 									 "ressource": 226,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -5766,8 +5617,7 @@
 									 "ressource": "MH2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -5783,8 +5633,7 @@
 									 "ressource": 42,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -5800,8 +5649,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -5817,8 +5665,7 @@
 									 "ressource": 222,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -5834,8 +5681,7 @@
 									 "ressource": 221,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -5851,8 +5697,7 @@
 									 "ressource": 220,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -5872,8 +5717,7 @@
 									 "ressource": "UNT2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -5889,8 +5733,7 @@
 									 "ressource": 215,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -5906,8 +5749,7 @@
 									 "ressource": 214,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -5927,8 +5769,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -5948,8 +5789,7 @@
 									 "ressource": 212,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -5965,8 +5805,7 @@
 									 "ressource": "FMS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -5982,8 +5821,7 @@
 									 "ressource": 208,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -5999,8 +5837,7 @@
 									 "ressource": 204,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -6016,8 +5853,7 @@
 									 "ressource": "MELS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -6033,8 +5869,7 @@
 									 "ressource": 201,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 44,
@@ -6052,8 +5887,7 @@
 									 "ressource": "SA5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -6085,8 +5919,7 @@
 									 "ressource": 135,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -6102,8 +5935,7 @@
 									 "ressource": 136,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -6119,8 +5951,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -6140,8 +5971,7 @@
 									 "ressource": 139,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -6157,8 +5987,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -6174,8 +6003,7 @@
 									 "ressource": 141,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -6191,8 +6019,7 @@
 									 "ressource": 142,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -6208,8 +6035,7 @@
 									 "ressource": 143,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -6225,8 +6051,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -6242,8 +6067,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -6259,8 +6083,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -6276,8 +6099,7 @@
 									 "ressource": 145,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -6293,8 +6115,7 @@
 									 "ressource": 146,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -6310,8 +6131,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -6327,8 +6147,7 @@
 									 "ressource": 148,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -6344,8 +6163,7 @@
 									 "ressource": 149,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -6361,8 +6179,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -6378,8 +6195,7 @@
 									 "ressource": 151,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -6395,8 +6211,7 @@
 									 "ressource": 152,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -6412,8 +6227,7 @@
 									 "ressource": 153,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -6429,8 +6243,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -6446,8 +6259,7 @@
 									 "ressource": 155,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -6467,8 +6279,7 @@
 									 "ressource": 29,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -6488,8 +6299,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -6511,8 +6321,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -6532,8 +6341,7 @@
 									 "ressource": "ZB9",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -6557,8 +6365,7 @@
 									 "ressource": 85,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -6574,8 +6381,7 @@
 									 "ressource": "WN3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -6591,8 +6397,7 @@
 									 "ressource": 228,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -6608,8 +6413,7 @@
 									 "ressource": 227,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -6625,8 +6429,7 @@
 									 "ressource": 226,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -6646,8 +6449,7 @@
 									 "ressource": "MH2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -6663,8 +6465,7 @@
 									 "ressource": 42,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -6680,8 +6481,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -6697,8 +6497,7 @@
 									 "ressource": 222,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -6714,8 +6513,7 @@
 									 "ressource": 221,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -6731,8 +6529,7 @@
 									 "ressource": 220,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -6752,8 +6549,7 @@
 									 "ressource": "UNT2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -6769,8 +6565,7 @@
 									 "ressource": 215,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -6786,8 +6581,7 @@
 									 "ressource": 214,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -6807,8 +6601,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -6828,8 +6621,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -6849,8 +6641,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 44,
@@ -6870,8 +6661,7 @@
 									 "ressource": 212,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -6887,8 +6677,7 @@
 									 "ressource": "FMS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 46,
@@ -6904,8 +6693,7 @@
 									 "ressource": 208,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 47,
@@ -6921,8 +6709,7 @@
 									 "ressource": 204,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 48,
@@ -6938,8 +6725,7 @@
 									 "ressource": "MELS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 49,
@@ -6955,8 +6741,7 @@
 									 "ressource": 201,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 50,
@@ -6974,8 +6759,7 @@
 									 "ressource": "SA5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -7003,8 +6787,7 @@
 									 "ressource": "PF5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -7020,8 +6803,7 @@
 									 "ressource": 135,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -7037,8 +6819,7 @@
 									 "ressource": 136,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -7054,8 +6835,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -7071,8 +6851,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -7088,8 +6867,7 @@
 									 "ressource": 137,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -7109,8 +6887,7 @@
 									 "ressource": 139,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -7126,8 +6903,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -7143,8 +6919,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -7160,8 +6935,7 @@
 									 "ressource": "LA2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -7177,8 +6951,7 @@
 									 "ressource": 141,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -7194,8 +6967,7 @@
 									 "ressource": 142,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -7211,8 +6983,7 @@
 									 "ressource": 143,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -7228,8 +6999,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -7245,8 +7015,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -7262,8 +7031,7 @@
 									 "ressource": "SIB4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -7279,8 +7047,7 @@
 									 "ressource": 145,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -7296,8 +7063,7 @@
 									 "ressource": 146,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -7313,8 +7079,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -7330,8 +7095,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -7347,8 +7111,7 @@
 									 "ressource": 147,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -7364,8 +7127,7 @@
 									 "ressource": 148,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -7381,8 +7143,7 @@
 									 "ressource": 149,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -7398,8 +7159,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -7415,8 +7175,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -7432,8 +7191,7 @@
 									 "ressource": "RG4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -7449,8 +7207,7 @@
 									 "ressource": 151,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -7466,8 +7223,7 @@
 									 "ressource": 152,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -7483,8 +7239,7 @@
 									 "ressource": 153,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -7500,8 +7255,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -7517,8 +7271,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -7534,8 +7287,7 @@
 									 "ressource": "BIL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -7551,8 +7303,7 @@
 									 "ressource": 155,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -7572,8 +7323,7 @@
 									 "ressource": 29,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -7595,8 +7345,7 @@
 									 "ressource": "ZB8",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -7628,8 +7377,7 @@
 									 "ressource": 101,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -7645,8 +7393,7 @@
 									 "ressource": "MELS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -7662,8 +7409,7 @@
 									 "ressource": 104,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -7679,8 +7425,7 @@
 									 "ressource": 108,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -7696,8 +7441,7 @@
 									 "ressource": "FMS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -7713,8 +7457,7 @@
 									 "ressource": 112,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -7734,8 +7477,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -7751,8 +7493,7 @@
 									 "ressource": 114,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -7768,8 +7509,7 @@
 									 "ressource": 115,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -7785,8 +7525,7 @@
 									 "ressource": "UNT1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -7806,8 +7545,7 @@
 									 "ressource": 91,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -7823,8 +7561,7 @@
 									 "ressource": 121,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -7840,8 +7577,7 @@
 									 "ressource": 122,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -7857,8 +7593,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -7878,8 +7613,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -7895,8 +7629,7 @@
 									 "ressource": 126,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -7912,8 +7645,7 @@
 									 "ressource": 127,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -7929,8 +7661,7 @@
 									 "ressource": 128,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -7946,8 +7677,7 @@
 									 "ressource": "WN4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -7963,8 +7693,7 @@
 									 "ressource": 131,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -7988,8 +7717,7 @@
 									 "ressource": 86,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -8009,8 +7737,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -8026,8 +7753,7 @@
 									 "ressource": 255,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -8043,8 +7769,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -8060,8 +7785,7 @@
 									 "ressource": 253,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -8077,8 +7801,7 @@
 									 "ressource": 252,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -8094,8 +7817,7 @@
 									 "ressource": 251,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -8111,8 +7833,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -8128,8 +7849,7 @@
 									 "ressource": 249,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -8145,8 +7865,7 @@
 									 "ressource": 248,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -8162,8 +7881,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -8179,8 +7897,7 @@
 									 "ressource": 246,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -8196,8 +7913,7 @@
 									 "ressource": 245,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -8213,8 +7929,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -8234,8 +7949,7 @@
 									 "ressource": 243,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -8251,8 +7965,7 @@
 									 "ressource": 241,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -8268,8 +7981,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -8285,8 +7997,7 @@
 									 "ressource": 239,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -8302,8 +8013,7 @@
 									 "ressource": 238,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -8323,8 +8033,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -8340,8 +8049,7 @@
 									 "ressource": 235,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -8359,8 +8067,7 @@
 									 "ressource": "PF3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -8392,8 +8099,7 @@
 									 "ressource": 101,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -8413,8 +8119,7 @@
 									 "ressource": 101,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -8430,8 +8135,7 @@
 									 "ressource": "MELS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -8447,8 +8151,7 @@
 									 "ressource": 104,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -8464,8 +8167,7 @@
 									 "ressource": 108,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -8481,8 +8183,7 @@
 									 "ressource": "FMS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -8498,8 +8199,7 @@
 									 "ressource": 112,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -8519,8 +8219,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -8540,8 +8239,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -8561,8 +8259,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -8578,8 +8275,7 @@
 									 "ressource": 114,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -8595,8 +8291,7 @@
 									 "ressource": 115,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -8612,8 +8307,7 @@
 									 "ressource": "UNT1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -8633,8 +8327,7 @@
 									 "ressource": 91,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -8650,8 +8343,7 @@
 									 "ressource": 121,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -8667,8 +8359,7 @@
 									 "ressource": 122,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -8684,8 +8375,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -8705,8 +8395,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -8722,8 +8411,7 @@
 									 "ressource": 126,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -8739,8 +8427,7 @@
 									 "ressource": 127,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -8756,8 +8443,7 @@
 									 "ressource": 128,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -8773,8 +8459,7 @@
 									 "ressource": "WN4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -8790,8 +8475,7 @@
 									 "ressource": 131,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -8815,8 +8499,7 @@
 									 "ressource": 86,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -8834,8 +8517,7 @@
 									 "ressource": "ZB6",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -8859,8 +8541,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -8880,8 +8561,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -8897,8 +8577,7 @@
 									 "ressource": 255,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -8914,8 +8593,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -8931,8 +8609,7 @@
 									 "ressource": 253,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -8948,8 +8625,7 @@
 									 "ressource": 252,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -8965,8 +8641,7 @@
 									 "ressource": 251,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -8982,8 +8657,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -8999,8 +8673,7 @@
 									 "ressource": 249,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -9016,8 +8689,7 @@
 									 "ressource": 248,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -9033,8 +8705,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -9050,8 +8721,7 @@
 									 "ressource": 246,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -9067,8 +8737,7 @@
 									 "ressource": 245,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -9084,8 +8753,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -9101,8 +8769,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -9118,8 +8785,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -9139,8 +8805,7 @@
 									 "ressource": 243,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -9156,8 +8821,7 @@
 									 "ressource": 241,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 44,
@@ -9173,8 +8837,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -9190,8 +8853,7 @@
 									 "ressource": 239,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 46,
@@ -9207,8 +8869,7 @@
 									 "ressource": 238,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 47,
@@ -9228,8 +8889,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 48,
@@ -9245,8 +8905,7 @@
 									 "ressource": 235,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 49,
@@ -9264,8 +8923,7 @@
 									 "ressource": "PF3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -9297,8 +8955,7 @@
 									 "ressource": 101,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -9318,8 +8975,7 @@
 									 "ressource": 101,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -9335,8 +8991,7 @@
 									 "ressource": "MELS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -9352,8 +9007,7 @@
 									 "ressource": "MELS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -9369,8 +9023,7 @@
 									 "ressource": "MELS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -9386,8 +9039,7 @@
 									 "ressource": 104,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -9403,8 +9055,7 @@
 									 "ressource": 108,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -9420,8 +9071,7 @@
 									 "ressource": "FMS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -9437,8 +9087,7 @@
 									 "ressource": "FMS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -9454,8 +9103,7 @@
 									 "ressource": "FMS3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -9471,8 +9119,7 @@
 									 "ressource": 112,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -9492,8 +9139,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -9513,8 +9159,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -9534,8 +9179,7 @@
 									 "ressource": "WAL4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -9551,8 +9195,7 @@
 									 "ressource": 114,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -9568,8 +9211,7 @@
 									 "ressource": 115,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -9585,8 +9227,7 @@
 									 "ressource": 115,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -9602,8 +9243,7 @@
 									 "ressource": 115,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -9619,8 +9259,7 @@
 									 "ressource": "UNT1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -9636,8 +9275,7 @@
 									 "ressource": "UNT1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -9653,8 +9291,7 @@
 									 "ressource": "UNT1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -9674,8 +9311,7 @@
 									 "ressource": 91,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -9691,8 +9327,7 @@
 									 "ressource": 121,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -9708,8 +9343,7 @@
 									 "ressource": 121,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -9725,8 +9359,7 @@
 									 "ressource": 121,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -9742,8 +9375,7 @@
 									 "ressource": 122,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -9759,8 +9391,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -9780,8 +9411,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -9801,8 +9431,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -9822,8 +9451,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -9839,8 +9467,7 @@
 									 "ressource": 126,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -9856,8 +9483,7 @@
 									 "ressource": 127,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -9873,8 +9499,7 @@
 									 "ressource": 128,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -9890,8 +9515,7 @@
 									 "ressource": "WN4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -9907,8 +9531,7 @@
 									 "ressource": 131,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -9936,8 +9559,7 @@
 									 "ressource": 85,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -9967,8 +9589,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -9984,8 +9605,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -10001,8 +9621,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -10018,8 +9637,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -10035,8 +9653,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -10052,8 +9669,7 @@
 									 "ressource": "RUFI735B",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -10069,8 +9685,7 @@
 									 "ressource": "BNK735C",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 44,
@@ -10086,8 +9701,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -10103,8 +9717,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 46,
@@ -10120,8 +9733,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 47,
@@ -10137,8 +9749,7 @@
 									 "ressource": "UZ735D",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 48,
@@ -10156,8 +9767,7 @@
 									 "ressource": "UZ2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -10185,8 +9795,7 @@
 									 "ressource": "UZ2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -10202,8 +9811,7 @@
 									 "ressource": "UZ735D",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -10219,8 +9827,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -10236,8 +9843,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -10257,8 +9863,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -10274,8 +9879,7 @@
 									 "ressource": "RUFI735B",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -10291,8 +9895,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -10308,8 +9911,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": ""
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -10325,8 +9927,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -10346,8 +9947,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": ""
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -10363,8 +9963,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -10380,8 +9979,7 @@
 									 "ressource": "ZB10",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -10399,8 +9997,7 @@
 									 "ressource": "ZB10",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -10444,8 +10041,7 @@
 									 "ressource": 557,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -10485,8 +10081,7 @@
 									 "ressource": 557,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -10502,8 +10097,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -10519,8 +10113,7 @@
 									 "ressource": "NOU3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -10540,8 +10133,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -10557,8 +10149,7 @@
 									 "ressource": 560,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -10576,8 +10167,7 @@
 									 "ressource": "NAEF1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -10605,8 +10195,7 @@
 									 "ressource": "UZ2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -10622,8 +10211,7 @@
 									 "ressource": "UZ735D",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -10639,8 +10227,7 @@
 									 "ressource": "BNK1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -10656,8 +10243,7 @@
 									 "ressource": "RUFI735B",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -10673,8 +10259,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -10690,8 +10275,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": ""
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -10707,8 +10291,7 @@
 									 "ressource": "SCAE1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -10728,8 +10311,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": ""
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -10745,8 +10327,7 @@
 									 "ressource": "SCAE735A",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -10762,8 +10343,7 @@
 									 "ressource": "ZB10",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -10781,8 +10361,7 @@
 									 "ressource": "ZB10",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -10810,8 +10389,7 @@
 									 "ressource": 89,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -10839,8 +10417,7 @@
 									 "ressource": 231,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -10856,8 +10433,7 @@
 									 "ressource": "WN3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -10873,8 +10449,7 @@
 									 "ressource": 228,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -10890,8 +10465,7 @@
 									 "ressource": 227,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -10907,8 +10481,7 @@
 									 "ressource": 226,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -10928,8 +10501,7 @@
 									 "ressource": "MH2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -10949,8 +10521,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -10970,8 +10541,7 @@
 									 "ressource": "MH1",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -10987,8 +10557,7 @@
 									 "ressource": 42,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -11004,8 +10573,7 @@
 									 "ressource": 123,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -11021,8 +10589,7 @@
 									 "ressource": 222,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -11038,8 +10605,7 @@
 									 "ressource": 221,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -11055,8 +10621,7 @@
 									 "ressource": 221,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -11072,8 +10637,7 @@
 									 "ressource": 221,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -11089,8 +10653,7 @@
 									 "ressource": 220,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -11110,8 +10673,7 @@
 									 "ressource": "UNT2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 29,
@@ -11127,8 +10689,7 @@
 									 "ressource": "UNT2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -11144,8 +10705,7 @@
 									 "ressource": "UNT2",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 31,
@@ -11161,8 +10721,7 @@
 									 "ressource": 215,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 32,
@@ -11178,8 +10737,7 @@
 									 "ressource": 215,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 33,
@@ -11195,8 +10753,7 @@
 									 "ressource": 215,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 34,
@@ -11212,8 +10769,7 @@
 									 "ressource": 214,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -11233,8 +10789,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 36,
@@ -11254,8 +10809,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -11275,8 +10829,7 @@
 									 "ressource": "WAL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 38,
@@ -11296,8 +10849,7 @@
 									 "ressource": 212,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 39,
@@ -11313,8 +10865,7 @@
 									 "ressource": "FMS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -11330,8 +10881,7 @@
 									 "ressource": "FMS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 41,
@@ -11347,8 +10897,7 @@
 									 "ressource": "FMS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 42,
@@ -11364,8 +10913,7 @@
 									 "ressource": 208,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 43,
@@ -11381,8 +10929,7 @@
 									 "ressource": 204,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 44,
@@ -11398,8 +10945,7 @@
 									 "ressource": "MELS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -11415,8 +10961,7 @@
 									 "ressource": "MELS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 46,
@@ -11432,8 +10977,7 @@
 									 "ressource": "MELS4",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 47,
@@ -11449,8 +10993,7 @@
 									 "ressource": 201,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 48,
@@ -11468,8 +11011,7 @@
 									 "ressource": "SA5",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -11505,8 +11047,7 @@
 									 "ressource": "ZB7",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -11526,8 +11067,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -11543,8 +11083,7 @@
 									 "ressource": 255,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -11560,8 +11099,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -11577,8 +11115,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -11594,8 +11131,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -11611,8 +11147,7 @@
 									 "ressource": 253,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -11628,8 +11163,7 @@
 									 "ressource": 252,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -11645,8 +11179,7 @@
 									 "ressource": 251,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -11662,8 +11195,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -11679,8 +11211,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -11696,8 +11227,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -11713,8 +11243,7 @@
 									 "ressource": 249,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -11730,8 +11259,7 @@
 									 "ressource": 248,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -11747,8 +11275,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -11764,8 +11291,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -11781,8 +11307,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -11798,8 +11323,7 @@
 									 "ressource": 246,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -11815,8 +11339,7 @@
 									 "ressource": 245,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -11832,8 +11355,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -11849,8 +11371,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -11874,8 +11395,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -11895,8 +11415,7 @@
 									 "ressource": 243,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -11912,8 +11431,7 @@
 									 "ressource": 241,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -11931,8 +11449,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -11968,8 +11485,7 @@
 									 "ressource": "ZB8",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 2,
@@ -11989,8 +11505,7 @@
 									 "ressource": 26,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 3,
@@ -12006,8 +11521,7 @@
 									 "ressource": 255,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 4,
@@ -12023,8 +11537,7 @@
 									 "ressource": "BIL3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -12040,8 +11553,7 @@
 									 "ressource": 253,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 6,
@@ -12057,8 +11569,7 @@
 									 "ressource": 252,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 7,
@@ -12074,8 +11585,7 @@
 									 "ressource": 251,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 8,
@@ -12091,8 +11601,7 @@
 									 "ressource": "RG3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 9,
@@ -12108,8 +11617,7 @@
 									 "ressource": 249,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -12125,8 +11633,7 @@
 									 "ressource": 248,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 11,
@@ -12142,8 +11649,7 @@
 									 "ressource": 247,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 12,
@@ -12159,8 +11665,7 @@
 									 "ressource": 246,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 13,
@@ -12176,8 +11681,7 @@
 									 "ressource": 245,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 14,
@@ -12193,8 +11697,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -12210,8 +11713,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 16,
@@ -12235,8 +11737,7 @@
 									 "ressource": "SIB3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 17,
@@ -12256,8 +11757,7 @@
 									 "ressource": 243,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 18,
@@ -12273,8 +11773,7 @@
 									 "ressource": 241,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 19,
@@ -12290,8 +11789,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -12307,8 +11805,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 21,
@@ -12324,8 +11821,7 @@
 									 "ressource": "LA3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 22,
@@ -12341,8 +11837,7 @@
 									 "ressource": 239,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 23,
@@ -12358,8 +11853,7 @@
 									 "ressource": 238,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 24,
@@ -12379,8 +11873,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -12400,8 +11893,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 26,
@@ -12421,8 +11913,7 @@
 									 "ressource": 236,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 27,
@@ -12438,8 +11929,7 @@
 									 "ressource": 235,
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 28,
@@ -12457,8 +11947,7 @@
 									 "ressource": "PF3",
 									 "belegungsrichtung": null
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}

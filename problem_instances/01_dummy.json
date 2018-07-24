@@ -705,8 +705,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 501,
@@ -736,8 +735,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 502,
@@ -763,8 +761,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 503,
@@ -782,8 +779,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 504,
@@ -801,8 +797,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 505,
@@ -834,8 +829,7 @@
 									 "ressource": "TW-ORD_110",
 									 "belegungsrichtung": "ZUE_CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				},
@@ -862,8 +856,7 @@
 									 "ressource": "ZUE_T31-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -897,8 +890,7 @@
 									 "ressource": "ZUE-ZAU_101",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -932,8 +924,7 @@
 									 "ressource": "ZAU_11",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -971,8 +962,7 @@
 									 "ressource": "ZWIE_41",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -1002,8 +992,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -1029,8 +1018,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -1052,8 +1040,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -1071,8 +1058,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -1090,8 +1076,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -1117,8 +1102,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -1140,8 +1124,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 50,
@@ -1159,8 +1142,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 52,
@@ -1178,8 +1160,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 55,
@@ -1209,8 +1190,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 60,
@@ -1236,8 +1216,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 65,
@@ -1259,8 +1238,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 70,
@@ -1278,8 +1256,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 72,
@@ -1297,8 +1274,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 75,
@@ -1328,8 +1304,7 @@
 									 "ressource": "ZWOL-KIL_106",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 80,
@@ -1355,8 +1330,7 @@
 									 "ressource": "ZWOL-KIL_106",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 85,
@@ -1386,8 +1360,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 90,
@@ -1413,8 +1386,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 95,
@@ -1436,8 +1408,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 100,
@@ -1455,8 +1426,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 102,
@@ -1474,8 +1444,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 105,
@@ -1505,8 +1474,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 110,
@@ -1532,8 +1500,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 115,
@@ -1555,8 +1522,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 120,
@@ -1574,8 +1540,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 122,
@@ -1595,8 +1560,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 125,
@@ -1632,8 +1596,7 @@
 									 "ressource": "TW_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 130,
@@ -1663,8 +1626,7 @@
 									 "ressource": "TW_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 135,
@@ -1690,8 +1652,7 @@
 									 "ressource": "TW_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 140,
@@ -1709,8 +1670,7 @@
 									 "ressource": "TW_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 142,
@@ -1728,8 +1688,7 @@
 									 "ressource": "TW_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 145,
@@ -1761,8 +1720,7 @@
 									 "ressource": "TW-ORD_110",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 150,
@@ -1794,8 +1752,7 @@
 									 "ressource": "TW-ORD_111",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 155,
@@ -1825,8 +1782,7 @@
 									 "ressource": "ORD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 160,
@@ -1852,8 +1808,7 @@
 									 "ressource": "ORD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 165,
@@ -1875,8 +1830,7 @@
 									 "ressource": "ORD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 170,
@@ -1894,8 +1848,7 @@
 									 "ressource": "ORD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 172,
@@ -1913,8 +1866,7 @@
 									 "ressource": "ORD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 175,
@@ -1940,8 +1892,7 @@
 									 "ressource": "HG_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 180,
@@ -1963,8 +1914,7 @@
 									 "ressource": "HG_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 185,
@@ -1982,8 +1932,7 @@
 									 "ressource": "HG_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 187,
@@ -2001,8 +1950,7 @@
 									 "ressource": "HG_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 190,
@@ -2028,8 +1976,7 @@
 									 "ressource": "HG-AU_119",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 195,
@@ -2059,8 +2006,7 @@
 									 "ressource": "AU_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 200,
@@ -2086,8 +2032,7 @@
 									 "ressource": "AU_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 205,
@@ -2109,8 +2054,7 @@
 									 "ressource": "AU_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 210,
@@ -2128,8 +2072,7 @@
 									 "ressource": "AU_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 212,
@@ -2147,8 +2090,7 @@
 									 "ressource": "AU_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 215,
@@ -2178,8 +2120,7 @@
 									 "ressource": "AU-WAE_123",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 220,
@@ -2213,8 +2154,7 @@
 									 "ressource": "WAE_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 225,
@@ -2244,8 +2184,7 @@
 									 "ressource": "WAE_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 230,
@@ -2267,8 +2206,7 @@
 									 "ressource": "WAE_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 235,
@@ -2286,8 +2224,7 @@
 									 "ressource": "WAE_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 237,
@@ -2305,8 +2242,7 @@
 									 "ressource": "WAE_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 240,
@@ -2336,8 +2272,7 @@
 									 "ressource": "WAE-RI_126",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 245,
@@ -2363,8 +2298,7 @@
 									 "ressource": "WAE-RI_126",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 250,
@@ -2390,8 +2324,7 @@
 									 "ressource": "RI_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 255,
@@ -2413,8 +2346,7 @@
 									 "ressource": "RI_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 260,
@@ -2432,8 +2364,7 @@
 									 "ressource": "RI_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 262,
@@ -2451,8 +2382,7 @@
 									 "ressource": "RI_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 265,
@@ -2478,8 +2408,7 @@
 									 "ressource": "BAE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 270,
@@ -2501,8 +2430,7 @@
 									 "ressource": "BAE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 275,
@@ -2520,8 +2448,7 @@
 									 "ressource": "BAE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 277,
@@ -2539,8 +2466,7 @@
 									 "ressource": "BAE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 280,
@@ -2566,8 +2492,7 @@
 									 "ressource": "FRB_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 285,
@@ -2589,8 +2514,7 @@
 									 "ressource": "FRB_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 287,
@@ -2608,8 +2532,7 @@
 									 "ressource": "FRB_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 290,
@@ -2643,8 +2566,7 @@
 									 "ressource": "PF_5-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 295,
@@ -2670,8 +2592,7 @@
 									 "ressource": "PF_7-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 300,
@@ -2693,8 +2614,7 @@
 									 "ressource": "PF_7-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 305,
@@ -2716,8 +2636,7 @@
 									 "ressource": "PF_7-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -2763,8 +2682,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 404,
@@ -2794,8 +2712,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 405,
@@ -2821,8 +2738,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 406,
@@ -2840,8 +2756,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 407,
@@ -2859,8 +2774,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 408,
@@ -2886,8 +2800,7 @@
 									 "ressource": "HGO-SBG_418",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 409,
@@ -2917,8 +2830,7 @@
 									 "ressource": "HGO-SBG_416",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 410,
@@ -2956,8 +2868,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 411,
@@ -2993,8 +2904,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				},
@@ -3017,8 +2927,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -3052,8 +2961,7 @@
 									 "ressource": "BAAL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -3095,8 +3003,7 @@
 									 "ressource": "BAAN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -3130,8 +3037,7 @@
 									 "ressource": "BAA_83",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -3169,8 +3075,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -3200,8 +3105,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -3227,8 +3131,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -3250,8 +3153,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 50,
@@ -3269,8 +3171,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 52,
@@ -3288,8 +3189,7 @@
 									 "ressource": "BAA_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 55,
@@ -3323,8 +3223,7 @@
 									 "ressource": "LITT_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 60,
@@ -3358,8 +3257,7 @@
 									 "ressource": "LITT_11",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 65,
@@ -3393,8 +3291,7 @@
 									 "ressource": "SBG-LITT_424",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 70,
@@ -3424,8 +3321,7 @@
 									 "ressource": "SBG-LITT_422",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 75,
@@ -3451,8 +3347,7 @@
 									 "ressource": "SBG-LITT_422",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 80,
@@ -3484,8 +3379,7 @@
 									 "ressource": "SBG-LITT_420",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 85,
@@ -3521,8 +3415,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 90,
@@ -3556,8 +3449,7 @@
 									 "ressource": "SBG_33",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 95,
@@ -3587,8 +3479,7 @@
 									 "ressource": "SBG_14",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 100,
@@ -3618,8 +3509,7 @@
 									 "ressource": "HGO-SBG_418",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 105,
@@ -3645,8 +3535,7 @@
 									 "ressource": "HGO-SBG_418",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 110,
@@ -3676,8 +3565,7 @@
 									 "ressource": "HGO-SBG_416",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 115,
@@ -3715,8 +3603,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 120,
@@ -3752,8 +3639,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 125,
@@ -3781,8 +3667,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 130,
@@ -3800,8 +3685,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 132,
@@ -3819,8 +3703,7 @@
 									 "ressource": "HGO_4",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 135,
@@ -3850,8 +3733,7 @@
 									 "ressource": "ORDD_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 140,
@@ -3877,8 +3759,7 @@
 									 "ressource": "ORDD_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 145,
@@ -3900,8 +3781,7 @@
 									 "ressource": "ORDD_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 150,
@@ -3919,8 +3799,7 @@
 									 "ressource": "ORDD_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 152,
@@ -3938,8 +3817,7 @@
 									 "ressource": "ORDD_1",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 155,
@@ -3973,8 +3851,7 @@
 									 "ressource": "TW_5",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 160,
@@ -4000,8 +3877,7 @@
 									 "ressource": "TW_5",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 165,
@@ -4019,8 +3895,7 @@
 									 "ressource": "TW_5",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 210,
@@ -4038,8 +3913,7 @@
 									 "ressource": "TW_5",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 215,
@@ -4077,8 +3951,7 @@
 									 "ressource": "RUES_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 220,
@@ -4104,8 +3977,7 @@
 									 "ressource": "RUES_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 225,
@@ -4127,8 +3999,7 @@
 									 "ressource": "RUES_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 230,
@@ -4146,8 +4017,7 @@
 									 "ressource": "RUES_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 232,
@@ -4165,8 +4035,7 @@
 									 "ressource": "RUES_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 235,
@@ -4196,8 +4065,7 @@
 									 "ressource": "KIL_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 240,
@@ -4223,8 +4091,7 @@
 									 "ressource": "KIL_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 245,
@@ -4242,8 +4109,7 @@
 									 "ressource": "KIL_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 247,
@@ -4261,8 +4127,7 @@
 									 "ressource": "KIL_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 250,
@@ -4300,8 +4165,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 255,
@@ -4335,8 +4199,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 260,
@@ -4366,8 +4229,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 265,
@@ -4393,8 +4255,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 270,
@@ -4416,8 +4277,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 275,
@@ -4435,8 +4295,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 277,
@@ -4454,8 +4313,7 @@
 									 "ressource": "ZWOL_3",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 280,
@@ -4485,8 +4343,7 @@
 									 "ressource": "ZEN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 285,
@@ -4512,8 +4369,7 @@
 									 "ressource": "ZEN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 290,
@@ -4535,8 +4391,7 @@
 									 "ressource": "ZEN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 295,
@@ -4554,8 +4409,7 @@
 									 "ressource": "ZEN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 297,
@@ -4573,8 +4427,7 @@
 									 "ressource": "ZEN_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 300,
@@ -4600,8 +4453,7 @@
 									 "ressource": "ZWIE_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 305,
@@ -4623,8 +4475,7 @@
 									 "ressource": "ZWIE_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 310,
@@ -4642,8 +4493,7 @@
 									 "ressource": "ZWIE_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 312,
@@ -4661,8 +4511,7 @@
 									 "ressource": "ZWIE_2",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 315,
@@ -4692,8 +4541,7 @@
 									 "ressource": "ZAU-ZUE_201",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 320,
@@ -4755,8 +4603,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 325,
@@ -4814,8 +4661,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 330,
@@ -4869,8 +4715,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 335,
@@ -4920,8 +4765,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 340,
@@ -4959,8 +4803,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 345,
@@ -4982,8 +4825,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 350,
@@ -5005,8 +4847,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "CH-ZUE"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}
@@ -5038,8 +4879,7 @@
 									 "ressource": "ZUE_A4-B",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 5,
@@ -5073,8 +4913,7 @@
 									 "ressource": "ZUE-ZAU_101",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 10,
@@ -5108,8 +4947,7 @@
 									 "ressource": "ZAU_11",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 15,
@@ -5147,8 +4985,7 @@
 									 "ressource": "ZWIE_41",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 20,
@@ -5178,8 +5015,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 25,
@@ -5205,8 +5041,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 30,
@@ -5228,8 +5063,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 35,
@@ -5247,8 +5081,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 37,
@@ -5266,8 +5099,7 @@
 									 "ressource": "ZWIE_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 40,
@@ -5293,8 +5125,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 45,
@@ -5316,8 +5147,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 50,
@@ -5335,8 +5165,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 52,
@@ -5354,8 +5183,7 @@
 									 "ressource": "ZEN_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 55,
@@ -5385,8 +5213,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 60,
@@ -5412,8 +5239,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 65,
@@ -5435,8 +5261,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 70,
@@ -5454,8 +5279,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 72,
@@ -5473,8 +5297,7 @@
 									 "ressource": "ZWOL_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 75,
@@ -5504,8 +5327,7 @@
 									 "ressource": "ZWOL-KIL_106",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 80,
@@ -5531,8 +5353,7 @@
 									 "ressource": "ZWOL-KIL_106",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 85,
@@ -5562,8 +5383,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 90,
@@ -5589,8 +5409,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 95,
@@ -5612,8 +5431,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 100,
@@ -5631,8 +5449,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 102,
@@ -5650,8 +5467,7 @@
 									 "ressource": "KIL_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 105,
@@ -5681,8 +5497,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 110,
@@ -5708,8 +5523,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 115,
@@ -5731,8 +5545,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 120,
@@ -5750,8 +5563,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 122,
@@ -5769,8 +5581,7 @@
 									 "ressource": "RUES_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 125,
@@ -5804,8 +5615,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 130,
@@ -5835,8 +5645,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 135,
@@ -5862,8 +5671,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 140,
@@ -5881,8 +5689,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 142,
@@ -5900,8 +5707,7 @@
 									 "ressource": "TW_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 145,
@@ -5931,8 +5737,7 @@
 									 "ressource": "TW-ORDD_312",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 150,
@@ -5966,8 +5771,7 @@
 									 "ressource": "ORDD-HGO_314",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 155,
@@ -5993,8 +5797,7 @@
 									 "ressource": "ORDD-HGO_314",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 160,
@@ -6016,8 +5819,7 @@
 									 "ressource": "ORDD-HGO_314",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 162,
@@ -6035,8 +5837,7 @@
 									 "ressource": "ORDD_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 165,
@@ -6066,8 +5867,7 @@
 									 "ressource": "HGO_73",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 170,
@@ -6093,8 +5893,7 @@
 									 "ressource": "HGO_73",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 175,
@@ -6116,8 +5915,7 @@
 									 "ressource": "HGO_73",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 177,
@@ -6135,8 +5933,7 @@
 									 "ressource": "HGO_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 180,
@@ -6166,8 +5963,7 @@
 									 "ressource": "HGO-SBG_417",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 185,
@@ -6199,8 +5995,7 @@
 									 "ressource": "HGO-SBG_418",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 190,
@@ -6232,8 +6027,7 @@
 									 "ressource": "SBG_34",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 195,
@@ -6263,8 +6057,7 @@
 									 "ressource": "SBG_4",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 200,
@@ -6298,8 +6091,7 @@
 									 "ressource": "SBG-LITT_420",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 205,
@@ -6333,8 +6125,7 @@
 									 "ressource": "SBG-LITT_421",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 210,
@@ -6364,8 +6155,7 @@
 									 "ressource": "SBG-LITT_421",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 215,
@@ -6399,8 +6189,7 @@
 									 "ressource": "SBG-LITT_424",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 220,
@@ -6434,8 +6223,7 @@
 									 "ressource": "LITT_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 225,
@@ -6475,8 +6263,7 @@
 									 "ressource": "LITT_92",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 230,
@@ -6512,8 +6299,7 @@
 									 "ressource": "LITT-BAA_325",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 235,
@@ -6543,8 +6329,7 @@
 									 "ressource": "LITT-BAA_325",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 240,
@@ -6574,8 +6359,7 @@
 									 "ressource": "BAA_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 245,
@@ -6601,8 +6385,7 @@
 									 "ressource": "BAA_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 250,
@@ -6624,8 +6407,7 @@
 									 "ressource": "BAA_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 255,
@@ -6643,8 +6425,7 @@
 									 "ressource": "BAA_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 257,
@@ -6662,8 +6443,7 @@
 									 "ressource": "BAA_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 260,
@@ -6701,8 +6481,7 @@
 									 "ressource": "BAAL_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 265,
@@ -6736,8 +6515,7 @@
 									 "ressource": "BAAL_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 270,
@@ -6779,8 +6557,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 275,
@@ -6818,8 +6595,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 280,
@@ -6849,8 +6625,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 285,
@@ -6876,8 +6651,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 290,
@@ -6895,8 +6669,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 295,
@@ -6914,8 +6687,7 @@
 									 "ressource": "ZG_1",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				},
@@ -6952,8 +6724,7 @@
 									 "ressource": "SBG_33",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 404,
@@ -6983,8 +6754,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 405,
@@ -7010,8 +6780,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 406,
@@ -7033,8 +6802,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 407,
@@ -7052,8 +6820,7 @@
 									 "ressource": "SBG_3",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 408,
@@ -7091,8 +6858,7 @@
 									 "ressource": "SBG-LITT_424",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 409,
@@ -7126,8 +6892,7 @@
 									 "ressource": "SBG-LITT_424",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 410,
@@ -7161,8 +6926,7 @@
 									 "ressource": "LITT_2",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						},
 						{
 							 "reihenfolge": 411,
@@ -7202,8 +6966,7 @@
 									 "ressource": "LITT_92",
 									 "belegungsrichtung": "ZUE-CH"
 								}
-							],
-							 "zusatzzeit": null
+							]
 						}
 					]
 				}

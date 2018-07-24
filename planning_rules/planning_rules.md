@@ -58,7 +58,7 @@ _Note:_ The normalization constant $`1/60`$ for the delay penalty term means tha
 
 We give a couple of simple examples illustrating the calculation of the delay and routing penalties.
 
-### Example for delay penalties
+### Examples for Delay Penalties
 Suppose the _service_intention_ has the following three _section_requirements_:
 * for _section_marker_ A: _entry_earliest_ = 08:50:00
 * for _section_marker_ B: 
@@ -77,25 +77,59 @@ The complete picture with the _train_run_sections_ and the respective _section_r
 
 We now give several example solutions and the value of the objective function for them. Blue dots denote the actual _event_times_ of the solution, i.e. entry and exit times from _train_run_sections_. The blue lines joining them are purely a visualisation aid, they are not part of the solution.
 
-#### Example 1: no delay
+#### Example 1: No Delay
 
 In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: <br>__objective_value = 0__
 
 ![](planning_rules/img/ex_1.png)
 ybr>
-#### Example 2: no delay
+#### Example 2: Do Delay
 In this solution, the train runs earlier than in [Example 1](#example-1-no-delay). But this is not "better"; it does not get any "bonus points". This solution's objective value is identical to the one of Example 1, i.e. <br> __objective_value = 0__
 
 ![](planning_rules/img/ex_2.png)
 
-#### Example 3: delayed departure at B
+#### Example 3: Delayed Departure at B
 In this solution, the _exit_ from the _train_run_section_ with _section_marker_ 'B' happens only at 09:13:00. This is 3 minutes later than the desired _exit_latest_ of the _section_requirement_ for 'B'. Since the _exit_delay_weight_ is 3, for this solution we have <br> __objective_value = 3 * 3 = 9__
 
 ![](planning_rules/img/ex_3.png)
 
-#### Example 4: delayed departure at B _and_ delayed arrival at C
+#### Example 4: Delayed Departure at B _and_ Delayed Arrival at C
 In this solution, in addition to the delayed departure at B as in Example 3, we also have a delayed _exit_event_ from _section_ C, namely this event occurs 5.5 minutes after the desired _exit_latest_ of 09:20:00. The _exit_delay_weight_ for this _section_requirement_ is 1, therefore: <br>__objective_value = 3 * 3 + 1 * 5.5 = 14.5__
 
 ![](planning_rules/img/ex_4.png)
 
-### Example for routing penalties
+### Examples for Routing Penalties
+
+Let's take the same routing graph as in the discusstion of the [output data model](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/data_model/output_data_model.md#train_runs-zugfahrten), this time augmented with some routing penalties. The route graph looks like this:
+* the numbers in __black__ denote the _route_section_._id_
+* the numbers in <span style="color:red">__red__</span> denote the _route_section_._penalty_. No number means no _penalty_ is specified for this _route_section_
+
+![](planning_rules/img/route_graph.png)
+
+#### Example 1: No Routing Penalty
+
+In the solution, the route highlighted in <span style="color:yellow">__yellow__</span> was chosen.
+This route passes through the _route_sections_ 2 -> 4 -> 5 -> 6 -> 11 -> 12 -> 14. None of the _sections_ on this route specify a _penalty_. Since a missing _penalty_ is equivalent to a penalty of zero, the routing penalty for the whole route is also zero.
+
+![](planning_rules/img/route_ex_1.png)
+
+#### Example 2: Also no Routing Penalty
+Also the following solution does not involve any _route_sections_ with positive _penalty_ and therefore does not incur any routing penalty either.
+
+![](planning_rules/img/route_ex_2.png)
+
+#### Example 3: Positive Routing Penalty
+This solution chooses a route with one _route_section_ with positve _penalty_, namely _route_section_ 8 with _penalty_ 0.7.
+
+The routing penalty for this route is therefore 0.7
+
+![](planning_rules/img/route_ex_3.png)
+
+#### Example 4: Positive Routing Penalty
+This solution chooses a route with two _route_section_ with positve _penalty_, namely 
+* _route_section_ 1 with _penalty_ 6
+* _route_section_ 13 with _penalty_ 1.3
+
+The routing penalty for this route is therefore 6 + 1.3 = 7.3
+
+![](planning_rules/img/route_ex_4.png)

@@ -409,7 +409,7 @@
 			 "fahrweg": "S24_ZUE-ZG_std",
 			 "abschnittsvorgaben": [
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "ZUE_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -422,7 +422,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "ZWIE_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -435,7 +435,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 3,
 					 "abschnittskennzeichen": "ZEN_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -448,7 +448,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 4,
 					 "abschnittskennzeichen": "ZWOL_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -461,7 +461,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 5,
 					 "abschnittskennzeichen": "KIL_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -474,7 +474,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 6,
 					 "abschnittskennzeichen": "RUES_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -487,7 +487,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 7,
 					 "abschnittskennzeichen": "TW_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -500,7 +500,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 8,
 					 "abschnittskennzeichen": "ORDD_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -513,7 +513,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 9,
 					 "abschnittskennzeichen": "HGO_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -526,7 +526,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 10,
 					 "abschnittskennzeichen": "BAA_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT24S",
@@ -539,7 +539,7 @@
 					 "anschluesse": null
 				},
 				{
-					 "reihenfolge": null,
+					 "reihenfolge": 11,
 					 "abschnittskennzeichen": "ZG_Halt",
 					 "typ": "halt",
 					 "minHaltezeit": "PT5S",

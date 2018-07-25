@@ -1,3 +1,4 @@
+# Business Rules
 This document describes the rules that have to be observed in order that a _solution_ to a _problem instance_ is considered valid.
 
 Your solver will need to make sure that the solutions it produces observe these rules.
@@ -8,7 +9,7 @@ We categorize the rules roughly in two groups:
 
 __Remember you have to submit solutions in the _German_ format.__ If you prefer to work with English terms internally, you may use the [translation script](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/translate.py) to translate an English solution to a German one before submitting.
 
-# Concistency Rules
+## Concistency Rules
 
 | Rule Name         | Rule Definition   | Remarks |
 | -------           | -----             | ----    |
@@ -22,7 +23,7 @@ __Remember you have to submit solutions in the _German_ format.__ If you prefer 
 
 <br>
 
-# Planning Rules
+## Planning Rules
 
 | Rule Name         | Rule Definition   | Remarks |
 | -------           | -----             | ----    |

@@ -53,7 +53,7 @@ A specialty of route graph are the _section markers_ that may be associated to c
 
 ![](documentation/img/route_DAG_section_markers.png)
 
-Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the individual _route_paths_ are encircled for clarity.
+Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. These are paths (i.e. linear subgraphs) in the route graph. Distinct route_paths_ can be "glued" together at events that share the same _route alternative marker labels_. In the following image, the individual _route_paths_ are encircled for clarity. Again, the red labels are the _route alternative marker labels_.
 
 _Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
 

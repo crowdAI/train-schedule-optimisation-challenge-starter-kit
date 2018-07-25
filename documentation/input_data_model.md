@@ -45,7 +45,7 @@ Recall from the [Quick Introduction](documentation/README.md#a-very-quick-introd
 
 The following images illustrates a typical route DAG. They represent route _route_1_ in the [sample scenario](sample_files/sample_scenario_with_routing_alternatives.json). 
 
-The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_, the black labels are the _sequence_number_ of the individual _route_section_. 
+The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_ (see the explanation on _route paths_ just below), the black labels are the _sequence_number_ of the individual _route_section_. 
 
 ![](documentation/img/route_DAG_1.png)
 

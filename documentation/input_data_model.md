@@ -72,8 +72,8 @@ In the formal data model, a _route_ has
 |  route_alternative_marker_at_entry (vonVerzweigungen)                                         | text                              | a label for the _entry event_ into this route_section. Route sections from other _route_paths_ with the same label are "glued" together, i.e. become the same node in the route graph. |
 |  route_alternative_marker_at_exit (nachVerzweigungen)                                         | text                              | dito for the _exit event_ from this route_section    |
 | _starting_point_ and _ending_point_ (startpunkt and endpunkt)                                 | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense :wink:    |
-|   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time the train must spend on this _route_section_|
-|   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see below |
+|   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time (duration) the train must spend on this _route_section_|
+|   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see [below](documentation/input_data_model.md#data-model-for-a-resource_occupation-ressourcenbelegung)|
 |   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. In our examples, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
 
 

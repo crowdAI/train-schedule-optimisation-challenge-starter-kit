@@ -59,7 +59,7 @@ _Note: There are many ways to cut the graph into segments of linear paths. In th
 
 ![](documentation/img/route_DAG_route_paths.png)
 
-In the data model, a _route_ has
+In the formal data model, a _route_ has
 * an id
 * a list of _route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows
 
@@ -67,9 +67,9 @@ In the data model, a _route_ has
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number (reihenfolge)                                                                 | integer                           | an ordering number. The train passes over the route_section in this order. This is necessary because the JSON specification does not guarantee that the sequence in the file is preserved    |
-| penalty                                                                                       | non-negative float                | used in the objective function for the timetable. If a train uses this route_section, this penalty accrues. <br> This field is optional. If it is not present, this is equivalent to penalty = 0.     |
-|  route_alternative_marker_at_entry (vonVerzweigungen)                                         | text                              | a label for the _entry event_ into this route_section. Other route sections |
+| sequence_number (reihenfolge)                                                                 | integer                           | an ordering number. The train passes over the route_sections in this order. This is necessary because the JSON specification does not guarantee that the sequence in the file is preserved when deserializing.   |
+| penalty                                                                                       | non-negative float                | used in the [objective function](documentation/business_rules.md#objective-function) for the timetable. If a train uses this route_section, this penalty accrues. <br> This field is optional. If it is not present, this is equivalent to penalty = 0.     |
+|  route_alternative_marker_at_entry (vonVerzweigungen)                                         | text                              | a label for the _entry event_ into this route_section. Route sections from other _route_paths_ with the same label are "glued" together, i.e. become the same node in the route graph. |
 |  route_alternative_marker_at_exit (nachVerzweigungen)                                         | text                              | dito for the _exit event_ from this route_section    |
 | _starting_point_ and _ending_point_ (startpunkt and endpunkt)                                 | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends.    |
 |   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time the train must spend on this _route_section_|

@@ -74,39 +74,38 @@ In the formal data model, a _route_ has
 | _starting_point_ and _ending_point_ (startpunkt and endpunkt)                                 | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense :wink:    |
 |   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time (duration) the train must spend on this _route_section_|
 |   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see [below](#data-model-for-a-resource_occupation-ressourcenbelegung)|
-|   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. In our examples, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
-
+|   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. <br>_Note_: In all our problem instances, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
 
 ### Data model for a _resource_occupation_ (ressourcenbelegung):
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
 | resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
-| occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources below. |
+| occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources [below](#resources-ressourcen). |
 
 ## section requirement (abschnittsvorgabe)
-With the understanding of the routes, the meaning of the _section requirements_ in a service intention is now easily understood.
+With the understanding of the routes, the meaning of the _section requirements_ in a service intention now makes more sense.
 
-Each section requirement references a _section_marker_. This means that "this requirement is meant for a route section that carries this label as a _section_marker_". The section requirement can ask:
+Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can ask:
 * that a certain time window be respected for the entry event by setting entry_earliest (einMin) and/or entry_latest (einMax) accordingly
 * same thing for the exit event by setting exit_earliest (ausMin) and/or exit_latest (ausMax)
 * a minimum stopping time be observed on this route section by setting min_stopping_time (minHaltezeit). This stopping time will be _in addition_ to the minimum_running_time
 * the connections to other trains (service intentions) to be observed
 
-Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md#ojective-function).
+Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](documentation/business_rules.md#objective-function).
 
-Finally, section requirements have a _sequence_number_. They must be fulfilled in the order given by the sequence number. You do not need to worry about this. The route graphs provided are always such that it is _impossible_ to fulfil them in any other order (remember the route graph is acyclic). So the sequence field is not important for you as a solver.
+Finally, section_requirements have a _sequence_number_. The requirements must be fulfilled in the order given by the sequence number. For example, if section_requirement with sequence_number 1 encodes the information for a "commercial stop in Berne" and the requirement with sequence_number 2 the information for a "commercial stop in Zurich", then it is not allowed to schedule the stop in Zurich before the one in Berne. In principle, this could make things very complicated. However, __you do not need to worry about this__. We make sure that the route graphs in the problem instances are always such that it is _impossible_ to fulfil the section_requirements in any other order (remember the route graph is a DAG!). So __the sequence field is not important for you as a solver.__
 
 Summarizing: The formal model for a _section_requirement_ is as follows
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number (reihenfolge)                                                                 | integer                           | see text above    |
-| type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent. Has no effect on processing. You may ignore it.   |
-| minimum_stopping_t    ime (minHaltezeit)                                                      | ISO duration                      |  see text above |
+| sequence_number (reihenfolge)                                                                 | integer                           | needed because JSON deserialization may not preserve order    |
+| type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent, such as start of a train, a scheduled stop, etc. Has no effect on processing. You may ignore it.   |
+| minimum_stopping_time (minHaltezeit)                                                      | ISO duration                      |  see text above |
 | entry_earliest (einMin) and/or entry_latest (einMax)                                          | HH:MM[:SS] formatted time-of-day  |  see text above |
 | exit_earliest (ausMin) and/or exit_latest (ausMax)                                            | HH:MM[:SS] formatted time-of-day  |  see text above |
-| entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md#ojective-function) |
+| entry_delay_weight (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor)    | non-negative float                |  used to calculate total delay penalties in the [objective function](documentation/business_rules.md#objective-function) |
 | connections (anschluesse)                                                                     | list of connections, see below    |  see below |
 
 ### connections (anschluesse)

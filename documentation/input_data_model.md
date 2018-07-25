@@ -122,7 +122,7 @@ The model is as follows:
 
 # resources (ressourcen)
 
-Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ , see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several route_sections.
+Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several continuous route_sections.
 
 In general, we use two kinds of resources to model different behaviour and level-of-detail:
 
@@ -137,6 +137,6 @@ The model for a _resource_ is as follows:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| id                                                        | text                      | unique identifier for the resource. Used in _resource_occupation_s    |
-| release_time (freigabezeit)                               | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Planning Rules](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md) for details.  |
-|  following_allowed (zugfolgeErlaubt)                      | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). As mentioned, all resources in all the provided problem instances have this field set to _false_|
+| id                                                        | text                      | unique identifier for the resource. This is referenced in the _resource_occupations_    |
+| release_time (freigabezeit)                               | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Business Rules](documentation/business_rules.md) for details.  |
+|  following_allowed (zugfolgeErlaubt)                      | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). <br> As mentioned, __all resources in all the provided problem instances have this field set to__ _false_|

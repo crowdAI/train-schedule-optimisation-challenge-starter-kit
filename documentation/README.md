@@ -7,7 +7,7 @@ Specifically:
 * The document [output data model](documentation/output_data_model.md) describes the data model in which the grader expects the solutions to the problem instances.
 * The document [business rules](documentation/business_rules.md) defines the set of rules that have to be observed when producing a solution to a problem instance. It also describes how a solution is scored by the grader.
 
-All these documents are rather detailed, and it is easy to lose sight of the forest for the trees. For this reason, we advise to first read the following "Very Quick Introduction".
+These documents are rather detailed, and it is easy to lose sight of the forest for the trees. For this reason, we advise to first read the following "Very Quick Introduction".
 
 # A Very Quick Introduction to our Timetabling Problem
 

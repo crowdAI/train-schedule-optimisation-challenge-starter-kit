@@ -21,7 +21,7 @@ Given
 
 Produce a timetable that
 -	does not violate any Functional Requirements
--	does not violate any physical constraints, such as minimum running time on a route section
+-	does not violate any physical requirements, such as minimum running time on a route section
 -	does not result in resource occupation conflicts.
 
 A **timetable** is an assignment of a (continuous) time instant to each event.

@@ -29,10 +29,12 @@ Can be used to set global or solver-specific guidelines for the instance. Do not
 
 # service_intentions (funktionaleAngebotsbeschreibungen)
 This is a list. Each item in the list is an individual _service_intention_. A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
-* earliest allowed departure at certain points
-* latest desired arrival at certain points
+* earliest allowed time at certain points
+* latest desired time at certain points
 * commercial stops to be observed, including minimum stopping time at these stops
 * connections to other trains (i.e. _service_intentions_), including minimum transfer time
+
+See the subsection on [section_requirements](#section-requirement-abschnittsvorgabe)below
 
 ## service intention (funktionaleAngebotsbeschreibung)
 An individual _service_intention_ consists of

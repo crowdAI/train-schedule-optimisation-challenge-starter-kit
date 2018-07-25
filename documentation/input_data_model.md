@@ -34,14 +34,11 @@ This is a list. Each item in the list is an individual _service_intention_. A _s
 * commercial stops to be observed, including minimum stopping time at these stops
 * connections to other trains (i.e. _service_intentions_), including minimum transfer time
 
-See the subsection on [section_requirements](#section-requirement-abschnittsvorgabe)below
-
 ## service intention (funktionaleAngebotsbeschreibung)
 An individual _service_intention_ consists of
 * id: identifier for the train, or "service"
 * route (fahrweg): a reference to the route graph, see below for details on the routes
-* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these, it is helpful to first discuss the model for the routes.
-
+* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these (subsection [section_requirements](#section-requirement-abschnittsvorgabe) below), it is helpful to first discuss the model for the _routes_.
 
 # routes (fahrwege)
 Recall from the [Quick Introduction](data_model/quick_intro_scheduling.md) that a _route_ is modeled as a directed acyclic graph (DAG). It describes the possible ways for the train to move through the railway network. The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. For a directed arc we call the node at its tail the _entry event_ and the node at its head the _exit event_ from this arc.The directed arcs have associated to them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while it is traveling on this arc, i.e. in the timespan between the entry event and the exit event. Each arc also has a minimum running time, which gives the _minimum_ duration between entry and exit event. There is no maximum duration, by the way. A train may spend as much time on a section as it likes. Of course, it keeps using the resources of this route section during this time.

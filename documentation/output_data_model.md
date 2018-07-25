@@ -28,7 +28,7 @@ The _hash_ of the _problem_instance_ that this solution is intended for. This is
 This field can be used to provide a hash-value for the _solution_. However, while the field is technically required, its value is not really used afterwards. You may enter any fixed integer, e.g. 42, for every _solution_ you submit.
 
 # train_runs (zugfahrten)
-This is the actual 'meat' of the _soulution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ (zugfahrtabschnitte) that describe a simple path through the route_graph for this train. For each _train_run_section_ (zugfahrtabschnitt) it provides a time-of-day for the _entry_time_ (ein) and the _exit_time_ (aus).
+This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ (zugfahrtabschnitte) that describe a simple path through the route_graph for this train. For each _train_run_section_ (zugfahrtabschnitt) it provides a time-of-day for the _entry_time_ (ein) and the _exit_time_ (aus).
 
 In other words, a solution means
 * picking exactly one of all possible routes for this train, and

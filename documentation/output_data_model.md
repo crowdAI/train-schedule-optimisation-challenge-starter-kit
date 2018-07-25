@@ -1,4 +1,4 @@
-This document describes the data model in which the _solutions_ to the problem instances have to be delivered.
+This document describes the data model in which the _solutions_ to the problem instances are expected.
 
 # A Note on translation from and to German
 Lke for the _problem_instances_, our model for the output, i.e. a solution to a problem instance, is in German. You must submit solutions in German.
@@ -16,7 +16,7 @@ A _solution_ to a _problem_instance_ has the following elements:
 * train_runs (zugfahrten)
 * [properties]
 
-Let's go through them. You may use this [sample solution](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives_solution.json) as a reference.
+Let's go through them. You may use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as a reference.
 
 # problem_instance_label (verkehrsplanLabel)
 The _label_ of the _problem_instance_ that this solution is intended for.

@@ -47,17 +47,17 @@ The following images illustrates a typical route DAG. They represent route _rout
 
 The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_, the black labels are the _sequence_number_ of the individual _route_section_. 
 
-![](data_model/img/route_DAG_1.png)
+![](documentation/img/route_DAG_1.png)
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 
-![](data_model/img/route_DAG_section_markers.png)
+![](documentation/img/route_DAG_section_markers.png)
 
 Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. Where these route paths join or fork is governed by _route alternative marker labels_ of individual route sections. In the following image, the individual _route_paths_ are encircled for clarity.
 
 _Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
 
-![](data_model/img/route_DAG_route_paths.png)
+![](documentation/img/route_DAG_route_paths.png)
 
 In the data model, a _route_ has
 * an id

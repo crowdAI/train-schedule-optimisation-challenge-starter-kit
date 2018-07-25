@@ -6,6 +6,7 @@
 			 "fahrweg": "PF_SA/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "PF",
 					 "typ": "start",
 					 "einMin": "09:02:30",
@@ -16,6 +17,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "MELS",
 					 "typ": "ende",
 					 "einMin": "",
@@ -32,6 +34,7 @@
 			 "fahrweg": "PF_SA/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "PF",
 					 "typ": "start",
 					 "einMin": "07:59:30",
@@ -42,6 +45,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "MELS",
 					 "typ": "ende",
 					 "einMin": "",
@@ -58,6 +62,7 @@
 			 "fahrweg": "PF_SA/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "PF",
 					 "typ": "start",
 					 "einMin": "09:59:30",
@@ -68,6 +73,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "MELS",
 					 "typ": "ende",
 					 "einMin": "",
@@ -84,6 +90,7 @@
 			 "fahrweg": "PF_SA/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "PF",
 					 "typ": "start",
 					 "einMin": "08:29:30",
@@ -94,6 +101,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "MELS",
 					 "typ": "ende",
 					 "einMin": "",
@@ -110,6 +118,7 @@
 			 "fahrweg": "PF_SA/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "PF",
 					 "typ": "start",
 					 "einMin": "07:29:30",
@@ -120,6 +129,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "MELS",
 					 "typ": "ende",
 					 "einMin": "",
@@ -136,6 +146,7 @@
 			 "fahrweg": "SA_PF/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "SA",
 					 "typ": "start",
 					 "einMin": "09:28:18",
@@ -146,6 +157,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "ALTD",
 					 "typ": "ende",
 					 "einMin": "",
@@ -162,6 +174,7 @@
 			 "fahrweg": "SA_PF/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "SA",
 					 "typ": "start",
 					 "einMin": "08:58:24",
@@ -172,6 +185,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "ALTD",
 					 "typ": "ende",
 					 "einMin": "",
@@ -188,6 +202,7 @@
 			 "fahrweg": "SA_PF/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "SA",
 					 "typ": "start",
 					 "einMin": "08:28:18",
@@ -198,6 +213,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "ALTD",
 					 "typ": "ende",
 					 "einMin": "",
@@ -214,6 +230,7 @@
 			 "fahrweg": "SA_PF/IC",
 			 "abschnittsvorgaben": [
 				{
+					 "reihenfolge": 1,
 					 "abschnittskennzeichen": "SA",
 					 "typ": "start",
 					 "einMin": "07:28:18",
@@ -224,6 +241,7 @@
 					 "ausVerspaetungsfaktor": 1
 				},
 				{
+					 "reihenfolge": 2,
 					 "abschnittskennzeichen": "ALTD",
 					 "typ": "ende",
 					 "einMin": "",

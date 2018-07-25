@@ -100,7 +100,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number (reihenfolge)                                                                 | integer                           | needed because JSON deserialization may not preserve order    |
+| sequence_number (reihenfolge)                                                                 | integer                           | see text above. Also needed because JSON deserialization may not preserve order    |
 | type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent, such as start of a train, a scheduled stop, etc. Has no effect on processing. You may ignore it.   |
 | minimum_stopping_time (minHaltezeit)                                                      | ISO duration                      |  see text above |
 | entry_earliest (einMin) and/or entry_latest (einMax)                                          | HH:MM[:SS] formatted time-of-day  |  see text above |
@@ -115,7 +115,7 @@ The model is as follows:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Planning Rules](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/planning_rules/planning_rules.md) for details.    |
+| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Business Rules](documentation/business_rules.md) for details.    |
 | id                                                                                            | text                              | technical id. Irrelevant during processing |
 | onto_service_intention (aufZugfahrt)                                                          | text                              | reference to the _service_intention_ that accepts the connection|
 | onto_section_marker (aufAbschnittskennzeichen)                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|

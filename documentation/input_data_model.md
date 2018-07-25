@@ -22,7 +22,7 @@ Let's go through them. You may use the small [sample scenario](https://gitlab.cr
 This is just a human-readable identifier for the instance. It is of no concern otherwise.
 
 # hash
-A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/data_model/output_data_model.md).
+A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](documentation/output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
 # parameters
 Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance.

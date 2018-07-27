@@ -2,11 +2,9 @@
 This document describes the data model in which the _solutions_ to the problem instances are expected.
 
 ## A Note on translation from and to German
-As for the _problem_instances_, our model for the output, i.e. a solution to a problem instance, is in German. You must submit solutions in German.
+As for the Input Data Model, our model for the output, i.e. a _solution_ to a problem instance, is in German. You must submit solutions in German.
 
-However: to help you work with English terminology internally, we provide translation helper scripts that you can use to translate a problem instance into English and to translate an English solution into the German terminology we require.
-
-The translation script is [here](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/translate.py).
+However: If you prefer to work with English terminology internally, we provide translation helper scripts that you can use to translate a problem instance into English and to translate an English solution into the German terminology we require. The translation script is [here](utils/translate.py).
 
 ## Data Model of a solution
 

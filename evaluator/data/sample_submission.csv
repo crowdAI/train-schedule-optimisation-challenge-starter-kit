@@ -1,0 +1,9 @@
+problem_instance_hash, problem_instance_path, solution_path
+759370455, evaluator/data/01_dummy.json, evaluator/data/solution_01_dummy.json
+910955293, evaluator/data/02_a_little_less_dummy.json, evaluator/data/solution_02_a_little_less_dummy.json
+934543999, evaluator/data/03_FWA_0.125.json, evaluator/data/solution_03_FWA_0.125.json
+1425217907, evaluator/data/04_V1.02_FWA_without_obstruction.json, evaluator/data/solution_04_V1.02_FWA_without_obstruction.json
+-488200811, evaluator/data/05_V1.02_FWA_with_obstruction.json, evaluator/data/solution_05_V1.02_FWA_with_obstruction.json
+-1601737247, evaluator/data/06_V1.20_FWA.json, evaluator/data/solution_06_V1.20_FWA.json
+-1799980237, evaluator/data/07_V1.22_FWA.json, evaluator/data/solution_07_V1.22_FWA.json
+-1187628662, evaluator/data/08_V1.30_FWA.json, evaluator/data/solution_08_V1.30_FWA.json

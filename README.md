@@ -1,6 +1,6 @@
 # Starter-kit Repo for the [SBB Train Schedule Optimisation Challenge](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge) on [crowdAI](https://www.crowdai.org)
 
-In this repo you will find background material, sample files and support scripts that help you getting started with the challenge.
+In this repo you will find background material, sample files and support scripts that help you to get started with the challenge.
 
 ## Contents of this Repo
 * In the [Documentation](documentation) folder you find detailed explanations of our data models, as well as the business rules that have to be observed when constructing a timetable.

@@ -27,9 +27,6 @@ This is just a human-readable identifier for the instance. It is of no concern o
 ### hash
 A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](documentation/output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
-### parameters
-Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance.
-
 ### service_intentions (funktionaleAngebotsbeschreibungen)
 This is a list. Each item in the list is an individual _service_intention_. A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
 * earliest allowed time at certain points
@@ -86,7 +83,7 @@ In the formal data model, a _route_ has
 | resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
 | occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources [below](#resources-ressourcen). |
 
-### section requirement (abschnittsvorgabe)
+#### section requirement (abschnittsvorgabe) [element of a [service_intention](#service-intention-funktionaleangebotsbeschreibung)]
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention now makes more sense.
 
 Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can ask:
@@ -143,3 +140,6 @@ The model for a _resource_ is as follows:
 | id                                                        | text                      | unique identifier for the resource. This is referenced in the _resource_occupations_    |
 | release_time (freigabezeit)                               | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Business Rules](documentation/business_rules.md) for details.  |
 |  following_allowed (zugfolgeErlaubt)                      | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). <br> As mentioned, __all resources in all the provided problem instances have this field set to__ _false_|
+
+### parameters
+Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance.

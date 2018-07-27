@@ -41,6 +41,10 @@ The solution picks the following routes for the two _service_intentions_:
 
 This results in the following _train_run_sections_ for the _service_intentions_:
 
+* each arc is a _train_run_section_
+* black numbers are the _id_ of the referred _route_section_
+* the times at the nodes are the event times that the solver assigned to the events
+
 ![](documentation/img/solution_sections_and_times.png)
 
 Let's look at the formal model for _train_run_sections_

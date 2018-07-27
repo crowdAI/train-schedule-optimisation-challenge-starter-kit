@@ -83,7 +83,7 @@ We now give several example solutions and the value of the objective function fo
 In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: <br>__objective_value = 0__
 
 ![](documentation/img/ex_1.png)
-ybr>
+
 #### Example 2: Do Delay
 In this solution, the train runs earlier than in [Example 1](#example-1-no-delay). But this is not "better"; it does not get any "bonus points". This solution's objective value is identical to the one of Example 1, i.e. <br> __objective_value = 0__
 

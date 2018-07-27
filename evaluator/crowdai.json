@@ -1,0 +1,20 @@
+{
+  "evaluator_name" : "sbb_evaluator",
+  "evaluator_class" : "SbbEvaluator",
+  "challenge_client_name" : "challenge_a87f1a3da3523658d12c2bb014627d37",
+  "challenge_grader_id" : "your-challenge-grader-id::for-admin-use-only",
+  "evaluation_pipeline_version" : "1.0",
+  "authors" : [
+    {
+      "name" : "Julian Jordi",
+      "email" : "julian.jordi@sbb.ch",
+      "user_profile" : "https://www.crowdai.org/participants/jordiju"
+    },
+    {
+      "name" : "Sharada Mohanty",
+      "email" : "sharada.mohanty@epfl.ch",
+      "user_profile" : "https://www.crowdai.org/participants/spmohanty"
+    }
+  ],
+  "version": "0.1"
+}

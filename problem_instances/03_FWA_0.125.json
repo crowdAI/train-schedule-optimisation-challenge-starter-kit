@@ -1,6 +1,7 @@
 {
 	 "challenge": null,
 	 "label": "03_FWA_0.125",
+	 "hash": 934543999,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 2408,
@@ -74230,6 +74231,5 @@
 	],
 	 "parameters": {
 		 "maxBandabweichung": "PT5M"
-	},
-	 "hash": 934543999
+	}
 }

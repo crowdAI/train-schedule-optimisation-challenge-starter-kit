@@ -1,6 +1,7 @@
 {
 	 "challenge": null,
 	 "label": "05_V1.02_FWA_with_obstruction",
+	 "hash": -488200811,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 2408,
@@ -86340,6 +86341,5 @@
 	],
 	 "parameters": {
 		 "maxBandabweichung": "PT15M"
-	},
-	 "hash": -488200811
+	}
 }

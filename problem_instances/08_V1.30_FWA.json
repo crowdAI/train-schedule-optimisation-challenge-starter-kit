@@ -1,6 +1,7 @@
 {
 	 "challenge": null,
 	 "label": "08_V1.30_FWA",
+	 "hash": -1187628662,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 2408,
@@ -130722,6 +130723,5 @@
 		 "cplexPrm": {
 			 "CPX_PARAM_TILIM": 300
 		}
-	},
-	 "hash": -1187628662
+	}
 }

@@ -1,6 +1,7 @@
 {
 	 "challenge": null,
 	 "label": "01_dummy",
+	 "hash": 759370455,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 18823,
@@ -10272,6 +10273,5 @@
 	],
 	 "parameters": {
 		 "maxBandabweichung": "PT5M"
-	},
-	 "hash": 759370455
+	}
 }

@@ -24,24 +24,24 @@ The _label_ of the _problem_instance_ that this solution is intended for.
 The _hash_ of the _problem_instance_ that this solution is intended for. This is the actual identifier that the grader script will use to check if your solution is valid and compute its score. It is imperative that this field is filled correctly, otherwise the grader will not be able to match your solution to a problem instance.
 
 ## hash
-This field can be used to provide a hash-value for the _solution_. However, while the field is technically required, its value is not really used afterwards. You may enter any fixed integer, e.g. 42, for every _solution_ you submit.
+This field can be used to provide a hash-value for the _solution_. However, while the field is technically required, its value is not really used in the context of this Challenge. You may enter any fixed integer, e.g. 42, for every _solution_ you submit.
 
 ## train_runs (zugfahrten)
-This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ (zugfahrtabschnitte) that describe a simple path through the route_graph for this train. For each _train_run_section_ (zugfahrtabschnitt) it provides a time-of-day for the _entry_time_ (ein) and the _exit_time_ (aus).
+This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ (zugfahrtabschnitte) that describe a simple path through the [route graph](input_data_model.md#routes-fahrwege) for this train. For each _train_run_section_ (zugfahrtabschnitt) it provides a time-of-day for the _entry_time_ (ein) and the _exit_time_ (aus).
 
 In other words, a solution means
 * picking exactly one of all possible routes for this train, and
 * assigning a time to each _event_ (entry into and exit from _route_sections_)
 
-For example, the reference [sample solution](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario_with_routing_alternatives.json) looks as follows:
+For example, the reference [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](sample_files/sample_scenario_with_routing_alternatives.json) looks as follows:
 
 The solution picks the following routes for the two _service_intentions_:
 
-![](data_model/img/solution_routes.png)
+![](documentation/img/solution_routes.png)
 
 This results in the following _train_run_sections_ for the _service_intentions_:
 
-![](data_model/img/solution_sections_and_times.png)
+![](documentation/img/solution_sections_and_times.png)
 
 Let's look at the formal model for _train_run_sections_
 

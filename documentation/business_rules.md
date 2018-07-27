@@ -82,22 +82,22 @@ We now give several example solutions and the value of the objective function fo
 
 In this solution, all _section_requirements_ are satisfied. The _entry_ and _exit_ times into the sections are before the desired _entry_latest_/_exit_latest_. Therefore, the delay is zero. Since there is no routing penalty, this is also its objective value: <br>__objective_value = 0__
 
-![](documentation/img/ex_1.png)
+![](documentation/img/delay_ex_1.png)
 
 #### Example 2: Do Delay
 In this solution, the train runs earlier than in [Example 1](#example-1-no-delay). But this is not "better"; it does not get any "bonus points". This solution's objective value is identical to the one of Example 1, i.e. <br> __objective_value = 0__
 
-![](documentation/img/ex_2.png)
+![](documentation/img/delay_ex_2.png)
 
 #### Example 3: Delayed Departure at B
 In this solution, the _exit_ from the _train_run_section_ with _section_marker_ 'B' happens only at 09:13:00. This is 3 minutes later than the desired _exit_latest_ of the _section_requirement_ for 'B'. Since the _exit_delay_weight_ is 3, for this solution we have <br> __objective_value = 3 * 3 = 9__
 
-![](documentation/img/ex_3.png)
+![](documentation/img/delay_ex_3.png)
 
 #### Example 4: Delayed Departure at B _and_ Delayed Arrival at C
 In this solution, in addition to the delayed departure at B as in Example 3, we also have a delayed _exit_event_ from _section_ C, namely this event occurs 5.5 minutes after the desired _exit_latest_ of 09:20:00. The _exit_delay_weight_ for this _section_requirement_ is 1, therefore: <br>__objective_value = 3 * 3 + 1 * 5.5 = 14.5__
 
-![](documentation/img/ex_4.png)
+![](documentation/img/delay_ex_4.png)
 
 ### Examples for Routing Penalties
 

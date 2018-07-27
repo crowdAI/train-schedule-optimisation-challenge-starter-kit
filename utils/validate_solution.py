@@ -1,23 +1,23 @@
 import requests
 
-AUTH = ('ebrown', 'plutonium94')
-SCENARIO_UPLOAD_ENDPOINT = "https://fluxer.app.sbb.ch/backend/verkehrsplan/uploadVerkehrsplan"
-SOLUTION_VALIDATION_ENDPOINT = "https://fluxer.app.sbb.ch/backend/loesung-validator/validateFile"
+AUTH = ('MartyMcFly', 'Uranium-235')
+SCENARIO_UPLOAD_ENDPOINT = "https://fluxer.app.sbb.ch/backend/crowdai-validator/uploadVerkehrsplanFile"
+SOLUTION_VALIDATION_ENDPOINT = "https://fluxer.app.sbb.ch/backend/crowdai-validator/validateFile"
 
-scenario = "samples/sample_scenario_simple.json"
-solution = "samples/sample_scenario_simple_solution.json"
+scenario = "sample_files/sample_scenario_simple.json"
+solution = "sample_files/sample_scenario_simple_solution.json"
 
 
 def do_loesung_validation(scenario, solution):
 
     # upload scenario first (may not be available in the store)
     scenario_file = {"verkehrsplan": open(scenario, 'rb')}
-    upload_response = requests.post(SCENARIO_UPLOAD_ENDPOINT, files=scenario_file, auth=AUTH)
+    upload_response = requests.post(SCENARIO_UPLOAD_ENDPOINT, files=scenario_file, auth=AUTH, proxies=proxies)
     print(f"upload finished with status {upload_response}")
 
     # now we can validate
     solution_file = {"loesung": open(solution, 'rb')}
-    validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH)
+    validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH, proxies=proxies)
     print(f"validation finished with status {validation_response}")
     return validation_response.json()
 

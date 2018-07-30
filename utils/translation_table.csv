@@ -47,3 +47,5 @@ aus, exit_time
 fahrwegabschnitt, route_section
 abschnittsfolge, route_path
 abschnittsvorgabe, section_requirement
+hash, hash
+fahrwegabschnittId, route_section_id

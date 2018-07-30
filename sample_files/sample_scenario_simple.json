@@ -1,6 +1,6 @@
 {
 	 "label": "testszenario",
-	"hash": -2079483856,
+	 "hash": -2079483856,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": "EC/163-001/PF-SA",
@@ -933,6 +933,5 @@
 	],
 	 "parameters": {
 		 "maxBandabweichung": "PT24H"
-	},
-	 "challenge": 2
+	}
 }

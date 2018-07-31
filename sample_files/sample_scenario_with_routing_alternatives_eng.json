@@ -22,12 +22,11 @@
 					 "sequence_number": 2,
 					 "section_marker": "B",
 					 "type": "intermediate_stop",
-					 "min_stopping_time": null,
+					 "min_stopping_time": "PT3M",
 					 "entry_earliest": null,
 					 "entry_latest": null,
 					 "entry_delay_weight": 1,
 					 "exit_earliest": "08:30:00",
-					 "exit_latest": "08:40:00",
 					 "exit_delay_weight": 1,
 					 "connections": null
 				},

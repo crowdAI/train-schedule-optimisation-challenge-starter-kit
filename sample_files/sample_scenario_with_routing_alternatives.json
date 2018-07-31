@@ -1,5 +1,6 @@
 {
 	 "label": "SBB_challenge_sample_scenario",
+	 "hash": -1254734547,
 	 "funktionaleAngebotsbeschreibungen": [
 		{
 			 "id": 111,
@@ -459,6 +460,5 @@
 	],
 	 "parameters": {
 		 "maxBandabweichung": "PT24H"
-	},
-	 "hash": -1254734547
+	}
 }

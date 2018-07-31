@@ -55,6 +55,7 @@ The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the 
 
 ![](documentation/img/route_graph_with_legend.png)
 
+#### How is this Graph modeled in the JSON?
 Let us see how this graph is modeled in the JSON. Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. lineare subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that _route_1_ in our [sample scenario] is made up of 5 _route_paths_:
 
 ![](documentation/img/route_1_route_paths.png)
@@ -63,11 +64,14 @@ Each _route_path_ is a path in the route graph. In the following image, all _rou
 
 ![](documentation/img/route_paths_JSON_and_graph.png)
 
-So how are _route_paths_ joined together? Answer: By labelling events with the same _route alternative marker label_.
+#### So how are _route_paths_ joined together? 
+__Answer:__ By labelling events with the same _route_alternative_marker_label_.
 
 For example, consider again the same _route_paths_ with id 1 and 2: They both specify a marker label 'M1' for the _exit_event_ from the first route section. These are highlighted in the following snapshot:
 
 ![](documentation/img/route_graph_marker_labels.png)
+
+_Note_: For consistency, _route_section_ 4 of _route_path_ 1 also lists the same marker label 'M1' for its _entry_event_. This makes sense, because this represents the same event as the _exit_event_ from section 1.
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 

@@ -8,15 +8,17 @@ However: If you prefer to work with English terminology internally, we provide t
 
 ## Data Model of a solution
 
+We will use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as an example. It looks like this:
+
+![](documentation/img/solution_JSON_toplevel.png)
+
 A _solution_ to a _problem_instance_ has the following elements:
 * problem_instance_label 
 * problem_instance_hash
 * hash
 * train_runs
 
-Let's go through them. We will use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as an example. It looks like this:
-
-![](documentation/img/solution_JSON_toplevel.png)
+Let's go through them. 
 
 ## problem_instance_label (verkehrsplanLabel)
 The _label_ of the _problem_instance_ that this solution is intended for.
@@ -28,11 +30,15 @@ The _hash_ of the _problem_instance_ that this solution is intended for. This is
 This field can be used to provide a hash-value for the _solution_. However, while the field is technically required, its value is not really used in the context of this Challenge. You may enter any fixed integer, e.g. 42, for every _solution_ you submit.
 
 ## train_runs (zugfahrten)
-This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ (zugfahrtabschnitte) that describe a simple path through the [route graph](input_data_model.md#routes-fahrwege) for this train. For each _train_run_section_ (zugfahrtabschnitt) it provides a time-of-day for the _entry_time_ (ein) and the _exit_time_ (aus).
+This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ that describe a simple path through the [route graph](input_data_model.md#routes) for this train. For each _train_run_section_ it provides a time-of-day for the _entry_time_ and the _exit_time_.
 
 In other words, a solution means
 * picking exactly one of all possible routes for this train, and
 * assigning a time to each _event_ (entry into and exit from _route_sections_)
+
+Our [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) looks like this:
+
+![](documentation/img/solution_JSON_train_run_sections.png)
 
 For example, the reference [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance](sample_files/sample_scenario_with_routing_alternatives.json) looks as follows:
 

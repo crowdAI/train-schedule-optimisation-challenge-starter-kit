@@ -102,30 +102,38 @@ We explain the meaning of the individual fields:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number (reihenfolge)                                                                 | integer                           | an ordering number. The train passes over the route_sections in this order. This is necessary because the JSON specification does not guarantee that the sequence in the file is preserved when deserializing.   |
+| sequence_number                                                                 | integer                           | an ordering number. The train passes over the route_sections in this order. This is necessary because the JSON specification does not guarantee that the sequence in the file is preserved when deserializing.   |
 | penalty                                                                                       | non-negative float                | used in the [objective function](documentation/business_rules.md#objective-function) for the timetable. If a train uses this route_section, this penalty accrues. <br> This field is optional. If it is not present, this is equivalent to penalty = 0.     |
-|  route_alternative_marker_at_entry (vonVerzweigungen)                                         | text                              | a label for the _entry event_ into this route_section. Route sections from other _route_paths_ with the same label are "glued" together, i.e. become the same node in the route graph. See examples [above](#so-how-are-route_paths-joined-together) |
-|  route_alternative_marker_at_exit (nachVerzweigungen)                                         | text                              | dito for the _exit event_ from this route_section    |
-| _starting_point_ and _ending_point_ (startpunkt and endpunkt)                                 | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense :wink:    |
-|   minimum_running_time (minFahrzeit)                                                          | ISO duration                      | minimum time (duration) the train must spend on this _route_section_|
-|   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see [below](#resource_occupation-ressourcenbelegung)|
-|   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. <br>_Note_: In all our problem instances, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
+|  route_alternative_marker_at_entry                                          | text                              | a label for the _entry event_ into this route_section. Route sections from other _route_paths_ with the same label are "glued" together, i.e. become the same node in the route graph. See examples [above](#so-how-are-route_paths-joined-together) |
+|  route_alternative_marker_at_exit                                         | text                              | dito for the _exit event_ from this route_section    |
+| _starting_point_ and _ending_point_                                  | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense :wink:    |
+|   minimum_running_time                                                           | ISO duration                      | minimum time (duration) the train must spend on this _route_section_|
+|   resource_occupations                                                  | List of _resource_occupation_    | see [below](#resource_occupation-ressourcenbelegung)|
+|   section_markers                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. <br>_Note_: In all our problem instances, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
 
 ##### _resource_occupation_
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
-| occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources [below](#resources-ressourcen). |
+| resource                                                     | text                           | a reference to the id of the resource that is occupied |
+| occupation_direction                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains, which does not occur in the problem instances for this chalenge. You may ignore this field. See also the description of resources [below](#resources). |
 
-#### section requirement [element of a [service_intention](#service-intention)]
+#### Now we we can talk about the _section_requirement_ [element of a [service_intention](#service-intention)]
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention now makes more sense.
 
-Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can ask:
-* that a certain time window be respected for the entry event by setting entry_earliest (einMin) and/or entry_latest (einMax) accordingly
-* same thing for the exit event by setting exit_earliest (ausMin) and/or exit_latest (ausMax)
-* a minimum stopping time be observed on this route section by setting min_stopping_time (minHaltezeit). This stopping time will be _in addition_ to the minimum_running_time
-* the connections to other trains (service intentions) to be observed
+Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can specify four types of requirements:
+* that a certain time window be respected for the entry event by setting entry_earliest and/or entry_latest accordingly
+* same thing for the exit event by setting exit_earliest and/or exit_latest
+* a _minimum_stopping_time_ be observed on this route section by setting min_stopping_time. This stopping time will be _in addition_ to the minimum_running_time
+* the _connections_ to other trains (_service_intentions_) to be observed
+
+Here are some examples:
+
+* _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements: <br>
+![](documentation/img/section_requirements_examples.png)
+* bluh
+
+
 
 Also, the requirement can specify relative factors _entry_delay_weight_ (einVerspaetungsfaktor) and _exit_delay_weight_ (ausVerspaetungsfaktor). These weights are used in the calculation of the [objective function](documentation/business_rules.md#objective-function).
 

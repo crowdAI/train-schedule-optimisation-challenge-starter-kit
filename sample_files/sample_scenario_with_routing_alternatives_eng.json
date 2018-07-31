@@ -1,388 +1,387 @@
 {
-	"label": "SBB_challenge_sample_scenario_with_routing_alternatives",
-	"hash": -1254734547,
-	"service_intentions": [
+	 "label": "SBB_challenge_sample_scenario_with_routing_alternatives",
+	 "hash": -1254734547,
+	 "service_intentions": [
 		{
-			"id": 111,
-			"route": "route_1",
-			"section_requirements": [
+			 "id": 111,
+			 "route": "route_1",
+			 "section_requirements": [
 				{
-					"sequence_number": 1,
-					"section_marker": "A",
-					"type": "start",
-					"min_stopping_time": null,
-					"entry_earliest": "08:20:00",
-					"entry_latest": "08:30:00",
-					"entry_delay_weight": 1,
-					"exit_earliest": null,
-					"exit_latest": null,
-					"exit_delay_weight": 1,
-					"connections": null
+					 "sequence_number": 1,
+					 "section_marker": "A",
+					 "type": "start",
+					 "min_stopping_time": null,
+					 "entry_earliest": "08:20:00",
+					 "entry_latest": "08:30:00",
+					 "entry_delay_weight": 1,
+					 "exit_earliest": null,
+					 "exit_latest": null,
+					 "exit_delay_weight": 1,
+					 "connections": null
 				},
 				{
-					"sequence_number": 2,
-					"section_marker": "B",
-					"type": "ende",
-					"min_stopping_time": null,
-					"entry_earliest": null,
-					"entry_latest": null,
-					"entry_delay_weight": 1,
-					"exit_earliest": "08:30:00",
-					"exit_latest": "08:40:00",
-					"exit_delay_weight": 1,
-					"connections": null
+					 "sequence_number": 2,
+					 "section_marker": "B",
+					 "type": "whatever",
+					 "min_stopping_time": null,
+					 "entry_earliest": null,
+					 "entry_latest": null,
+					 "entry_delay_weight": 1,
+					 "exit_earliest": "08:30:00",
+					 "exit_latest": "08:40:00",
+					 "exit_delay_weight": 1,
+					 "connections": null
 				},
 				{
-					"sequence_number": 3,
-					"section_marker": "C",
-					"type": "ende",
-					"min_stopping_time": null,
-					"entry_earliest": null,
-					"entry_latest": null,
-					"entry_delay_weight": 1,
-					"exit_earliest": "08:30:00",
-					"exit_latest": "08:40:00",
-					"exit_delay_weight": 1,
-					"connections": null
+					 "sequence_number": 3,
+					 "section_marker": "C",
+					 "type": "end",
+					 "min_stopping_time": null,
+					 "entry_earliest": null,
+					 "entry_latest": null,
+					 "entry_delay_weight": 1,
+					 "exit_earliest": "08:30:00",
+					 "exit_latest": "08:40:00",
+					 "exit_delay_weight": 1,
+					 "connections": null
 				}
 			]
 		},
 		{
-			"id": 113,
-			"route": "route_1",
-			"section_requirements": [
+			 "id": 113,
+			 "route": "route_1",
+			 "section_requirements": [
 				{
-					"sequence_number": null,
-					"section_marker": "A",
-					"type": "start",
-					"min_stopping_time": null,
-					"entry_earliest": "07:50:00",
-					"entry_latest": "07:55:00",
-					"entry_delay_weight": 1,
-					"exit_earliest": null,
-					"exit_latest": null,
-					"exit_delay_weight": 1,
-					"connections": null
+					 "sequence_number": null,
+					 "section_marker": "A",
+					 "type": "start",
+					 "min_stopping_time": null,
+					 "entry_earliest": "07:50:00",
+					 "entry_latest": "07:55:00",
+					 "entry_delay_weight": 1,
+					 "exit_earliest": null,
+					 "exit_latest": null,
+					 "exit_delay_weight": 1,
+					 "connections": null
 				},
 				{
-					"sequence_number": null,
-					"section_marker": "C",
-					"type": "ende",
-					"min_stopping_time": null,
-					"entry_earliest": null,
-					"entry_latest": null,
-					"entry_delay_weight": 1,
-					"exit_earliest": "08:06:00",
-					"exit_latest": "08:16:00",
-					"exit_delay_weight": 1,
-					"connections": null
+					 "sequence_number": null,
+					 "section_marker": "C",
+					 "type": "end",
+					 "min_stopping_time": null,
+					 "entry_earliest": null,
+					 "entry_latest": null,
+					 "entry_delay_weight": 1,
+					 "exit_earliest": "08:06:00",
+					 "exit_latest": "08:16:00",
+					 "exit_delay_weight": 1,
+					 "connections": null
 				}
 			]
 		}
 	],
-	"routes": [
+	 "routes": [
 		{
-			"id": "route_1",
-			"route_paths": [
+			 "id": "route_1",
+			 "route_paths": [
 				{
-					"id": 1,
-					"route_sections": [
+					 "id": 1,
+					 "route_sections": [
 						{
-							"sequence_number": 1,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 1,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"penalty": null,
-							"starting_point": "A",
-							"ending_point": "A",
-							"section_marker": [
+							 "penalty": null,
+							 "starting_point": "A",
+							 "ending_point": "A",
+							 "section_marker": [
 								"A"
 							],
-							"minimum_running_time": "PT53S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT53S",
+							 "resource_occupations": [
 								{
-									"resource": "A1",
-									"occupation_direction": null
+									 "resource": "A1",
+									 "occupation_direction": null
 								},
 								{
-									"resource": "AB",
-									"occupation_direction": null
+									 "resource": "AB",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 4,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 4,
+							 "route_alternative_marker_at_entry": [
 								"M1"
 							],
-							"route_alternative_marker_at_exit": null,
-							"penalty": null,
-							"starting_point": "A",
-							"ending_point": "B",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "route_alternative_marker_at_exit": null,
+							 "penalty": null,
+							 "starting_point": "A",
+							 "ending_point": "B",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "AB",
-									"occupation_direction": null
+									 "resource": "AB",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 5,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 5,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M2"
 							],
-							"penalty": null,
-							"starting_point": "B",
-							"ending_point": "B",
-							"section_marker": [
+							 "penalty": null,
+							 "starting_point": "B",
+							 "ending_point": "B",
+							 "section_marker": [
 								"B"
 							],
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "B",
-									"occupation_direction": null
+									 "resource": "B"
 								}
 							]
 						},
 						{
-							"sequence_number": 6,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 6,
+							 "route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"route_alternative_marker_at_exit": [
+							 "route_alternative_marker_at_exit": [
 								"M3"
 							],
-							"penalty": null,
-							"starting_point": "B",
-							"ending_point": "X",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "penalty": null,
+							 "starting_point": "B",
+							 "ending_point": "X",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "BX_1",
-									"occupation_direction": null
+									 "resource": "BX_1",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 10,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 10,
+							 "route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"route_alternative_marker_at_exit": null,
-							"penalty": null,
-							"starting_point": "X",
-							"ending_point": "Y",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "route_alternative_marker_at_exit": null,
+							 "penalty": null,
+							 "starting_point": "X",
+							 "ending_point": "Y",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "XY_1",
-									"occupation_direction": null
+									 "resource": "XY_1",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 13,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 13,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"penalty": null,
-							"starting_point": "Y",
-							"ending_point": "C",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "penalty": null,
+							 "starting_point": "Y",
+							 "ending_point": "C",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "YC",
-									"occupation_direction": null
+									 "resource": "YC",
+									 "occupation_direction": null
 								},
 								{
-									"resource": "C1",
-									"occupation_direction": null
+									 "resource": "C1",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 14,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 14,
+							 "route_alternative_marker_at_entry": [
 								"M4"
 							],
-							"route_alternative_marker_at_exit": null,
-							"penalty": null,
-							"starting_point": "C",
-							"ending_point": "C",
-							"section_marker": [
+							 "route_alternative_marker_at_exit": null,
+							 "penalty": null,
+							 "starting_point": "C",
+							 "ending_point": "C",
+							 "section_marker": [
 								"C"
 							],
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "C1",
-									"occupation_direction": null
+									 "resource": "C1",
+									 "occupation_direction": null
 								}
 							]
 						}
 					]
 				},
 				{
-					"id": 2,
-					"route_sections": [
+					 "id": 2,
+					 "route_sections": [
 						{
-							"sequence_number": 2,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 2,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"penalty": null,
-							"starting_point": "A",
-							"ending_point": "A",
-							"section_marker": [
+							 "penalty": null,
+							 "starting_point": "A",
+							 "ending_point": "A",
+							 "section_marker": [
 								"A"
 							],
-							"minimum_running_time": "PT53S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT53S",
+							 "resource_occupations": [
 								{
-									"resource": "A2",
-									"occupation_direction": null
+									 "resource": "A2",
+									 "occupation_direction": null
 								},
 								{
-									"resource": "AB",
-									"occupation_direction": null
+									 "resource": "AB",
+									 "occupation_direction": null
 								}
 							]
 						}
 					]
 				},
 				{
-					"id": 3,
-					"route_sections": [
+					 "id": 3,
+					 "route_sections": [
 						{
-							"sequence_number": 3,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 3,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"penalty": null,
-							"starting_point": "A",
-							"ending_point": "A",
-							"section_marker": [
+							 "penalty": null,
+							 "starting_point": "A",
+							 "ending_point": "A",
+							 "section_marker": [
 								"A"
 							],
-							"minimum_running_time": "PT53S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT53S",
+							 "resource_occupations": [
 								{
-									"resource": "A3",
-									"occupation_direction": null
+									 "resource": "A3",
+									 "occupation_direction": null
 								},
 								{
-									"resource": "AB",
-									"occupation_direction": null
+									 "resource": "AB",
+									 "occupation_direction": null
 								}
 							]
 						}
 					]
 				},
 				{
-					"id": 4,
-					"route_sections": [
+					 "id": 4,
+					 "route_sections": [
 						{
-							"sequence_number": 7,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 7,
+							 "route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"penalty": null,
-							"starting_point": "B",
-							"ending_point": "X",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "penalty": null,
+							 "starting_point": "B",
+							 "ending_point": "X",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "BX_2",
-									"occupation_direction": null
+									 "resource": "BX_2",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 8,
-							"route_alternative_marker_at_entry": null,
-							"penalty": null,
-							"starting_point": "X",
-							"ending_point": "C",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "sequence_number": 8,
+							 "route_alternative_marker_at_entry": null,
+							 "penalty": null,
+							 "starting_point": "X",
+							 "ending_point": "C",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "XC",
-									"occupation_direction": null
+									 "resource": "XC",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 9,
-							"route_alternative_marker_at_exit": null,
-							"penalty": null,
-							"starting_point": "C",
-							"ending_point": "C",
-							"section_marker": [
+							 "sequence_number": 9,
+							 "route_alternative_marker_at_exit": null,
+							 "penalty": null,
+							 "starting_point": "C",
+							 "ending_point": "C",
+							 "section_marker": [
 								"C"
 							],
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "C2",
-									"occupation_direction": null
+									 "resource": "C2",
+									 "occupation_direction": null
 								}
 							]
 						}
 					]
 				},
 				{
-					"id": 5,
-					"route_sections": [
+					 "id": 5,
+					 "route_sections": [
 						{
-							"sequence_number": 11,
-							"route_alternative_marker_at_entry": [
+							 "sequence_number": 11,
+							 "route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"route_alternative_marker_at_exit": null,
-							"penalty": null,
-							"starting_point": "X",
-							"ending_point": "Y",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "route_alternative_marker_at_exit": null,
+							 "penalty": null,
+							 "starting_point": "X",
+							 "ending_point": "Y",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "XY_2",
-									"occupation_direction": null
+									 "resource": "XY_2",
+									 "occupation_direction": null
 								}
 							]
 						},
 						{
-							"sequence_number": 12,
-							"route_alternative_marker_at_entry": null,
-							"route_alternative_marker_at_exit": [
+							 "sequence_number": 12,
+							 "route_alternative_marker_at_entry": null,
+							 "route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"penalty": null,
-							"starting_point": "Y",
-							"ending_point": "C",
-							"section_marker": null,
-							"minimum_running_time": "PT32S",
-							"resource_occupations": [
+							 "penalty": null,
+							 "starting_point": "Y",
+							 "ending_point": "C",
+							 "section_marker": null,
+							 "minimum_running_time": "PT32S",
+							 "resource_occupations": [
 								{
-									"resource": "YC",
-									"occupation_direction": null
+									 "resource": "YC",
+									 "occupation_direction": null
 								},
 								{
-									"resource": "C1",
-									"occupation_direction": null
+									 "resource": "C1",
+									 "occupation_direction": null
 								}
 							]
 						}
@@ -391,74 +390,74 @@
 			]
 		}
 	],
-	"resources": [
+	 "resources": [
 		{
-			"id": "A1",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "A1",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "A2",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "A2",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "A3",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "A3",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "AB",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "AB",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "BX_1",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "BX_1",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "B",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "B",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "BX_2",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "BX_2",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "XY_1",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "XY_1",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "XY_2",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "XY_2",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "YC",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "YC",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "C1",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "C1",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "C2",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "C2",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		},
 		{
-			"id": "XC",
-			"release_time": "PT30S",
-			"following_allowed": false
+			 "id": "XC",
+			 "release_time": "PT30S",
+			 "following_allowed": false
 		}
 	],
-	"parameters": {
-		"maxBandabweichung": "PT24H"
+	 "parameters": {
+		 "maxBandabweichung": "PT24H"
 	}
 }

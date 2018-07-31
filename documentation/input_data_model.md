@@ -75,24 +75,29 @@ Consequently, those two events are "merged together" in the resulting graph:
 
 ![](documentation/img/route_graph_marker_labels_graph.png)
 
+_Note_: 
 
+* For consistency, _route_section_ 4 of _route_path_ 1 also lists the same marker label 'M1' for its _entry_event_. This makes sense, because this represents the same event as the _exit_event_ from section 1. In other words, all three events are merged into the same node in the graph.
+* There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually.
 
-_Note_: For consistency, _route_section_ 4 of _route_path_ 1 also lists the same marker label 'M1' for its _entry_event_. This makes sense, because this represents the same event as the _exit_event_ from section 1.
+#### _section_markers_ on a _route_section_
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 
 ![](documentation/img/route_DAG_section_markers.png)
 
-
-_Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
-
-![](documentation/img/route_DAG_route_paths.png)
-
+#### The formal data model
 In the formal data model, a _route_ has
 * an id
 * a list of _route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows
 
-#### _route_section_ (fahrwegabschnitt):
+##### _route_section_
+
+As an example, let's look at the _route_section_ with _sequence_number_ 5, located in _route_path_ 1 of the [example](sample_files/sample_scenario_with_routing_alternatives.json). It looks like this:
+
+![](documentation/img/route_section_example.png)
+
+We explain the meaning of the individual fields:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
@@ -105,14 +110,14 @@ In the formal data model, a _route_ has
 |   resource_occupations (ressourcenbelegungen)                                                 | List of _resource_occupation_s    | see [below](#resource_occupation-ressourcenbelegung)|
 |   section_markers (abschnittskennzeichen)                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. <br>_Note_: In all our problem instances, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
 
-#### _resource_occupation_ (ressourcenbelegung):
+##### _resource_occupation_
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
 | resource (ressource)                                                     | text                           | a reference to the id of the resource that is occupied |
 | occupation_direction (belegungsrichtung)                                 | text                           | a description of the direction in which the resource is occupied. This field is only relevant for resources that allow "following" trains. See the description of resources [below](#resources-ressourcen). |
 
-#### section requirement (abschnittsvorgabe) [element of a [service_intention](#service-intention-funktionaleangebotsbeschreibung)]
+#### section requirement [element of a [service_intention](#service-intention)]
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention now makes more sense.
 
 Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can ask:

@@ -106,7 +106,7 @@ We explain the meaning of the individual fields:
 | penalty                                                                                       | non-negative float                | used in the [objective function](documentation/business_rules.md#objective-function) for the timetable. If a train uses this route_section, this penalty accrues. <br> This field is optional. If it is not present, this is equivalent to penalty = 0.     |
 |  route_alternative_marker_at_entry                                          | text                              | a label for the _entry event_ into this route_section. Route sections from other _route_paths_ with the same label are "glued" together, i.e. become the same node in the route graph. See examples [above](#so-how-are-route_paths-joined-together) |
 |  route_alternative_marker_at_exit                                         | text                              | dito for the _exit event_ from this route_section    |
-| _starting_point_ and _ending_point_                                  | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense :wink:    |
+| _starting_point_ and _ending_point_                                  | text                              | used in visualisations of the timetable. It has no meaning otherwise. But note that each route_section begins where the last one ends, which, if you think about it, kinda makes sense...    |
 |   minimum_running_time                                                           | ISO duration                      | minimum time (duration) the train must spend on this _route_section_|
 |   resource_occupations                                                  | List of _resource_occupation_    | see [below](#resource_occupation-ressourcenbelegung)|
 |   section_markers                                                     | List of text                      | labels that mark this _route_section_ as a potential section to fulfil a _section_requirement_ that has any of these as _section_marker_. <br>_Note_: In all our problem instances, each _route_section_ has at most one _section_marker_, i.e. the list has length at most one. |
@@ -132,7 +132,7 @@ Let's look at some examples before defining the formal model:
 * _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
 ![](documentation/img/section_requirements_examples.png)
 * The first of these is for _section_marker_ 'A' and specifies, that the _entry_event_ into the corresponding _route_section_ must not occur before 08:20:00 <br>
-![](documentation/img/section_requirements_example_start.png)
+![](documentation/img/section_requirements_example_intermediate.png)
 * The second is for _section_marker_ 'B' and requires that on the corresponding _route_section_
     - the train spends, in addition to the minimum running time, at least 3 minutes for a commercial stop
     - the train does not "leave this station" before 08:30:00 (more technically: The _exit_event_ from the _route_section_ does not happen before 08:30:00)<br>

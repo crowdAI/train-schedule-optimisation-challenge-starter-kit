@@ -18,7 +18,7 @@ A _problem instance_, or a _scenario_, is a JSON file containing the following t
 
 Let's go through them. You may use the small [sample scenario](sample_files/sample_scenario_simple.json) as a concrete example. This looks like this: It contains 9 trains to be scheduled, 2 routes, and 33 resources.
 
-![(documentation/img/scenario_top_level.png)]
+![](documentation/img/scenario_top_level.png)
 
 
 ### label

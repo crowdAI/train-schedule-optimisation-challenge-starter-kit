@@ -49,11 +49,11 @@ Recall from the [Quick Introduction](documentation/README.md#a-very-quick-introd
 
 As an example, we look at the [sample scenario with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json). The following images illustrate _route_1_ in that scenario:
 
-![](documentation/img/route_graph_with_legend.png)
+![](documentation/img/route_graph.png)
 
 The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_ (see the explanation on _route paths_ just below), the black labels are the _sequence_number_ of the individual _route_section_. 
 
-![](documentation/img/route_DAG_1.png)
+![](documentation/img/route_graph_with_legend.png)
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 

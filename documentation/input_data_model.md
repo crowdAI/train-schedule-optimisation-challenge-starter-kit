@@ -1,3 +1,5 @@
+ [[_TOC_]]
+
 # Input Data Model
 This document describes the data model for the [problem instances](problem_instances).
 
@@ -169,12 +171,12 @@ The model is as follows:
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| min_connection_time (minAnschlusszeit)                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Business Rules](documentation/business_rules.md) for details.    |
 | id                                                                                            | text                              | technical id. Irrelevant during processing |
-| onto_service_intention (aufZugfahrt)                                                          | text                              | reference to the _service_intention_ that accepts the connection|
-| onto_section_marker (aufAbschnittskennzeichen)                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|
+| onto_service_intention                                                           | text                              | reference to the _service_intention_ that accepts the connection|
+| onto_section_marker                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|
+| min_connection_time                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Business Rules](documentation/business_rules.md) for details.    |
 
-### resources (ressourcen)
+### resources
 
 Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several continuous route_sections.
 

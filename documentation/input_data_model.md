@@ -161,7 +161,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 #### connections
 Connections are directed. They point _from_ a train that gives a connection _to_ another train that accepts the connection. In our model, a connection is listed under the train that _gives_ it.
 
-Here is an example: It is from the [sample_scenario](sample_files/sample_scenario.json) and specifies a connection from the _service_intention_ 'R/20528/NAEF-PF' onto _service_intention_ 'R/23421/SA-UZ' on _section_marker_ 'ZB'. A minimum connection time of 2.5 minutes must be observed.
+Here is an example: It is from the [sample_scenario](sample_files/sample_scenario.json) ([direct link to the line](sample_files/sample_scenario.json#L213)) and specifies a connection from the _service_intention_ 'R/20528/NAEF-PF' onto _service_intention_ 'R/23421/SA-UZ' on _section_marker_ 'ZB'. A minimum connection time of 2.5 minutes must be observed. 
 
 ![](documentation/img/section_requirements_example_connection.png)
 

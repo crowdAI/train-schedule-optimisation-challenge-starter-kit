@@ -1,5 +1,3 @@
- [[_TOC_]]
-
 # Input Data Model
 This document describes the data model for the [problem instances](problem_instances).
 
@@ -161,6 +159,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 | connections                                                                     | list of connections, see below    |  see below |
 
 #### connections
+
 Connections are directed. They point _from_ a train that gives a connection _to_ another train that accepts the connection. In our model, a connection is listed under the train that _gives_ it.
 
 Here is an example: It is from the [sample_scenario](sample_files/sample_scenario.json) ([direct link to the line](sample_files/sample_scenario.json#L213)) and specifies a connection from the _service_intention_ 'R/20528/NAEF-PF' onto _service_intention_ 'R/23421/SA-UZ' on _section_marker_ 'ZB'. A minimum connection time of 2.5 minutes must be observed. 
@@ -178,7 +177,13 @@ The model is as follows:
 
 ### resources
 
-Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see above. Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. Typically, this is not the same route_section. Rather, a resource is usually occupied over several continuous route_sections.
+Back to the top-level of the files:
+
+![](documentation/img/resources_example.png)
+
+Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see [above](#route_section). Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. 
+
+_Remark:_ Typically, this is not the same route_section. Rather, a resource is usually occupied over several continuous route_sections.
 
 In general, we use two kinds of resources to model different behaviour and level-of-detail:
 
@@ -194,8 +199,9 @@ The model for a _resource_ is as follows:
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
 | id                                                        | text                      | unique identifier for the resource. This is referenced in the _resource_occupations_    |
-| release_time (freigabezeit)                               | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Business Rules](documentation/business_rules.md) for details.  |
-|  following_allowed (zugfolgeErlaubt)                      | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). <br> As mentioned, __all resources in all the provided problem instances have this field set to__ _false_|
+| release_time                                | ISO duration              | describes how much time must pass between release of a resource by one train and the following occupation by the next train. See [Business Rules](documentation/business_rules.md) for details.  |
+|  following_allowed                       | bool                      | flag whether the resource is of _following_ type (true) or of _blocking_ type (false). <br> As mentioned, __all resources in all the provided problem instances have this field set to__ _false_|
 
 ### parameters
-Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance.
+![](documentation/img/example_parameters.png)
+Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance. They are of no concern otherwise.

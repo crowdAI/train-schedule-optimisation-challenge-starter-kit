@@ -127,11 +127,18 @@ Each section_requirement references a _section_marker_. This means that "this re
 * a _minimum_stopping_time_ be observed on this route section by setting min_stopping_time. This stopping time will be _in addition_ to the minimum_running_time
 * the _connections_ to other trains (_service_intentions_) to be observed
 
-Here are some examples:
+Let's look at some examples before defining the formal model:
 
-* _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements: <br>
+* _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
 ![](documentation/img/section_requirements_examples.png)
-* bluh
+* The first of these is for _section_marker_ 'A' and specifies, that the _entry_event_ into the corresponding _route_section_ must not occur before 08:20:00 <br>
+![](documentation/img/section_requirements_example_start.png)
+* The second is for _section_marker_ 'B' and requires that on the corresponding _route_section_
+    - the train spends, in addition to the minimum running time, at least 3 minutes for a commercial stop
+    - the train does not "leave this station" before 08:30:00 (more technically: The _exit_event_ from the _route_section_ does not happen before 08:30:00)<br>
+    ![](documentation/img/section_requirements_example_start.png)
+* The third is for _section_marker_ 'C' and requires that the "arrival at that station" should be no later than 08:40:00<br>
+![](documentation/img/section_requirements_example_end.png)
 
 
 

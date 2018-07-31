@@ -9,13 +9,14 @@ However: If you prefer to work with English terminology internally, we provide t
 ## Data Model of a solution
 
 A _solution_ to a _problem_instance_ has the following elements:
-* problem_instance_label (verkehrsplanLabel)
-* problem_instance_hash (verkehrsplanHash)
+* problem_instance_label 
+* problem_instance_hash
 * hash
-* train_runs (zugfahrten)
-* [properties]
+* train_runs
 
-Let's go through them. You may use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as a reference.
+Let's go through them. We will use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as an example. It looks like this:
+
+![](documentation/img/solution_JSON_toplevel.png)
 
 ## problem_instance_label (verkehrsplanLabel)
 The _label_ of the _problem_instance_ that this solution is intended for.

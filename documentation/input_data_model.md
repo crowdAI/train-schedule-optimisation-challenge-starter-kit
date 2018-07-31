@@ -28,23 +28,23 @@ This is just a human-readable identifier for the instance. It is of no concern o
 A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](documentation/output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
 ### service_intentions
-This is a list. Each item in the list is an individual _service_intention_. In the [example](sample_files/sample_scenario_simple.json), this looks like this:
+This is a list. Each item in the list is an individual _service_intention_. In the [example](sample_files/sample_scenario_simple.json), it looks like this:
 
 ![](documentation/img/service_intentions.png)
 
-A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
-* earliest allowed time at certain points
-* latest desired time at certain points
-* commercial stops to be observed, including minimum stopping time at these stops
-* connections to other trains (i.e. _service_intentions_), including minimum transfer time
+It describes a specific train to be run. In particular, it specifies which _route_ a train can take (see below) and **all requirements** that the scheduler needs to observe when planning this particular train. For this challenge, only a very limited set of four types of such requirements need to be considered. We define them below in the [section_requirement](#section-requirement).
 
-#### service intention (funktionaleAngebotsbeschreibung)
-An individual _service_intention_ consists of
+#### service intention
+An individual _service_intention_ looks like this:
+
+![](documentation/img/service_intention.png)
+
+It consists of
 * id: identifier for the train, or "service"
-* route (fahrweg): a reference to the route graph, see below for details on the routes
-* section_requirements (abschnittsvorgaben): a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these (subsection [section_requirements](#section-requirement-abschnittsvorgabe-element-of-a-service_intention) below), it is helpful to first discuss the model for the _routes_.
+* route: a reference to the route graph, see [below](#routes) for details on the routes
+* section_requirements: a list of individual _section_requirements_. This is where the actual requirements for this train(service) are specified. Before we look at these (subsection [section_requirements](#section-requirement) below), it is helpful to first discuss the model for the _routes_.
 
-### routes (fahrwege)
+### routes
 Recall from the [Quick Introduction](documentation/README.md#a-very-quick-introduction-to-our-timetabling-problem) that a _route_ is modeled as a directed acyclic graph (DAG). It describes the possible ways for the train to move through the railway network. The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. A directed arc in the route graph is called a _route_section_. For a route_section, we call the node at its tail the _entry event_ and the node at its head the _exit event_ from this route_section. The route_sections have associated with them a list of _resource occupations_ (ressourcenbelegungen). These are the resources that a train on this route will occupy, while it is traveling on this arc, i.e. in the timespan between the entry event and the exit event. Each arc also has a minimum running time, which gives the _minimum_ duration between entry and exit event. There is no maximum duration, by the way. A train may spend as much time on a section as it likes. Of course, it keeps using the resources of this route section during this time.
 
 The following images illustrates a typical route DAG. They represent route _route_1_ in the [sample scenario](sample_files/sample_scenario_with_routing_alternatives.json). 

@@ -63,13 +63,16 @@ Each _route_path_ is a path in the route graph. In the following image, all _rou
 
 ![](documentation/img/route_paths_JSON_and_graph.png)
 
-Distinct _route_paths_ can be "glued" together at events that share the same _route alternative marker labels_. In the following image, the individual _route_paths_ are encircled for clarity. Again, the red labels are the _route alternative marker labels_.
+So how are _route_paths_ joined together? Answer: By labelling events with the same _route alternative marker label_.
+
+For example, consider again the same _route_paths_ with id 1 and 2: They both specify a marker label 'M1' for the _exit_event_ from the first route section. These are highlighted in the following snapshot:
+
+![](documentation/img/route_graph_marker_labels.png)
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 
 ![](documentation/img/route_DAG_section_markers.png)
 
-Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths in a graph can be grouped into so-called _route paths_. These are paths (i.e. linear subgraphs) in the route graph. Distinct _route_paths_ can be "glued" together at events that share the same _route alternative marker labels_. In the following image, the individual _route_paths_ are encircled for clarity. Again, the red labels are the _route alternative marker labels_.
 
 _Note: There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually._
 

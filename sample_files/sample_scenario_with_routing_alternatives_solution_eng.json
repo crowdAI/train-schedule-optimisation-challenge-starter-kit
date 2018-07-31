@@ -1,5 +1,5 @@
 {
-	"problem_instance_label": "SBB_challenge_sample_scenario",
+	"problem_instance_label": "SBB_challenge_sample_scenario_with_routing_alternatives",
 	"problem_instance_hash": -244764091,
 	"hash": 1611930817,
 	"train_runs": [

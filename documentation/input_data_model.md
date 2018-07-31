@@ -55,9 +55,13 @@ The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the 
 
 ![](documentation/img/route_graph_with_legend.png)
 
-Let us see how this graph is modeled in the JSON. Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. lineare subgraphs) in the graph can be grouped into so-called _route paths_. We see that _route_1_ in our [sample scenario] is made up of 5 _route_paths_:
+Let us see how this graph is modeled in the JSON. Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. lineare subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that _route_1_ in our [sample scenario] is made up of 5 _route_paths_:
 
 ![](documentation/img/route_1_route_paths.png)
+
+Each _route_path_ is a path in the route graph. In the following image, all _route_paths_ are encircled for clarity. For example, the green path illustrates the _route_path_ with id=1. It consists of 7 _route_sections_. Similarly, the orange one corresponds to _route_path_ with id=2. It consists only of one _route_section_.
+
+![](documentation/img/route_paths_JSON_and_graph.png)
 
 Distinct _route_paths_ can be "glued" together at events that share the same _route alternative marker labels_. In the following image, the individual _route_paths_ are encircled for clarity. Again, the red labels are the _route alternative marker labels_.
 

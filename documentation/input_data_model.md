@@ -71,6 +71,12 @@ For example, consider again the same _route_paths_ with id 1 and 2: They both sp
 
 ![](documentation/img/route_graph_marker_labels.png)
 
+Consequently, those two events are "merged together" in the resulting graph:
+
+![](documentation/img/route_graph_marker_labels_graph.png)
+
+
+
 _Note_: For consistency, _route_section_ 4 of _route_path_ 1 also lists the same marker label 'M1' for its _entry_event_. This makes sense, because this represents the same event as the _exit_event_ from section 1.
 
 A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):

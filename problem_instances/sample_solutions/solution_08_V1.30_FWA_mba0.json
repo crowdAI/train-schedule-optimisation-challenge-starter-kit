@@ -2,10 +2,6 @@
 	 "verkehrsplanLabel": "08_V1.30_FWA",
 	 "verkehrsplanHash": -1187628662,
 	 "hash": 1148488455,
-	 "properties": {
-		 "exitCode": 0,
-		 "rootProcessingTime": 324.703
-	},
 	 "zugfahrten": [
 		{
 			 "funktionaleAngebotsbeschreibungId": 1458,

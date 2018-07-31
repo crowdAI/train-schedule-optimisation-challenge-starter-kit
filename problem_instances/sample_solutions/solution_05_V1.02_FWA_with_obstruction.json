@@ -2,11 +2,6 @@
 	 "verkehrsplanLabel": "05_V1.02_FWA_with_obstruction",
 	 "verkehrsplanHash": -488200811,
 	 "hash": -836111095,
-	 "properties": {
-		 "rootProcessingTime": 916.72,
-		 "status": "Ok",
-		 "ExitValue": 0
-	},
 	 "zugfahrten": [
 		{
 			 "funktionaleAngebotsbeschreibungId": 5064,

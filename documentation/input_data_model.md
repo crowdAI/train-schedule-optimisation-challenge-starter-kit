@@ -27,8 +27,12 @@ This is just a human-readable identifier for the instance. It is of no concern o
 ### hash
 A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](documentation/output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
-### service_intentions (funktionaleAngebotsbeschreibungen)
-This is a list. Each item in the list is an individual _service_intention_. A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
+### service_intentions
+This is a list. Each item in the list is an individual _service_intention_. In the [example](sample_files/sample_scenario_simple.json), this looks like this:
+
+![](documentation/img/service_intentions.png)
+
+A _service_intention_ describes a specific train to be run. In particular, it specifies **all requirements** that the scheduler needs to observe when planning this particular train. These requirements can be of the following type:
 * earliest allowed time at certain points
 * latest desired time at certain points
 * commercial stops to be observed, including minimum stopping time at these stops

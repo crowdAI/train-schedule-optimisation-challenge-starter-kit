@@ -1,5 +1,5 @@
 {
-	 "label": "SBB_challenge_sample_scenario_with_routing_alternatives",
+	 "label": "SBB_challenge_sample_scenario",
 	 "hash": -1254734547,
 	 "service_intentions": [
 		{
@@ -22,7 +22,7 @@
 				{
 					 "sequence_number": 2,
 					 "section_marker": "B",
-					 "type": "whatever",
+					 "type": "ende",
 					 "min_stopping_time": null,
 					 "entry_earliest": null,
 					 "entry_latest": null,
@@ -35,7 +35,7 @@
 				{
 					 "sequence_number": 3,
 					 "section_marker": "C",
-					 "type": "end",
+					 "type": "ende",
 					 "min_stopping_time": null,
 					 "entry_earliest": null,
 					 "entry_latest": null,
@@ -67,7 +67,7 @@
 				{
 					 "sequence_number": null,
 					 "section_marker": "C",
-					 "type": "end",
+					 "type": "ende",
 					 "min_stopping_time": null,
 					 "entry_earliest": null,
 					 "entry_latest": null,
@@ -144,7 +144,8 @@
 							 "minimum_running_time": "PT32S",
 							 "resource_occupations": [
 								{
-									 "resource": "B"
+									 "resource": "B",
+									 "occupation_direction": null
 								}
 							]
 						},

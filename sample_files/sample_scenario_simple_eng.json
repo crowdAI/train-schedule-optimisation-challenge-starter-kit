@@ -1,0 +1,937 @@
+{
+	"label": "testszenario",
+	"hash": -2079483856,
+	"service_intentions": [
+		{
+			"id": "EC/163-001/PF-SA",
+			"route": "PF_SA/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "PF",
+					"type": "start",
+					"entry_earliest": "09:02:30",
+					"entry_latest": "09:12:30",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "MELS",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "09:35:00",
+					"exit_latest": "09:45:00",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/559-001/PF-SA",
+			"route": "PF_SA/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "PF",
+					"type": "start",
+					"entry_earliest": "07:59:30",
+					"entry_latest": "08:09:30",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "MELS",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:32:00",
+					"exit_latest": "08:42:00",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/563-001/PF-SA",
+			"route": "PF_SA/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "PF",
+					"type": "start",
+					"entry_earliest": "09:59:30",
+					"entry_latest": "10:09:30",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "MELS",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "10:32:00",
+					"exit_latest": "10:42:00",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/913-001/PF-SA",
+			"route": "PF_SA/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "PF",
+					"type": "start",
+					"entry_earliest": "08:29:30",
+					"entry_latest": "08:39:30",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "MELS",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "09:01:42",
+					"exit_latest": "09:11:42",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/911-001/PF-SA",
+			"route": "PF_SA/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "PF",
+					"type": "start",
+					"entry_earliest": "07:29:30",
+					"entry_latest": "07:39:30",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "MELS",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:01:42",
+					"exit_latest": "08:11:42",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/564-001/SA-PF",
+			"route": "SA_PF/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "SA",
+					"type": "start",
+					"entry_earliest": "09:28:18",
+					"entry_latest": "09:38:18",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "ALTD",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "10:00:48",
+					"exit_latest": "10:10:48",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/916-001/SA-PF",
+			"route": "SA_PF/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "SA",
+					"type": "start",
+					"entry_earliest": "08:58:24",
+					"entry_latest": "09:08:24",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "ALTD",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "09:30:36",
+					"exit_latest": "09:40:36",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/562-001/SA-PF",
+			"route": "SA_PF/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "SA",
+					"type": "start",
+					"entry_earliest": "08:28:18",
+					"entry_latest": "08:38:18",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "ALTD",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "09:00:48",
+					"exit_latest": "09:10:48",
+					"exit_delay_weight": 1
+				}
+			]
+		},
+		{
+			"id": "IC/560-001/SA-PF",
+			"route": "SA_PF/IC",
+			"section_requirements": [
+				{
+					"sequence_number": 1,
+					"section_marker": "SA",
+					"type": "start",
+					"entry_earliest": "07:28:18",
+					"entry_latest": "07:38:18",
+					"entry_delay_weight": 1,
+					"exit_earliest": "",
+					"exit_latest": "",
+					"exit_delay_weight": 1
+				},
+				{
+					"sequence_number": 2,
+					"section_marker": "ALTD",
+					"type": "ende",
+					"entry_earliest": "",
+					"entry_latest": "",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:00:48",
+					"exit_latest": "08:10:48",
+					"exit_delay_weight": 1
+				}
+			]
+		}
+	],
+	"routes": [
+		{
+			"id": "SA_PF/IC",
+			"route_paths": [
+				{
+					"id": "SA_PF/IC_1",
+					"route_sections": [
+						{
+							"id": "SA_PF/IC#1",
+							"sequence_number": 1,
+							"starting_point": "SA",
+							"ending_point": "MELS",
+							"minimum_running_time": "PT2M",
+							"resource_occupations": [
+								{
+									"resource": "SA_MELS",
+									"occupation_direction": "SA_MELS"
+								}
+							],
+							"section_marker": [
+								"SA"
+							]
+						},
+						{
+							"id": "SA_PF/IC#2",
+							"sequence_number": 2,
+							"starting_point": "MELS",
+							"ending_point": "FMS",
+							"minimum_running_time": "PT3M",
+							"resource_occupations": [
+								{
+									"resource": "MELS_FMS",
+									"occupation_direction": "MELS_FMS"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#3",
+							"sequence_number": 3,
+							"starting_point": "FMS",
+							"ending_point": "WAL",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "FMS_WAL",
+									"occupation_direction": "FMS_WAL"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#4",
+							"sequence_number": 4,
+							"starting_point": "WAL",
+							"ending_point": "MOLS",
+							"minimum_running_time": "PT1M42S",
+							"resource_occupations": [
+								{
+									"resource": "WAL_MOLS",
+									"occupation_direction": "WAL_MOLS"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#5",
+							"sequence_number": 5,
+							"starting_point": "MOLS",
+							"ending_point": "UNT",
+							"minimum_running_time": "PT1M",
+							"resource_occupations": [
+								{
+									"resource": "MOLS_UNT",
+									"occupation_direction": "MOLS_UNT"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#6",
+							"sequence_number": 6,
+							"starting_point": "UNT",
+							"ending_point": "MG",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "UNT_MG",
+									"occupation_direction": "UNT_MG"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#7",
+							"sequence_number": 7,
+							"starting_point": "MG",
+							"ending_point": "TIEF",
+							"minimum_running_time": "PT1M6S",
+							"resource_occupations": [
+								{
+									"resource": "MG_TIEF",
+									"occupation_direction": "MG_TIEF"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#8",
+							"sequence_number": 8,
+							"starting_point": "TIEF",
+							"ending_point": "MH",
+							"minimum_running_time": "PT1M18S",
+							"resource_occupations": [
+								{
+									"resource": "1Spur_MH_TIEF",
+									"occupation_direction": "TIEF_MH"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#9",
+							"sequence_number": 9,
+							"starting_point": "MH",
+							"ending_point": "WN",
+							"minimum_running_time": "PT3M12S",
+							"resource_occupations": [
+								{
+									"resource": "MH_WN",
+									"occupation_direction": "MH_WN"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#10",
+							"sequence_number": 10,
+							"starting_point": "WN",
+							"ending_point": "ZB",
+							"minimum_running_time": "PT1M42S",
+							"resource_occupations": [
+								{
+									"resource": "WN_ZB",
+									"occupation_direction": "WN_ZB"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#11",
+							"sequence_number": 11,
+							"starting_point": "ZB",
+							"ending_point": "BIL",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "ZB_BIL",
+									"occupation_direction": "ZB_BIL"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#12",
+							"sequence_number": 12,
+							"starting_point": "BIL",
+							"ending_point": "RG",
+							"minimum_running_time": "PT2M12S",
+							"resource_occupations": [
+								{
+									"resource": "BIL_RG",
+									"occupation_direction": "BIL_RG"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#13",
+							"sequence_number": 13,
+							"starting_point": "RG",
+							"ending_point": "SCBU",
+							"minimum_running_time": "PT1M48S",
+							"resource_occupations": [
+								{
+									"resource": "RG_SCBU",
+									"occupation_direction": "RG_SCBU"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#14",
+							"sequence_number": 14,
+							"starting_point": "SCBU",
+							"ending_point": "SIB",
+							"minimum_running_time": "PT1M36S",
+							"resource_occupations": [
+								{
+									"resource": "SCBU_SIB",
+									"occupation_direction": "SCBU_SIB"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#15",
+							"sequence_number": 15,
+							"starting_point": "SIB",
+							"ending_point": "LA",
+							"minimum_running_time": "PT2M6S",
+							"resource_occupations": [
+								{
+									"resource": "SIB_LA",
+									"occupation_direction": "SIB_LA"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#16",
+							"sequence_number": 16,
+							"starting_point": "LA",
+							"ending_point": "ALTD",
+							"minimum_running_time": "PT1M18S",
+							"resource_occupations": [
+								{
+									"resource": "LA_ALTD",
+									"occupation_direction": "LA_ALTD"
+								}
+							]
+						},
+						{
+							"id": "SA_PF/IC#17",
+							"sequence_number": 17,
+							"starting_point": "ALTD",
+							"ending_point": "PF",
+							"minimum_running_time": "PT2M18S",
+							"resource_occupations": [
+								{
+									"resource": "ALTD_PF",
+									"occupation_direction": "ALTD_PF"
+								}
+							],
+							"section_marker": [
+								"ALTD"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "PF_SA/IC",
+			"route_paths": [
+				{
+					"id": "PF_SA/IC",
+					"route_sections": [
+						{
+							"id": "PF_SA/IC#1",
+							"sequence_number": 1,
+							"starting_point": "PF",
+							"ending_point": "ALTD",
+							"minimum_running_time": "PT2M18S",
+							"resource_occupations": [
+								{
+									"resource": "PF_ALTD",
+									"occupation_direction": "PF_ALTD"
+								}
+							],
+							"section_marker": [
+								"PF"
+							]
+						},
+						{
+							"id": "PF_SA/IC#2",
+							"sequence_number": 2,
+							"starting_point": "ALTD",
+							"ending_point": "LA",
+							"minimum_running_time": "PT1M18S",
+							"resource_occupations": [
+								{
+									"resource": "ALTD_LA",
+									"occupation_direction": "ALTD_LA"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#3",
+							"sequence_number": 3,
+							"starting_point": "LA",
+							"ending_point": "SIB",
+							"minimum_running_time": "PT2M6S",
+							"resource_occupations": [
+								{
+									"resource": "LA_SIB",
+									"occupation_direction": "LA_SIB"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#4",
+							"sequence_number": 4,
+							"starting_point": "SIB",
+							"ending_point": "SCBU",
+							"minimum_running_time": "PT1M36S",
+							"resource_occupations": [
+								{
+									"resource": "SIB_SCBU",
+									"occupation_direction": "SIB_SCBU"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#5",
+							"sequence_number": 5,
+							"starting_point": "SCBU",
+							"ending_point": "RG",
+							"minimum_running_time": "PT1M48S",
+							"resource_occupations": [
+								{
+									"resource": "SCBU_RG",
+									"occupation_direction": "SCBU_RG"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#6",
+							"sequence_number": 6,
+							"starting_point": "RG",
+							"ending_point": "BIL",
+							"minimum_running_time": "PT2M12S",
+							"resource_occupations": [
+								{
+									"resource": "RG_BIL",
+									"occupation_direction": "RG_BIL"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#7",
+							"sequence_number": 7,
+							"starting_point": "BIL",
+							"ending_point": "ZB",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "BIL_ZB",
+									"occupation_direction": "BIL_ZB"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#8",
+							"sequence_number": 8,
+							"starting_point": "ZB",
+							"ending_point": "WN",
+							"minimum_running_time": "PT1M42S",
+							"resource_occupations": [
+								{
+									"resource": "ZB_WN",
+									"occupation_direction": "ZB_WN"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#9",
+							"sequence_number": 9,
+							"starting_point": "WN",
+							"ending_point": "MH",
+							"minimum_running_time": "PT3M12S",
+							"resource_occupations": [
+								{
+									"resource": "WN_MH",
+									"occupation_direction": "WN_MH"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#10",
+							"sequence_number": 10,
+							"starting_point": "MH",
+							"ending_point": "TIEF",
+							"minimum_running_time": "PT1M18S",
+							"resource_occupations": [
+								{
+									"resource": "1Spur_MH_TIEF",
+									"occupation_direction": "MH_TIEF"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#11",
+							"sequence_number": 11,
+							"starting_point": "TIEF",
+							"ending_point": "MG",
+							"minimum_running_time": "PT1M06S",
+							"resource_occupations": [
+								{
+									"resource": "TIEF_MG",
+									"occupation_direction": "TIEF_MG"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#12",
+							"sequence_number": 12,
+							"starting_point": "MG",
+							"ending_point": "UNT",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "MG_UNT",
+									"occupation_direction": "MG_UNT"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#13",
+							"sequence_number": 13,
+							"starting_point": "UNT",
+							"ending_point": "MOLS",
+							"minimum_running_time": "PT1M",
+							"resource_occupations": [
+								{
+									"resource": "UNT_MOLS",
+									"occupation_direction": "UNT_MOLS"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#14",
+							"sequence_number": 14,
+							"starting_point": "MOLS",
+							"ending_point": "WAL",
+							"minimum_running_time": "PT1M42S",
+							"resource_occupations": [
+								{
+									"resource": "MOLS_WAL",
+									"occupation_direction": "MOLS_WAL"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#15",
+							"sequence_number": 15,
+							"starting_point": "WAL",
+							"ending_point": "FMS",
+							"minimum_running_time": "PT1M54S",
+							"resource_occupations": [
+								{
+									"resource": "WAL_FMS",
+									"occupation_direction": "WAL_FMS"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#16",
+							"sequence_number": 16,
+							"starting_point": "FMS",
+							"ending_point": "MELS",
+							"minimum_running_time": "PT3M30S",
+							"resource_occupations": [
+								{
+									"resource": "FMS_MELS",
+									"occupation_direction": "FMS_MELS"
+								}
+							]
+						},
+						{
+							"id": "PF_SA/IC#17",
+							"sequence_number": 17,
+							"starting_point": "MELS",
+							"ending_point": "SA",
+							"minimum_running_time": "PT2M",
+							"resource_occupations": [
+								{
+									"resource": "MELS_SA",
+									"occupation_direction": "MELS_SA"
+								}
+							],
+							"section_marker": [
+								"MELS"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"resources": [
+		{
+			"id": "PF_ALTD",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "ALTD_LA",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "LA_SIB",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "SIB_SCBU",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "SCBU_RG",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "RG_BIL",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "BIL_ZB",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "ZB_WN",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "WN_MH",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "1Spur_MH_TIEF",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "TIEF_MG",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MG_UNT",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "UNT_MOLS",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MOLS_WAL",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "WAL_FMS",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "FMS_MELS",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MELS_SA",
+			"release_time": "PT10S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "SA_MELS",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MELS_FMS",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "FMS_WAL",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "WAL_MOLS",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MOLS_UNT",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "UNT_MG",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MG_TIEF",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "MH_WN",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "WN_ZB",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT3M"
+		},
+		{
+			"id": "ZB_BIL",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "BIL_RG",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "RG_SCBU",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "SCBU_SIB",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "SIB_LA",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "LA_ALTD",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		},
+		{
+			"id": "ALTD_PF",
+			"release_time": "PT30S",
+			"following_allowed": true,
+			"following_separation": "PT2M"
+		}
+	],
+	"parameters": {
+		"maxBandabweichung": "PT24H"
+	}
+}

@@ -1,0 +1,1429 @@
+{
+	"problem_instance_label": "testszenario",
+	"problem_instance_hash": -2079483856,
+	"hash": 1855468194,
+	"train_runs": [
+		{
+			"service_intention_id": "EC/163-001/PF-SA",
+			"train_run_sections": [
+				{
+					"entry_time": "09:00:30",
+					"exit_time": "09:04:50.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#1",
+					"sequence_number": 1,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "PF"
+				},
+				{
+					"entry_time": "09:04:50.76",
+					"exit_time": "09:06:10.32",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#2",
+					"sequence_number": 2,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:06:10.32",
+					"exit_time": "09:08:18.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#3",
+					"sequence_number": 3,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:08:18.84",
+					"exit_time": "09:09:56.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#4",
+					"sequence_number": 4,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:09:56.76",
+					"exit_time": "09:11:46.92",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#5",
+					"sequence_number": 5,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:11:46.92",
+					"exit_time": "09:14:01.56",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#6",
+					"sequence_number": 6,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:14:01.56",
+					"exit_time": "09:15:57.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#7",
+					"sequence_number": 7,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:15:57.84",
+					"exit_time": "09:17:41.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#8",
+					"sequence_number": 8,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:17:41.88",
+					"exit_time": "09:20:57.72",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#9",
+					"sequence_number": 9,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:20:57.72",
+					"exit_time": "09:22:17.28",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#10",
+					"sequence_number": 10,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:22:17.28",
+					"exit_time": "09:23:24.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#11",
+					"sequence_number": 11,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:23:24.6",
+					"exit_time": "09:25:20.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#12",
+					"sequence_number": 12,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:25:20.88",
+					"exit_time": "09:26:22.08",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#13",
+					"sequence_number": 13,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:26:22.08",
+					"exit_time": "09:28:06.12",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#14",
+					"sequence_number": 14,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:28:06.12",
+					"exit_time": "09:30:02.4",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#15",
+					"sequence_number": 15,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:30:02.4",
+					"exit_time": "09:33:36.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#16",
+					"sequence_number": 16,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:33:36.6",
+					"exit_time": "09:35:39",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#17",
+					"sequence_number": 17,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "MELS"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/559-001/PF-SA",
+			"train_run_sections": [
+				{
+					"entry_time": "07:59:30",
+					"exit_time": "08:01:50.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#1",
+					"sequence_number": 1,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "PF"
+				},
+				{
+					"entry_time": "08:01:50.76",
+					"exit_time": "08:03:10.32",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#2",
+					"sequence_number": 2,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:03:10.32",
+					"exit_time": "08:05:18.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#3",
+					"sequence_number": 3,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:05:18.84",
+					"exit_time": "08:06:56.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#4",
+					"sequence_number": 4,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:06:56.76",
+					"exit_time": "08:08:46.92",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#5",
+					"sequence_number": 5,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:08:46.92",
+					"exit_time": "08:11:01.56",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#6",
+					"sequence_number": 6,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:11:01.56",
+					"exit_time": "08:12:57.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#7",
+					"sequence_number": 7,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:12:57.84",
+					"exit_time": "08:14:41.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#8",
+					"sequence_number": 8,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:14:41.88",
+					"exit_time": "08:17:57.72",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#9",
+					"sequence_number": 9,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:17:57.72",
+					"exit_time": "08:19:17.28",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#10",
+					"sequence_number": 10,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:19:17.28",
+					"exit_time": "08:20:24.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#11",
+					"sequence_number": 11,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:20:24.6",
+					"exit_time": "08:22:20.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#12",
+					"sequence_number": 12,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:22:20.88",
+					"exit_time": "08:23:22.08",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#13",
+					"sequence_number": 13,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:23:22.08",
+					"exit_time": "08:25:06.12",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#14",
+					"sequence_number": 14,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:25:06.12",
+					"exit_time": "08:27:02.4",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#15",
+					"sequence_number": 15,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:27:02.4",
+					"exit_time": "08:30:36.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#16",
+					"sequence_number": 16,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:30:36.6",
+					"exit_time": "08:32:39",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#17",
+					"sequence_number": 17,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "MELS"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/560-001/SA-PF",
+			"train_run_sections": [
+				{
+					"entry_time": "07:28:18",
+					"exit_time": "07:30:20.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#1",
+					"sequence_number": 1,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "SA"
+				},
+				{
+					"entry_time": "07:30:20.4",
+					"exit_time": "07:33:24",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#2",
+					"sequence_number": 2,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:33:24",
+					"exit_time": "07:35:20.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#3",
+					"sequence_number": 3,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:35:20.28",
+					"exit_time": "07:37:04.32",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#4",
+					"sequence_number": 4,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:37:04.32",
+					"exit_time": "07:38:05.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#5",
+					"sequence_number": 5,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:38:05.52",
+					"exit_time": "07:40:01.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#6",
+					"sequence_number": 6,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:40:01.8",
+					"exit_time": "07:49:27.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#7",
+					"sequence_number": 7,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:49:27.28",
+					"exit_time": "07:50:46.84",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#8",
+					"sequence_number": 8,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:50:46.84",
+					"exit_time": "07:54:02.68",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#9",
+					"sequence_number": 9,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:54:02.68",
+					"exit_time": "07:55:46.72",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#10",
+					"sequence_number": 10,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:55:46.72",
+					"exit_time": "07:57:43",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#11",
+					"sequence_number": 11,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:57:43",
+					"exit_time": "07:59:57.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#12",
+					"sequence_number": 12,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:59:57.64",
+					"exit_time": "08:01:47.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#13",
+					"sequence_number": 13,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:01:47.8",
+					"exit_time": "08:03:25.72",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#14",
+					"sequence_number": 14,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:03:25.72",
+					"exit_time": "08:05:34.24",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#15",
+					"sequence_number": 15,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:05:34.24",
+					"exit_time": "08:06:53.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#16",
+					"sequence_number": 16,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:06:53.8",
+					"exit_time": "08:09:14.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#17",
+					"sequence_number": 17,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "ALTD"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/562-001/SA-PF",
+			"train_run_sections": [
+				{
+					"entry_time": "08:28:18",
+					"exit_time": "08:30:20.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#1",
+					"sequence_number": 1,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "SA"
+				},
+				{
+					"entry_time": "08:30:20.4",
+					"exit_time": "08:33:24",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#2",
+					"sequence_number": 2,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:33:24",
+					"exit_time": "08:35:20.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#3",
+					"sequence_number": 3,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:35:20.28",
+					"exit_time": "08:37:04.32",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#4",
+					"sequence_number": 4,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:37:04.32",
+					"exit_time": "08:38:05.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#5",
+					"sequence_number": 5,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:38:05.52",
+					"exit_time": "08:40:01.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#6",
+					"sequence_number": 6,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:40:01.8",
+					"exit_time": "08:49:27.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#7",
+					"sequence_number": 7,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:49:27.28",
+					"exit_time": "08:50:46.84",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#8",
+					"sequence_number": 8,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:50:46.84",
+					"exit_time": "08:54:02.68",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#9",
+					"sequence_number": 9,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:54:02.68",
+					"exit_time": "08:55:46.72",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#10",
+					"sequence_number": 10,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:55:46.72",
+					"exit_time": "08:57:43",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#11",
+					"sequence_number": 11,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:57:43",
+					"exit_time": "08:59:57.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#12",
+					"sequence_number": 12,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:59:57.64",
+					"exit_time": "09:01:47.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#13",
+					"sequence_number": 13,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:01:47.8",
+					"exit_time": "09:03:25.72",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#14",
+					"sequence_number": 14,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:03:25.72",
+					"exit_time": "09:05:34.24",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#15",
+					"sequence_number": 15,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:05:34.24",
+					"exit_time": "09:06:53.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#16",
+					"sequence_number": 16,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:06:53.8",
+					"exit_time": "09:09:14.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#17",
+					"sequence_number": 17,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "ALTD"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/563-001/PF-SA",
+			"train_run_sections": [
+				{
+					"entry_time": "09:59:30",
+					"exit_time": "10:01:50.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#1",
+					"sequence_number": 1,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "PF"
+				},
+				{
+					"entry_time": "10:01:50.76",
+					"exit_time": "10:03:10.32",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#2",
+					"sequence_number": 2,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:03:10.32",
+					"exit_time": "10:05:18.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#3",
+					"sequence_number": 3,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:05:18.84",
+					"exit_time": "10:06:56.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#4",
+					"sequence_number": 4,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:06:56.76",
+					"exit_time": "10:08:46.92",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#5",
+					"sequence_number": 5,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:08:46.92",
+					"exit_time": "10:11:01.56",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#6",
+					"sequence_number": 6,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:11:01.56",
+					"exit_time": "10:12:57.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#7",
+					"sequence_number": 7,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:12:57.84",
+					"exit_time": "10:14:41.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#8",
+					"sequence_number": 8,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:14:41.88",
+					"exit_time": "10:17:57.72",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#9",
+					"sequence_number": 9,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:17:57.72",
+					"exit_time": "10:19:17.28",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#10",
+					"sequence_number": 10,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:19:17.28",
+					"exit_time": "10:20:24.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#11",
+					"sequence_number": 11,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:20:24.6",
+					"exit_time": "10:22:20.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#12",
+					"sequence_number": 12,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:22:20.88",
+					"exit_time": "10:23:22.08",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#13",
+					"sequence_number": 13,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:23:22.08",
+					"exit_time": "10:25:06.12",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#14",
+					"sequence_number": 14,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:25:06.12",
+					"exit_time": "10:27:02.4",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#15",
+					"sequence_number": 15,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:27:02.4",
+					"exit_time": "10:30:36.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#16",
+					"sequence_number": 16,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "10:30:36.6",
+					"exit_time": "10:32:39",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#17",
+					"sequence_number": 17,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "MELS"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/564-001/SA-PF",
+			"train_run_sections": [
+				{
+					"entry_time": "09:28:18",
+					"exit_time": "09:30:20.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#1",
+					"sequence_number": 1,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "SA"
+				},
+				{
+					"entry_time": "09:30:20.4",
+					"exit_time": "09:33:24",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#2",
+					"sequence_number": 2,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:33:24",
+					"exit_time": "09:35:20.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#3",
+					"sequence_number": 3,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:35:20.28",
+					"exit_time": "09:37:04.32",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#4",
+					"sequence_number": 4,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:37:04.32",
+					"exit_time": "09:38:05.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#5",
+					"sequence_number": 5,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:38:05.52",
+					"exit_time": "09:40:01.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#6",
+					"sequence_number": 6,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:40:01.8",
+					"exit_time": "09:41:09.12",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#7",
+					"sequence_number": 7,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:41:09.12",
+					"exit_time": "09:42:28.68",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#8",
+					"sequence_number": 8,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:42:28.68",
+					"exit_time": "09:45:44.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#9",
+					"sequence_number": 9,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:45:44.52",
+					"exit_time": "09:47:28.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#10",
+					"sequence_number": 10,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:47:28.56",
+					"exit_time": "09:49:24.84",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#11",
+					"sequence_number": 11,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:49:24.84",
+					"exit_time": "09:51:39.48",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#12",
+					"sequence_number": 12,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:51:39.48",
+					"exit_time": "09:53:29.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#13",
+					"sequence_number": 13,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:53:29.64",
+					"exit_time": "09:55:07.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#14",
+					"sequence_number": 14,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:55:07.56",
+					"exit_time": "09:57:16.08",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#15",
+					"sequence_number": 15,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:57:16.08",
+					"exit_time": "09:58:35.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#16",
+					"sequence_number": 16,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:58:35.64",
+					"exit_time": "10:00:56.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#17",
+					"sequence_number": 17,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "ALTD"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/911-001/PF-SA",
+			"train_run_sections": [
+				{
+					"entry_time": "07:29:30",
+					"exit_time": "07:31:50.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#1",
+					"sequence_number": 1,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "PF"
+				},
+				{
+					"entry_time": "07:31:50.76",
+					"exit_time": "07:33:10.32",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#2",
+					"sequence_number": 2,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:33:10.32",
+					"exit_time": "07:35:18.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#3",
+					"sequence_number": 3,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:35:18.84",
+					"exit_time": "07:36:56.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#4",
+					"sequence_number": 4,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:36:56.76",
+					"exit_time": "07:38:46.92",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#5",
+					"sequence_number": 5,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:38:46.92",
+					"exit_time": "07:41:01.56",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#6",
+					"sequence_number": 6,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:41:01.56",
+					"exit_time": "07:42:57.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#7",
+					"sequence_number": 7,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:42:57.84",
+					"exit_time": "07:44:41.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#8",
+					"sequence_number": 8,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:44:41.88",
+					"exit_time": "07:47:57.72",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#9",
+					"sequence_number": 9,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:47:57.72",
+					"exit_time": "07:49:17.28",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#10",
+					"sequence_number": 10,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:49:17.28",
+					"exit_time": "07:50:24.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#11",
+					"sequence_number": 11,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:50:24.6",
+					"exit_time": "07:52:20.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#12",
+					"sequence_number": 12,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:52:20.88",
+					"exit_time": "07:53:22.08",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#13",
+					"sequence_number": 13,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:53:22.08",
+					"exit_time": "07:55:06.12",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#14",
+					"sequence_number": 14,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:55:06.12",
+					"exit_time": "07:57:02.4",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#15",
+					"sequence_number": 15,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "07:57:02.4",
+					"exit_time": "08:00:36.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#16",
+					"sequence_number": 16,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:00:36.6",
+					"exit_time": "08:02:39",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#17",
+					"sequence_number": 17,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "MELS"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/913-001/PF-SA",
+			"train_run_sections": [
+				{
+					"entry_time": "08:29:30",
+					"exit_time": "08:31:50.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#1",
+					"sequence_number": 1,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "PF"
+				},
+				{
+					"entry_time": "08:31:50.76",
+					"exit_time": "08:33:10.32",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#2",
+					"sequence_number": 2,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:33:10.32",
+					"exit_time": "08:35:18.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#3",
+					"sequence_number": 3,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:35:18.84",
+					"exit_time": "08:36:56.76",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#4",
+					"sequence_number": 4,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:36:56.76",
+					"exit_time": "08:38:46.92",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#5",
+					"sequence_number": 5,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:38:46.92",
+					"exit_time": "08:41:01.56",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#6",
+					"sequence_number": 6,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:41:01.56",
+					"exit_time": "08:42:57.84",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#7",
+					"sequence_number": 7,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:42:57.84",
+					"exit_time": "08:44:41.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#8",
+					"sequence_number": 8,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:44:41.88",
+					"exit_time": "08:47:57.72",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#9",
+					"sequence_number": 9,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:47:57.72",
+					"exit_time": "08:49:17.28",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#10",
+					"sequence_number": 10,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:49:17.28",
+					"exit_time": "08:50:24.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#11",
+					"sequence_number": 11,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:50:24.6",
+					"exit_time": "08:52:20.88",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#12",
+					"sequence_number": 12,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:52:20.88",
+					"exit_time": "08:53:22.08",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#13",
+					"sequence_number": 13,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:53:22.08",
+					"exit_time": "08:55:06.12",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#14",
+					"sequence_number": 14,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:55:06.12",
+					"exit_time": "08:57:02.4",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#15",
+					"sequence_number": 15,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "08:57:02.4",
+					"exit_time": "09:00:36.6",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#16",
+					"sequence_number": 16,
+					"route_path": "PF_SA/IC",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:00:36.6",
+					"exit_time": "09:40:39",
+					"route": "PF_SA/IC",
+					"route_section_id": "PF_SA/IC#17",
+					"sequence_number": 17,
+					"route_path": "PF_SA/IC",
+					"section_requirement": "MELS"
+				}
+			]
+		},
+		{
+			"service_intention_id": "IC/916-001/SA-PF",
+			"train_run_sections": [
+				{
+					"entry_time": "08:58:24",
+					"exit_time": "09:00:26.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#1",
+					"sequence_number": 1,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "SA"
+				},
+				{
+					"entry_time": "09:00:26.4",
+					"exit_time": "09:03:30",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#2",
+					"sequence_number": 2,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:03:30",
+					"exit_time": "09:05:26.28",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#3",
+					"sequence_number": 3,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:05:26.28",
+					"exit_time": "09:07:10.32",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#4",
+					"sequence_number": 4,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:07:10.32",
+					"exit_time": "09:08:11.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#5",
+					"sequence_number": 5,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:08:11.52",
+					"exit_time": "09:10:07.8",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#6",
+					"sequence_number": 6,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:10:07.8",
+					"exit_time": "09:11:15.12",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#7",
+					"sequence_number": 7,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:11:15.12",
+					"exit_time": "09:12:34.68",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#8",
+					"sequence_number": 8,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:12:34.68",
+					"exit_time": "09:15:50.52",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#9",
+					"sequence_number": 9,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:15:50.52",
+					"exit_time": "09:17:34.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#10",
+					"sequence_number": 10,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:17:34.56",
+					"exit_time": "09:19:30.84",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#11",
+					"sequence_number": 11,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:19:30.84",
+					"exit_time": "09:21:45.48",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#12",
+					"sequence_number": 12,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:21:45.48",
+					"exit_time": "09:23:35.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#13",
+					"sequence_number": 13,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:23:35.64",
+					"exit_time": "09:25:13.56",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#14",
+					"sequence_number": 14,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:25:13.56",
+					"exit_time": "09:27:22.08",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#15",
+					"sequence_number": 15,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:27:22.08",
+					"exit_time": "09:28:41.64",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#16",
+					"sequence_number": 16,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": null
+				},
+				{
+					"entry_time": "09:28:41.64",
+					"exit_time": "09:31:02.4",
+					"route": "SA_PF/IC",
+					"route_section_id": "SA_PF/IC#17",
+					"sequence_number": 17,
+					"route_path": "SA_PF/IC_1",
+					"section_requirement": "ALTD"
+				}
+			]
+		}
+	]
+}

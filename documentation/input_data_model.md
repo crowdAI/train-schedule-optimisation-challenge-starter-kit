@@ -11,12 +11,14 @@ However: If you prefer to work with English terminology internally, we provide t
 A _problem instance_, or a _scenario_, is a JSON file containing the following top-level elements:
 * label
 * hash
-* service_intentions (funktionale Angebotsbeschreibungen)
-* routes (fahrwege)
-* ressourcen (resources)
+* service_intentions (a fancy name for 'train including all its requirements')
+* routes
+* resources
 * parameters
 
-Let's go through them. You may use the small [sample scenario](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/sample_files/sample_scenario.json) as a concrete example.
+Let's go through them. You may use the small [sample scenario](sample_files/sample_scenario_simple.json) as a concrete example. This looks like this: It contains 9 trains to be scheduled, 2 routes, and 33 resources.
+
+![(documentation/img/scenario_top_level.png)]
 
 
 ### label

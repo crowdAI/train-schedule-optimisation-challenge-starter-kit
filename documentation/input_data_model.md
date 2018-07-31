@@ -79,6 +79,7 @@ _Note_:
 
 * For consistency, _route_section_ 4 of _route_path_ 1 also lists the same marker label 'M1' for its _entry_event_. This makes sense, because this represents the same event as the _exit_event_ from section 1. In other words, all three events are merged into the same node in the graph.
 * There are many ways to cut the graph into segments of linear paths. In the end, all that matters is the resulting DAG. The route paths are only an aid for a human editing the file manually.
+* "Officially", the _route_alternative_markers_ are modeled as lists. However, you can be assured that in all problem instances for this challenge, this list will have length at most one. In other words, there is never more than one label.
 
 #### _section_markers_ on a _route_section_
 
@@ -86,7 +87,7 @@ A specialty of route graph are the _section markers_ that may be associated to c
 
 ![](documentation/img/route_DAG_section_markers.png)
 
-#### The formal data model
+#### The formal data model of a _route_
 In the formal data model, a _route_ has
 * an id
 * a list of _route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows

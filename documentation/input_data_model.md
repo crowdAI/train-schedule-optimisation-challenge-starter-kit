@@ -48,9 +48,9 @@ Recall from the [Quick Introduction](documentation/README.md#a-very-quick-introd
 
 As an example, we again look at our [sample scenario](sample_files/sample_scenario.json). The following images illustrate route 111 in that scenario (although route 113 is identical):
 
-#### A _route_ as a directed acyclic graph (DAG)
-
 ![](documentation/img/route_sample.png)
+
+#### A _route_ as a directed acyclic graph (DAG)
 
 In a minute, we explain how to derive a directed graph from the data in the JSON. But I give you the picture first. The DAG for route 111 actually looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_ (see the explanation on _route paths_ just below), the black labels are the _sequence_number_ of the individual _route_section_.
 

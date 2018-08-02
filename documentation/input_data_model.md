@@ -39,7 +39,7 @@ In general, it consists of
 
 Our example above has three _section_requirements_ for train 111. We will study the meaning of the section requirements in detail below, but for the moment you may think of them as follows:
 
-* The first one specifies that basically the train must not start before 08:20:00
+* The first one specifies that basically the train starts in 'A0 and must not depart before 08:20:00
 * The second one says that for some intermediate stop in 'B' (this will match to a certain position in the _route_ of this train), a minimum stopping time of 3 minutes must be observed and the train must not leave 'B' before 08:30:00
 * Finally, the third one requires that the train arrive in 'C' no later than 08:50:00
 

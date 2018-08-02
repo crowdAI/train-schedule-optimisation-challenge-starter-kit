@@ -134,9 +134,7 @@ Each section_requirement references a _section_marker_. This means that "this re
 * a minimum stopping time be observed on this route section by setting min_stopping_time. This stopping time will be _in addition_ to the minimum_running_time
 * the _connections_ to other trains to be observed
 
-If this is a bit much to digest, don't worry. The [planning rules](documentation/business_rules.md) define in detail how the _section_requirements_ are to be translated into formal rules that the solutions must adhere to. 
-
-For the moment, let's look at some examples before defining the formal data model:
+If this is a bit much to digest, don't worry. We will see in the [planning rules](documentation/business_rules.md) the formal rules that you need to observe when constructing solutions. For now, let's just look at some examples before defining the formal data model:
 
 * _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
 ![](documentation/img/section_requirements_examples.png)
@@ -157,7 +155,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number                                                                  | integer                           | Needed because JSON deserialization may not preserve order <br> __Important Note__: If you look at the route graph for service intention 111 in the example above, you see that however you travel through the graph (from a source to a sink node) you will always pass _section_markers_ A, then B and finally C. This is exactly the same sequence as the _section_requirements_ in the _service_intention_. __We guarantee that this is always the case for all our [problem instances](problem_instances)!__. That is, the route graphs are such that you will always automatically pass all required _section_markers_ and you will do so in the correct sequence.    |
+| sequence_number                                                                  | integer                           | Needed because JSON deserialization may not preserve order <br> __Important Note__: If you look at the route graph for service intention 111 [in the example above](#section_markers-on-a-route_section), you see that however you travel through the graph (from a source to a sink node) you will always pass _section_markers_ A, then B and finally C. This is exactly the same sequence as the _section_requirements_ in the _service_intention_. __We guarantee that this is always the case for all our [problem instances](problem_instances)!__. That is, the route graphs are such that you will always automatically pass all required _section_markers_ and you will do so in the correct sequence.    |
 | type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent, such as start of a train, a scheduled stop, etc. Has no effect on processing. You may ignore it.   |
 | min_stopping_time                                                       | ISO duration                      |  see text above |
 | entry_earliest and/or entry_latest                                         | HH:MM[:SS] formatted time-of-day  |  see text above |

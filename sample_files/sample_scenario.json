@@ -181,11 +181,11 @@
 						},
 						{
 							 "sequence_number": 14,
-							 "route_alternative_marker_at_entry": [
-								"M4"
-							],
 							 "section_marker": [
 								"C"
+							],
+							 "route_alternative_marker_at_entry": [
+								"M4"
 							],
 							 "resource_occupations": [
 								{

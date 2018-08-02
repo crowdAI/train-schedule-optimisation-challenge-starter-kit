@@ -1,6 +1,6 @@
 {
 	"problem_instance_label": "SBB_challenge_sample_scenario_with_routing_alternatives",
-	"problem_instance_hash": -244764091,
+	"problem_instance_hash": -1254734547,
 	"hash": 1611930817,
 	"train_runs": [
 		{
@@ -9,8 +9,8 @@
 				{
 					"entry_time": "08:20:00",
 					"exit_time": "08:20:53",
-					"route": "route_1",
-					"route_section_id": "route_1#3",
+					"route": 111,
+					"route_section_id": "111#3",
 					"sequence_number": 1,
 					"route_path": 3,
 					"section_requirement": "A"
@@ -18,8 +18,8 @@
 				{
 					"entry_time": "08:20:53",
 					"exit_time": "08:21:25",
-					"route": "route_1",
-					"route_section_id": "route_1#4",
+					"route": 111,
+					"route_section_id": "111#4",
 					"sequence_number": 2,
 					"route_path": 1,
 					"section_requirement": null
@@ -27,8 +27,8 @@
 				{
 					"entry_time": "08:21:25",
 					"exit_time": "08:30:00",
-					"route": "route_1",
-					"route_section_id": "route_1#5",
+					"route": 111,
+					"route_section_id": "111#5",
 					"sequence_number": 3,
 					"route_path": 1,
 					"section_requirement": "B"
@@ -36,8 +36,8 @@
 				{
 					"entry_time": "08:30:00",
 					"exit_time": "08:30:32",
-					"route": "route_1",
-					"route_section_id": "route_1#6",
+					"route": 111,
+					"route_section_id": "111#6",
 					"sequence_number": 4,
 					"route_path": 1,
 					"section_requirement": null
@@ -45,8 +45,8 @@
 				{
 					"entry_time": "08:30:32",
 					"exit_time": "08:31:04",
-					"route": "route_1",
-					"route_section_id": "route_1#10",
+					"route": 111,
+					"route_section_id": "111#10",
 					"sequence_number": 5,
 					"route_path": 1,
 					"section_requirement": null
@@ -54,8 +54,8 @@
 				{
 					"entry_time": "08:31:04",
 					"exit_time": "08:31:36",
-					"route": "route_1",
-					"route_section_id": "route_1#13",
+					"route": 111,
+					"route_section_id": "111#13",
 					"sequence_number": 6,
 					"route_path": 1,
 					"section_requirement": null
@@ -63,8 +63,8 @@
 				{
 					"entry_time": "08:31:36",
 					"exit_time": "08:32:08",
-					"route": "route_1",
-					"route_section_id": "route_1#14",
+					"route": 111,
+					"route_section_id": "111#14",
 					"sequence_number": 7,
 					"route_path": 1,
 					"section_requirement": "C"
@@ -77,8 +77,8 @@
 				{
 					"entry_time": "07:50:00",
 					"exit_time": "07:50:53",
-					"route": "route_1",
-					"route_section_id": "route_1#1",
+					"route": 113,
+					"route_section_id": "113#1",
 					"sequence_number": 1,
 					"route_path": 1,
 					"section_requirement": "A"
@@ -86,8 +86,8 @@
 				{
 					"entry_time": "07:50:53",
 					"exit_time": "07:51:25",
-					"route": "route_1",
-					"route_section_id": "route_1#4",
+					"route": 113,
+					"route_section_id": "113#4",
 					"sequence_number": 2,
 					"route_path": 1,
 					"section_requirement": null
@@ -95,8 +95,8 @@
 				{
 					"entry_time": "07:51:25",
 					"exit_time": "07:51:57",
-					"route": "route_1",
-					"route_section_id": "route_1#5",
+					"route": 113,
+					"route_section_id": "113#5",
 					"sequence_number": 3,
 					"route_path": 1,
 					"section_requirement": null
@@ -104,8 +104,8 @@
 				{
 					"entry_time": "07:51:57",
 					"exit_time": "07:52:29",
-					"route": "route_1",
-					"route_section_id": "route_1#6",
+					"route": 113,
+					"route_section_id": "113#6",
 					"sequence_number": 4,
 					"route_path": 1,
 					"section_requirement": null
@@ -113,8 +113,8 @@
 				{
 					"entry_time": "07:52:29",
 					"exit_time": "07:53:01",
-					"route": "route_1",
-					"route_section_id": "route_1#10",
+					"route": 113,
+					"route_section_id": "113#10",
 					"sequence_number": 5,
 					"route_path": 1,
 					"section_requirement": null
@@ -122,8 +122,8 @@
 				{
 					"entry_time": "07:53:01",
 					"exit_time": "07:53:33",
-					"route": "route_1",
-					"route_section_id": "route_1#13",
+					"route": 113,
+					"route_section_id": "113#13",
 					"sequence_number": 6,
 					"route_path": 1,
 					"section_requirement": null
@@ -131,8 +131,8 @@
 				{
 					"entry_time": "07:53:33",
 					"exit_time": "08:06:00",
-					"route": "route_1",
-					"route_section_id": "route_1#14",
+					"route": 113,
+					"route_section_id": "113#14",
 					"sequence_number": 7,
 					"route_path": 1,
 					"section_requirement": "C"

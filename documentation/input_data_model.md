@@ -23,7 +23,7 @@ This is just a human-readable identifier for the instance. It is of no concern o
 A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](documentation/output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
 ### service_intentions
-This is a list. Each item in the list is an individual _service_intention_. In the [example](sample_files/sample_scenario_simple.json), it looks like this:
+This is a list. Each item in the list is an individual _service_intention_. In the [example](sample_files/sample_scenario.json), it looks like this:
 
 ![](documentation/img/service_intentions.png)
 

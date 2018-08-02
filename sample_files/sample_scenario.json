@@ -1,744 +1,716 @@
 {
-	 "label": "SBB_challenge_sample_scenario_with_routing_alternatives",
-	 "hash": -1254734547,
-	 "funktionaleAngebotsbeschreibungen": [
+	"label": "SBB_challenge_sample_scenario_with_routing_alternatives",
+	"hash": -1254734547,
+	"funktionaleAngebotsbeschreibungen": [
 		{
-			 "id": 111,
-			 "fahrweg": 111,
-			 "abschnittsvorgaben": [
+			"id": 111,
+			"fahrweg": 111,
+			"abschnittsvorgaben": [
 				{
-					 "reihenfolge": 1,
-					 "abschnittskennzeichen": "A",
-					 "typ": "start",
-					 "einMin": "08:20:00",
-					 "einMax": "08:30:00",
-					 "einVerspaetungsfaktor": 1,
-					 "ausVerspaetungsfaktor": 1,
-					 "anschluesse": null
+					"reihenfolge": 1,
+					"abschnittskennzeichen": "A",
+					"typ": "start",
+					"einMin": "08:20:00",
+					"einMax": "08:30:00",
+					"einVerspaetungsfaktor": 1,
+					"ausVerspaetungsfaktor": 1,
+					"anschluesse": null
 				},
 				{
-					 "reihenfolge": 2,
-					 "abschnittskennzeichen": "B",
-					 "typ": "ende",
-					 "einVerspaetungsfaktor": 1,
-					 "ausMin": "08:30:00",
-					 "ausMax": "08:40:00",
-					 "ausVerspaetungsfaktor": 1,
-					 "anschluesse": null
+					"reihenfolge": 2,
+					"abschnittskennzeichen": "B",
+					"typ": "ende",
+					"einVerspaetungsfaktor": 1,
+					"ausMin": "08:30:00",
+					"ausMax": "08:40:00",
+					"ausVerspaetungsfaktor": 1,
+					"anschluesse": null
 				},
 				{
-					 "reihenfolge": 3,
-					 "abschnittskennzeichen": "C",
-					 "typ": "ende",
-					 "einVerspaetungsfaktor": 1,
-					 "ausMin": "08:30:00",
-					 "ausMax": "08:40:00",
-					 "ausVerspaetungsfaktor": 1,
-					 "anschluesse": null
+					"reihenfolge": 3,
+					"abschnittskennzeichen": "C",
+					"typ": "ende",
+					"einVerspaetungsfaktor": 1,
+					"ausMin": "08:30:00",
+					"ausMax": "08:40:00",
+					"ausVerspaetungsfaktor": 1,
+					"anschluesse": null
 				}
 			]
 		},
 		{
-			 "id": 113,
-			 "fahrweg": 113,
-			 "abschnittsvorgaben": [
+			"id": 113,
+			"fahrweg": 113,
+			"abschnittsvorgaben": [
 				{
-					 "abschnittskennzeichen": "A",
-					 "typ": "start",
-					 "einMin": "07:50:00",
-					 "einMax": "07:55:00",
-					 "einVerspaetungsfaktor": 1,
-					 "ausVerspaetungsfaktor": 1,
-					 "anschluesse": null
+					"abschnittskennzeichen": "A",
+					"typ": "start",
+					"einMin": "07:50:00",
+					"einMax": "07:55:00",
+					"einVerspaetungsfaktor": 1,
+					"ausVerspaetungsfaktor": 1,
+					"anschluesse": null
 				},
 				{
-					 "abschnittskennzeichen": "C",
-					 "typ": "ende",
-					 "einVerspaetungsfaktor": 1,
-					 "ausMin": "08:06:00",
-					 "ausMax": "08:16:00",
-					 "ausVerspaetungsfaktor": 1,
-					 "anschluesse": null
+					"abschnittskennzeichen": "C",
+					"typ": "ende",
+					"einVerspaetungsfaktor": 1,
+					"ausMin": "08:06:00",
+					"ausMax": "08:16:00",
+					"ausVerspaetungsfaktor": 1,
+					"anschluesse": null
 				}
 			]
 		}
 	],
-	 "fahrwege": [
+	"fahrwege": [
 		{
-			 "id": 111,
-			 "abschnittsfolgen": [
+			"id": 111,
+			"abschnittsfolgen": [
 				{
-					 "id": 1,
-					 "fahrwegabschnitte": [
+					"id": 1,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 1,
-							 "topologischeReihenfolge": 0,
-							 "nachVerzweigungen": [
+							"reihenfolge": 1,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A1",
-									 "belegungsrichtung": null
+									"ressource": "A1",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						},
 						{
-							 "reihenfolge": 4,
-							 "topologischeReihenfolge": 3,
-							 "vonVerzweigungen": [
+							"reihenfolge": 4,
+							"vonVerzweigungen": [
 								"M1"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "B"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "B"
 						},
 						{
-							 "reihenfolge": 5,
-							 "topologischeReihenfolge": 4,
-							 "nachVerzweigungen": [
+							"reihenfolge": 5,
+							"nachVerzweigungen": [
 								"M2"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"B"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "B",
-									 "belegungsrichtung": null
+									"ressource": "B",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "B"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "B"
 						},
 						{
-							 "reihenfolge": 6,
-							 "topologischeReihenfolge": 5,
-							 "vonVerzweigungen": [
+							"reihenfolge": 6,
+							"vonVerzweigungen": [
 								"M2"
 							],
-							 "nachVerzweigungen": [
+							"nachVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "BX_1",
-									 "belegungsrichtung": null
+									"ressource": "BX_1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "X"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "X"
 						},
 						{
-							 "reihenfolge": 10,
-							 "topologischeReihenfolge": 7,
-							 "vonVerzweigungen": [
+							"reihenfolge": 10,
+							"vonVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XY_1",
-									 "belegungsrichtung": null
+									"ressource": "XY_1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "Y"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "Y"
 						},
 						{
-							 "reihenfolge": 13,
-							 "topologischeReihenfolge": 10,
-							 "nachVerzweigungen": [
+							"reihenfolge": 13,
+							"nachVerzweigungen": [
 								"M4"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "YC",
-									 "belegungsrichtung": null
+									"ressource": "YC",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "Y",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "Y",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						},
 						{
-							 "reihenfolge": 14,
-							 "topologischeReihenfolge": 13,
-							 "vonVerzweigungen": [
+							"reihenfolge": 14,
+							"vonVerzweigungen": [
 								"M4"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"C"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "C",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "C",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				},
 				{
-					 "id": 2,
-					 "fahrwegabschnitte": [
+					"id": 2,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 2,
-							 "topologischeReihenfolge": 1,
-							 "nachVerzweigungen": [
+							"reihenfolge": 2,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A2",
-									 "belegungsrichtung": null
+									"ressource": "A2",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						}
 					]
 				},
 				{
-					 "id": 3,
-					 "fahrwegabschnitte": [
+					"id": 3,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 3,
-							 "topologischeReihenfolge": 2,
-							 "nachVerzweigungen": [
+							"reihenfolge": 3,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A3",
-									 "belegungsrichtung": null
+									"ressource": "A3",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						}
 					]
 				},
 				{
-					 "id": 4,
-					 "fahrwegabschnitte": [
+					"id": 4,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 7,
-							 "topologischeReihenfolge": 6,
-							 "vonVerzweigungen": [
+							"reihenfolge": 7,
+							"vonVerzweigungen": [
 								"M2"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "BX_2",
-									 "belegungsrichtung": null
+									"ressource": "BX_2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "X"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "X"
 						},
 						{
-							 "reihenfolge": 8,
-							 "topologischeReihenfolge": 9,
-							 "ressourcenbelegungen": [
+							"reihenfolge": 8,
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XC",
-									 "belegungsrichtung": null
+									"ressource": "XC",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						},
 						{
-							 "reihenfolge": 9,
-							 "topologischeReihenfolge": 12,
-							 "abschnittskennzeichen": [
+							"reihenfolge": 9,
+							"abschnittskennzeichen": [
 								"C"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "C2",
-									 "belegungsrichtung": null
+									"ressource": "C2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "C",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "C",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				},
 				{
-					 "id": 5,
-					 "fahrwegabschnitte": [
+					"id": 5,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 11,
-							 "topologischeReihenfolge": 8,
-							 "vonVerzweigungen": [
+							"reihenfolge": 11,
+							"vonVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XY_2",
-									 "belegungsrichtung": null
+									"ressource": "XY_2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "Y"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "Y"
 						},
 						{
-							 "reihenfolge": 12,
-							 "topologischeReihenfolge": 11,
-							 "nachVerzweigungen": [
+							"reihenfolge": 12,
+							"nachVerzweigungen": [
 								"M4"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "YC",
-									 "belegungsrichtung": null
+									"ressource": "YC",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "Y",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "Y",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				}
 			]
 		},
 		{
-			 "id": 113,
-			 "abschnittsfolgen": [
+			"id": 113,
+			"abschnittsfolgen": [
 				{
-					 "id": 1,
-					 "fahrwegabschnitte": [
+					"id": 1,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 1,
-							 "topologischeReihenfolge": 0,
-							 "nachVerzweigungen": [
+							"reihenfolge": 1,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A1",
-									 "belegungsrichtung": null
+									"ressource": "A1",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						},
 						{
-							 "reihenfolge": 4,
-							 "topologischeReihenfolge": 3,
-							 "vonVerzweigungen": [
+							"reihenfolge": 4,
+							"vonVerzweigungen": [
 								"M1"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "B"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "B"
 						},
 						{
-							 "reihenfolge": 5,
-							 "topologischeReihenfolge": 4,
-							 "nachVerzweigungen": [
+							"reihenfolge": 5,
+							"nachVerzweigungen": [
 								"M2"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"B"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "B",
-									 "belegungsrichtung": null
+									"ressource": "B",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "B"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "B"
 						},
 						{
-							 "reihenfolge": 6,
-							 "topologischeReihenfolge": 5,
-							 "vonVerzweigungen": [
+							"reihenfolge": 6,
+							"vonVerzweigungen": [
 								"M2"
 							],
-							 "nachVerzweigungen": [
+							"nachVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "BX_1",
-									 "belegungsrichtung": null
+									"ressource": "BX_1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "X"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "X"
 						},
 						{
-							 "reihenfolge": 10,
-							 "topologischeReihenfolge": 7,
-							 "vonVerzweigungen": [
+							"reihenfolge": 10,
+							"vonVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XY_1",
-									 "belegungsrichtung": null
+									"ressource": "XY_1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "Y"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "Y"
 						},
 						{
-							 "reihenfolge": 13,
-							 "topologischeReihenfolge": 10,
-							 "nachVerzweigungen": [
+							"reihenfolge": 13,
+							"nachVerzweigungen": [
 								"M4"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "YC",
-									 "belegungsrichtung": null
+									"ressource": "YC",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "Y",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "Y",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						},
 						{
-							 "reihenfolge": 14,
-							 "topologischeReihenfolge": 13,
-							 "vonVerzweigungen": [
+							"reihenfolge": 14,
+							"vonVerzweigungen": [
 								"M4"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"C"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "C",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "C",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				},
 				{
-					 "id": 2,
-					 "fahrwegabschnitte": [
+					"id": 2,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 2,
-							 "topologischeReihenfolge": 1,
-							 "nachVerzweigungen": [
+							"reihenfolge": 2,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A2",
-									 "belegungsrichtung": null
+									"ressource": "A2",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						}
 					]
 				},
 				{
-					 "id": 3,
-					 "fahrwegabschnitte": [
+					"id": 3,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 3,
-							 "topologischeReihenfolge": 2,
-							 "nachVerzweigungen": [
+							"reihenfolge": 3,
+							"nachVerzweigungen": [
 								"M1"
 							],
-							 "abschnittskennzeichen": [
+							"abschnittskennzeichen": [
 								"A"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "A3",
-									 "belegungsrichtung": null
+									"ressource": "A3",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "AB",
-									 "belegungsrichtung": null
+									"ressource": "AB",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "A",
-							 "minimaleFahrzeit": "PT53S",
-							 "endpunkt": "A"
+							"penalty": null,
+							"startpunkt": "A",
+							"minimaleFahrzeit": "PT53S",
+							"endpunkt": "A"
 						}
 					]
 				},
 				{
-					 "id": 4,
-					 "fahrwegabschnitte": [
+					"id": 4,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 7,
-							 "topologischeReihenfolge": 6,
-							 "vonVerzweigungen": [
+							"reihenfolge": 7,
+							"vonVerzweigungen": [
 								"M2"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "BX_2",
-									 "belegungsrichtung": null
+									"ressource": "BX_2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "B",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "X"
+							"penalty": null,
+							"startpunkt": "B",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "X"
 						},
 						{
-							 "reihenfolge": 8,
-							 "topologischeReihenfolge": 9,
-							 "ressourcenbelegungen": [
+							"reihenfolge": 8,
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XC",
-									 "belegungsrichtung": null
+									"ressource": "XC",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						},
 						{
-							 "reihenfolge": 9,
-							 "topologischeReihenfolge": 12,
-							 "abschnittskennzeichen": [
+							"reihenfolge": 9,
+							"abschnittskennzeichen": [
 								"C"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "C2",
-									 "belegungsrichtung": null
+									"ressource": "C2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "C",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "C",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				},
 				{
-					 "id": 5,
-					 "fahrwegabschnitte": [
+					"id": 5,
+					"fahrwegabschnitte": [
 						{
-							 "reihenfolge": 11,
-							 "topologischeReihenfolge": 8,
-							 "vonVerzweigungen": [
+							"reihenfolge": 11,
+							"vonVerzweigungen": [
 								"M3"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "XY_2",
-									 "belegungsrichtung": null
+									"ressource": "XY_2",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "X",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "Y"
+							"penalty": null,
+							"startpunkt": "X",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "Y"
 						},
 						{
-							 "reihenfolge": 12,
-							 "topologischeReihenfolge": 11,
-							 "nachVerzweigungen": [
+							"reihenfolge": 12,
+							"nachVerzweigungen": [
 								"M4"
 							],
-							 "ressourcenbelegungen": [
+							"ressourcenbelegungen": [
 								{
-									 "ressource": "YC",
-									 "belegungsrichtung": null
+									"ressource": "YC",
+									"belegungsrichtung": null
 								},
 								{
-									 "ressource": "C1",
-									 "belegungsrichtung": null
+									"ressource": "C1",
+									"belegungsrichtung": null
 								}
 							],
-							 "penalty": null,
-							 "startpunkt": "Y",
-							 "minimaleFahrzeit": "PT32S",
-							 "endpunkt": "C"
+							"penalty": null,
+							"startpunkt": "Y",
+							"minimaleFahrzeit": "PT32S",
+							"endpunkt": "C"
 						}
 					]
 				}
 			]
 		}
 	],
-	 "ressourcen": [
+	"ressourcen": [
 		{
-			 "id": "A1",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "A1",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "A2",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "A2",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "A3",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "A3",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "AB",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "AB",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "BX_1",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "BX_1",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "B",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "B",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "BX_2",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "BX_2",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "XY_1",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "XY_1",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "XY_2",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "XY_2",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "YC",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "YC",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "C1",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "C1",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "C2",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "C2",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		},
 		{
-			 "id": "XC",
-			 "freigabezeit": "PT30S",
-			 "zugfolgeErlaubt": false
+			"id": "XC",
+			"freigabezeit": "PT30S",
+			"zugfolgeErlaubt": false
 		}
 	],
-	 "parameters": {
-		 "maxBandabweichung": "PT24H"
+	"parameters": {
+		"maxBandabweichung": "PT24H"
 	}
 }

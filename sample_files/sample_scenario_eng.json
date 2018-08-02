@@ -72,7 +72,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 1,
-							"topologischeReihenfolge": 0,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -96,7 +95,6 @@
 						},
 						{
 							"sequence_number": 4,
-							"topologischeReihenfolge": 3,
 							"route_alternative_marker_at_entry": [
 								"M1"
 							],
@@ -113,7 +111,6 @@
 						},
 						{
 							"sequence_number": 5,
-							"topologischeReihenfolge": 4,
 							"route_alternative_marker_at_exit": [
 								"M2"
 							],
@@ -133,7 +130,6 @@
 						},
 						{
 							"sequence_number": 6,
-							"topologischeReihenfolge": 5,
 							"route_alternative_marker_at_entry": [
 								"M2"
 							],
@@ -153,7 +149,6 @@
 						},
 						{
 							"sequence_number": 10,
-							"topologischeReihenfolge": 7,
 							"route_alternative_marker_at_entry": [
 								"M3"
 							],
@@ -170,7 +165,6 @@
 						},
 						{
 							"sequence_number": 13,
-							"topologischeReihenfolge": 10,
 							"route_alternative_marker_at_exit": [
 								"M4"
 							],
@@ -191,7 +185,6 @@
 						},
 						{
 							"sequence_number": 14,
-							"topologischeReihenfolge": 13,
 							"route_alternative_marker_at_entry": [
 								"M4"
 							],
@@ -216,7 +209,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 2,
-							"topologischeReihenfolge": 1,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -245,7 +237,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 3,
-							"topologischeReihenfolge": 2,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -274,7 +265,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 7,
-							"topologischeReihenfolge": 6,
 							"route_alternative_marker_at_entry": [
 								"M2"
 							],
@@ -291,7 +281,6 @@
 						},
 						{
 							"sequence_number": 8,
-							"topologischeReihenfolge": 9,
 							"resource_occupations": [
 								{
 									"resource": "XC",
@@ -305,7 +294,6 @@
 						},
 						{
 							"sequence_number": 9,
-							"topologischeReihenfolge": 12,
 							"section_marker": [
 								"C"
 							],
@@ -327,7 +315,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 11,
-							"topologischeReihenfolge": 8,
 							"route_alternative_marker_at_entry": [
 								"M3"
 							],
@@ -344,7 +331,6 @@
 						},
 						{
 							"sequence_number": 12,
-							"topologischeReihenfolge": 11,
 							"route_alternative_marker_at_exit": [
 								"M4"
 							],
@@ -375,7 +361,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 1,
-							"topologischeReihenfolge": 0,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -399,7 +384,6 @@
 						},
 						{
 							"sequence_number": 4,
-							"topologischeReihenfolge": 3,
 							"route_alternative_marker_at_entry": [
 								"M1"
 							],
@@ -416,7 +400,6 @@
 						},
 						{
 							"sequence_number": 5,
-							"topologischeReihenfolge": 4,
 							"route_alternative_marker_at_exit": [
 								"M2"
 							],
@@ -436,7 +419,6 @@
 						},
 						{
 							"sequence_number": 6,
-							"topologischeReihenfolge": 5,
 							"route_alternative_marker_at_entry": [
 								"M2"
 							],
@@ -456,7 +438,6 @@
 						},
 						{
 							"sequence_number": 10,
-							"topologischeReihenfolge": 7,
 							"route_alternative_marker_at_entry": [
 								"M3"
 							],
@@ -473,7 +454,6 @@
 						},
 						{
 							"sequence_number": 13,
-							"topologischeReihenfolge": 10,
 							"route_alternative_marker_at_exit": [
 								"M4"
 							],
@@ -494,7 +474,6 @@
 						},
 						{
 							"sequence_number": 14,
-							"topologischeReihenfolge": 13,
 							"route_alternative_marker_at_entry": [
 								"M4"
 							],
@@ -519,7 +498,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 2,
-							"topologischeReihenfolge": 1,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -548,7 +526,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 3,
-							"topologischeReihenfolge": 2,
 							"route_alternative_marker_at_exit": [
 								"M1"
 							],
@@ -577,7 +554,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 7,
-							"topologischeReihenfolge": 6,
 							"route_alternative_marker_at_entry": [
 								"M2"
 							],
@@ -594,7 +570,6 @@
 						},
 						{
 							"sequence_number": 8,
-							"topologischeReihenfolge": 9,
 							"resource_occupations": [
 								{
 									"resource": "XC",
@@ -608,7 +583,6 @@
 						},
 						{
 							"sequence_number": 9,
-							"topologischeReihenfolge": 12,
 							"section_marker": [
 								"C"
 							],
@@ -630,7 +604,6 @@
 					"route_sections": [
 						{
 							"sequence_number": 11,
-							"topologischeReihenfolge": 8,
 							"route_alternative_marker_at_entry": [
 								"M3"
 							],
@@ -647,7 +620,6 @@
 						},
 						{
 							"sequence_number": 12,
-							"topologischeReihenfolge": 11,
 							"route_alternative_marker_at_exit": [
 								"M4"
 							],

@@ -61,7 +61,7 @@ __Note__: There is also a [helper script](ToDo) that constructs a [networkx](htt
 #### How is this Graph modeled in the JSON?
 Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. linear subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that route 111 in our [sample scenario](sample_files/sample_scenario.json) is made up of 5 _route_paths_:
 
-![](documentation/img/route_1_route_paths.png)
+![](documentation/img/route_111_route_paths.png)
 
 Each _route_path_ is a path in the route graph. In the following image, all _route_paths_ are encircled for clarity. For example, the green path illustrates the _route_path_ with id=1. It consists of 7 _route_sections_. Similarly, the orange one corresponds to _route_path_ with id=2. It consists only of one _route_section_.
 

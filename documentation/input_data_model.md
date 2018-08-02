@@ -59,7 +59,7 @@ In a minute, we explain how to derive a directed graph from the data in the JSON
 __Note__: There is also a [helper script](ToDo) that constructs a [networkx](https://networkx.github.io/) graph for each service intention in a problem instance. You are free to use it for the challenge if you find it helpful.
 
 #### How is this Graph modeled in the JSON?
-Let us see how this graph is modeled in the JSON. Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. lineare subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that _route_1_ in our [sample scenario] is made up of 5 _route_paths_:
+Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. linear subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that route 111 in our [sample scenario](sample_files/sample_scenario.json) is made up of 5 _route_paths_:
 
 ![](documentation/img/route_1_route_paths.png)
 

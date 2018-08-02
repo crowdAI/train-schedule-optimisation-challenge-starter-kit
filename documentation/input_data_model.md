@@ -1,11 +1,6 @@
 # Input Data Model
 This document describes the data model for the [problem instances](problem_instances).
 
-## A Note on translation from and to German
-Unfortunately, our data model was conceived in German. This cannot really be changed for this challenge. It is what it is. In particular, the solutions your solver produces will also need to conform to the [solution data model](documentation/output_data_model.md), which is also in German.
-
-However: If you prefer to work with English terminology internally, we provide translation helper scripts that you can use to translate a problem instance into English and to translate an English solution into the German terminology we require. The translation script is [here](https://gitlab.crowdai.org/jordiju/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/translate.py).
-
 ## Data Model of the Problem Instances
 
 A _problem instance_, or a _scenario_, is a JSON file containing the following top-level elements:
@@ -16,7 +11,7 @@ A _problem instance_, or a _scenario_, is a JSON file containing the following t
 * resources
 * parameters
 
-Let's go through them. You may use the small [sample scenario](sample_files/sample_scenario_simple.json) as a concrete example. This looks like this: It contains 9 trains to be scheduled, 2 routes, and 33 resources.
+Let's go through them. You may use the small [sample scenario](sample_files/sample_scenario.json) as a concrete example. This looks like this: It contains just 2 trains to be scheduled, 2 routes (one for each train), and 13 resources.
 
 ![](documentation/img/scenario_top_level.png)
 

@@ -101,7 +101,7 @@ In the formal data model, a _route_ has
 
 ##### _route_section_
 
-As an example, let's look at the _route_section_ with _sequence_number_ 5, located in _route_path_ 1 of the [example](sample_files/sample_scenario_with_routing_alternatives.json). It looks like this:
+As an example, let's look at the _route_section_ with _sequence_number_ 5, located in our sample route 111 of the [example](sample_files/sample_scenario.json). It looks like this:
 
 ![](documentation/img/route_section_example.png)
 
@@ -128,7 +128,7 @@ We explain the meaning of the individual fields:
 #### Now we we can talk about the _section_requirement_ [element of a [service_intention](#service-intention)]
 With the understanding of the routes, the meaning of the _section requirements_ in a service intention now makes more sense.
 
-Each section_requirement references a _section_marker_. This means that "this requirement can be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can specify four types of requirements:
+Each section_requirement references a _section_marker_. This means that "this requirement must be satisfied on any route_section that carries this label as a _section_marker_". The section requirement can specify four types of requirements:
 * that a certain time window be respected for the entry event by setting entry_earliest and/or entry_latest accordingly
 * same thing for the exit event by setting exit_earliest and/or exit_latest
 * a minimum stopping time be observed on this route section by setting min_stopping_time. This stopping time will be _in addition_ to the minimum_running_time
@@ -138,7 +138,7 @@ Let's look at some examples before defining the formal model:
 
 * _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
 ![](documentation/img/section_requirements_examples.png)
-* The first of these is for _section_marker_ 'A' and specifies, that "departure from this station" must not occur before 08:20:00 (more technically: the _entry_event_ into the corresponding _route_section_ must not occur before 08:20:00) <br>
+* The first of these is for _section_marker_ 'A'. We said above that this means that "departure from station A" must not occur before 08:20:00. What it __really__ means is: the _entry_event_ into this _route_section_ must not occur before 08:20:00 <br>
 ![](documentation/img/section_requirements_example_start.png)
 * The second is for _section_marker_ 'B' and requires that on the corresponding _route_section_
     - the train spends, in addition to the minimum running time, at least 3 minutes for a commercial stop

@@ -1,7 +1,7 @@
 {
 	 "verkehrsplanLabel": "01_dummy",
 	 "verkehrsplanHash": 759370455,
-	 "hash": -2139990740,
+	 "hash": 237925822,
 	 "zugfahrten": [
 		{
 			 "funktionaleAngebotsbeschreibungId": 18823,
@@ -9,8 +9,8 @@
 				{
 					 "ein": "06:35:00",
 					 "aus": "06:37:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#1",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#1",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZLOE_Halt"
@@ -18,8 +18,8 @@
 				{
 					 "ein": "06:37:00",
 					 "aus": "06:37:32.64",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#5",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#5",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -27,8 +27,8 @@
 				{
 					 "ein": "06:37:32.64",
 					 "aus": "06:37:40.8",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#10",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#10",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -36,8 +36,8 @@
 				{
 					 "ein": "06:37:40.8",
 					 "aus": "06:37:55.08",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#15",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#15",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -45,8 +45,8 @@
 				{
 					 "ein": "06:37:55.08",
 					 "aus": "06:38:15.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#20",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#20",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -54,8 +54,8 @@
 				{
 					 "ein": "06:38:15.48",
 					 "aus": "06:38:35.88",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#25",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#25",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -63,8 +63,8 @@
 				{
 					 "ein": "06:38:35.88",
 					 "aus": "06:38:47.1",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#30",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#30",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -72,8 +72,8 @@
 				{
 					 "ein": "06:38:47.1",
 					 "aus": "06:39:01.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#35",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#35",
 					 "reihenfolge": 8,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -81,8 +81,8 @@
 				{
 					 "ein": "06:39:01.38",
 					 "aus": "06:39:35.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#37",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#37",
 					 "reihenfolge": 9,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWIE_Halt"
@@ -90,8 +90,8 @@
 				{
 					 "ein": "06:39:35.38",
 					 "aus": "06:40:20.26",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#40",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#40",
 					 "reihenfolge": 10,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -99,8 +99,8 @@
 				{
 					 "ein": "06:40:20.26",
 					 "aus": "06:40:40.66",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#45",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#45",
 					 "reihenfolge": 11,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -108,8 +108,8 @@
 				{
 					 "ein": "06:40:40.66",
 					 "aus": "06:41:01.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#50",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#50",
 					 "reihenfolge": 12,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -117,8 +117,8 @@
 				{
 					 "ein": "06:41:01.06",
 					 "aus": "06:43:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#52",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#52",
 					 "reihenfolge": 13,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZEN_Halt"
@@ -126,8 +126,8 @@
 				{
 					 "ein": "06:43:00",
 					 "aus": "06:43:47.94",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#55",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#55",
 					 "reihenfolge": 14,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -135,8 +135,8 @@
 				{
 					 "ein": "06:43:47.94",
 					 "aus": "06:44:18.54",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#60",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#60",
 					 "reihenfolge": 15,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -144,8 +144,8 @@
 				{
 					 "ein": "06:44:18.54",
 					 "aus": "06:44:36.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#65",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#65",
 					 "reihenfolge": 16,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -153,8 +153,8 @@
 				{
 					 "ein": "06:44:36.9",
 					 "aus": "06:44:45.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#70",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#70",
 					 "reihenfolge": 17,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -162,8 +162,8 @@
 				{
 					 "ein": "06:44:45.06",
 					 "aus": "06:45:19.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#72",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#72",
 					 "reihenfolge": 18,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWOL_Halt"
@@ -171,8 +171,8 @@
 				{
 					 "ein": "06:45:19.06",
 					 "aus": "06:46:14.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#75",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#75",
 					 "reihenfolge": 19,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -180,8 +180,8 @@
 				{
 					 "ein": "06:46:14.14",
 					 "aus": "06:46:26.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#80",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#80",
 					 "reihenfolge": 20,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -189,8 +189,8 @@
 				{
 					 "ein": "06:46:26.38",
 					 "aus": "06:46:36.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#85",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#85",
 					 "reihenfolge": 21,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -198,8 +198,8 @@
 				{
 					 "ein": "06:46:36.58",
 					 "aus": "06:47:10.24",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#90",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#90",
 					 "reihenfolge": 22,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -207,8 +207,8 @@
 				{
 					 "ein": "06:47:10.24",
 					 "aus": "06:47:38.8",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#95",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#95",
 					 "reihenfolge": 23,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -216,8 +216,8 @@
 				{
 					 "ein": "06:47:38.8",
 					 "aus": "06:48:04.3",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#100",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#100",
 					 "reihenfolge": 24,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -225,8 +225,8 @@
 				{
 					 "ein": "06:48:04.3",
 					 "aus": "06:48:38.3",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#102",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#102",
 					 "reihenfolge": 25,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "KIL_Halt"
@@ -234,8 +234,8 @@
 				{
 					 "ein": "06:48:38.3",
 					 "aus": "06:49:24.2",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#105",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#105",
 					 "reihenfolge": 26,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -243,8 +243,8 @@
 				{
 					 "ein": "06:49:24.2",
 					 "aus": "06:49:33.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#110",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#110",
 					 "reihenfolge": 27,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -252,8 +252,8 @@
 				{
 					 "ein": "06:49:33.38",
 					 "aus": "06:49:46.64",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#115",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#115",
 					 "reihenfolge": 28,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -261,8 +261,8 @@
 				{
 					 "ein": "06:49:46.64",
 					 "aus": "06:50:12.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#120",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#120",
 					 "reihenfolge": 29,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -270,8 +270,8 @@
 				{
 					 "ein": "06:50:12.14",
 					 "aus": "06:50:46.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#122",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#122",
 					 "reihenfolge": 30,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RUES_Halt"
@@ -279,8 +279,8 @@
 				{
 					 "ein": "06:50:46.14",
 					 "aus": "06:51:57.54",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#125",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#125",
 					 "reihenfolge": 31,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -288,8 +288,8 @@
 				{
 					 "ein": "06:51:57.54",
 					 "aus": "06:52:13.86",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#130",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#130",
 					 "reihenfolge": 32,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -297,8 +297,8 @@
 				{
 					 "ein": "06:52:13.86",
 					 "aus": "06:52:19.98",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#135",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#135",
 					 "reihenfolge": 33,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -306,8 +306,8 @@
 				{
 					 "ein": "06:52:19.98",
 					 "aus": "06:52:39.36",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#140",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#140",
 					 "reihenfolge": 34,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -315,8 +315,8 @@
 				{
 					 "ein": "06:52:39.36",
 					 "aus": "06:54:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#142",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#142",
 					 "reihenfolge": 35,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "TW_Halt"
@@ -324,8 +324,8 @@
 				{
 					 "ein": "06:54:00",
 					 "aus": "06:54:53.04",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#145",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#145",
 					 "reihenfolge": 36,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -333,8 +333,8 @@
 				{
 					 "ein": "06:54:53.04",
 					 "aus": "06:55:07.32",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#150",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#150",
 					 "reihenfolge": 37,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -342,8 +342,8 @@
 				{
 					 "ein": "06:55:07.32",
 					 "aus": "06:55:15.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#155",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#155",
 					 "reihenfolge": 38,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -351,8 +351,8 @@
 				{
 					 "ein": "06:55:15.48",
 					 "aus": "06:55:34.86",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#160",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#160",
 					 "reihenfolge": 39,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -360,8 +360,8 @@
 				{
 					 "ein": "06:55:34.86",
 					 "aus": "06:55:49.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#165",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#165",
 					 "reihenfolge": 40,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -369,8 +369,8 @@
 				{
 					 "ein": "06:55:49.14",
 					 "aus": "06:56:11.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#170",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#170",
 					 "reihenfolge": 41,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -378,8 +378,8 @@
 				{
 					 "ein": "06:56:11.58",
 					 "aus": "06:56:45.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#172",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#172",
 					 "reihenfolge": 42,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ORD_Halt"
@@ -387,8 +387,8 @@
 				{
 					 "ein": "06:56:45.58",
 					 "aus": "06:57:31.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#175",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#175",
 					 "reihenfolge": 43,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -396,8 +396,8 @@
 				{
 					 "ein": "06:57:31.48",
 					 "aus": "06:58:24.52",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#180",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#180",
 					 "reihenfolge": 44,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -405,8 +405,8 @@
 				{
 					 "ein": "06:58:24.52",
 					 "aus": "06:58:43.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#185",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#185",
 					 "reihenfolge": 45,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -414,8 +414,8 @@
 				{
 					 "ein": "06:58:43.9",
 					 "aus": "06:59:17.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#187",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#187",
 					 "reihenfolge": 46,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "HG_Halt"
@@ -423,8 +423,8 @@
 				{
 					 "ein": "06:59:17.9",
 					 "aus": "07:00:19.1",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#190",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#190",
 					 "reihenfolge": 47,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -432,8 +432,8 @@
 				{
 					 "ein": "07:00:19.1",
 					 "aus": "07:00:33.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#195",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#195",
 					 "reihenfolge": 48,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -441,8 +441,8 @@
 				{
 					 "ein": "07:00:33.38",
 					 "aus": "07:01:23.36",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#200",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#200",
 					 "reihenfolge": 49,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -450,8 +450,8 @@
 				{
 					 "ein": "07:01:23.36",
 					 "aus": "07:02:02.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#205",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#205",
 					 "reihenfolge": 50,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -459,8 +459,8 @@
 				{
 					 "ein": "07:02:02.12",
 					 "aus": "07:02:17.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#210",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#210",
 					 "reihenfolge": 51,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -468,8 +468,8 @@
 				{
 					 "ein": "07:02:17.42",
 					 "aus": "07:02:51.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#212",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#212",
 					 "reihenfolge": 52,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "AU_Halt"
@@ -477,8 +477,8 @@
 				{
 					 "ein": "07:02:51.42",
 					 "aus": "07:03:57.72",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#215",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#215",
 					 "reihenfolge": 53,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -486,8 +486,8 @@
 				{
 					 "ein": "07:03:57.72",
 					 "aus": "07:04:06.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#220",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#220",
 					 "reihenfolge": 54,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -495,8 +495,8 @@
 				{
 					 "ein": "07:04:06.9",
 					 "aus": "07:04:49.74",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#225",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#225",
 					 "reihenfolge": 55,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -504,8 +504,8 @@
 				{
 					 "ein": "07:04:49.74",
 					 "aus": "07:05:25.44",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#230",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#230",
 					 "reihenfolge": 56,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -513,8 +513,8 @@
 				{
 					 "ein": "07:05:25.44",
 					 "aus": "07:05:49.92",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#235",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#235",
 					 "reihenfolge": 57,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -522,8 +522,8 @@
 				{
 					 "ein": "07:05:49.92",
 					 "aus": "07:07:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#237",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#237",
 					 "reihenfolge": 58,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "WAE_Halt"
@@ -531,8 +531,8 @@
 				{
 					 "ein": "07:07:00",
 					 "aus": "07:07:55.08",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#240",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#240",
 					 "reihenfolge": 59,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -540,8 +540,8 @@
 				{
 					 "ein": "07:07:55.08",
 					 "aus": "07:08:11.4",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#245",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#245",
 					 "reihenfolge": 60,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -549,8 +549,8 @@
 				{
 					 "ein": "07:08:11.4",
 					 "aus": "07:08:25.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#250",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#250",
 					 "reihenfolge": 61,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -558,8 +558,8 @@
 				{
 					 "ein": "07:08:25.68",
 					 "aus": "07:09:03.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#255",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#255",
 					 "reihenfolge": 62,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -567,8 +567,8 @@
 				{
 					 "ein": "07:09:03.42",
 					 "aus": "07:09:40.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#260",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#260",
 					 "reihenfolge": 63,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -576,8 +576,8 @@
 				{
 					 "ein": "07:09:40.14",
 					 "aus": "07:10:14.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#262",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#262",
 					 "reihenfolge": 64,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RI_Halt"
@@ -585,8 +585,8 @@
 				{
 					 "ein": "07:10:14.14",
 					 "aus": "07:11:21.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#265",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#265",
 					 "reihenfolge": 65,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -594,8 +594,8 @@
 				{
 					 "ein": "07:11:21.46",
 					 "aus": "07:11:55.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#270",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#270",
 					 "reihenfolge": 66,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -603,8 +603,8 @@
 				{
 					 "ein": "07:11:55.12",
 					 "aus": "07:12:10.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#275",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#275",
 					 "reihenfolge": 67,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -612,8 +612,8 @@
 				{
 					 "ein": "07:12:10.42",
 					 "aus": "07:12:44.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#277",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#277",
 					 "reihenfolge": 68,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "BAE_Halt"
@@ -621,8 +621,8 @@
 				{
 					 "ein": "07:12:44.42",
 					 "aus": "07:13:58.88",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#280",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#280",
 					 "reihenfolge": 69,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -630,8 +630,8 @@
 				{
 					 "ein": "07:13:58.88",
 					 "aus": "07:14:28.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#285",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#285",
 					 "reihenfolge": 70,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -639,8 +639,8 @@
 				{
 					 "ein": "07:14:28.46",
 					 "aus": "07:15:02.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#287",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#287",
 					 "reihenfolge": 71,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "FRB_Halt"
@@ -648,8 +648,8 @@
 				{
 					 "ein": "07:15:02.46",
 					 "aus": "07:16:27.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#290",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#290",
 					 "reihenfolge": 72,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -657,8 +657,8 @@
 				{
 					 "ein": "07:16:27.12",
 					 "aus": "07:17:06.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#295",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#295",
 					 "reihenfolge": 73,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -666,8 +666,8 @@
 				{
 					 "ein": "07:17:06.9",
 					 "aus": "07:17:46.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#300",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#300",
 					 "reihenfolge": 74,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -675,8 +675,8 @@
 				{
 					 "ein": "07:17:46.68",
 					 "aus": "07:21:51.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#305",
+					 "fahrweg": 18823,
+					 "fahrwegabschnittId": "18823#305",
 					 "reihenfolge": 75,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "PF_Halt"
@@ -689,8 +689,8 @@
 				{
 					 "ein": "07:05:00",
 					 "aus": "07:07:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#1",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#1",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZLOE_Halt"
@@ -698,8 +698,8 @@
 				{
 					 "ein": "07:07:00",
 					 "aus": "07:07:32.64",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#5",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#5",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -707,8 +707,8 @@
 				{
 					 "ein": "07:07:32.64",
 					 "aus": "07:07:40.8",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#10",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#10",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -716,8 +716,8 @@
 				{
 					 "ein": "07:07:40.8",
 					 "aus": "07:07:55.08",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#15",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#15",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -725,8 +725,8 @@
 				{
 					 "ein": "07:07:55.08",
 					 "aus": "07:08:15.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#20",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#20",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -734,8 +734,8 @@
 				{
 					 "ein": "07:08:15.48",
 					 "aus": "07:08:35.88",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#25",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#25",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -743,8 +743,8 @@
 				{
 					 "ein": "07:08:35.88",
 					 "aus": "07:08:47.1",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#30",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#30",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -752,8 +752,8 @@
 				{
 					 "ein": "07:08:47.1",
 					 "aus": "07:09:01.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#35",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#35",
 					 "reihenfolge": 8,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -761,8 +761,8 @@
 				{
 					 "ein": "07:09:01.38",
 					 "aus": "07:09:35.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#37",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#37",
 					 "reihenfolge": 9,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWIE_Halt"
@@ -770,8 +770,8 @@
 				{
 					 "ein": "07:09:35.38",
 					 "aus": "07:10:20.26",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#40",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#40",
 					 "reihenfolge": 10,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -779,8 +779,8 @@
 				{
 					 "ein": "07:10:20.26",
 					 "aus": "07:10:40.66",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#45",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#45",
 					 "reihenfolge": 11,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -788,8 +788,8 @@
 				{
 					 "ein": "07:10:40.66",
 					 "aus": "07:11:01.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#50",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#50",
 					 "reihenfolge": 12,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -797,8 +797,8 @@
 				{
 					 "ein": "07:11:01.06",
 					 "aus": "07:13:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#52",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#52",
 					 "reihenfolge": 13,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZEN_Halt"
@@ -806,8 +806,8 @@
 				{
 					 "ein": "07:13:00",
 					 "aus": "07:13:47.94",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#55",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#55",
 					 "reihenfolge": 14,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -815,8 +815,8 @@
 				{
 					 "ein": "07:13:47.94",
 					 "aus": "07:14:18.54",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#60",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#60",
 					 "reihenfolge": 15,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -824,8 +824,8 @@
 				{
 					 "ein": "07:14:18.54",
 					 "aus": "07:14:36.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#65",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#65",
 					 "reihenfolge": 16,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -833,8 +833,8 @@
 				{
 					 "ein": "07:14:36.9",
 					 "aus": "07:14:45.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#70",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#70",
 					 "reihenfolge": 17,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -842,8 +842,8 @@
 				{
 					 "ein": "07:14:45.06",
 					 "aus": "07:15:19.06",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#72",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#72",
 					 "reihenfolge": 18,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWOL_Halt"
@@ -851,8 +851,8 @@
 				{
 					 "ein": "07:15:19.06",
 					 "aus": "07:16:14.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#75",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#75",
 					 "reihenfolge": 19,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -860,8 +860,8 @@
 				{
 					 "ein": "07:16:14.14",
 					 "aus": "07:16:26.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#80",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#80",
 					 "reihenfolge": 20,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -869,8 +869,8 @@
 				{
 					 "ein": "07:16:26.38",
 					 "aus": "07:16:36.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#85",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#85",
 					 "reihenfolge": 21,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -878,8 +878,8 @@
 				{
 					 "ein": "07:16:36.58",
 					 "aus": "07:17:10.24",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#90",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#90",
 					 "reihenfolge": 22,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -887,8 +887,8 @@
 				{
 					 "ein": "07:17:10.24",
 					 "aus": "07:17:38.8",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#95",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#95",
 					 "reihenfolge": 23,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -896,8 +896,8 @@
 				{
 					 "ein": "07:17:38.8",
 					 "aus": "07:18:04.3",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#100",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#100",
 					 "reihenfolge": 24,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -905,8 +905,8 @@
 				{
 					 "ein": "07:18:04.3",
 					 "aus": "07:18:38.3",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#102",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#102",
 					 "reihenfolge": 25,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "KIL_Halt"
@@ -914,8 +914,8 @@
 				{
 					 "ein": "07:18:38.3",
 					 "aus": "07:19:24.2",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#105",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#105",
 					 "reihenfolge": 26,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -923,8 +923,8 @@
 				{
 					 "ein": "07:19:24.2",
 					 "aus": "07:19:33.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#110",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#110",
 					 "reihenfolge": 27,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -932,8 +932,8 @@
 				{
 					 "ein": "07:19:33.38",
 					 "aus": "07:19:46.64",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#115",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#115",
 					 "reihenfolge": 28,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -941,8 +941,8 @@
 				{
 					 "ein": "07:19:46.64",
 					 "aus": "07:20:12.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#120",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#120",
 					 "reihenfolge": 29,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -950,8 +950,8 @@
 				{
 					 "ein": "07:20:12.14",
 					 "aus": "07:20:46.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#122",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#122",
 					 "reihenfolge": 30,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RUES_Halt"
@@ -959,8 +959,8 @@
 				{
 					 "ein": "07:20:46.14",
 					 "aus": "07:21:57.54",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#125",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#125",
 					 "reihenfolge": 31,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -968,8 +968,8 @@
 				{
 					 "ein": "07:21:57.54",
 					 "aus": "07:22:13.86",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#130",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#130",
 					 "reihenfolge": 32,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -977,8 +977,8 @@
 				{
 					 "ein": "07:22:13.86",
 					 "aus": "07:22:19.98",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#135",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#135",
 					 "reihenfolge": 33,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -986,8 +986,8 @@
 				{
 					 "ein": "07:22:19.98",
 					 "aus": "07:22:39.36",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#140",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#140",
 					 "reihenfolge": 34,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -995,8 +995,8 @@
 				{
 					 "ein": "07:22:39.36",
 					 "aus": "07:24:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#142",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#142",
 					 "reihenfolge": 35,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "TW_Halt"
@@ -1004,8 +1004,8 @@
 				{
 					 "ein": "07:24:00",
 					 "aus": "07:24:53.04",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#145",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#145",
 					 "reihenfolge": 36,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1013,8 +1013,8 @@
 				{
 					 "ein": "07:24:53.04",
 					 "aus": "07:25:07.32",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#150",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#150",
 					 "reihenfolge": 37,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1022,8 +1022,8 @@
 				{
 					 "ein": "07:25:07.32",
 					 "aus": "07:25:15.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#155",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#155",
 					 "reihenfolge": 38,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1031,8 +1031,8 @@
 				{
 					 "ein": "07:25:15.48",
 					 "aus": "07:25:34.86",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#160",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#160",
 					 "reihenfolge": 39,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1040,8 +1040,8 @@
 				{
 					 "ein": "07:25:34.86",
 					 "aus": "07:25:49.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#165",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#165",
 					 "reihenfolge": 40,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1049,8 +1049,8 @@
 				{
 					 "ein": "07:25:49.14",
 					 "aus": "07:26:11.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#170",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#170",
 					 "reihenfolge": 41,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1058,8 +1058,8 @@
 				{
 					 "ein": "07:26:11.58",
 					 "aus": "07:26:45.58",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#172",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#172",
 					 "reihenfolge": 42,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ORD_Halt"
@@ -1067,8 +1067,8 @@
 				{
 					 "ein": "07:26:45.58",
 					 "aus": "07:27:31.48",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#175",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#175",
 					 "reihenfolge": 43,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1076,8 +1076,8 @@
 				{
 					 "ein": "07:27:31.48",
 					 "aus": "07:28:24.52",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#180",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#180",
 					 "reihenfolge": 44,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1085,8 +1085,8 @@
 				{
 					 "ein": "07:28:24.52",
 					 "aus": "07:28:43.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#185",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#185",
 					 "reihenfolge": 45,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1094,8 +1094,8 @@
 				{
 					 "ein": "07:28:43.9",
 					 "aus": "07:29:17.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#187",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#187",
 					 "reihenfolge": 46,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "HG_Halt"
@@ -1103,8 +1103,8 @@
 				{
 					 "ein": "07:29:17.9",
 					 "aus": "07:30:19.1",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#190",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#190",
 					 "reihenfolge": 47,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1112,8 +1112,8 @@
 				{
 					 "ein": "07:30:19.1",
 					 "aus": "07:30:33.38",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#195",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#195",
 					 "reihenfolge": 48,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1121,8 +1121,8 @@
 				{
 					 "ein": "07:30:33.38",
 					 "aus": "07:31:23.36",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#200",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#200",
 					 "reihenfolge": 49,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1130,8 +1130,8 @@
 				{
 					 "ein": "07:31:23.36",
 					 "aus": "07:32:02.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#205",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#205",
 					 "reihenfolge": 50,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1139,8 +1139,8 @@
 				{
 					 "ein": "07:32:02.12",
 					 "aus": "07:32:17.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#210",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#210",
 					 "reihenfolge": 51,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1148,8 +1148,8 @@
 				{
 					 "ein": "07:32:17.42",
 					 "aus": "07:32:51.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#212",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#212",
 					 "reihenfolge": 52,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "AU_Halt"
@@ -1157,8 +1157,8 @@
 				{
 					 "ein": "07:32:51.42",
 					 "aus": "07:33:57.72",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#215",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#215",
 					 "reihenfolge": 53,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1166,8 +1166,8 @@
 				{
 					 "ein": "07:33:57.72",
 					 "aus": "07:34:06.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#220",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#220",
 					 "reihenfolge": 54,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1175,8 +1175,8 @@
 				{
 					 "ein": "07:34:06.9",
 					 "aus": "07:34:49.74",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#225",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#225",
 					 "reihenfolge": 55,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1184,8 +1184,8 @@
 				{
 					 "ein": "07:34:49.74",
 					 "aus": "07:35:25.44",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#230",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#230",
 					 "reihenfolge": 56,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1193,8 +1193,8 @@
 				{
 					 "ein": "07:35:25.44",
 					 "aus": "07:35:49.92",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#235",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#235",
 					 "reihenfolge": 57,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1202,8 +1202,8 @@
 				{
 					 "ein": "07:35:49.92",
 					 "aus": "07:37:00",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#237",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#237",
 					 "reihenfolge": 58,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "WAE_Halt"
@@ -1211,8 +1211,8 @@
 				{
 					 "ein": "07:37:00",
 					 "aus": "07:37:55.08",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#240",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#240",
 					 "reihenfolge": 59,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1220,8 +1220,8 @@
 				{
 					 "ein": "07:37:55.08",
 					 "aus": "07:38:11.4",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#245",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#245",
 					 "reihenfolge": 60,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1229,8 +1229,8 @@
 				{
 					 "ein": "07:38:11.4",
 					 "aus": "07:38:25.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#250",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#250",
 					 "reihenfolge": 61,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1238,8 +1238,8 @@
 				{
 					 "ein": "07:38:25.68",
 					 "aus": "07:39:03.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#255",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#255",
 					 "reihenfolge": 62,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1247,8 +1247,8 @@
 				{
 					 "ein": "07:39:03.42",
 					 "aus": "07:39:40.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#260",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#260",
 					 "reihenfolge": 63,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1256,8 +1256,8 @@
 				{
 					 "ein": "07:39:40.14",
 					 "aus": "07:40:14.14",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#262",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#262",
 					 "reihenfolge": 64,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RI_Halt"
@@ -1265,8 +1265,8 @@
 				{
 					 "ein": "07:40:14.14",
 					 "aus": "07:41:21.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#265",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#265",
 					 "reihenfolge": 65,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1274,8 +1274,8 @@
 				{
 					 "ein": "07:41:21.46",
 					 "aus": "07:41:55.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#270",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#270",
 					 "reihenfolge": 66,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1283,8 +1283,8 @@
 				{
 					 "ein": "07:41:55.12",
 					 "aus": "07:42:10.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#275",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#275",
 					 "reihenfolge": 67,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1292,8 +1292,8 @@
 				{
 					 "ein": "07:42:10.42",
 					 "aus": "07:42:44.42",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#277",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#277",
 					 "reihenfolge": 68,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "BAE_Halt"
@@ -1301,8 +1301,8 @@
 				{
 					 "ein": "07:42:44.42",
 					 "aus": "07:43:58.88",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#280",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#280",
 					 "reihenfolge": 69,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1310,8 +1310,8 @@
 				{
 					 "ein": "07:43:58.88",
 					 "aus": "07:44:28.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#285",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#285",
 					 "reihenfolge": 70,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1319,8 +1319,8 @@
 				{
 					 "ein": "07:44:28.46",
 					 "aus": "07:45:02.46",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#287",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#287",
 					 "reihenfolge": 71,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "FRB_Halt"
@@ -1328,8 +1328,8 @@
 				{
 					 "ein": "07:45:02.46",
 					 "aus": "07:46:27.12",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#290",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#290",
 					 "reihenfolge": 72,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1337,8 +1337,8 @@
 				{
 					 "ein": "07:46:27.12",
 					 "aus": "07:47:06.9",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#295",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#295",
 					 "reihenfolge": 73,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1346,8 +1346,8 @@
 				{
 					 "ein": "07:47:06.9",
 					 "aus": "07:47:46.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#300",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#300",
 					 "reihenfolge": 74,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1355,8 +1355,8 @@
 				{
 					 "ein": "07:47:46.68",
 					 "aus": "07:51:51.68",
-					 "fahrweg": "S8_ZLOE-PF_std",
-					 "fahrwegabschnittId": "S8_ZLOE-PF_std#305",
+					 "fahrweg": 18825,
+					 "fahrwegabschnittId": "18825#305",
 					 "reihenfolge": 75,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "PF_Halt"
@@ -1369,8 +1369,8 @@
 				{
 					 "ein": "06:48:00",
 					 "aus": "06:51:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#1",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#1",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZUE_Halt"
@@ -1378,8 +1378,8 @@
 				{
 					 "ein": "06:51:00",
 					 "aus": "06:51:40.8",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#5",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#5",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1387,8 +1387,8 @@
 				{
 					 "ein": "06:51:40.8",
 					 "aus": "06:52:13.44",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#10",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#10",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1396,8 +1396,8 @@
 				{
 					 "ein": "06:52:13.44",
 					 "aus": "06:52:30.78",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#15",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#15",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1405,8 +1405,8 @@
 				{
 					 "ein": "06:52:30.78",
 					 "aus": "06:52:57.3",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#20",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#20",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1414,8 +1414,8 @@
 				{
 					 "ein": "06:52:57.3",
 					 "aus": "06:53:17.7",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#25",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#25",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1423,8 +1423,8 @@
 				{
 					 "ein": "06:53:17.7",
 					 "aus": "06:53:28.92",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#30",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#30",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1432,8 +1432,8 @@
 				{
 					 "ein": "06:53:28.92",
 					 "aus": "06:53:43.2",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#35",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#35",
 					 "reihenfolge": 8,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1441,8 +1441,8 @@
 				{
 					 "ein": "06:53:43.2",
 					 "aus": "06:54:17.2",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#37",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#37",
 					 "reihenfolge": 9,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWIE_Halt"
@@ -1450,8 +1450,8 @@
 				{
 					 "ein": "06:54:17.2",
 					 "aus": "06:55:03.1",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#40",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#40",
 					 "reihenfolge": 10,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1459,8 +1459,8 @@
 				{
 					 "ein": "06:55:03.1",
 					 "aus": "06:55:20.44",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#45",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#45",
 					 "reihenfolge": 11,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1468,8 +1468,8 @@
 				{
 					 "ein": "06:55:20.44",
 					 "aus": "06:55:41.86",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#50",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#50",
 					 "reihenfolge": 12,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1477,8 +1477,8 @@
 				{
 					 "ein": "06:55:41.86",
 					 "aus": "06:58:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#52",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#52",
 					 "reihenfolge": 13,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZEN_Halt"
@@ -1486,8 +1486,8 @@
 				{
 					 "ein": "06:58:00",
 					 "aus": "06:58:46.92",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#55",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#55",
 					 "reihenfolge": 14,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1495,8 +1495,8 @@
 				{
 					 "ein": "06:58:46.92",
 					 "aus": "06:59:12.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#60",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#60",
 					 "reihenfolge": 15,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1504,8 +1504,8 @@
 				{
 					 "ein": "06:59:12.42",
 					 "aus": "06:59:29.76",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#65",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#65",
 					 "reihenfolge": 16,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1513,8 +1513,8 @@
 				{
 					 "ein": "06:59:29.76",
 					 "aus": "06:59:38.94",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#70",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#70",
 					 "reihenfolge": 17,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1522,8 +1522,8 @@
 				{
 					 "ein": "06:59:38.94",
 					 "aus": "07:00:12.94",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#72",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#72",
 					 "reihenfolge": 18,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWOL_Halt"
@@ -1531,8 +1531,8 @@
 				{
 					 "ein": "07:00:12.94",
 					 "aus": "07:01:08.02",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#75",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#75",
 					 "reihenfolge": 19,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1540,8 +1540,8 @@
 				{
 					 "ein": "07:01:08.02",
 					 "aus": "07:01:20.26",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#80",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#80",
 					 "reihenfolge": 20,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1549,8 +1549,8 @@
 				{
 					 "ein": "07:01:20.26",
 					 "aus": "07:01:30.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#85",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#85",
 					 "reihenfolge": 21,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1558,8 +1558,8 @@
 				{
 					 "ein": "07:01:30.46",
 					 "aus": "07:02:03.1",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#90",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#90",
 					 "reihenfolge": 22,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1567,8 +1567,8 @@
 				{
 					 "ein": "07:02:03.1",
 					 "aus": "07:02:31.66",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#95",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#95",
 					 "reihenfolge": 23,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1576,8 +1576,8 @@
 				{
 					 "ein": "07:02:31.66",
 					 "aus": "07:02:56.14",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#100",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#100",
 					 "reihenfolge": 24,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1585,8 +1585,8 @@
 				{
 					 "ein": "07:02:56.14",
 					 "aus": "07:03:30.14",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#102",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#102",
 					 "reihenfolge": 25,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "KIL_Halt"
@@ -1594,8 +1594,8 @@
 				{
 					 "ein": "07:03:30.14",
 					 "aus": "07:04:17.06",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#105",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#105",
 					 "reihenfolge": 26,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1603,8 +1603,8 @@
 				{
 					 "ein": "07:04:17.06",
 					 "aus": "07:04:26.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#110",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#110",
 					 "reihenfolge": 27,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1612,8 +1612,8 @@
 				{
 					 "ein": "07:04:26.24",
 					 "aus": "07:04:37.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#115",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#115",
 					 "reihenfolge": 28,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1621,8 +1621,8 @@
 				{
 					 "ein": "07:04:37.46",
 					 "aus": "07:05:02.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#120",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#120",
 					 "reihenfolge": 29,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1630,8 +1630,8 @@
 				{
 					 "ein": "07:05:02.96",
 					 "aus": "07:05:36.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#122",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#122",
 					 "reihenfolge": 30,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RUES_Halt"
@@ -1639,8 +1639,8 @@
 				{
 					 "ein": "07:05:36.96",
 					 "aus": "07:06:47.34",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#125",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#125",
 					 "reihenfolge": 31,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1648,8 +1648,8 @@
 				{
 					 "ein": "07:06:47.34",
 					 "aus": "07:07:04.68",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#130",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#130",
 					 "reihenfolge": 32,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1657,8 +1657,8 @@
 				{
 					 "ein": "07:07:04.68",
 					 "aus": "07:07:11.82",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#135",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#135",
 					 "reihenfolge": 33,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1666,8 +1666,8 @@
 				{
 					 "ein": "07:07:11.82",
 					 "aus": "07:07:33.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#140",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#140",
 					 "reihenfolge": 34,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1675,8 +1675,8 @@
 				{
 					 "ein": "07:07:33.24",
 					 "aus": "07:09:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#142",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#142",
 					 "reihenfolge": 35,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "TW_Halt"
@@ -1684,8 +1684,8 @@
 				{
 					 "ein": "07:09:00",
 					 "aus": "07:09:52.02",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#145",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#145",
 					 "reihenfolge": 36,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1693,8 +1693,8 @@
 				{
 					 "ein": "07:09:52.02",
 					 "aus": "07:10:07.32",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#150",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#150",
 					 "reihenfolge": 37,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1702,8 +1702,8 @@
 				{
 					 "ein": "07:10:07.32",
 					 "aus": "07:10:46.08",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#155",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#155",
 					 "reihenfolge": 38,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1711,8 +1711,8 @@
 				{
 					 "ein": "07:10:46.08",
 					 "aus": "07:11:24.84",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#160",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#160",
 					 "reihenfolge": 39,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1720,8 +1720,8 @@
 				{
 					 "ein": "07:11:24.84",
 					 "aus": "07:11:58.84",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#162",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#162",
 					 "reihenfolge": 40,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ORDD_Halt"
@@ -1729,8 +1729,8 @@
 				{
 					 "ein": "07:11:58.84",
 					 "aus": "07:13:16.36",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#165",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#165",
 					 "reihenfolge": 41,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1738,8 +1738,8 @@
 				{
 					 "ein": "07:13:16.36",
 					 "aus": "07:13:38.8",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#170",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#170",
 					 "reihenfolge": 42,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1747,8 +1747,8 @@
 				{
 					 "ein": "07:13:38.8",
 					 "aus": "07:14:00.22",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#175",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#175",
 					 "reihenfolge": 43,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1756,8 +1756,8 @@
 				{
 					 "ein": "07:14:00.22",
 					 "aus": "07:14:34.22",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#177",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#177",
 					 "reihenfolge": 44,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "HGO_Halt"
@@ -1765,8 +1765,8 @@
 				{
 					 "ein": "07:14:34.22",
 					 "aus": "07:15:26.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#180",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#180",
 					 "reihenfolge": 45,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1774,8 +1774,8 @@
 				{
 					 "ein": "07:15:26.24",
 					 "aus": "07:15:35.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#185",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#185",
 					 "reihenfolge": 46,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1783,8 +1783,8 @@
 				{
 					 "ein": "07:15:35.42",
 					 "aus": "07:16:02.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#190",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#190",
 					 "reihenfolge": 47,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1792,8 +1792,8 @@
 				{
 					 "ein": "07:16:02.96",
 					 "aus": "07:16:46.82",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#195",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#195",
 					 "reihenfolge": 48,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1801,8 +1801,8 @@
 				{
 					 "ein": "07:16:46.82",
 					 "aus": "07:17:10.28",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#200",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#200",
 					 "reihenfolge": 49,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1810,8 +1810,8 @@
 				{
 					 "ein": "07:17:10.28",
 					 "aus": "07:17:24.56",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#205",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#205",
 					 "reihenfolge": 50,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1819,8 +1819,8 @@
 				{
 					 "ein": "07:17:24.56",
 					 "aus": "07:17:34.76",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#210",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#210",
 					 "reihenfolge": 51,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1828,8 +1828,8 @@
 				{
 					 "ein": "07:17:34.76",
 					 "aus": "07:17:57.2",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#215",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#215",
 					 "reihenfolge": 52,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1837,8 +1837,8 @@
 				{
 					 "ein": "07:17:57.2",
 					 "aus": "07:18:31.88",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#220",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#220",
 					 "reihenfolge": 53,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1846,8 +1846,8 @@
 				{
 					 "ein": "07:18:31.88",
 					 "aus": "07:19:20.26",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#225",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#225",
 					 "reihenfolge": 54,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1855,8 +1855,8 @@
 				{
 					 "ein": "07:19:20.26",
 					 "aus": "07:19:56.98",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#230",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#230",
 					 "reihenfolge": 55,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1864,8 +1864,8 @@
 				{
 					 "ein": "07:19:56.98",
 					 "aus": "07:20:11.26",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#235",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#235",
 					 "reihenfolge": 56,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1873,8 +1873,8 @@
 				{
 					 "ein": "07:20:11.26",
 					 "aus": "07:20:42.88",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#240",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#240",
 					 "reihenfolge": 57,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1882,8 +1882,8 @@
 				{
 					 "ein": "07:20:42.88",
 					 "aus": "07:20:52.06",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#245",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#245",
 					 "reihenfolge": 58,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1891,8 +1891,8 @@
 				{
 					 "ein": "07:20:52.06",
 					 "aus": "07:21:10.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#250",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#250",
 					 "reihenfolge": 59,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1900,8 +1900,8 @@
 				{
 					 "ein": "07:21:10.42",
 					 "aus": "07:21:37.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#255",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#255",
 					 "reihenfolge": 60,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1909,8 +1909,8 @@
 				{
 					 "ein": "07:21:37.96",
 					 "aus": "07:22:11.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#257",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#257",
 					 "reihenfolge": 61,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "BAA_Halt"
@@ -1918,8 +1918,8 @@
 				{
 					 "ein": "07:22:11.96",
 					 "aus": "07:23:17.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#260",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#260",
 					 "reihenfolge": 62,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1927,8 +1927,8 @@
 				{
 					 "ein": "07:23:17.24",
 					 "aus": "07:23:26.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#265",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#265",
 					 "reihenfolge": 63,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1936,8 +1936,8 @@
 				{
 					 "ein": "07:23:26.42",
 					 "aus": "07:23:42.74",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#270",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#270",
 					 "reihenfolge": 64,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1945,8 +1945,8 @@
 				{
 					 "ein": "07:23:42.74",
 					 "aus": "07:23:56",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#275",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#275",
 					 "reihenfolge": 65,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1954,8 +1954,8 @@
 				{
 					 "ein": "07:23:56",
 					 "aus": "07:24:19.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#280",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#280",
 					 "reihenfolge": 66,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1963,8 +1963,8 @@
 				{
 					 "ein": "07:24:19.46",
 					 "aus": "07:24:32.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#285",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#285",
 					 "reihenfolge": 67,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1972,8 +1972,8 @@
 				{
 					 "ein": "07:24:32.46",
 					 "aus": "07:25:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#290",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#290",
 					 "reihenfolge": 68,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -1981,8 +1981,8 @@
 				{
 					 "ein": "07:25:00",
 					 "aus": "07:25:15",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#295",
+					 "fahrweg": 20423,
+					 "fahrwegabschnittId": "20423#295",
 					 "reihenfolge": 69,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZG_Halt"
@@ -1995,8 +1995,8 @@
 				{
 					 "ein": "07:18:00",
 					 "aus": "07:21:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#1",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#1",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZUE_Halt"
@@ -2004,8 +2004,8 @@
 				{
 					 "ein": "07:21:00",
 					 "aus": "07:21:40.8",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#5",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#5",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2013,8 +2013,8 @@
 				{
 					 "ein": "07:21:40.8",
 					 "aus": "07:22:13.44",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#10",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#10",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2022,8 +2022,8 @@
 				{
 					 "ein": "07:22:13.44",
 					 "aus": "07:22:30.78",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#15",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#15",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2031,8 +2031,8 @@
 				{
 					 "ein": "07:22:30.78",
 					 "aus": "07:22:57.3",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#20",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#20",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2040,8 +2040,8 @@
 				{
 					 "ein": "07:22:57.3",
 					 "aus": "07:23:17.7",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#25",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#25",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2049,8 +2049,8 @@
 				{
 					 "ein": "07:23:17.7",
 					 "aus": "07:23:28.92",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#30",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#30",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2058,8 +2058,8 @@
 				{
 					 "ein": "07:23:28.92",
 					 "aus": "07:23:43.2",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#35",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#35",
 					 "reihenfolge": 8,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2067,8 +2067,8 @@
 				{
 					 "ein": "07:23:43.2",
 					 "aus": "07:24:17.2",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#37",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#37",
 					 "reihenfolge": 9,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWIE_Halt"
@@ -2076,8 +2076,8 @@
 				{
 					 "ein": "07:24:17.2",
 					 "aus": "07:25:03.1",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#40",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#40",
 					 "reihenfolge": 10,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2085,8 +2085,8 @@
 				{
 					 "ein": "07:25:03.1",
 					 "aus": "07:25:20.44",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#45",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#45",
 					 "reihenfolge": 11,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2094,8 +2094,8 @@
 				{
 					 "ein": "07:25:20.44",
 					 "aus": "07:25:41.86",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#50",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#50",
 					 "reihenfolge": 12,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2103,8 +2103,8 @@
 				{
 					 "ein": "07:25:41.86",
 					 "aus": "07:28:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#52",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#52",
 					 "reihenfolge": 13,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZEN_Halt"
@@ -2112,8 +2112,8 @@
 				{
 					 "ein": "07:28:00",
 					 "aus": "07:28:46.92",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#55",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#55",
 					 "reihenfolge": 14,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2121,8 +2121,8 @@
 				{
 					 "ein": "07:28:46.92",
 					 "aus": "07:29:12.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#60",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#60",
 					 "reihenfolge": 15,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2130,8 +2130,8 @@
 				{
 					 "ein": "07:29:12.42",
 					 "aus": "07:29:29.76",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#65",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#65",
 					 "reihenfolge": 16,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2139,8 +2139,8 @@
 				{
 					 "ein": "07:29:29.76",
 					 "aus": "07:29:38.94",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#70",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#70",
 					 "reihenfolge": 17,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2148,8 +2148,8 @@
 				{
 					 "ein": "07:29:38.94",
 					 "aus": "07:30:12.94",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#72",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#72",
 					 "reihenfolge": 18,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZWOL_Halt"
@@ -2157,8 +2157,8 @@
 				{
 					 "ein": "07:30:12.94",
 					 "aus": "07:31:08.02",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#75",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#75",
 					 "reihenfolge": 19,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2166,8 +2166,8 @@
 				{
 					 "ein": "07:31:08.02",
 					 "aus": "07:31:20.26",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#80",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#80",
 					 "reihenfolge": 20,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2175,8 +2175,8 @@
 				{
 					 "ein": "07:31:20.26",
 					 "aus": "07:31:30.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#85",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#85",
 					 "reihenfolge": 21,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2184,8 +2184,8 @@
 				{
 					 "ein": "07:31:30.46",
 					 "aus": "07:32:03.1",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#90",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#90",
 					 "reihenfolge": 22,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2193,8 +2193,8 @@
 				{
 					 "ein": "07:32:03.1",
 					 "aus": "07:32:31.66",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#95",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#95",
 					 "reihenfolge": 23,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2202,8 +2202,8 @@
 				{
 					 "ein": "07:32:31.66",
 					 "aus": "07:32:56.14",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#100",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#100",
 					 "reihenfolge": 24,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2211,8 +2211,8 @@
 				{
 					 "ein": "07:32:56.14",
 					 "aus": "07:33:30.14",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#102",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#102",
 					 "reihenfolge": 25,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "KIL_Halt"
@@ -2220,8 +2220,8 @@
 				{
 					 "ein": "07:33:30.14",
 					 "aus": "07:34:17.06",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#105",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#105",
 					 "reihenfolge": 26,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2229,8 +2229,8 @@
 				{
 					 "ein": "07:34:17.06",
 					 "aus": "07:34:26.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#110",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#110",
 					 "reihenfolge": 27,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2238,8 +2238,8 @@
 				{
 					 "ein": "07:34:26.24",
 					 "aus": "07:34:37.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#115",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#115",
 					 "reihenfolge": 28,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2247,8 +2247,8 @@
 				{
 					 "ein": "07:34:37.46",
 					 "aus": "07:35:02.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#120",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#120",
 					 "reihenfolge": 29,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2256,8 +2256,8 @@
 				{
 					 "ein": "07:35:02.96",
 					 "aus": "07:35:36.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#122",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#122",
 					 "reihenfolge": 30,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "RUES_Halt"
@@ -2265,8 +2265,8 @@
 				{
 					 "ein": "07:35:36.96",
 					 "aus": "07:36:47.34",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#125",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#125",
 					 "reihenfolge": 31,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2274,8 +2274,8 @@
 				{
 					 "ein": "07:36:47.34",
 					 "aus": "07:37:04.68",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#130",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#130",
 					 "reihenfolge": 32,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2283,8 +2283,8 @@
 				{
 					 "ein": "07:37:04.68",
 					 "aus": "07:37:11.82",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#135",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#135",
 					 "reihenfolge": 33,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2292,8 +2292,8 @@
 				{
 					 "ein": "07:37:11.82",
 					 "aus": "07:37:33.24",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#140",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#140",
 					 "reihenfolge": 34,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2301,8 +2301,8 @@
 				{
 					 "ein": "07:37:33.24",
 					 "aus": "07:39:00",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#142",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#142",
 					 "reihenfolge": 35,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "TW_Halt"
@@ -2310,8 +2310,8 @@
 				{
 					 "ein": "07:39:00",
 					 "aus": "07:39:52.02",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#145",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#145",
 					 "reihenfolge": 36,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2319,8 +2319,8 @@
 				{
 					 "ein": "07:39:52.02",
 					 "aus": "07:40:07.32",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#150",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#150",
 					 "reihenfolge": 37,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2328,8 +2328,8 @@
 				{
 					 "ein": "07:40:07.32",
 					 "aus": "07:40:46.08",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#155",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#155",
 					 "reihenfolge": 38,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2337,8 +2337,8 @@
 				{
 					 "ein": "07:40:46.08",
 					 "aus": "07:41:24.84",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#160",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#160",
 					 "reihenfolge": 39,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2346,8 +2346,8 @@
 				{
 					 "ein": "07:41:24.84",
 					 "aus": "07:41:35.04",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#162",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#162",
 					 "reihenfolge": 40,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2355,8 +2355,8 @@
 				{
 					 "ein": "07:41:35.04",
 					 "aus": "07:42:52.56",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#165",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#165",
 					 "reihenfolge": 41,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2364,8 +2364,8 @@
 				{
 					 "ein": "07:42:52.56",
 					 "aus": "07:43:15",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#170",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#170",
 					 "reihenfolge": 42,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2373,8 +2373,8 @@
 				{
 					 "ein": "07:43:15",
 					 "aus": "07:43:36.42",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#175",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#175",
 					 "reihenfolge": 43,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2382,8 +2382,8 @@
 				{
 					 "ein": "07:43:36.42",
 					 "aus": "07:43:46.62",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#177",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#177",
 					 "reihenfolge": 44,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2391,8 +2391,8 @@
 				{
 					 "ein": "07:43:46.62",
 					 "aus": "07:44:38.64",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#180",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#180",
 					 "reihenfolge": 45,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2400,8 +2400,8 @@
 				{
 					 "ein": "07:44:38.64",
 					 "aus": "07:44:47.82",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#185",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#185",
 					 "reihenfolge": 46,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2409,8 +2409,8 @@
 				{
 					 "ein": "07:44:47.82",
 					 "aus": "07:45:15.36",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#190",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#190",
 					 "reihenfolge": 47,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2418,8 +2418,8 @@
 				{
 					 "ein": "07:45:15.36",
 					 "aus": "07:45:59.22",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#195",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#195",
 					 "reihenfolge": 48,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2427,8 +2427,8 @@
 				{
 					 "ein": "07:45:59.22",
 					 "aus": "07:46:22.68",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#200",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#200",
 					 "reihenfolge": 49,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2436,8 +2436,8 @@
 				{
 					 "ein": "07:46:22.68",
 					 "aus": "07:46:36.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#205",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#205",
 					 "reihenfolge": 50,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2445,8 +2445,8 @@
 				{
 					 "ein": "07:46:36.96",
 					 "aus": "07:46:47.16",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#210",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#210",
 					 "reihenfolge": 51,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2454,8 +2454,8 @@
 				{
 					 "ein": "07:46:47.16",
 					 "aus": "07:47:09.6",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#215",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#215",
 					 "reihenfolge": 52,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2463,8 +2463,8 @@
 				{
 					 "ein": "07:47:09.6",
 					 "aus": "07:47:44.28",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#220",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#220",
 					 "reihenfolge": 53,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2472,8 +2472,8 @@
 				{
 					 "ein": "07:47:44.28",
 					 "aus": "07:48:35.28",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#225",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#225",
 					 "reihenfolge": 54,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2481,8 +2481,8 @@
 				{
 					 "ein": "07:48:35.28",
 					 "aus": "07:49:12",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#230",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#230",
 					 "reihenfolge": 55,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2490,8 +2490,8 @@
 				{
 					 "ein": "07:49:12",
 					 "aus": "07:49:26.28",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#235",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#235",
 					 "reihenfolge": 56,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2499,8 +2499,8 @@
 				{
 					 "ein": "07:49:26.28",
 					 "aus": "07:49:57.9",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#240",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#240",
 					 "reihenfolge": 57,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2508,8 +2508,8 @@
 				{
 					 "ein": "07:49:57.9",
 					 "aus": "07:50:07.08",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#245",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#245",
 					 "reihenfolge": 58,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2517,8 +2517,8 @@
 				{
 					 "ein": "07:50:07.08",
 					 "aus": "07:50:25.44",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#250",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#250",
 					 "reihenfolge": 59,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2526,8 +2526,8 @@
 				{
 					 "ein": "07:50:25.44",
 					 "aus": "07:50:52.98",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#255",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#255",
 					 "reihenfolge": 60,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2535,8 +2535,8 @@
 				{
 					 "ein": "07:50:52.98",
 					 "aus": "07:51:03.18",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#257",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#257",
 					 "reihenfolge": 61,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2544,8 +2544,8 @@
 				{
 					 "ein": "07:51:03.18",
 					 "aus": "07:52:08.46",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#260",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#260",
 					 "reihenfolge": 62,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2553,8 +2553,8 @@
 				{
 					 "ein": "07:52:08.46",
 					 "aus": "07:52:17.64",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#265",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#265",
 					 "reihenfolge": 63,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2562,8 +2562,8 @@
 				{
 					 "ein": "07:52:17.64",
 					 "aus": "07:52:33.96",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#270",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#270",
 					 "reihenfolge": 64,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2571,8 +2571,8 @@
 				{
 					 "ein": "07:52:33.96",
 					 "aus": "07:52:47.22",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#275",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#275",
 					 "reihenfolge": 65,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2580,8 +2580,8 @@
 				{
 					 "ein": "07:52:47.22",
 					 "aus": "07:53:10.68",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#280",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#280",
 					 "reihenfolge": 66,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2589,8 +2589,8 @@
 				{
 					 "ein": "07:53:10.68",
 					 "aus": "07:53:23.94",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#285",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#285",
 					 "reihenfolge": 67,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2598,8 +2598,8 @@
 				{
 					 "ein": "07:53:23.94",
 					 "aus": "07:53:51.48",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#290",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#290",
 					 "reihenfolge": 68,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": null
@@ -2607,8 +2607,8 @@
 				{
 					 "ein": "07:53:51.48",
 					 "aus": "07:54:06.48",
-					 "fahrweg": "S24_ZUE-ZG_std",
-					 "fahrwegabschnittId": "S24_ZUE-ZG_std#295",
+					 "fahrweg": 20425,
+					 "fahrwegabschnittId": "20425#295",
 					 "reihenfolge": 69,
 					 "abschnittsfolge": "standard",
 					 "abschnittsvorgabe": "ZG_Halt"

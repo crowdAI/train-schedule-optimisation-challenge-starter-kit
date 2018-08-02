@@ -182,17 +182,17 @@ The model is as follows:
 
 ### resources
 
-Back to the top-level of the files:
+Back to the top-level of our [sample scenario](sample_files/sample_scenario.json):
 
 ![](documentation/img/resources_example.png)
 
-Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_ . A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see [above](#route_section). Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. 
+Resources are used to model which parts of the track infrastructure are used by a train while on a certain _route_section_. A resource that is used is modeled as a _resource_occupation_ on the _route_section_, see [above](#route_section). Resource occupations always begin at the _entry_ into a _route_section_ and end at the _exit_ from a _route_section_. 
 
-_Remark:_ Typically, this is not the same route_section. Rather, a resource is usually occupied over several continuous route_sections.
+_Remark:_ Very often, however, the same resource may be occupied again on the next _route_section_. This corresponds to the fact that trains typically need a wave of several "green signals" ahead of them, where each signal protects the block section to the next one. Each such block section may be considered a resource in our model.
 
 In general, we use two kinds of resources to model different behaviour and level-of-detail:
 
-* _blocking_ resources which means they must be released by a train before another train can start occupying them
+* _blocking_ resources which means the resource must be released by a train before another train can start occupying them
 * _following_ resources, which allow two trains to occupy them concurrently, as long as
     - they are separated at entry and exit by at least the _following_separation_
     - the order of the trains is the same at entry and exit, i.e. they do not overtake each other while using this resource.

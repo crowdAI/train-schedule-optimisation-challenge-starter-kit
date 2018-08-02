@@ -1,353 +1,353 @@
 {
 	"label": "SBB_challenge_sample_scenario_with_routing_alternatives",
 	"hash": -1254734547,
-	"funktionaleAngebotsbeschreibungen": [
+	"service_intentions": [
 		{
 			"id": 111,
-			"fahrweg": 111,
-			"abschnittsvorgaben": [
+			"route": 111,
+			"section_requirements": [
 				{
-					"reihenfolge": 1,
-					"abschnittskennzeichen": "A",
-					"typ": "start",
-					"einMin": "08:20:00",
-					"einMax": "08:30:00",
-					"einVerspaetungsfaktor": 1,
-					"ausVerspaetungsfaktor": 1,
-					"anschluesse": null
+					"sequence_number": 1,
+					"section_marker": "A",
+					"type": "start",
+					"entry_earliest": "08:20:00",
+					"entry_latest": "08:30:00",
+					"entry_delay_weight": 1,
+					"exit_delay_weight": 1,
+					"connections": null
 				},
 				{
-					"reihenfolge": 2,
-					"abschnittskennzeichen": "B",
-					"typ": "ende",
-					"einVerspaetungsfaktor": 1,
-					"ausMin": "08:30:00",
-					"ausMax": "08:40:00",
-					"ausVerspaetungsfaktor": 1,
-					"anschluesse": null
+					"sequence_number": 2,
+					"section_marker": "B",
+					"type": "ende",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:30:00",
+					"exit_latest": "08:40:00",
+					"exit_delay_weight": 1,
+					"connections": null
 				},
 				{
-					"reihenfolge": 3,
-					"abschnittskennzeichen": "C",
-					"typ": "ende",
-					"einVerspaetungsfaktor": 1,
-					"ausMin": "08:30:00",
-					"ausMax": "08:40:00",
-					"ausVerspaetungsfaktor": 1,
-					"anschluesse": null
+					"sequence_number": 3,
+					"section_marker": "C",
+					"type": "ende",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:30:00",
+					"exit_latest": "08:40:00",
+					"exit_delay_weight": 1,
+					"connections": null
 				}
 			]
 		},
 		{
 			"id": 113,
-			"fahrweg": 113,
-			"abschnittsvorgaben": [
+			"route": 113,
+			"section_requirements": [
 				{
-					"abschnittskennzeichen": "A",
-					"typ": "start",
-					"einMin": "07:50:00",
-					"einMax": "07:55:00",
-					"einVerspaetungsfaktor": 1,
-					"ausVerspaetungsfaktor": 1,
-					"anschluesse": null
+					"section_marker": "A",
+					"type": "start",
+					"entry_earliest": "07:50:00",
+					"entry_latest": "07:55:00",
+					"entry_delay_weight": 1,
+					"exit_delay_weight": 1,
+					"connections": null
 				},
 				{
-					"abschnittskennzeichen": "C",
-					"typ": "ende",
-					"einVerspaetungsfaktor": 1,
-					"ausMin": "08:06:00",
-					"ausMax": "08:16:00",
-					"ausVerspaetungsfaktor": 1,
-					"anschluesse": null
+					"section_marker": "C",
+					"type": "ende",
+					"entry_delay_weight": 1,
+					"exit_earliest": "08:06:00",
+					"exit_latest": "08:16:00",
+					"exit_delay_weight": 1,
+					"connections": null
 				}
 			]
 		}
 	],
-	"fahrwege": [
+	"routes": [
 		{
 			"id": 111,
-			"abschnittsfolgen": [
+			"route_paths": [
 				{
 					"id": 1,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 1,
-							"nachVerzweigungen": [
+							"sequence_number": 1,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A1",
-									"belegungsrichtung": null
+									"resource": "A1",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						},
 						{
-							"reihenfolge": 4,
-							"vonVerzweigungen": [
+							"sequence_number": 4,
+							"route_alternative_marker_at_entry": [
 								"M1"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "B"
+							"starting_point": "A",
+							"minimum_running_time": "PT32S",
+							"ending_point": "B"
 						},
 						{
-							"reihenfolge": 5,
-							"nachVerzweigungen": [
+							"sequence_number": 5,
+							"route_alternative_marker_at_exit": [
 								"M2"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"B"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "B",
-									"belegungsrichtung": null
+									"resource": "B",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "B"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "B"
 						},
 						{
-							"reihenfolge": 6,
-							"vonVerzweigungen": [
+							"sequence_number": 6,
+							"route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"nachVerzweigungen": [
+							"route_alternative_marker_at_exit": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "BX_1",
-									"belegungsrichtung": null
+									"resource": "BX_1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "X"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "X"
 						},
 						{
-							"reihenfolge": 10,
-							"vonVerzweigungen": [
+							"sequence_number": 10,
+							"route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "XY_1",
-									"belegungsrichtung": null
+									"resource": "XY_1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "Y"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "Y"
 						},
 						{
-							"reihenfolge": 13,
-							"nachVerzweigungen": [
+							"sequence_number": 13,
+							"route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "YC",
-									"belegungsrichtung": null
+									"resource": "YC",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "Y",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "Y",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						},
 						{
-							"reihenfolge": 14,
-							"vonVerzweigungen": [
+							"sequence_number": 14,
+							"route_alternative_marker_at_entry": [
 								"M4"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"C"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "C",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "C",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				},
 				{
 					"id": 2,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 2,
-							"nachVerzweigungen": [
+							"sequence_number": 2,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A2",
-									"belegungsrichtung": null
+									"resource": "A2",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						}
 					]
 				},
 				{
 					"id": 3,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 3,
-							"nachVerzweigungen": [
+							"sequence_number": 3,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A3",
-									"belegungsrichtung": null
+									"resource": "A3",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						}
 					]
 				},
 				{
 					"id": 4,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 7,
-							"vonVerzweigungen": [
+							"sequence_number": 7,
+							"route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "BX_2",
-									"belegungsrichtung": null
+									"resource": "BX_2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "X"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "X"
 						},
 						{
-							"reihenfolge": 8,
-							"ressourcenbelegungen": [
+							"sequence_number": 8,
+							"resource_occupations": [
 								{
-									"ressource": "XC",
-									"belegungsrichtung": null
+									"resource": "XC",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						},
 						{
-							"reihenfolge": 9,
-							"abschnittskennzeichen": [
+							"sequence_number": 9,
+							"section_marker": [
 								"C"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "C2",
-									"belegungsrichtung": null
+									"resource": "C2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "C",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "C",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				},
 				{
 					"id": 5,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 11,
-							"vonVerzweigungen": [
+							"sequence_number": 11,
+							"route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "XY_2",
-									"belegungsrichtung": null
+									"resource": "XY_2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "Y"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "Y"
 						},
 						{
-							"reihenfolge": 12,
-							"nachVerzweigungen": [
+							"sequence_number": 12,
+							"route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "YC",
-									"belegungsrichtung": null
+									"resource": "YC",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "Y",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "Y",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				}
@@ -355,359 +355,359 @@
 		},
 		{
 			"id": 113,
-			"abschnittsfolgen": [
+			"route_paths": [
 				{
 					"id": 1,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 1,
-							"nachVerzweigungen": [
+							"sequence_number": 1,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A1",
-									"belegungsrichtung": null
+									"resource": "A1",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						},
 						{
-							"reihenfolge": 4,
-							"vonVerzweigungen": [
+							"sequence_number": 4,
+							"route_alternative_marker_at_entry": [
 								"M1"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "B"
+							"starting_point": "A",
+							"minimum_running_time": "PT32S",
+							"ending_point": "B"
 						},
 						{
-							"reihenfolge": 5,
-							"nachVerzweigungen": [
+							"sequence_number": 5,
+							"route_alternative_marker_at_exit": [
 								"M2"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"B"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "B",
-									"belegungsrichtung": null
+									"resource": "B",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "B"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "B"
 						},
 						{
-							"reihenfolge": 6,
-							"vonVerzweigungen": [
+							"sequence_number": 6,
+							"route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"nachVerzweigungen": [
+							"route_alternative_marker_at_exit": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "BX_1",
-									"belegungsrichtung": null
+									"resource": "BX_1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "X"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "X"
 						},
 						{
-							"reihenfolge": 10,
-							"vonVerzweigungen": [
+							"sequence_number": 10,
+							"route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "XY_1",
-									"belegungsrichtung": null
+									"resource": "XY_1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "Y"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "Y"
 						},
 						{
-							"reihenfolge": 13,
-							"nachVerzweigungen": [
+							"sequence_number": 13,
+							"route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "YC",
-									"belegungsrichtung": null
+									"resource": "YC",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "Y",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "Y",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						},
 						{
-							"reihenfolge": 14,
-							"vonVerzweigungen": [
+							"sequence_number": 14,
+							"route_alternative_marker_at_entry": [
 								"M4"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"C"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "C",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "C",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				},
 				{
 					"id": 2,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 2,
-							"nachVerzweigungen": [
+							"sequence_number": 2,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A2",
-									"belegungsrichtung": null
+									"resource": "A2",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						}
 					]
 				},
 				{
 					"id": 3,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 3,
-							"nachVerzweigungen": [
+							"sequence_number": 3,
+							"route_alternative_marker_at_exit": [
 								"M1"
 							],
-							"abschnittskennzeichen": [
+							"section_marker": [
 								"A"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "A3",
-									"belegungsrichtung": null
+									"resource": "A3",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "AB",
-									"belegungsrichtung": null
+									"resource": "AB",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "A",
-							"minimaleFahrzeit": "PT53S",
-							"endpunkt": "A"
+							"starting_point": "A",
+							"minimum_running_time": "PT53S",
+							"ending_point": "A"
 						}
 					]
 				},
 				{
 					"id": 4,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 7,
-							"vonVerzweigungen": [
+							"sequence_number": 7,
+							"route_alternative_marker_at_entry": [
 								"M2"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "BX_2",
-									"belegungsrichtung": null
+									"resource": "BX_2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "B",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "X"
+							"starting_point": "B",
+							"minimum_running_time": "PT32S",
+							"ending_point": "X"
 						},
 						{
-							"reihenfolge": 8,
-							"ressourcenbelegungen": [
+							"sequence_number": 8,
+							"resource_occupations": [
 								{
-									"ressource": "XC",
-									"belegungsrichtung": null
+									"resource": "XC",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						},
 						{
-							"reihenfolge": 9,
-							"abschnittskennzeichen": [
+							"sequence_number": 9,
+							"section_marker": [
 								"C"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "C2",
-									"belegungsrichtung": null
+									"resource": "C2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "C",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "C",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				},
 				{
 					"id": 5,
-					"fahrwegabschnitte": [
+					"route_sections": [
 						{
-							"reihenfolge": 11,
-							"vonVerzweigungen": [
+							"sequence_number": 11,
+							"route_alternative_marker_at_entry": [
 								"M3"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "XY_2",
-									"belegungsrichtung": null
+									"resource": "XY_2",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "X",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "Y"
+							"starting_point": "X",
+							"minimum_running_time": "PT32S",
+							"ending_point": "Y"
 						},
 						{
-							"reihenfolge": 12,
-							"nachVerzweigungen": [
+							"sequence_number": 12,
+							"route_alternative_marker_at_exit": [
 								"M4"
 							],
-							"ressourcenbelegungen": [
+							"resource_occupations": [
 								{
-									"ressource": "YC",
-									"belegungsrichtung": null
+									"resource": "YC",
+									"occupation_direction": null
 								},
 								{
-									"ressource": "C1",
-									"belegungsrichtung": null
+									"resource": "C1",
+									"occupation_direction": null
 								}
 							],
 							"penalty": null,
-							"startpunkt": "Y",
-							"minimaleFahrzeit": "PT32S",
-							"endpunkt": "C"
+							"starting_point": "Y",
+							"minimum_running_time": "PT32S",
+							"ending_point": "C"
 						}
 					]
 				}
 			]
 		}
 	],
-	"ressourcen": [
+	"resources": [
 		{
 			"id": "A1",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "A2",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "A3",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "AB",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "BX_1",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "B",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "BX_2",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "XY_1",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "XY_2",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "YC",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "C1",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "C2",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		},
 		{
 			"id": "XC",
-			"freigabezeit": "PT30S",
-			"zugfolgeErlaubt": false
+			"release_time": "PT30S",
+			"following_allowed": false
 		}
 	],
 	"parameters": {

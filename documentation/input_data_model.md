@@ -74,7 +74,7 @@ For example, consider again the same _route_paths_ with id 1 and 2: They both sp
 
 ![](documentation/img/route_graph_marker_labels.png)
 
-Consequently, those two events are "merged together" in the resulting graph:
+Consequently, those events are "merged together" in the resulting graph:
 
 ![](documentation/img/route_graph_marker_labels_graph.png)
 
@@ -86,9 +86,13 @@ _Note_:
 
 #### _section_markers_ on a _route_section_
 
-A specialty of route graph are the _section markers_ that may be associated to certain arcs (_route_section_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
+A specialty of the route graph are the _section markers_ that may be associated to certain arcs (_route_sections_). These provide the link to the section requirements in the service intentions. We will discuss them in more detail below. In this sample DAG, there are the following _section_markers_ (in blue):
 
 ![](documentation/img/route_DAG_section_markers.png)
+
+In the JSON, you find them here:
+
+![](documentation/img/route_section_markers.png)
 
 #### The formal data model of a _route_
 In the formal data model, a _route_ has

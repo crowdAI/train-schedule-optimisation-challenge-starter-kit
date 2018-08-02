@@ -1,6 +1,6 @@
 {
 	 "verkehrsplanLabel": "SBB_challenge_sample_scenario_with_routing_alternatives",
-	 "verkehrsplanHash": -244764091,
+	 "verkehrsplanHash": -1254734547,
 	 "hash": 1611930817,
 	 "zugfahrten": [
 		{
@@ -9,8 +9,8 @@
 				{
 					 "ein": "08:20:00",
 					 "aus": "08:20:53",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#3",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#3",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": 3,
 					 "abschnittsvorgabe": "A"
@@ -18,8 +18,8 @@
 				{
 					 "ein": "08:20:53",
 					 "aus": "08:21:25",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#4",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#4",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -27,8 +27,8 @@
 				{
 					 "ein": "08:21:25",
 					 "aus": "08:30:00",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#5",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#5",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": "B"
@@ -36,8 +36,8 @@
 				{
 					 "ein": "08:30:00",
 					 "aus": "08:30:32",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#6",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#6",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -45,8 +45,8 @@
 				{
 					 "ein": "08:30:32",
 					 "aus": "08:31:04",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#10",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#10",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -54,8 +54,8 @@
 				{
 					 "ein": "08:31:04",
 					 "aus": "08:31:36",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#13",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#13",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -63,8 +63,8 @@
 				{
 					 "ein": "08:31:36",
 					 "aus": "08:32:08",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#14",
+					 "fahrweg": 111,
+					 "fahrwegabschnittId": "111#14",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": "C"
@@ -77,8 +77,8 @@
 				{
 					 "ein": "07:50:00",
 					 "aus": "07:50:53",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#1",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#1",
 					 "reihenfolge": 1,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": "A"
@@ -86,8 +86,8 @@
 				{
 					 "ein": "07:50:53",
 					 "aus": "07:51:25",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#4",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#4",
 					 "reihenfolge": 2,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -95,8 +95,8 @@
 				{
 					 "ein": "07:51:25",
 					 "aus": "07:51:57",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#5",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#5",
 					 "reihenfolge": 3,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -104,8 +104,8 @@
 				{
 					 "ein": "07:51:57",
 					 "aus": "07:52:29",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#6",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#6",
 					 "reihenfolge": 4,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -113,8 +113,8 @@
 				{
 					 "ein": "07:52:29",
 					 "aus": "07:53:01",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#10",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#10",
 					 "reihenfolge": 5,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -122,8 +122,8 @@
 				{
 					 "ein": "07:53:01",
 					 "aus": "07:53:33",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#13",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#13",
 					 "reihenfolge": 6,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": null
@@ -131,8 +131,8 @@
 				{
 					 "ein": "07:53:33",
 					 "aus": "08:06:00",
-					 "fahrweg": "route_1",
-					 "fahrwegabschnittId": "route_1#14",
+					 "fahrweg": 113,
+					 "fahrwegabschnittId": "113#14",
 					 "reihenfolge": 7,
 					 "abschnittsfolge": 1,
 					 "abschnittsvorgabe": "C"

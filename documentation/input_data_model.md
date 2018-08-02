@@ -48,11 +48,15 @@ Recall from the [Quick Introduction](documentation/README.md#a-very-quick-introd
 
 As an example, we again look at our [sample scenario](sample_files/sample_scenario.json). The following images illustrate route 111 in that scenario (although route 113 is identical):
 
+#### A _route_ as a directed acyclic graph (DAG)
+
 ![](documentation/img/route_sample.png)
 
-The DAG for _route_1_ looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_ (see the explanation on _route paths_ just below), the black labels are the _sequence_number_ of the individual _route_section_. 
+In a minute, we explain how to derive a directed graph from the data in the JSON. But I give you the picture first. The DAG for route 111 actually looks as follows: Nodes are the _events_ and arcs are the individual _route_sections_. The red labels are _route_alternative_markers_ (see the explanation on _route paths_ just below), the black labels are the _sequence_number_ of the individual _route_section_.
 
 ![](documentation/img/route_graph_with_legend.png)
+
+__Note__: There is also a [helper script](ToDo) that constructs a [networkx](https://networkx.github.io/) graph for each service intention in a problem instance. You are free to use it for the challenge if you find it helpful.
 
 #### How is this Graph modeled in the JSON?
 Let us see how this graph is modeled in the JSON. Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. lineare subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that _route_1_ in our [sample scenario] is made up of 5 _route_paths_:

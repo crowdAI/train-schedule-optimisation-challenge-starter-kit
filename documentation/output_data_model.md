@@ -1,16 +1,21 @@
 # Output data model
 This document describes the data model in which the _solutions_ to the problem instances are expected.
 
-## A Note on translation from and to German
-As for the Input Data Model, our model for the output, i.e. a _solution_ to a problem instance, is in German. You must submit solutions in German.
+## What is a 'solution'?
+A _solution_ to a problem instance must contain the following information for each _service_intention_ in the problem instance:
 
-However: If you prefer to work with English terminology internally, we provide translation helper scripts that you can use to translate a problem instance into English and to translate an English solution into the German terminology we require. The translation script is [here](utils/translate.py).
+* A choice of exactly one of all possible routes for this train trough its route graph, and
+* assigning a time to each _event_ (entry into and exit from _route_sections_)
+
+For example, a full solution to the [sample instance](sample_files/sample_scenario.json) looks as follows:
+
+![](documentation/img/solution_JSON_all.png)
+
+The data model is much easier than the one for the [problem instances](documentation/input_data_model.md). Basically, all one has to specify is a list of route_sections one would like to take and give an entry and exit time for each of them. Let's make this precise:
 
 ## Data Model of a solution
 
-We will use this [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) to the [sample instance with routing alternatives](sample_files/sample_scenario_with_routing_alternatives.json) as an example. It looks like this:
-
-![](documentation/img/solution_JSON_toplevel.png)
+We keep using this [sample solution](sample_files/sample_scenario_solution.json) to the [sample instance](sample_files/sample_scenario.json), pictured above, as an example.
 
 A _solution_ to a _problem_instance_ has the following elements:
 * problem_instance_label 
@@ -32,11 +37,7 @@ This field can be used to provide a hash-value for the _solution_. However, whil
 ## train_runs 
 This is the actual 'meat' of the _solution_. Namely, it contains for each _service_intention_ an ordered list of _train_run_sections_ that describe a simple path through the [route graph](input_data_model.md#routes) for this train. For each _train_run_section_ it provides a time-of-day for the _entry_time_ and the _exit_time_.
 
-In other words, a solution means
-* picking exactly one of all possible routes for this train, and
-* assigning a time to each _event_ (entry into and exit from _route_sections_)
-
-Our [sample solution](sample_files/sample_scenario_with_routing_alternatives_solution.json) looks like this:
+Our [sample solution](sample_files/sample_scenario_solution.json) looks like this:
 
 ![](documentation/img/solution_JSON_train_run_sections.png)
 

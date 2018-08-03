@@ -49,3 +49,12 @@ abschnittsfolge, route_path
 abschnittsvorgabe, section_requirement
 hash, hash
 fahrwegabschnittId, route_section_id
+severity, severity
+message, message
+regelVerletzungen, business_rules_violations
+loesungHash, solution_hash
+Verspaetungsminuten, minutes_of_delay
+Fahrwegpenalty, route_penalty
+details, details
+requestUuid, request_uuid
+objectiveValue, objective_value

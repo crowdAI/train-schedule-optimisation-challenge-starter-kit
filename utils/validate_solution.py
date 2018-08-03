@@ -3,13 +3,17 @@ import translate
 import json
 from io import StringIO
 import collections.abc
+import os,sys,inspect
 
 AUTH = ('MartyMcFly', 'Uranium-235')
 SCENARIO_UPLOAD_ENDPOINT = "https://fluxer.app.sbb.ch/backend/crowdai-validator/uploadVerkehrsplanFile"
 SOLUTION_VALIDATION_ENDPOINT = "https://fluxer.app.sbb.ch/backend/crowdai-validator/validateFile"
 
-scenario = "../sample_files/sample_scenario.json"
-solution = "../sample_files/sample_scenario_solution.json"
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+
+scenario = os.path.join(parentdir,'sample_files',"sample_scenario.json")
+solution = os.path.join(parentdir,'sample_files',"sample_scenario_solution_warningHash.json")
 
 
 def do_loesung_validation(scenario, solution):
@@ -38,8 +42,8 @@ def do_loesung_validation(scenario, solution):
     print(f"validation finished with status {validation_response}")
 
     response = validation_response.json()
-    translated_response = translate.translate(response, translate.translate_to_eng)
-    return translated_response
+    validation_result = translate.translate(response, translate.translate_to_eng)
+    return validation_result
 
 
 

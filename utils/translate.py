@@ -27,7 +27,7 @@ with open("translation_table.csv") as fp:
 
 # main function that does the translation recursively
 ############################################################################################################
-def translate_scenario_file(d, translation_function):
+def translate(d, translation_function):
     """
     Convert a problem_instance or a solution from German into English, or vice-versa
 
@@ -46,12 +46,12 @@ def translate_scenario_file(d, translation_function):
             continue
 
         if isinstance(v, collections.abc.Mapping):
-            new_v = translate_scenario_file(v, translation_function)
+            new_v = translate(v, translation_function)
 
         elif isinstance(v, collections.abc.MutableSequence) and len(v) > 0 and isinstance(v[0], dict):  # we have some "trivial" lists, like abschnittskennzeichen = ["C"]. Don't call recursion for these
             new_v = list()
             for x in v:
-                new_v.append(translate_scenario_file(x, translation_function))
+                new_v.append(translate(x, translation_function))
         new[translation_function(k)] = new_v
     return new
 ############################################################################################################
@@ -114,9 +114,9 @@ if __name__ == "__main__":
                 print(f"Translating {s}: {args.from_into}...")
                 if args.from_into == "GER->ENG":
                     out_suffix = "_eng"
-                    translated = translate_scenario_file(d, translate_to_eng)
+                    translated = translate(d, translate_to_eng)
                 else:  # translate to German
                     out_suffix = "_ger"
-                    translated = translate_scenario_file(d, translate_to_ger)
+                    translated = translate(d, translate_to_ger)
 
                 write_json(translated, path=s, suffix=out_suffix)

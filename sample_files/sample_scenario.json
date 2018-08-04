@@ -41,6 +41,7 @@
 			 "route": 113,
 			 "section_requirements": [
 				{
+					 "sequence_number": 1,
 					 "section_marker": "A",
 					 "type": "start",
 					 "entry_earliest": "07:50:00",
@@ -49,6 +50,7 @@
 					 "connections": null
 				},
 				{
+					 "sequence_number": 2,
 					 "section_marker": "C",
 					 "type": "end",
 					 "entry_delay_weight": 1,

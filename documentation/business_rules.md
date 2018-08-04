@@ -99,7 +99,7 @@ In this solution, in addition to the delayed departure at B as in Example 3, we 
 
 ### Examples for Routing Penalties
 
-Let's take the same routing graph as in the discusstion of the [output data model](documentation/output_data_model.md#train_runs-zugfahrten), this time augmented with some routing penalties. The route graph looks like this:
+Let's take the same routing graph as in the discusstion of the [output data model](documentation/output_data_model.md#train_runs), this time augmented with some routing penalties. The route graph looks like this:
 * the numbers in __black__ denote the _route_section_._id_
 * the numbers in <span style="color:red">__red__</span> denote the _route_section_._penalty_. No number means no _penalty_ is specified for this _route_section_
 

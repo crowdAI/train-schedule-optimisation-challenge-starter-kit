@@ -28,7 +28,7 @@
 				{
 					 "sequence_number": 3,
 					 "section_marker": "C",
-					 "type": "end",
+					 "type": "ende",
 					 "entry_delay_weight": 1,
 					 "exit_latest": "08:50:00",
 					 "exit_delay_weight": 1,
@@ -52,7 +52,7 @@
 				{
 					 "sequence_number": 2,
 					 "section_marker": "C",
-					 "type": "end",
+					 "type": "ende",
 					 "entry_delay_weight": 1,
 					 "exit_latest": "08:16:00",
 					 "exit_delay_weight": 1,

@@ -51,8 +51,15 @@ We now start to build the solution. The following steps are just an example; it 
     2. If not, adjust the event times and check again
 
 ### Select a route
+We must choose a path from a source node to a sink node in the route graph.
+
 We notice that no _route_section_ has a positive _penalty_. If there were any such _route_sections_, we might try to avoid them when choosing our first route. But in this case, it really does not matter - all routes are equally 'desirable'. Our choice is as follows (we list the _sequence_numbers_ of the _route_sections_):
 * train 111 shall travel over _route_sections_ # 3 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
 * train 113 shall travel over _route_sections_ # 1 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
 
 ![](documentation/img/worked_example_selected_routes.png)
+
+### Initial Assignment of Event Times
+With the route choice above, we have the following paths for the two trains. Each entry and exit event (i.e. each _node_) needs to be assigned a time. In the language of the [solution data model](documentation/output_data_model.md), the arcs in the following graph are called _train_run_sections_.
+
+![](documentation/img/worked_example_raw_train_run_sections.png)

@@ -61,9 +61,10 @@ We notice that no _route_section_ has a positive _penalty_. If there were any su
 
 ### 2. Initial Assignment of Event Times
 With the route choice above, we have the following paths for the two trains. Each entry and exit event (i.e. each _node_) needs to be assigned a time. In the language of the [solution data model](documentation/output_data_model.md), the arcs in the following graph are called _train_run_sections_.
+*******************
 
 ![](documentation/img/worked_example_raw_train_run_sections.png)
-
+******************
 Our first inclination for assigning the event times is to schedule every event as early as possible. Specifically, 
 
 * let the trains start as early as possible

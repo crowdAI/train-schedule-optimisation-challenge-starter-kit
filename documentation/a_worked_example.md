@@ -18,14 +18,14 @@ There are two service intentions, for trains 111 and 113.
 * service intention 111 has three _section_requirements_, for _section_markers_ 'A', 'B' and 'C'. 
 * service intention 113 has only two _section_requirements_, for _section_markers_ 'A' and 'C'.
 
-We notice train 111 must circulate sometime between 8:20, its earliest possible start time at its first _section_requirement_, and 8:50, its latest desired exit time at its last _section_requirement_. Train 111 also has a _section_requirement_ at some intermediate point 'B', where it wants to stop for a minimum of 3 minutes and exit that point no earlier than 8:30. Think of this as a commercial stop of the train. If the timetable says "Departure at 8:30", then the customers would be unhappy if it left at 8:25, or anytime before 8:30. Therefore, it makes sense to require a departure "no earlier than" 8:30. This is what the _exit_earliest_ for _section_requirement_ B ensures.
+We notice train 111 must circulate sometime between 8:20, its earliest possible start time at its first _section_requirement_, and 8:50, its latest desired exit time at its last _section_requirement_. Train 111 also has a _section_requirement_ at some intermediate section 'B', where it wants to stop for a minimum of 3 minutes and exit that section no earlier than 8:30. Think of this as a commercial stop of the train: if the timetable in 'B' says "Departure at 8:30", then the passengers wanting to catch the train in 'B' would be unhappy if it left at 8:25, or anytime before 8:30. Therefore, it makes sense to require a departure "no earlier than" 8:30. This is what the _exit_earliest_ for _section_requirement_ B ensures.
 
 Likewise, train 113 must circulate sometime between 7:50 and 8:16 (so actually earlier than train 111). It has no other requirements.
 
-Also note that, neither train specifies any connections that would have to be observed. All we have to worry about are the _earliest_ and _latest_ time requirements. That can't be too hard?
+Also, note that neither train specifies any connections that would have to be observed. All we have to worry about are the _earliest_ and _latest_ time requirements. That can't be too hard?
 
 ### Routes
-We recall from the [short introduction](documentation/documentation#a-very-quick-introduction-to-our-timetabling-problem) that to producing a solution amounts to
+We recall from the [short introduction](documentation#a-very-quick-introduction-to-our-timetabling-problem) that to producing a solution amounts to
 
 * picking exactly one of the possible routes for each train, i.e. __selecting a path from a source to a sink node__ in the route graph
 * then assign times to all events (nodes) on this path (such that all tweve [business rules](documentation/business_rules.md) are satisfied)

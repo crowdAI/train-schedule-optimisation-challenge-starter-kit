@@ -84,3 +84,11 @@ In our case, this is 07:50:00 for train 113 and 08:20:00 for train 111:
 Now, we just set the event times that result from propagating the _minimum_running_time_ along the path. We get:
 
 ![](documentation/img/worked_example_initial_assignment.png)
+
+*************************************************************
+
+![](documentation/img/worked_example_rule_violation.png)
+
+*************************************************************
+
+![](documentation/img/worked_example_better_assignment.png)

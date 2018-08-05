@@ -25,16 +25,34 @@ Likewise, train 113 must circulate sometime between 7:50 and 8:16 (so actually e
 Also, note that neither train specifies any connections that would have to be observed. All we have to worry about are the _earliest_ and _latest_ time requirements. That can't be too hard?
 
 ### Routes
-We recall from the [short introduction](documentation#a-very-quick-introduction-to-our-timetabling-problem) that to producing a solution amounts to
+We recall from the [short introduction](documentation#a-very-quick-introduction-to-our-timetabling-problem) that producing a solution amounts to
 
 * picking exactly one of the possible routes for each train, i.e. __selecting a path from a source to a sink node__ in the route graph
 * then assign times to all events (nodes) on this path (such that all tweve [business rules](documentation/business_rules.md) are satisfied)
 
 We also recall that the __route graphs are always directed and acyclic grpahs__.
 
-So, what are the possible routes for the two services? We will see in the discussion of the [problem instance data model](documentation/input_data_model.md) how to derive the graph structure from the JSON. For the purpose of this example, let us just pretend we already knew that the two route graphs for service intentions 111 and 113 are actually identical and look as follows:
+So, what are the possible routes for the two services? We will see in the discussion of the [problem instance data model](documentation/input_data_model.md#routes) how to derive the graph structure from the JSON. For the purpose of this example, let us just pretend we already knew that the two route graphs for service intentions 111 and 113 are actually identical and look as follows:
 
 #### Route graphs for _service_intentions_ 111 and 113
 _Hint:_ you may use the [route graph utility script](utils/route_graph.py) to produce the route graphs as a [networkx](https://networkx.github.io/) directed graph and that should produce the same graphs as in these pictures.
 
 ![](documentation/img/worked_example_route_graph.png)
+
+Note that the fact that they have identical route graphs means the trains actually have the same travel path. In the "real world" this would mean they travel along the same pyhsical tracks.
+
+## Building a Solution
+We now start to build the solution. The following steps are just an example; it is neither the only nor a very intelligent way to go about this problem. But it works for simple examples such as this one. We will follow these steps:
+
+1. select a route for each service intention
+2. Take a first shot at assigning times to all events along the chosen routes
+3. check if we satisfy all [business rules](documentation/business_rules.md)
+    1. If yes, we are done
+    2. If not, adjust the event times and check again
+
+### Select a route
+We notice that no _route_section_ has a positive _penalty_. If there were any such _route_sections_, we might try to avoid them when choosing our first route. But in this case, it really does not matter - all routes are equally 'desirable'. Our choice is as follows (we list the _sequence_numbers_ of the _route_sections_):
+* train 111 shall travel over _route_sections_ # 3 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
+* train 113 shall travel over _route_sections_ # 1 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
+
+![](documentation/img/worked_example_selected_routes.png)

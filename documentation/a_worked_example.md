@@ -61,10 +61,11 @@ We notice that no _route_section_ has a positive _penalty_. If there were any su
 
 ### 2. Initial Assignment of Event Times
 With the route choice above, we have the following paths for the two trains. Each entry and exit event (i.e. each _node_) needs to be assigned a time. In the language of the [solution data model](documentation/output_data_model.md), the arcs in the following graph are called _train_run_sections_.
-*******************
 
+*******************
 ![](documentation/img/worked_example_raw_train_run_sections.png)
 ******************
+
 Our first inclination for assigning the event times is to schedule every event as early as possible. Specifically, 
 
 * let the trains start as early as possible
@@ -74,19 +75,26 @@ To do that, it helps to add some more information to the _train_run_sections_ (i
 * the _section_marker_ of the associated _route_sections_, if there is one
 * the _minimum_running_time_ of the associated _route_section_
 
+******************
 ![](documentation/img/worked_example_minimum_running_time_and_section_markers.png)
+******************
 
 Now the earliest possible starting times for the trains are given by the _entry_earliest_ time of the first _section_requirement_ (by the way: it is a general convention of all problem instances, that the first _setion_requirement_ always has an _entry_earliest_, and the last _section_requirement_ always has an _exit_latest_)
 
 In our case, this is 07:50:00 for train 113 and 08:20:00 for train 111:
 
+******************
 ![](documentation/img/worked_example_earliest_entry.png)
+******************
 
 Now, we just set the event times that result from propagating the _minimum_running_time_ along the path. We get:
 
+******************
 ![](documentation/img/worked_example_initial_assignment.png)
 
-*************************************************************
+******************
+
+### 3. Check Business Rules
 
 ![](documentation/img/worked_example_rule_violation.png)
 

@@ -109,14 +109,48 @@ We check the [Consistency Rules](documentation/business_rules.md#concistency-rul
 
 * #1 problem_instance_hash present: Yes, the _hash_ -1254734547 of the [sample instance](sample_files/sample_scenario.json) is correctly entered as the _problem_instance_hash_ :heavy_check_mark:
 * #2 each train is scheduled: We schedule both trains 111 and 113. :heavy_check_mark:
-* #3 ordered _train_run_sections_: Yes, we have just numbered their _sequence_numbers_ incrementally from 1 to 9. :heavy_check_mark:
+* #3 ordered _train_run_sections_: Yes, we simply numbered their _sequence_numbers_ incrementally from 1 to 7. :heavy_check_mark:
 * #4 reference valid route: Yes, we have added all the necessary information. :heavy_check_mark: <br>Recall (see [here](documentation/output_data_model.md#train_run_section)) that the _route_section_id_ is constructed from the pattern _route_._id_#_route_section_._sequence_number_. <br>Also note that train 111 uses one _route_section_ from the _route_path_ with _id_ 3, while train 113 only uses _route_sections_ from _route_path_ 1.
 * #5 train_run_sections form a path in the route graph: Yes, they do, we chose them exactly like that [above](#1-select-a-route). :heavy_check_mark:
-* #6 pass through all section_requirements: Yes, train 111 passes A, B and C, train 113 passes A and C, as required. :heavy_check_mark: <br>__Important remark:__ In fact, we guarantee that if you pick __any__ path from a source to a sink node in the route graph you will pass all required _section_markers_ __and__ do so in the correct order. All you need to do, therefore, is make sure you add that information to the _train_run_sections_ in their _section_requirement_ field.
+* #6 pass through all section_requirements: Yes, train 111 passes A, B and C, train 113 passes A and C, as required. :heavy_check_mark: <br>__Important remark:__ In fact, we guarantee that if you pick __any__ path from a source to a sink node in the route graph of a _service_intention_ you will pass all required _section_markers_ __and__ do so in the correct order. All you need to do, therefore, is make sure you add that information to the _train_run_sections_ in their _section_requirement_ field.
+* #7 consistent entry_time and exit_time times: Yes, by construction we just repeat the _exit_time_ of a _train_run_section_ as the _entry_time_ of the next one ('next' according to their _sequence_number_). :heavy_check_mark:
 
+Let's check the [Planning Rules](documentation/business_rules.md#planning-rules) next
 
-![](documentation/img/worked_example_rule_violation.png)
+* #101 Time windows for _latest_-requirements: We have two _latest_ requirements (see the [file](sample_files/sample_scenario.json) or screenshot [above](#service-intentions):
+    - _exit_latest_ of 08:16:00 for _service_intenation_ 113 in C. The _train_run_section_ associated to _section_requirement_ C has an _exit_time_ of 07:54:05, which is certainly before 8:16 :heavy_check_mark:
+    - _exit_latest_ of 08:50:00 for _service_intention_ 111 in C. Here, the relevant _train_run_section_ has _exit_time_ 08:24:05 :heavy_check_mark:
+
+* #102 Time windows for _earliest_-requirements: We have three _earliest_requirements:
+    - _service_intention_ 113: 
+        - _entry_earliest_ 07:50:00 for section A. We scheduled this event for exactly this time, which is ok. :heavy_check_mark:
+    - _service_intention_ 111:
+        - _entry_earliest_ 08:20:00 for section A. We scheduled this event for exactly this time. :heavy_check_mark:
+        - _exit_earliest_ 08:30:00 for section B. We scheduled this event for 08:21:57. :x:
 
 *************************************************************
+![](documentation/img/worked_example_rule_violation.png)
+*************************************************************
 
+We have found a rule violation. Let's fix that.
+
+### Fix event times and try again
+
+In order to satisfy the "_exit_earliest_ at 8:30" requirement for 111 in B and stay true to our idea of scheduling each event as early as possible, we just postpone that event from 08:21:57 to 08:30:00 and propagate the times for the events following it. We get get following picture (adjusted event times in red):
+
+*************************************************************
 ![](documentation/img/worked_example_better_assignment.png)
+*************************************************************
+<br><br>
+__Check Business Rules again__
+
+It is immediately obvious that the changes we made do not influence the Consistency Rules #1 - #7. We don't check them in detail anymore. Also, we have not changed anything for train 113, so we just focus on train 111.
+
+__[Planning Rules](documentation/business_rules.md#planning-rules) for train 111:__
+
+* #101 Time windows for _latest_-requirements: We didn't change anything for train 113, just check 113 again.
+    - _exit_latest_ of 08:50:00 for _service_intention_ 111 in C. We have postponed this event from 08:24:05 to 08:32:08, but that is still well before the deadline. :heavy_check_mark:
+
+* #102 Time windows for _earliest_-requirements: We have two _earlieste_requirements for train 111:
+    - _entry_earliest_ 08:20:00 for section A. Event is still scheduled at 08:20:00. :heavy_check_mark: 
+    - _exit_earliest_ 08:30:00 for section B. __Event is now scheduled at exactly 08:30:00.__ :heavy_check_mark:

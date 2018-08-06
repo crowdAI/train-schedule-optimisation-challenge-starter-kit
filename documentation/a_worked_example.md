@@ -171,7 +171,9 @@ In other words, __after 07:54:35 train 113 will certainly not occupy any resourc
 
 * #105 Connections: There are no connections defined in our two _service_intentions_, there is nothing to check. :heavy_check_mark:
 
-We have produced a feasible solution. It is actually even an _optimal_ solution, meaning it receives an [objective value](documentation/business_rules.md#objective-function/busine) of 0. Here it is again all its glory (you can download the solution file [here](sample_files/sample_scenario_solution.json)).
+We have produced a feasible solution. Here it is again all its glory (you can download the solution file [here](sample_files/sample_scenario_solution.json)).
 
 ![](documentation/img/worked_example_final_solution.png)
 *************************************************************
+
+__Remark:__ This solution is actually even an _optimal_ solution, meaning it receives an objective value of 0. Refer to the explanation of the [objective function](documentation/business_rules.md#objective-function) for more details.

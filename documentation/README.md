@@ -18,19 +18,23 @@ This may also be helpful to work through before diving into the data model defin
 
 Our task (or yours, if you are going to build a solver :wink:) is basically the following:
 
-Given 
+**Given**
 * A list of trains to be scheduled, and
 * For each train
     - a set of _Functional Requirements_, such as earliest departure time, latest arrival time, minimum stopping times, connections to other trains, etc.
     - a set (actually, a directed acyclic graph) of _routes_ it could take from origin to destination, together with minimum running times on the sections and a list of resources that are occupied while the train is in this section.
 
-Produce a timetable that
+**Produce a timetable that**
 -	does not violate any Functional Requirements
 -	does not violate any physical requirements, such as minimum running time on a route section
 -	does not result in resource occupation conflicts.
 
 A **timetable** is an assignment of a (continuous) time instant to each event.
 
-_Note: A __'route'__ actually consists of individual **route sections**. The sections attach to one another head-to-tail to form a DAG. Each vertex in this DAG is called an **event**. It represents the event, when a train passes from one section to the next one._ A simple _route_ might look as follows - although realistic example have many more sections, typically between 50 and 100.
+## A note on the `routes`
+
+A **route** actually consists of individual **route sections**. The sections attach to one another head-to-tail to form a directed acyclic graph (DAG). Each vertex in this DAG is called an **event**. It represents the event, when a train passes from one section to the next one._ We use the term `route graph` as a synonym for `route` in the following. A simple _route_ might look as follows - although realistic example have many more sections, typically between 50 and 100. 
 
 ![](documentation/img/route_graph_naked.png)
+
+The graph encodes the set of possible _paths_ the train can take. The train __always starts on a source node__ (i.e. a node without incoming arcs) and __always ends on a sink node__ (a node without outgoing arcs). In order to solve the timetabling problem, you must choose for each train exactly one path through its route graph. Different paths may occupy different resources. Also, some paths may be preferable to others; for example some sections may have a penalty associated if they are used. You will learn more about all this in the discussion of the [input data model](documentation/input_data_model.md) and the [objective function](documentation/business_rules.md#objective-function).

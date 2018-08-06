@@ -32,7 +32,15 @@ Our task (or yours, if you are going to build a solver :wink:) is basically the 
 
 A **timetable** is an assignment of a (continuous) time instant to each event.
 
-## Can you be more specific, what it means to 'not violate any functional/physical requirements'?
+## What does it mean to 'not violate any functional/physical requirements'?
+We have made precise what is considered a _valid_ (or _feasible_) solution through the definition of twelve individual rules. You will learn about them in the document [business rules](documentation/business_rules.md).
+
+To give you a flavor of what these rules are like, here are two examples.
+
+* [business rule #2](documentation/business_rules.md#concistency-rules) states that the solution must schedule each train in the problem instance. It is not allowed to ignore some of the trains.
+* [business rule #104](documentation/business_rules.md#planning-rules) states that no two trains may occupy a common resource at any time
+
+Basically, a solution must satisfy all twelve rules to be accepted. Actally, there is some leeway, because rule #101 may be bent a little bit, but don't worry about that for the time being.
 
 ## A note on the `routes`
 

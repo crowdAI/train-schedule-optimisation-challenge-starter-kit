@@ -38,3 +38,8 @@ ausMax, exit_latest
 einMin, entry_earliest
 ausMin, exit_earliest
 auf, on
+FAB-Id,route_section_id
+fA, service_intention
+fAs:, service_intentions:
+FABs:, route_sections:
+FAB, route_section

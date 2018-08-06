@@ -1,0 +1,40 @@
+#German, English
+Eintrittszeit, Entry time
+Ressource:, Resource:
+und, and
+Zeiten, Times
+ein-aus, entry-exit
+Abschnittskennzeichen, Section Marker
+Belegungskonflikt, Occupancy conflict
+"(Sperrtreppe),", (Blocking resource)
+"Lösung", Solution
+mit, with
+hat, has
+einen, a
+falschen, wrong
+Freigabezeit[s]:, Release time[s]
+in, in
+Zugfahrtabschnitt, Train run sections
+ein-aus:, entry-exit:
+erwartet:, expected:
+für, for
+VP-Label, VP-Label
+VP-Hash, VP-Hash
+Hash:, Hash:
+Hash!, Hash!
+Mindesfahrzeit, Minimum running time
+von, of
+Sek., seconds
+vor, before
+Fahrzeit, Running time
+Abschnitt, Section
+Abschnitt:, Section:
+unterschritten., undercut
+Mindesthaltezeit, Minimum stopping time
+Zusatzzeit, ""
+Austrittszeit, Exit time
+nach, after
+ausMax, exit_latest
+einMin, entry_earliest
+ausMin, exit_earliest
+auf, on

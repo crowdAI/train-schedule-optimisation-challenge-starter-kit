@@ -35,6 +35,8 @@ We categorize the rules roughly in two groups:
 The objective function is used by the grader to determine how "good" a solution is. We give a more exact formula below, but basically it is calculated as the __weighted sum of all delays plus the sum of routing penalties__.
 A _delay_ in this context means a violation of a _section_requirement_ with an _exit_latest_ or _entry_latest_ time. Each such violation is multiplied by its _entry_delay_weight_/_exit_delay_weight_ and then summed up to get the total delay penalties. <br>
 
+__Remark:__ A _missing_ solution in a submission will incur a penalty of 10'000 points. A solution that violates any of the eleven _mandatory_ business rules (all except #101) will be treated like a missing solution.
+
 The best possible objective value a solution can obtain is 0 (zero). A value > 0 means some _latest_entry_/_latest_exit_ _section_requirement_ is not satisfied in the solution, or a route involving _routing_sections_ with _penalty_ > 0 was chosen.
 
 The "formula" for the objective function is as follows:

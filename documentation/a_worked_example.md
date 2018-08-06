@@ -57,7 +57,9 @@ We notice that no _route_section_ has a positive _penalty_. If there were any su
 * train 111 shall travel over _route_sections_ # 3 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
 * train 113 shall travel over _route_sections_ # 1 -> 4 -> 5 -> 6 -> 10 -> 13 -> 14
 
+*******************
 ![](documentation/img/worked_example_selected_routes.png)
+*******************
 
 ### 2. Initial Assignment of Event Times
 With the route choice above, we have the following paths for the two trains. Each entry and exit event (i.e. each _node_) needs to be assigned a time. In the language of the [solution data model](documentation/output_data_model.md), the arcs in the following graph are called _train_run_sections_.
@@ -95,6 +97,12 @@ Now, we just set the event times that result from propagating the _minimum_runni
 ******************
 
 ### 3. Check Business Rules
+We check if what we have produced is a feasible solution, i.e. whether it satisfies all [business rules](documentation/business_rules.md).
+
+We check the [Consistency Rules](documentation/business_rules.md#concistency-rules) first
+
+* #1 problem_instance_hash present: This is not an issue, we will just add this later before submitting. <br>:heavy_check_mark:
+
 
 ![](documentation/img/worked_example_rule_violation.png)
 

@@ -19,7 +19,7 @@ ein-aus:, entry-exit:
 erwartet:, expected:
 für, for
 VP-Label, VP-Label
-VP-Hash, VP-Hash
+VP-Hash, problem_instance_hash
 Hash:, Hash:
 Hash!, Hash!
 Mindesfahrzeit, Minimum running time

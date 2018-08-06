@@ -13,7 +13,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 
 scenario = os.path.join(parentdir,'sample_files',"sample_scenario.json")
-solution = os.path.join(parentdir,'sample_files',"sample_scenario_solution_warningHash.json")
+solution = os.path.join(parentdir,'sample_files',"sample_scenario_solution.json")
 
 def do_loesung_validation(scenario, solution):
 

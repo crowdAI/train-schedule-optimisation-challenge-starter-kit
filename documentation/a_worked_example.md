@@ -8,6 +8,8 @@ You do not need to be familiar with the data models yet or the business rules, b
 * The description of the [solution data model](documentation/output_data_model.md)
 * The definition of the twelve [business rules](documentation/business_rules.md) that a solution must satisfy
 
+__Tip:__ In order to work with the large JSON files it can be helpful to use an editor that offers a 'grid view', such as the screenshots below, to keep the overview. If anybody knows a good freeware too, please let us know! Otherwise you can also use evaluation versions of [Altova](https://www.altova.com/download-xml-editor-b?gclid=Cj0KCQjw45_bBRD_ARIsAJ6wUXSBmRsSmdnwA9DWEl_ryWfwWdG-sEOSQdQy7_Sf2I1HAb0SElcDy8gaAufOEALw_wcB) or [Oxygen](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
+
 ## The sample instance
 We study what is contained in the [sample instance](sample_files/sample_scenario.json)
 ### Service intentions

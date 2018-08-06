@@ -173,6 +173,5 @@ In other words, __after 07:54:35 train 113 will certainly not occupy any resourc
 
 We have produced a feasible solution. It is actually even an _optimal_ solution, meaning it receives an [objective value](documentation/business_rules.md#objective-function/busine) of 0. Here it is again all its glory (you can download the solution file [here](sample_files/sample_scenario_solution.json)).
 
-*************************************************************
 ![](documentation/img/worked_example_final_solution.png)
 *************************************************************

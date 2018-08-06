@@ -102,6 +102,7 @@ We check if what we have produced is a feasible solution, i.e. whether it satisf
 We check the [Consistency Rules](documentation/business_rules.md#concistency-rules) first
 
 * #1 problem_instance_hash present: This is not an issue, we will just add this later before submitting. <br>:heavy_check_mark:
+* #2 each train is scheduled: We schedule both trains 111 and 113. <br>:heavy_check_mark:
 
 
 ![](documentation/img/worked_example_rule_violation.png)

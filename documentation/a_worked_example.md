@@ -103,14 +103,16 @@ This is our initial solution. Let's bring it into the shape of the [solution dat
 
 
 ### 3. Check Business Rules
-We check if what we have produced is a feasible solution, i.e. whether it satisfies all [business rules](documentation/business_rules.md).
+We check if we have produced a feasible solution, i.e. whether it satisfies all [business rules](documentation/business_rules.md).
 
 We check the [Consistency Rules](documentation/business_rules.md#concistency-rules) first
 
 * #1 problem_instance_hash present: Yes, the _hash_ -1254734547 of the [sample instance](sample_files/sample_scenario.json) is correctly entered as the _problem_instance_hash_ :heavy_check_mark:
 * #2 each train is scheduled: We schedule both trains 111 and 113. :heavy_check_mark:
 * #3 ordered _train_run_sections_: Yes, we have just numbered their _sequence_numbers_ incrementally from 1 to 9. :heavy_check_mark:
-* #4 reference valid route: Yes, we have added all the necessary information. :heavy_check_mark: <br>Recall (see [here](documentation/output_data_model.md#train_run_section)) that the _route_section_id_ is constructed from the pattern _route_._id_#_route_section_._sequence_number_. Also note that train 111 uses one _route_section_ from the _route_path_ with _id_ 3, while train 113 only uses _route_sections_ from _route_path_ 1.
+* #4 reference valid route: Yes, we have added all the necessary information. :heavy_check_mark: <br>Recall (see [here](documentation/output_data_model.md#train_run_section)) that the _route_section_id_ is constructed from the pattern _route_._id_#_route_section_._sequence_number_. <br>Also note that train 111 uses one _route_section_ from the _route_path_ with _id_ 3, while train 113 only uses _route_sections_ from _route_path_ 1.
+* #5 train_run_sections form a path in the route graph: Yes, they do, we chose them exactly like that [above](#1-select-a-route). :heavy_check_mark:
+* #6 pass through all section_requirements: Yes, train 111 passes A, B and C, train 113 passes A and C, as required. :heavy_check_mark: <br>__Important remark:__ In fact, we guarantee that if you pick __any__ path from a source to a sink node in the route graph you will pass all required _section_markers_ __and__ do so in the correct order. All you need to do, therefore, is make sure you add that information to the _train_run_sections_ in their _section_requirement_ field.
 
 
 ![](documentation/img/worked_example_rule_violation.png)

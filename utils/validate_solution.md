@@ -85,13 +85,14 @@ solution_content = translate.translate(solution_content, translate.translate_to_
 ```python
 solution_file = {"loesung": StringIO(json.dumps(solution_content))}
 validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH)
-print(f"validation finished with status {validation_response}")
+print(f"validation finished with status {validation_response.status_code}")
 
 response = validation_response.json()
 validation_result = translate.translate(response, translate.translate_to_eng)
+validation_result = translate.translate_message_word_for_word(validation_result)
 ```
 
-    validation finished with status <Response [200]>
+    validation finished with status 200
     
 
 Inspect the response. The rule violations are collected in the attribute `business_rules_violations`. They are grouped into `warnings` and `errors`
@@ -103,25 +104,44 @@ _Note:_ Some of the text might still be in German. Please use Google Translate i
 
 
 ```python
-warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
-errors = [x for x in validation_result["business_rules_violations"] if x["severity"] == "error"]
+    warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
+    errors = [x for x in validation_result["business_rules_violations"] if x["severity"] == "error"]
 
-print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
+    print()
+    print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
 
-print("Warnings:")
-for x in warnings:
-    print(x["message"] + '\n')
+    if len(errors) > 0:
+        print(f"the solution has {len(errors)} errors. It will not be accepted as a feasible solution. "
+            f"See the error messages for details.")
+    
+        print()
+        print("Errors:")
+        for x in errors:
+            print("- "+x["message"])
+            # print(x["message_original"])
+        print()
+        print("Warnings:")
+        for x in warnings:
+            print("- "+x["message"])
         
-print("Errors:")
-for x in errors:
-    print(x["message"] + '\n')
+
+    elif len(warnings) > 0:
+        print()
+        print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. ")
+        if validation_result['objective_value'] > 0.0:
+            print(f"However, it will incur {validation_result['objective_value']} penalty points in the grader.")
+        
+        print()
+        print("Warnings:")
+        for x in warnings:
+            print("- "+x["message"])
+            # print(x["message_original"])
 
 ```
 
+    
     There are 0 warnings and 0 errors
     
-    Warnings:
-    Errors:
     
 
 ### Example: Warning "wrong Hash in solution"
@@ -140,33 +160,54 @@ with open(solution) as fp:
 solution_content = translate.translate(solution_content, translate.translate_to_ger)
 solution_file = {"loesung": StringIO(json.dumps(solution_content))}
 validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH)
-print(f"validation finished with status {validation_response} \n")
+print(f"validation finished with status {validation_response.status_code} \n")
 
 response = validation_response.json()
 validation_result = translate.translate(response, translate.translate_to_eng)
+validation_result = translate.translate_message_word_for_word(validation_result)
 
 warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
 errors = [x for x in validation_result['business_rules_violations'] if x['severity'] == 'error']
 
+print()
 print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
 
-print("Warnings:")
-for x in warnings:
-    print(x["message"] + '\n')
-        
-print("Errors:")
-for x in errors:
-    print(x["message"] + '\n')
+if len(errors) > 0:
+    print(f"the solution has {len(errors)} errors. It will not be accepted as a feasible solution. "
+        f"See the error messages for details.")
+
+    print()
+    print("Errors:")
+    for x in errors:
+        print("- "+x["message"])
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
+
+
+elif len(warnings) > 0:
+    print()
+    print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. ")
+    if validation_result['objective_value'] > 0.0:
+        print(f"However, it will incur {validation_result['objective_value']} penalty points in the grader.")
+
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
 ```
 
-    validation finished with status <Response [200]> 
+    validation finished with status 200 
+    
     
     There are 1 warnings and 0 errors
     
-    Warnings:
-    Lösung mit VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" und VP-Hash "-1254734547" hat einen falschen Hash! Hash: 161193081, erwartet: 1538680897
     
-    Errors:
+    the solution has 1 warnings. It will be accepted as a feasible solution. 
+    
+    Warnings:
+    - Solution with VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" and problem_instance_hash "-1254734547" has a wrong Hash! Hash: 161193081, expected: 1538680897
     
 
 ### Example: Warning "delayed arrival"
@@ -184,36 +225,57 @@ with open(solution) as fp:
 solution_content = translate.translate(solution_content, translate.translate_to_ger)
 solution_file = {"loesung": StringIO(json.dumps(solution_content))}
 validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH)
-print(f"validation finished with status {validation_response} \n")
+print(f"validation finished with status {validation_response.status_code} \n")
 
 response = validation_response.json()
 validation_result = translate.translate(response, translate.translate_to_eng)
+validation_result = translate.translate_message_word_for_word(validation_result)
 
 warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
 errors = [x for x in validation_result['business_rules_violations'] if x['severity'] == 'error']
 
+print()
 print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
 
-print("Warnings:")
-for x in warnings:
-    print(x["message"] + '\n')
-        
-print("Errors:")
-for x in errors:
-    print(x["message"] + '\n')
+if len(errors) > 0:
+    print(f"the solution has {len(errors)} errors. It will not be accepted as a feasible solution. "
+        f"See the error messages for details.")
+
+    print()
+    print("Errors:")
+    for x in errors:
+        print("- "+x["message"])
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
+
+
+elif len(warnings) > 0:
+    print()
+    print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. ")
+    if validation_result['objective_value'] > 0.0:
+        print(f"However, it will incur {validation_result['objective_value']} penalty points in the grader.")
+
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
 
 ```
 
-    validation finished with status <Response [200]> 
+    validation finished with status 200 
+    
     
     There are 2 warnings and 0 errors
     
+    
+    the solution has 2 warnings. It will be accepted as a feasible solution. 
+    However, it will incur 1.1333333 penalty points in the grader.
+    
     Warnings:
-    Lösung mit VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" und VP-Hash "-1254734547" hat einen falschen Hash! Hash: 1611930817, erwartet: 2080299070
-    
-    Austrittszeit 08:51:08 nach ausMax 08:50 für Zugfahrtabschnitt mit FAB-Id "111#14" und Abschnittskennzeichen "C" in fA "111"
-    
-    Errors:
+    - Solution with VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" and problem_instance_hash "-1254734547" has a wrong Hash! Hash: 1611930817, expected: 2080299070
+    - Exit time 08:51:08 after exit_latest 08:50 for Train run sections with FAB-Id "111#14" and Section Marker "C" in fA "111"
     
 
 ### Example: Errors "early departure" and "resource occupation conflict"
@@ -237,37 +299,56 @@ with open(solution) as fp:
 solution_content = translate.translate(solution_content, translate.translate_to_ger)
 solution_file = {"loesung": StringIO(json.dumps(solution_content))}
 validation_response = requests.post(SOLUTION_VALIDATION_ENDPOINT, files=solution_file, auth=AUTH)
-print(f"validation finished with status {validation_response} \n")
+print(f"validation finished with status {validation_response.status_code} \n")
 
 response = validation_response.json()
 validation_result = translate.translate(response, translate.translate_to_eng)
+validation_result = translate.translate_message_word_for_word(validation_result)
 
 warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
 errors = [x for x in validation_result['business_rules_violations'] if x['severity'] == 'error']
 
+print()
 print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
 
-print("Warnings:")
-for x in warnings:
-    print(x["message"] + '\n')
-        
-print("Errors:")
-for x in errors:
-    print(x["message"] + '\n')
+if len(errors) > 0:
+    print(f"the solution has {len(errors)} errors. It will not be accepted as a feasible solution. "
+        f"See the error messages for details.")
+
+    print()
+    print("Errors:")
+    for x in errors:
+        print("- "+x["message"])
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
+
+
+elif len(warnings) > 0:
+    print()
+    print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. ")
+    if validation_result['objective_value'] > 0.0:
+        print(f"However, it will incur {validation_result['objective_value']} penalty points in the grader.")
+
+    print()
+    print("Warnings:")
+    for x in warnings:
+        print("- "+x["message"])
 ```
 
-    validation finished with status <Response [200]> 
+    validation finished with status 200 
+    
     
     There are 1 warnings and 3 errors
     
-    Warnings:
-    Lösung mit VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" und VP-Hash "-1254734547" hat einen falschen Hash! Hash: 1611930817, erwartet: 460224476
+    the solution has 3 errors. It will not be accepted as a feasible solution. See the error messages for details.
     
     Errors:
-    Belegungskonflikt (Sperrtreppe), Freigabezeit[s]: 30, Ressource: "AB", fAs: "111" / "113", FABs: "111#3" / "113#1", Zeiten ein-aus: 07:50-08:20:53 / 07:50-07:50:53
+    - Occupancy conflict (Blocking resource) Release time[s] 30, Resource: "AB", fAs: "111" / "113", FABs: "111#3" / "113#1", Times entry-exit: 07:50-08:20:53 / 07:50-07:50:53
+    - Occupancy conflict (Blocking resource) Release time[s] 30, Resource: "AB", fAs: "111" / "113", FABs: "111#3" / "113#4", Times entry-exit: 07:50-08:20:53 / 07:50:53-07:51:25
+    - Entry time 07:50 before entry_earliest 08:20 for Train run sections with FAB-Id "111#3" and Section Marker "A" in fA "111"
     
-    Belegungskonflikt (Sperrtreppe), Freigabezeit[s]: 30, Ressource: "AB", fAs: "111" / "113", FABs: "111#3" / "113#4", Zeiten ein-aus: 07:50-08:20:53 / 07:50:53-07:51:25
-    
-    Eintrittszeit 07:50 vor einMin 08:20 für Zugfahrtabschnitt mit FAB-Id "111#3" und Abschnittskennzeichen "A" in fA "111"
-    
+    Warnings:
+    - Solution with VP-Label "SBB_challenge_sample_scenario_with_routing_alternatives" and problem_instance_hash "-1254734547" has a wrong Hash! Hash: 1611930817, expected: 460224476
     

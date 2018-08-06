@@ -25,7 +25,7 @@ Likewise, train 113 must circulate sometime between 7:50 and 8:16 (so actually e
 Also, note that neither train specifies any connections that would have to be observed. All we have to worry about are the _earliest_ and _latest_ time requirements. That can't be too hard?
 
 ### Routes
-We recall from the [short introduction](documentation#a-very-quick-introduction-to-our-timetabling-problem) that producing a solution amounts to
+We recall from the [short introduction](documentation/quick_introduction.md) that producing a solution amounts to
 
 * picking exactly one of the possible routes for each train, i.e. __selecting a path from a source to a sink node__ in the route graph
 * then assign times to all events (nodes) on this path (such that all twelve [business rules](documentation/business_rules.md) are satisfied)

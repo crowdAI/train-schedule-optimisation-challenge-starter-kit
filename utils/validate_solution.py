@@ -53,22 +53,32 @@ if __name__ == "__main__":
     warnings = [x for x in validation_result["business_rules_violations"] if x["severity"] == "warning"]
     errors = [x for x in validation_result["business_rules_violations"] if x["severity"] == "error"]
 
+    print()
+    print(f"There are {len(warnings)} warnings and {len(errors)} errors" + "\n")
+
     if len(errors) > 0:
         print(f"the solution has {len(errors)} errors. It will not be accepted as a feasible solution. "
             f"See the error messages for details.")
+    
+        print()
         print("Errors:")
         for x in errors:
-            print(x["message"])
+            print("- "+x["message"])
             # print(x["message_original"])
-            print()
+        print()
+        print("Warnings:")
+        for x in warnings:
+            print("- "+x["message"])
         
 
     elif len(warnings) > 0:
         print()
-        print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. However, it will "
-            f"incur {validation_result['objective_value']} penalty points in the grader.")
+        print(f"the solution has {len(warnings)} warnings. It will be accepted as a feasible solution. ")
+        if validation_result['objective_value'] > 0.0:
+            print(f"However, it will incur {validation_result['objective_value']} penalty points in the grader.")
+        
+        print()
         print("Warnings:")
         for x in warnings:
-            print(x["message"])
+            print("- "+x["message"])
             # print(x["message_original"])
-            print()

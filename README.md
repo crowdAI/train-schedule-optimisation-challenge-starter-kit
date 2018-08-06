@@ -22,7 +22,7 @@ In order to submit, it is __not necessary to solve all nine problem instances__.
 
 By the way, we provide [sample solutions](problem_instances/sample_solutions) to seven of the nine problem instances. These seven solutions are also available as a [sample submission](problem_instances/sample_solutions/sample_submission.json). You may use these solutions to test the submission workflow and verify the data models. You must not use them as a basis for your solver, however, see the according [challenge rules](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge).
 
-The goal is to create a submission with as small an evaluator value as possible.
+The goal is to create a submission with __as small a score as possible__.
 
 ## What can I find in this Repo?
 

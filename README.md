@@ -22,6 +22,8 @@ In order to submit, it is __not necessary to solve all nine problem instances__.
 
 By the way, we provide [sample solutions](problem_instances/sample_solutions) to seven of the nine problem instances. These seven solutions are also available as a [sample submission](problem_instances/sample_solutions/sample_submission.json). You may use these solutions to test the submission workflow and verify the data models. You must not use them as a basis for your solver, however, see the according [challenge rules](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge).
 
+The goal is to create a submission with as small an evaluator value as possible.
+
 ## What can I find in this Repo?
 
 * In the [Documentation](documentation) folder you find all documentation texts, such as
@@ -33,7 +35,9 @@ By the way, we provide [sample solutions](problem_instances/sample_solutions) to
     - A [description](documentation/instance_description.md) of the nine problem instances that make up the challenge
 
 * The [sample_files](sample_files) folder contains some simple sample instances and solution. We use these in the documentation to explain our data models and the grading function.
-* The [problem_instances](problem_instances) folder contains the actual timetabling problem instances that you need to solve for this challenge. Also, sample solutions, although not very good ones.
+
+* The [problem_instances](problem_instances) folder contains the actual timetabling problem instances that you need to solve for this challenge. Also, you find in a subfolder sample solutions (although not very good ones) to some of the instances and a sample submission.
+
 * The [utils](utils) folder contains some utilities such as
-    - a [script](utils/validate_solution.py) to evaluate _individual_ solutions to problem instances without a "formal" submission. There is also an accompanying [notebook](utils/validate_solution.ipynb) explaining its use.
-    - a [script](utils/route_graph.py) that transforms the routes in a problem instance into directed graphs in the [networkx](https://networkx.github.io/) package.
+    - a [script](utils/validate_solution.py) to evaluate _individual_ solutions to problem instances without a "formal" submission. This is very helpful when trying to tune your algorithms. There is also an accompanying [notebook](utils/validate_solution.ipynb) explaining its use. 
+    - a [script](utils/route_graph.py) that transforms the routes in a problem instance into directed graphs in the [networkx](https://networkx.github.io/) package. You may find this useful when trying to work with the route graph algorithmically in your solver, or just for visualization purposes.

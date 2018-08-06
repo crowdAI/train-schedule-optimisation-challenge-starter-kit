@@ -100,17 +100,6 @@ def translate_message_word_for_word(validation_result):
 
     return validation_result
 
-# currently unused
-def translate_message_google(validation_result):
-    i = 0
-    for violation in validation_result['business_rules_violations']:
-        translated_message = translator.translate(violation['message'], src="de", dest="en")
-        validation_result['business_rules_violations'][i]['message_original'] = violation['message']
-        validation_result['business_rules_violations'][i]['message'] = translated_message.text
-        i += 1
-
-    return validation_result
-
 ############################################################################################################
 
 # Helper function

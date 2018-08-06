@@ -4,7 +4,6 @@ import json
 from io import StringIO
 import collections.abc
 import os,sys,inspect
-from googletrans import Translator
 
 AUTH = ('MartyMcFly', 'Uranium-235')
 SCENARIO_UPLOAD_ENDPOINT = "https://fluxer.app.sbb.ch/backend/crowdai-validator/uploadVerkehrsplanFile"
@@ -15,8 +14,6 @@ parentdir = os.path.dirname(currentdir)
 
 scenario = os.path.join(parentdir,'sample_files',"sample_scenario.json")
 solution = os.path.join(parentdir,'sample_files',"sample_scenario_solution_warningHash.json")
-
-translator = Translator()
 
 def do_loesung_validation(scenario, solution):
 

@@ -144,13 +144,35 @@ In order to satisfy the "_exit_earliest_ at 8:30" requirement for 111 in B and s
 <br><br>
 __Check Business Rules again__
 
-It is immediately obvious that the changes we made do not influence the Consistency Rules #1 - #7. We don't check them in detail anymore. Also, we have not changed anything for train 113, so we just focus on train 111.
+It is immediately obvious that the changes we made do not influence the Consistency Rules #1 - #7. We don't check them in detail anymore. 
 
-__[Planning Rules](documentation/business_rules.md#planning-rules) for train 111:__
+__[Planning Rules](documentation/business_rules.md#planning-rules):__
 
-* #101 Time windows for _latest_-requirements: We didn't change anything for train 113, just check 113 again.
+* #101 Time windows for _latest_-requirements: We didn't change anything for train 113, just check 111 again.
     - _exit_latest_ of 08:50:00 for _service_intention_ 111 in C. We have postponed this event from 08:24:05 to 08:32:08, but that is still well before the deadline. :heavy_check_mark:
 
-* #102 Time windows for _earliest_-requirements: We have two _earlieste_requirements for train 111:
+* #102 Time windows for _earliest_-requirements: Again, train 113 remains unchanged and was ok before. Just check 111 again. <br>We have two _earlieste_requirements for train 111:
     - _entry_earliest_ 08:20:00 for section A. Event is still scheduled at 08:20:00. :heavy_check_mark: 
     - _exit_earliest_ 08:30:00 for section B. __Event is now scheduled at exactly 08:30:00.__ :heavy_check_mark:
+
+* #103 Minimum section time: Exactly by construction, we always spend at least the _minimum_running_time_ on each section. In order to satisfy this rule, we just have to check if, for some _train_run_section_, we also need to account for a _min_stopping_time_ associated with that section. <br>In our _service_intentions_ (see screenshot [above](#service-intentions)), we have only one _section_requirement_ that requires a stopping time, namely _section_requirement_ #2 for train 111, which refers to the section 'B' and requires 3 minutes of stopping time.
+
+The _train_run_section_ for 'B' has an _entry_time_ of 08:21:25 and an _exit_time_ of 08:30:00. We have _exit_time_ - _entry_time_ = 8 minutes and 35 seconds.
+
+The rule says that 8 minutes and 35 seconds must be greater-or-equal to the _minimum_running_time_ __plus__ the _min_stopping_time_. But the latter two only sum to 3 minutes and 32 seconds. So the condition of the rule is satisfied :heavy_check_mark:
+
+* #104 Resource Occupations: We must check that the two trains do not try to occupy two resources "at the same time" (in fact, there must be a positive separation between resource occupations given by the release time of the resource, typically ~30s). <br><br>__This rule is what makes the problem NP-complete__. In our case, we are lucky, because there are only two trains. They actually _do_ use common resources (which resource occupations are occupied on which sections is illustrated in the route graph [above](#route-graphs-for-service_intentions-111-and-113)). However, we note that 
+
+    - train 113 ends at 07:54:05
+    - train 111 starts at 08:20:00
+    - all resources in the [instance](sample_files/sample_scenario.json) have a _release_time_ of 30s
+
+In other words, __after 07:54:35 train 113 will certainly not occupy any resources anymore at all__, train 111 will therefore never come into conflict. The rule is satisfied. :heavy_check_mark:
+
+* #105 Connections: There are no connections defined in our two _service_intentions_, there is nothing to check. :heavy_check_mark:
+
+We have produced a feasible solution. It is actually even an _optimal_ solution, meaning it receives an [objective value](documentation/business_rules.md#objective-function/busine) of 0. Here it is again all its glory (you can download the solution file [here](sample_files/sample_scenario_solution.json)).
+
+*************************************************************
+![](documentation/img/worked_example_final_solution.png)
+*************************************************************

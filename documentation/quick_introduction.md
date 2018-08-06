@@ -1,6 +1,5 @@
 # A Very Quick Introduction to our Timetabling Problem
 
-## The task at hand
 Our task (or yours, if you are going to build a solver :wink:) is basically the following:
 
 **Given**

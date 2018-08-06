@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Helper script to translate a problem_instance or a solution from German into English or the other way around.
 
@@ -13,16 +14,20 @@ import argparse
 import sys
 
 
+
+
 # build the translation dicts
 ############################################################################################################
-GER_2_ENG = dict()
-ENG_2_GER = dict()
-with open("translation_table.csv") as fp:
-    a = csv.reader(fp, skipinitialspace=True)
-    next(a)  # skip first line
-    for ger, eng in a:
-        GER_2_ENG[ger] = eng
-        ENG_2_GER[eng] = ger
+def setup_translation_table(file):
+    GER_2_ENG = dict()
+    ENG_2_GER = dict()
+    with open(file, encoding='utf-8') as fp:
+        a = csv.reader(fp, skipinitialspace=True)
+        next(a)  # skip first line
+        for ger, eng in a:
+            GER_2_ENG[ger] = eng
+            ENG_2_GER[eng] = ger
+    return GER_2_ENG, ENG_2_GER
 ############################################################################################################
 
 # main function that does the translation recursively
@@ -73,6 +78,39 @@ def translate_to_ger(key):
     except KeyError:
         print(f"WARNING: don't know how to translate {key}. I will leave it as is.")
         return key
+
+def translate_message_to_eng(key):
+    #print(f"translating {key}")
+    try:
+        return GER_2_ENG_MESSAGE[key]
+    except KeyError:
+        # print(f"WARNING: don't know how to translate '{key}''. I will leave it as is. [Message]")
+        return key
+############################################################################################################
+
+# translate functions for the message
+############################################################################################################
+def translate_message_word_for_word(validation_result):
+    i = 0
+    for violation in validation_result['business_rules_violations']:
+        validation_result['business_rules_violations'][i]['message_original'] = violation['message']
+        for word in violation['message'].split():
+            validation_result['business_rules_violations'][i]['message'] = violation['message'].replace(word, translate_message_to_eng(word))
+        i += 1
+
+    return validation_result
+
+# currently unused
+def translate_message_google(validation_result):
+    i = 0
+    for violation in validation_result['business_rules_violations']:
+        translated_message = translator.translate(violation['message'], src="de", dest="en")
+        validation_result['business_rules_violations'][i]['message_original'] = violation['message']
+        validation_result['business_rules_violations'][i]['message'] = translated_message.text
+        i += 1
+
+    return validation_result
+
 ############################################################################################################
 
 # Helper function
@@ -82,6 +120,9 @@ def write_json(d, path, suffix=""):
         json.dump(d, fp, indent="\t")
     print(f"Wrote file {out_file}")
 
+
+GER_2_ENG, ENG_2_GER = setup_translation_table("translation_table.csv")
+GER_2_ENG_MESSAGE, ENG_2_GER_MESSAGE = setup_translation_table("translation_message_table.csv")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='translate.py')

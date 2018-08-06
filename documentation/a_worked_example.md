@@ -9,7 +9,7 @@ You do not need to be familiar with the data models yet or the business rules, b
 * The definition of the twelve [business rules](documentation/business_rules.md) that a solution must satisfy
 
 ## The sample instance
-We study what is contained in the [sample isntance](sample_files/sample_scenario.json)
+We study what is contained in the [sample instance](sample_files/sample_scenario.json)
 ### Service intentions
 There are two service intentions, for trains 111 and 113.
 
@@ -28,7 +28,7 @@ Also, note that neither train specifies any connections that would have to be ob
 We recall from the [short introduction](documentation#a-very-quick-introduction-to-our-timetabling-problem) that producing a solution amounts to
 
 * picking exactly one of the possible routes for each train, i.e. __selecting a path from a source to a sink node__ in the route graph
-* then assign times to all events (nodes) on this path (such that all tweve [business rules](documentation/business_rules.md) are satisfied)
+* then assign times to all events (nodes) on this path (such that all twelve [business rules](documentation/business_rules.md) are satisfied)
 
 We also recall that the __route graphs are always directed and acyclic grpahs__.
 

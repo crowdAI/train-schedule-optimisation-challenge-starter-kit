@@ -31,4 +31,6 @@ Produce a timetable that
 
 A **timetable** is an assignment of a (continuous) time instant to each event.
 
-_Note: A route actually consists of individual **route sections**. The sections attach to one another head-to-tail to form a DAG. Each vertex in this DAG is called an **event**. It represents the event, when a train passes from one section to the next one._
+_Note: A __'route'__ actually consists of individual **route sections**. The sections attach to one another head-to-tail to form a DAG. Each vertex in this DAG is called an **event**. It represents the event, when a train passes from one section to the next one._ A simple _route_ might look as follows - although realistic example have many more sections, typically between 50 and 100.
+
+![](documentation/img/route_graph_naked.png)

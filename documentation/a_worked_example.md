@@ -93,16 +93,24 @@ Now, we just set the event times that result from propagating the _minimum_runni
 
 ******************
 ![](documentation/img/worked_example_initial_assignment.png)
+******************
+
+This is our initial solution. Let's bring it into the shape of the [solution data model](documentation/output_data_model.md). For this, we put the _train_run_sections_ (the arcs in the picture above) in a list and fill in their information. Also, we must add the reference to the problem instance so the grader will know to what problem this is supposed to be a solution. You can download the resulting solution file [here](sample_files/sample_scenario_solution_initial_times.json). It looks like this:
 
 ******************
+![](documentation/img/worked_example_initial_assignment_solution.png)
+******************
+
 
 ### 3. Check Business Rules
 We check if what we have produced is a feasible solution, i.e. whether it satisfies all [business rules](documentation/business_rules.md).
 
 We check the [Consistency Rules](documentation/business_rules.md#concistency-rules) first
 
-* #1 problem_instance_hash present: This is not an issue, we will just add this later before submitting. <br>:heavy_check_mark:
-* #2 each train is scheduled: We schedule both trains 111 and 113. <br>:heavy_check_mark:
+* #1 problem_instance_hash present: Yes, the _hash_ -1254734547 of the [sample instance](sample_files/sample_scenario.json) is correctly entered as the _problem_instance_hash_ :heavy_check_mark:
+* #2 each train is scheduled: We schedule both trains 111 and 113. :heavy_check_mark:
+* #3 ordered _train_run_sections_: Yes, we have just numbered their _sequence_numbers_ incrementally from 1 to 9. :heavy_check_mark:
+* #4 reference valid route: Yes, we have added all the necessary information. :heavy_check_mark: <br>Recall (see [here](documentation/output_data_model.md#train_run_section)) that the _route_section_id_ is constructed from the pattern _route_._id_#_route_section_._sequence_number_. Also note that train 111 uses one _route_section_ from the _route_path_ with _id_ 3, while train 113 only uses _route_sections_ from _route_path_ 1.
 
 
 ![](documentation/img/worked_example_rule_violation.png)

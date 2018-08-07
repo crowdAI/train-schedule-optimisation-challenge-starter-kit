@@ -155,7 +155,7 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 
 | Field                                                                                         | Format                            | Description    |
 | -------------     |-------------      | -----         |
-| sequence_number                                                                  | integer                           | Needed because JSON deserialization may not preserve order <br> __Important Note__: If you look at the route graph for service intention 111 [in the example above](#section_markers-on-a-route_section), you see that however you travel through the graph (from a source to a sink node) you will always pass _section_markers_ A, then B and finally C. This is exactly the same sequence as the _section_requirements_ in the _service_intention_. __We guarantee that this is always the case for all our [problem instances](problem_instances)!__. That is, the route graphs are such that you will always automatically pass all required _section_markers_ and you will do so in the correct sequence.    |
+| sequence_number                                                                  | integer                           | Needed because JSON deserialization may not preserve order <br> __Important Note__: If you look at the route graph for service intention 111 [in the example above](#section_markers-on-a-route_section), you see that however you travel through the graph (from a source to a sink node) you will always pass _section_markers_ A, then B and finally C. This is exactly the same sequence as the _section_requirements_ in the _service_intention_. __We guarantee that this is always the case for all our [problem instances](problem_instances), see [Axiom 3](#axiom-3-well-behaved-route-graphs) below!__. That is, the route graphs are such that you will always automatically pass all required _section_markers_ and you will do so in the correct sequence.    |
 | type (typ)                                                                                    | text                              | a text field describing what this requirement is meant to represent, such as start of a train, a scheduled stop, etc. Has no effect on processing. You may ignore it.   |
 | min_stopping_time                                                       | ISO duration                      |  see text above |
 | entry_earliest and/or entry_latest                                         | HH:MM[:SS] formatted time-of-day  |  see text above |
@@ -210,3 +210,22 @@ The model for a _resource_ is as follows:
 ### parameters
 ![](documentation/img/example_parameters.png)
 Can be used to set global or solver-specific guidelines for the instance. Do not change these, as it would change the hash of the instance. They are of no concern otherwise.
+
+# 'Axioms' on the Structure of the Problem Instances
+We guarantee that all sample files and problem instances used in this challenge have the following properties. Let's call them 'axioms'
+
+### Axiom 1: Start with _entry_earliest_ and end with _exit_latest_
+A _service_intention_ always has a _entry_earliest_ time set for its first _section_requirement_ and has an _exit_latest_ time set for its last _section_requirement.<br>For example, here is the [sample instance](sample_files/sample_scenario.json):<br>![](documentation/img/axiom_1.png)
+### Axiom 2: A _route_ for each _service_intention_ and vice versa
+There is a one-to-one correspondence between _service_intentions_ and _routes_ and moreover, they use the same _id_.<br>For example, the [sample instance](sample_files/sample_scenario.json) has two _service_intentions_, 111 and 113, and two _routes_ with the same _id_:<br>![](documentation/img/axiom_2.png)
+### Axiom 3: Well-behaved Route Graphs
+The route graph for a _service_intention_ (see the [detailed description](documentation/input_data_model.md#routes) for an in-depth discussion) has the following properties
+
+* It is a directed acyclic graph
+* A path from a source node (i.e. from a node without incoming arcs) to a sink node (a node without outgoing arcs) always visits all required _section_markers_ and does so in the correct order (given by the _service_intention_)
+* In addition, such a path will always start with a _section_marker_ for the first _section_requirement_ and end with a _section_marker_ for the last _section_requirement_ of the _service_intention_
+
+### Axiom 4: Key for _route_sections_
+The _sequence_number_ of a _route_section_ is unique among **all** _route_sections_ in a _route_. For example, _route_ 111 in the [sample instance](sample_files/sample_scenario.json) has 5 _route_paths_, each containing a varying number of _route_sections_. These _sequence_numbers_ are **globally unique** in a _route_. It will never happen that two _route_pahts_ contain _route_sections_ with the same _sequence_number_.<br>![](documentation/img/axiom_4.png)
+
+As a consequence, the pattern <_route_._id_>#<_route_section_._sequence_number_> is a key for a _route_section_ globally over the whole problem instance.

@@ -1,4 +1,7 @@
 # Description of the Problem Instances
+This document gives a short description about the content and some key points of the problem instances.
+
+## The [sample instance](sample_files/sample_scenario.json)
 
 Not part of the 'competition' is the [sample instance](sample_files/sample_scenario.json). It is the simplest instance of all and you should start your solving adventures with this one. 
 

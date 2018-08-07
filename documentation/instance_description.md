@@ -20,12 +20,23 @@ __A note on solvability:__ All instances except 05 are solvable with objective v
 | [08_V1.30_FWA](problem_instances/08_V1.30_FWA.json)   | Next to instance 09, this is the instance with the most routing alternatives. However, it contains a lot fewer trains than 06 and 07. <br>We do not provide a sample solution for this instance.  <br>- 133 trains<br>- lots of routing alternatives |
 | [09_ZUE-ZG-CH_0600-1200](problem_instances/09_ZUE-ZG-CH_0600-1200.json)   | All in all the largest instance. Contains 'only' 287 trains, but each of them has large amount of possible routings.<br>We do not provide a sample solution for this instance. It is probably solvable with objective value 0, although we have not been able to find such a solution so far. <br>- 287 trains<br>- lots of routing alternatives |
 
-
 # In what order should I solve them?
 
 You should probably
 * start with the (almost trivial) [sample instance](sample_files/sample_scenario.json) just to get the technicalities and the data models right
 * then proceed to the simplest official problem instances [01](problem_instances/01_dummy.json) and [02](problem_instances/02_a_little_less_dummy.json) 
 * once solved, proceed to the remaining instances. The remaining ones also feature connections, you can solve the previous ones without worrying about those.
+
+# 'Axioms' on the Structure of the Problem Instances
+We guarantee that all sample files and problem instances used in this challenge have the following properties. Let's call them 'axioms'
+
+* Axiom 1: A _service_intention_ always has a _entry_earliest_ time set for its first _section_requirement_ and has an _exit_latest_ time set for its last _section_requirement.<br>For example, here is the [sample instance](sample_files/sample_scenario.json):<br>![](documentation/img/axiom_1.png)
+* Axiom 2: There is a one-to-one correspondence between _service_intentions_ and _routes_ and moreover, they use the same _id_.<br>For example, the [sample instance](sample_files/sample_scenario.json) has two _service_intentions_, 111 and 113, and two _routes_ with the same _id_:<br>![](documentation/img/axiom_2.png)
+* Axiom 3: The route graph for a _service_intention_ (see the [detailed description](documentation/input_data_model.md#routes) for an in-depth discussion) has the following properties
+    - It is a directed acyclic graph
+    - A path from a source node (i.e. from a node without incoming arcs) to a sink node (a node without outgoing arcs) always visits all required _section_markers_ and does so in the correct order (given by the _service_intention_)
+    - In addition, such a path will always start with a _section_marker_ for the first _section_requirement_ and end with a _section_marker_ for the last _section_requirement_ of the _service_intention_
+* Axiom 4: The _sequence_number_ of a _route_section_ is unique among **all** _route_sections_ in a _route_. For example, _route_ 111 in the [sample instance](sample_files/sample_scenario.json) has 5 _route_paths_, each containing a varying number of _route_sections_. These _sequence_numbers_ are **globally unique** in a _route_. It will never happen that two _route_pahts_ contain _route_sections_ with the same _sequence_number_.<br>![](documentation/img/axiom_4.png)
+
 
 # Happy Solving!

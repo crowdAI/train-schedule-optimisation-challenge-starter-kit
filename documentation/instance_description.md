@@ -7,7 +7,7 @@ Not part of the 'competition' is the [sample instance](sample_files/sample_scena
 
 ## The official nine  [Problem Instances](problem_instances)
 
-As a general rule of thumb, the complexity of the instances increases according to their prefix-number. 01 is clearly the simplest one, 09 is clearly the hardest one. Between 05 and 08, one cannot really make a general statement. For some algorithms, an instance may be very easy, while for others the same one may be hard but a different one more suitable. Just give it a go and find out!
+As a general rule of thumb, the complexity of the instances increases according to their prefix-number. 01 is clearly the simplest one, 09 is clearly the hardest one. Between 05 and 08, one cannot really make a general statement. For some algorithms, an instance may be very easy, while for others the same one may be hard but a different one more suitable. Just give it a go and try them out!
 
 __A note on solvability:__ All instances except 05 are solvable with objective value 0, i.e. satisfying all [business rules](documentation/business_rules.md) and avoiding routes with _penalty_. Strictly speaking, we are not entirely sure for instance 09, because our benchmark solvers have not been able to solve that instance. But we strongly expect that is the case. 
 

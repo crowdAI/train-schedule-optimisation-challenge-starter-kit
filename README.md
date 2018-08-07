@@ -33,6 +33,7 @@ The goal is to create a submission with __as small a score as possible__.
     - description of the [output data model](documentation/output_data_mode.md)
     - definition of the twelve 'timetabling', or [business rules](documentation/business_rules.md)
     - A [description](documentation/instance_description.md) of the nine problem instances that make up the challenge
+    - A note on [what and how to submit](documentation/what_to_submit.md)
 
 * The [sample_files](sample_files) folder contains some simple sample instances and solution. We use these in the documentation to explain our data models and the grading function.
 

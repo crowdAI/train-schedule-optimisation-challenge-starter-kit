@@ -1,4 +1,7 @@
-# Starter-kit Repo for the [SBB Train Schedule Optimisation Challenge](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge) on [crowdAI](https://www.crowdai.org)
+# sbb-train-optimisation-challenge-starter-kit
+![CrowdAI-Logo](https://github.com/crowdAI/crowdai/raw/master/app/assets/images/misc/crowdai-logo-smile.svg?sanitize=true)
+
+This is a starter-kit Repo for the [SBB Train Schedule Optimisation Challenge](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge) on [crowdAI](https://www.crowdai.org).
 
 In this repo you will find background material, sample files and support scripts that help you to get started with the challenge.
 
@@ -8,10 +11,19 @@ This challenge requires a bit of explanation before you can get started. While t
 
 We recommend that you proceed through the documentation in the following order:
 
-1. First, read the [Quick Introduction to the Timetabling Problem](documentation/quick_introduction.md). After this, you should be able to relate to the problem and start to get a feeling for the algorithmic difficulties involved.
-2. Second, it is probably a good idea to go through the [Worked Example](documentation/a_worked_example.md). In that document, we take a very simple sample problem, produce a solution from the ground up (in the required solution data format) and then verify that we indeed satisfy all twelve timetabling rules.
-3. After the first two, you may proceed with the further documentation (see [below](#what-can-i-find-in-this-repo)), and maybe start to solve the simple instances in parallel with learning the fine details of the data models and the timetabling rules.
-4. Once you really want to start solving the instances, you should also check out the [description of the instances](documentation/instance_description.md) and [what to submit](documentation/what_to_submit.md). The first document gives you an idea about the size (and difficulty) of the problem instances, the second walks you through a sample submission.<br><br>In general, you should start solving the simple instances first. More information on that in the [description of the instances](documentation/instance_description.md).
+1. **Quick Introduction to the Timetabling Problem**
+   First, read the [Quick Introduction to the Timetabling Problem](documentation/quick_introduction.md). After this, you should be able to relate to the problem and start to get a feeling for the algorithmic difficulties involved.
+2. **Worked Example**
+Second, it is probably a good idea to go through the [Worked Example](documentation/a_worked_example.md). In that document, we take a very simple sample problem, produce a solution from the ground up (in the required solution data format) and then verify that we indeed satisfy all twelve timetabling rules.
+3. **General Outline**
+After the first two, you may proceed with the further documentation (see [below](#what-can-i-find-in-this-repo)), and maybe start to solve the simple instances in parallel with learning the fine details of the data models and the timetabling rules.
+
+4. **Instance Description**
+Once you really want to start solving the instances, you should also check out the [description of the instances](documentation/instance_description.md) 
+which gives you an idea about the size (and difficulty) of the problem instances. You should start solving the simple instances first. More information on that in the [description of the instances](documentation/instance_description.md).
+
+5. **How to Submit ?**
+The [what to submit](documentation/what_to_submit.md) guide walks you through a sample submission.
 
 ## What do I have to do?
 You must try to generate solutions to the nine problem instances in [this folder](problem_instances).
@@ -42,3 +54,6 @@ The goal is to create a submission with __as small a score as possible__.
 * The [utils](utils) folder contains some utilities such as
     - a [script](utils/validate_solution.py) to evaluate _individual_ solutions to problem instances without a "formal" submission. This is very helpful when trying to tune your algorithms. There is also an accompanying [notebook](utils/validate_solution.ipynb) explaining its use. 
     - a [script](utils/route_graph.py) that transforms the routes in a problem instance into directed graphs in the [networkx](https://networkx.github.io/) package. You may find this useful when trying to work with the route graph algorithmically in your solver, or just for visualization purposes.
+
+## Author
+- Julian Jordi <julian.jordi@sbb.ch>

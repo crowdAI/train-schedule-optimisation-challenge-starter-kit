@@ -1,31 +1,27 @@
 
-# Scenario visualisation
+# Construction of Route Graphs
 
-_Note: For full compatibility, use Python >= 3.6 to run this notebook._
+**************************************
+This notebook walks you through the code in the [route_graph.py](https://gitlab.crowdai.org/SBB/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/route_graph.py) script. It contains code to build directed graphs in the [networkx](https://networkx.github.io/) package from the `routes` in the problem instances. 
 
-This notebook shows you how to visualize the scenario as graph. It allows you to better understand the problem. 
+This should help you to better understand the `routes` and how to work with them. It may also prove useful in your solving algorithm, such as for finding zero-penalty paths or the like. If you don't like to work with the networkx package, you can copy the logic from the functions `from_node_id` and `to_node_id`, which assign the node id's, to the graph library of your choice.
 
-Please ensure that you first install the following Python libraries:
+To run the following code, please ensure that you use Pyhton >= 3.6 and first install the following Python libraries:
 - networkx
 - matplotlib
+**************************************
 
-## Example
-
-_Note: The following code is also collected in_ [this](utils/route_graph.py) _script_
-
-Setup config:
+Import libraries
 
 
 ```python
 import json
-import networkx as nx
 import time
-import pathlib
-import tempfile
+import networkx as nx
 import matplotlib.pyplot as plt
 ```
 
-This function returns "from"-node id based on a given route_section, so that the graph can be constructed correctly. 
+This function returns "from"-node id for a given `route_section`. The crucial point is that nodes with common `route_alternative_marker`s are identified as the same node in the graph.
 
 
 ```python
@@ -42,7 +38,7 @@ def from_node_id(route_path, route_section, index_in_path):
                           str(route_section["sequence_number"])) + ")"
 ```
 
-This function returns "to"-node id based on a given route_section, so that the graph can be constructed correctly. 
+This function returns "to"-node id for a given `route_section`
 
 
 ```python
@@ -60,11 +56,15 @@ def to_node_id(route_path, route_section, index_in_path):
                           str(route_path["route_sections"][index_in_path + 1]["sequence_number"])) + ")"
 ```
 
-We read the scenario file and based on the two functions above build the graph, by looping through the different routes, choosing getting the from and to node from the two functions mentioned before.  
+## Example
+We build the route graphs for the two routes in the Challenge sample_instance.
+
+For large graphs, you probably want to deactivate the printint output.
+
 
 
 ```python
-scenario = "../sample_files/sample_scenario.json"
+scenario = "../sample_files/sample_scenario.json"  # adjust path to the sample instance if it is not located there
 with open(scenario) as fp:
     scenario = json.load(fp)
     
@@ -74,7 +74,8 @@ start_time = time.time()
 # there is an Abschnittskennzeichen 'AK' on it
 route_graphs = dict()
 for route in scenario["routes"]:
-
+    
+    print(f"\nConstructing route graph for route {route['id']}")
     # set global graph settings
     G = nx.DiGraph(route_id = route["id"], name="Route-Graph for route "+str(route["id"]))
 
@@ -93,6 +94,8 @@ for route in scenario["routes"]:
 print("Finished building fahrweg-graphen in {} seconds".format(str(time.time() - start_time)))
 ```
 
+    
+    Constructing route graph for route 111
     Adding Edge from (1_beginning) to (M1) with sequence number 1
     Adding Edge from (M1) to (4->5) with sequence number 4
     Adding Edge from (4->5) to (M2) with sequence number 5
@@ -107,6 +110,8 @@ print("Finished building fahrweg-graphen in {} seconds".format(str(time.time() -
     Adding Edge from (8->9) to (9_end) with sequence number 9
     Adding Edge from (M3) to (11->12) with sequence number 11
     Adding Edge from (11->12) to (M4) with sequence number 12
+    
+    Constructing route graph for route 113
     Adding Edge from (1_beginning) to (M1) with sequence number 1
     Adding Edge from (M1) to (4->5) with sequence number 4
     Adding Edge from (4->5) to (M2) with sequence number 5
@@ -121,39 +126,41 @@ print("Finished building fahrweg-graphen in {} seconds".format(str(time.time() -
     Adding Edge from (8->9) to (9_end) with sequence number 9
     Adding Edge from (M3) to (11->12) with sequence number 11
     Adding Edge from (11->12) to (M4) with sequence number 12
-    Finished building fahrweg-graphen in 0.003001689910888672 seconds
+    Finished building fahrweg-graphen in 0.004601240158081055 seconds
     
 
-At last the graph is being plotted as an image and saved to graphml. The plotting might not be as easy to unterstand. This is the reason for outputing graphml files which will allow you to visualize the graph in a tool of your choice.
+You can try to visualize the graph. Plotting directly from networkx is unfortunately not be as easy to unterstand. This is the reason for outputing graphml files which will allow you to visualize the graph in a tool of your choice.
 
 
 ```python
-for k, route_graph in route_graphs.items():
-    for node in route_graph.nodes():
-        route_graph.node[node]['label'] = node
+route_graph = route_graphs[111]
 
-    edge_labels = {}
-    for node1, node2, data in route_graph.edges(data=True):
-        edge_labels[(node1, node2)] = data['sequence_number'] 
+for node in route_graph.nodes():
+    route_graph.node[node]['label'] = node
 
-    for edge in route_graph.edges():
-        route_graph.edges[edge]['label'] = edge_labels[edge]
+edge_labels = {}
+for node1, node2, data in route_graph.edges(data=True):
+    edge_labels[(node1, node2)] = data['sequence_number'] 
 
-    pos = nx.spring_layout(route_graph)
-    nx.draw(route_graph, pos, edge_color='black', width=1, linewidths=1, node_size=500, node_color='pink', alpha=0.9)
-    nx.draw_networkx_edge_labels(route_graph,pos,edge_labels=edge_labels,font_color='red')
-    nx.write_graphml(route_graph, "graph-"+str(k)+".graphml")
-    plt.show()
+for edge in route_graph.edges():
+    route_graph.edges[edge]['label'] = edge_labels[edge]
+
+# export as graphML file, see below
+nx.write_graphml(route_graph, "graph-111"+".graphml")
+
+# draw directly from networkx
+pos = nx.spring_layout(route_graph)
+nx.draw(route_graph, pos, edge_color='black', width=1, linewidths=1, node_size=500, node_color='pink', alpha=0.9)
+nx.draw_networkx_edge_labels(route_graph,pos,edge_labels=edge_labels,font_color='red')
+plt.show()
 ```
 
 
-![png](img/output_14_0.png)
+![png](output_11_0.png)
 
 
+However, you can also export it as graphML and use a visualization tool to render it. For example, this what it looks like after processing the graphml with [yED](https://www.yworks.com/products/yed/download). Labels on the edges represent the sequence_number. 
 
-![png](img/output_14_1.png)
-
-
-And this what it looks like after processing the graphml with [yED](https://www.yworks.com/products/yed/download). Labels on the edges represent the sequence_number. In some cases the cleaned version of the grpah does not render properly. In this case please have a look at [route_graph.md](route_graph.md)
+_Note_ On Gitlab, the Notebook not render the image properly. If you can't see anything below, please have a look at [route_graph.md](route_graph.md)
 
 ![](https://gitlab.crowdai.org/SBB/train-schedule-optimisation-challenge-starter-kit/raw/master/utils/img/graph-111.png)

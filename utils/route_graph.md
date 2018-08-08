@@ -1,8 +1,9 @@
 
 # Construction of Route Graphs
 
+_This is a markdown export of the Jupyter Notebook in the same folder with the same name._
+
 **************************************
-_This is a markdown export of the Jupyter Notebook of the same name._
 
 This notebook walks you through the code in the [route_graph.py](https://gitlab.crowdai.org/SBB/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/route_graph.py) script. It contains code to build directed graphs in the [networkx](https://networkx.github.io/) package from the `routes` in the problem instances. 
 

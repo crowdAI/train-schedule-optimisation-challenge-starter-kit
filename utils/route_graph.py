@@ -75,9 +75,7 @@ def save_graph(route_graphs):
         nx.draw(route_graph, pos, edge_color='black', width=1, linewidths=1, node_size=500, node_color='pink', alpha=0.9)
         nx.draw_networkx_edge_labels(route_graph,pos,edge_labels=edge_labels,font_color='red')
         nx.write_graphml(route_graph, "graph-"+str(k)+".graphml")
-        # plt.show()
-        break
-       
+        plt.show()
 
 # scratch######################################
 

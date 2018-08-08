@@ -47,11 +47,11 @@ def generate_route_graphs(scenario):
         # add edges with data contained in the preprocessed graph
         for path in route["route_paths"]:
             for (i, route_section) in enumerate(path["route_sections"]):
-                print("Adding Edge from {} to {} with sequence number {}".format(from_node_id(path, route_section, i), to_node_id(path, route_section, i), route_section['sequence_number']))
-
+                sn = route_section['sequence_number']
+                print("Adding Edge from {} to {} with sequence number {}".format(from_node_id(path, route_section, i), to_node_id(path, route_section, i), sn))
                 G.add_edge(from_node_id(path, route_section, i),
                            to_node_id(path, route_section, i),
-                           abschnittsfolge_id=path["id"])
+                           sequence_number=sn)
 
         route_graphs[route["id"]] = G
 
@@ -64,10 +64,19 @@ def save_graph(route_graphs):
         for node in route_graph.nodes():
             route_graph.node[node]['label'] = node
 
+        edge_labels = {}
+        for node1, node2, data in route_graph.edges(data=True):
+            edge_labels[(node1, node2)] = data['sequence_number'] 
+
+        for edge in route_graph.edges():
+            route_graph.edges[edge]['label'] = edge_labels[edge]
+
         pos = nx.spring_layout(route_graph)
-        nx.draw(route_graph, pos=pos)
+        nx.draw(route_graph, pos, edge_color='black', width=1, linewidths=1, node_size=500, node_color='pink', alpha=0.9)
+        nx.draw_networkx_edge_labels(route_graph,pos,edge_labels=edge_labels,font_color='red')
         nx.write_graphml(route_graph, "graph-"+str(k)+".graphml")
-        plt.show()
+        # plt.show()
+        break
        
 
 # scratch######################################

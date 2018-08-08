@@ -160,7 +160,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png](utils/img/output_11_0.png)
 
 
 However, you can also export it as graphML and use a visualization tool to render it. For example, this what it looks like after processing the graphml with [yED](https://www.yworks.com/products/yed/download). Labels on the edges represent the sequence_number. 

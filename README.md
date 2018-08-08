@@ -1,4 +1,4 @@
-# sbb-train-optimisation-challenge-starter-kit
+# sbb-train-schedule-optimisation-challenge-starter-kit
 ![CrowdAI-Logo](https://github.com/crowdAI/crowdai/raw/master/app/assets/images/misc/crowdai-logo-smile.svg?sanitize=true)
 
 This is a starter-kit Repo for the [SBB Train Schedule Optimisation Challenge](https://www.crowdai.org/challenges/train-schedule-optimisation-challenge) on [crowdAI](https://www.crowdai.org).

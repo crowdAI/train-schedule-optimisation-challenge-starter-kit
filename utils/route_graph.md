@@ -2,6 +2,8 @@
 # Construction of Route Graphs
 
 **************************************
+_This is a markdown export of the Jupyter Notebook of the same name._
+
 This notebook walks you through the code in the [route_graph.py](https://gitlab.crowdai.org/SBB/train-schedule-optimisation-challenge-starter-kit/blob/master/utils/route_graph.py) script. It contains code to build directed graphs in the [networkx](https://networkx.github.io/) package from the `routes` in the problem instances. 
 
 This should help you to better understand the `routes` and how to work with them. It may also prove useful in your solving algorithm, such as for finding zero-penalty paths or the like. If you don't like to work with the networkx package, you can copy the logic from the functions `from_node_id` and `to_node_id`, which assign the node id's, to the graph library of your choice.
@@ -9,6 +11,7 @@ This should help you to better understand the `routes` and how to work with them
 To run the following code, please ensure that you use Pyhton >= 3.6 and first install the following Python libraries:
 - networkx
 - matplotlib
+
 **************************************
 
 Import libraries
@@ -160,7 +163,5 @@ plt.show()
 
 
 However, you can also export it as graphML and use a visualization tool to render it. For example, this what it looks like after processing the graphml with [yED](https://www.yworks.com/products/yed/download). Labels on the edges represent the sequence_number. 
-
-_Note_ On Gitlab, the Notebook not render the image properly. If you can't see anything below, please have a look at [route_graph.md](route_graph.md)
 
 ![](https://gitlab.crowdai.org/SBB/train-schedule-optimisation-challenge-starter-kit/raw/master/utils/img/graph-111.png)

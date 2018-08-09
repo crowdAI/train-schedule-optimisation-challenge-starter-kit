@@ -1,6 +1,6 @@
 # A Worked Example
 
-Let us build a solution to the [sample instance](sample_files/sample_scenario.json) from the ground up. 
+Let us build a solution to the [sample instance](../sample_files/sample_scenario.json) from the ground up. 
 
 You do not need to be familiar with the data models yet or the business rules, but we recommend that you keep the following documents handy while working through the example
 
@@ -11,7 +11,7 @@ You do not need to be familiar with the data models yet or the business rules, b
 __Tip:__ In order to work with the large JSON files it can be helpful to use an editor that offers a 'grid view', such as the screenshots below, to keep the overview. If anybody knows a good freeware too, please let us know! Otherwise you can also use evaluation versions of [Altova](https://www.altova.com/download-xml-editor-b?gclid=Cj0KCQjw45_bBRD_ARIsAJ6wUXSBmRsSmdnwA9DWEl_ryWfwWdG-sEOSQdQy7_Sf2I1HAb0SElcDy8gaAufOEALw_wcB) or [Oxygen](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
 
 ## The sample instance
-We study what is contained in the [sample instance](sample_files/sample_scenario.json)
+We study what is contained in the [sample instance](../sample_files/sample_scenario.json)
 ### Service intentions
 There are two service intentions, for trains 111 and 113.
 
@@ -37,7 +37,7 @@ We also recall that the __route graphs are always directed and acyclic grpahs__.
 So, what are the possible routes for the two services? We will see in the discussion of the [problem instance data model](input_data_model.md#routes) how to derive the graph structure from the JSON. For the purpose of this example, let us just pretend we already knew that the two route graphs for service intentions 111 and 113 are actually identical and look as follows:
 
 #### Route graphs for _service_intentions_ 111 and 113
-_Hint:_ you may use the [route graph utility script](utils/route_graph.py) to produce the route graphs as a [networkx](https://networkx.github.io/) directed graph and that should produce the same graphs as in these pictures.
+_Hint:_ you may use the [route graph utility script](../utils/route_graph.py) to produce the route graphs as a [networkx](https://networkx.github.io/) directed graph and that should produce the same graphs as in these pictures.
 
 ![](img/worked_example_route_graph.png)
 
@@ -97,7 +97,7 @@ Now, we just set the event times that result from propagating the _minimum_runni
 ![](img/worked_example_initial_assignment.png)
 ******************
 
-This is our initial solution. Let's bring it into the shape of the [solution data model](output_data_model.md). For this, we put the _train_run_sections_ (the arcs in the picture above) in a list and fill in their information. Also, we must add the reference to the problem instance so the grader will know to what problem this is supposed to be a solution. You can download the resulting solution file [here](sample_files/sample_scenario_solution_initial_times.json). It looks like this:
+This is our initial solution. Let's bring it into the shape of the [solution data model](output_data_model.md). For this, we put the _train_run_sections_ (the arcs in the picture above) in a list and fill in their information. Also, we must add the reference to the problem instance so the grader will know to what problem this is supposed to be a solution. You can download the resulting solution file [here](../sample_files/sample_scenario_solution_initial_times.json). It looks like this:
 
 ******************
 ![](img/worked_example_initial_assignment_solution.png)
@@ -109,7 +109,7 @@ We check if we have produced a feasible solution, i.e. whether it satisfies all 
 
 We check the [Consistency Rules](business_rules.md#concistency-rules) first
 
-* #1 problem_instance_hash present: Yes, the _hash_ -1254734547 of the [sample instance](sample_files/sample_scenario.json) is correctly entered as the _problem_instance_hash_ :heavy_check_mark:
+* #1 problem_instance_hash present: Yes, the _hash_ -1254734547 of the [sample instance](../sample_files/sample_scenario.json) is correctly entered as the _problem_instance_hash_ :heavy_check_mark:
 * #2 each train is scheduled: We schedule both trains 111 and 113. :heavy_check_mark:
 * #3 ordered _train_run_sections_: Yes, we simply numbered their _sequence_numbers_ incrementally from 1 to 7. :heavy_check_mark:
 * #4 reference valid route: Yes, we have added all the necessary information. :heavy_check_mark: <br>Recall (see [here](output_data_model.md#train_run_section)) that the _route_section_id_ is constructed from the pattern _route_._id_#_route_section_._sequence_number_. <br>Also note that train 111 uses one _route_section_ from the _route_path_ with _id_ 3, while train 113 only uses _route_sections_ from _route_path_ 1.
@@ -119,7 +119,7 @@ We check the [Consistency Rules](business_rules.md#concistency-rules) first
 
 Let's check the [Planning Rules](business_rules.md#planning-rules) next
 
-* #101 Time windows for _latest_-requirements: We have two _latest_ requirements (see the [file](sample_files/sample_scenario.json) or screenshot [above](#service-intentions):
+* #101 Time windows for _latest_-requirements: We have two _latest_ requirements (see the [file](../sample_files/sample_scenario.json) or screenshot [above](#service-intentions):
     - _exit_latest_ of 08:16:00 for _service_intenation_ 113 in C. The _train_run_section_ associated to _section_requirement_ C has an _exit_time_ of 07:54:05, which is certainly before 8:16 :heavy_check_mark:
     - _exit_latest_ of 08:50:00 for _service_intention_ 111 in C. Here, the relevant _train_run_section_ has _exit_time_ 08:24:05 :heavy_check_mark:
 
@@ -167,13 +167,13 @@ The rule says that 8 minutes and 35 seconds must be greater-or-equal to the _min
 
     - train 113 ends at 07:54:05
     - train 111 starts at 08:20:00
-    - all resources in the [instance](sample_files/sample_scenario.json) have a _release_time_ of 30s
+    - all resources in the [instance](../sample_files/sample_scenario.json) have a _release_time_ of 30s
 
 In other words, __after 07:54:35 train 113 will certainly not occupy any resources anymore at all__, train 111 will therefore never come into conflict. The rule is satisfied. :heavy_check_mark:
 
 * #105 Connections: There are no connections defined in our two _service_intentions_, there is nothing to check. :heavy_check_mark:
 
-We have produced a feasible solution. Here it is again all its glory (you can download the solution file [here](sample_files/sample_scenario_solution.json)).
+We have produced a feasible solution. Here it is again all its glory (you can download the solution file [here](../sample_files/sample_scenario_solution.json)).
 
 ![](img/worked_example_final_solution.png)
 *************************************************************

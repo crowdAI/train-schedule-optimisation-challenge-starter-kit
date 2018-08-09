@@ -39,11 +39,11 @@ This is the actual 'meat' of the _solution_. Namely, it contains for each _servi
 
 Our [sample solution](sample_files/sample_scenario_solution.json) looks like this:
 
-![](documentation/img/solution_JSON_train_run_sections.png)
+![](img/solution_JSON_train_run_sections.png)
 
 Translating this into the route-graph picture, we see that the solution picks the following routes for the two _service_intentions_:
 
-![](documentation/img/solution_routes.png)
+![](img/solution_routes.png)
 
 This results in the following _train_run_sections_ for the _service_intentions_:
 
@@ -51,7 +51,7 @@ This results in the following _train_run_sections_ for the _service_intentions_:
 * black numbers are the _sequence_number_ of the referred _route_section_
 * the times at the nodes are the event times that the solver assigned to the events
 
-![](documentation/img/solution_sections_and_times.png)
+![](img/solution_sections_and_times.png)
 
 Let's look at the formal model for _train_run_sections_
 

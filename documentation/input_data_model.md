@@ -11,7 +11,7 @@ A _problem instance_, or a _scenario_, is a JSON file containing the following t
 * resources
 * parameters
 
-Let's go through them. You may use the small [sample scenario](sample_files/sample_scenario.json) as a concrete example. This looks like this: It contains just 2 trains to be scheduled, 2 routes (one for each train), and 13 resources.
+Let's go through them. You may use the small [sample scenario](../sample_files/sample_scenario.json) as a concrete example. This looks like this: It contains just 2 trains to be scheduled, 2 routes (one for each train), and 13 resources.
 
 ![](img/scenario_top_level.png)
 
@@ -23,7 +23,7 @@ This is just a human-readable identifier for the instance. It is of no concern o
 A machine-readable identifier for the instance. This hash must be referenced when submitting a solution for this instance. See [Output Data Model](output_data_model.md#problem_instance_hash-verkehrsplanhash).
 
 ### service_intentions
-This is the list of trains (or, in fancy speech, a "service") to be scheduled. Each individual _service_intention_ describes a specific train. In particular, it specifies which _route_ a train can take (see below) and **all requirements** that the scheduler needs to observe when planning this particular train. In the [example](sample_files/sample_scenario.json), we have two _service_intentions_:
+This is the list of trains (or, in fancy speech, a "service") to be scheduled. Each individual _service_intention_ describes a specific train. In particular, it specifies which _route_ a train can take (see below) and **all requirements** that the scheduler needs to observe when planning this particular train. In the [example](../sample_files/sample_scenario.json), we have two _service_intentions_:
 
 ![](img/service_intentions.png)
 
@@ -46,7 +46,7 @@ Our example above has three _section_requirements_ for train 111. We will study 
 ### routes
 Recall from the [Quick Introduction](quick_introduction.md) that a _route_ is modeled as a directed acyclic graph (DAG). It describes the possible ways for the train to move through the railway network. The nodes in the graph are the _events_ that occur along the way, such as "arrival at station X", "releasing resource Y", etc. A directed arc in the route graph is called a _route_section_. For a route_section, we call the node at its tail the _entry event_ and the node at its head the _exit event_ from this route_section. The route_sections have associated with them a list of _resource occupations_. These are the resources that a train on this route will occupy, while it is traveling on this arc, i.e. in the timespan between the entry event and the exit event. Each arc also has a minimum running time, which gives the _minimum_ duration between entry and exit event. There is no maximum duration, by the way. A train may spend as much time on a section as it likes. Of course, it keeps using the resources of this route section during this time.
 
-As an example, we again look at our [sample scenario](sample_files/sample_scenario.json). The following images illustrate route 111 in that scenario (although route 113 is identical):
+As an example, we again look at our [sample scenario](../sample_files/sample_scenario.json). The following images illustrate route 111 in that scenario (although route 113 is identical):
 
 ![](img/route_sample.png)
 
@@ -59,7 +59,7 @@ In a minute, we explain how to derive a directed graph from the data in the JSON
 __Note__: There is also a [helper script](ToDo) that constructs a [networkx](https://networkx.github.io/) graph for each service intention in a problem instance. You are free to use it for the challenge if you find it helpful.
 
 #### How is this Graph modeled in the JSON?
-Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. linear subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that route 111 in our [sample scenario](sample_files/sample_scenario.json) is made up of 5 _route_paths_:
+Modeling a graph in a JSON structure in a human-readabl way is not exactly a joy. We have taken the approach that paths (i.e. linear subgraphs) in the graph can be grouped into so-called _route paths_. Then these _route_paths_ are "glued together" at the appropriate places. We see that route 111 in our [sample scenario](../sample_files/sample_scenario.json) is made up of 5 _route_paths_:
 
 ![](img/route_111_route_paths.png)
 
@@ -97,11 +97,11 @@ In the JSON, you find them here:
 #### The formal data model of a _route_
 In the formal data model, a _route_ has
 * an id
-* a list of _route_paths_, which themselves are a list of _route_sections_. These are the ineresting objects. They are built as follows
+* a list of _route_paths_, which themselves are a list of _route_sections_. These are the interesting objects. They are built as follows
 
 ##### _route_section_
 
-As an example, let's look at the _route_section_ with _sequence_number_ 5, located in our sample route 111 of the [example](sample_files/sample_scenario.json). It looks like this:
+As an example, let's look at the _route_section_ with _sequence_number_ 5, located in our sample route 111 of the [example](../sample_files/sample_scenario.json). It looks like this:
 
 ![](img/route_section_example.png)
 
@@ -134,9 +134,9 @@ Each section_requirement references a _section_marker_. This means that "this re
 * a minimum stopping time be observed on this route section by setting min_stopping_time. This stopping time will be _in addition_ to the minimum_running_time
 * the _connections_ to other trains to be observed
 
-If this is a bit much to digest, don't worry. We will see in the [planning rules](documentation/business_rules.md) the formal rules that you need to observe when constructing solutions. For now, let's just look at some examples before defining the formal data model:
+If this is a bit much to digest, don't worry. We will see in the [planning rules](business_rules.md) the formal rules that you need to observe when constructing solutions. For now, let's just look at some examples before defining the formal data model:
 
-* _service_intention_ 111 in our [example](sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
+* _service_intention_ 111 in our [example](../sample_files/sample_scenario_with_routing_alternatives.json) has three _section_requirements_: <br>
 ![](img/section_requirements_examples.png)
 * The first of these is for _section_marker_ 'A'. We said above that this sort of means that "departure from station A" must not occur before 08:20:00. What it __really__ means is: the _entry_event_ into this _route_section_ must not occur before 08:20:00 <br>
 ![](img/section_requirements_example_start.png)
@@ -148,7 +148,7 @@ If this is a bit much to digest, don't worry. We will see in the [planning rules
 ![](img/section_requirements_example_end.png)
 * We give an example for a _connection_ [below](#connections).
 
-Finally _section_requirement_ can specify relative factors _entry_delay_weight_ and _exit_delay_weight_. These weights are used in the calculation of the [objective function](documentation/business_rules.md#objective-function).
+Finally _section_requirement_ can specify relative factors _entry_delay_weight_ and _exit_delay_weight_. These weights are used in the calculation of the [objective function](business_rules.md#objective-function).
 
 
 Summarizing: The formal model for a _section_requirement_ is as follows
@@ -160,14 +160,14 @@ Summarizing: The formal model for a _section_requirement_ is as follows
 | min_stopping_time                                                       | ISO duration                      |  see text above |
 | entry_earliest and/or entry_latest                                         | HH:MM[:SS] formatted time-of-day  |  see text above |
 | exit_earliest and/or exit_latest                                           | HH:MM[:SS] formatted time-of-day  |  see text above |
-| entry_delay_weight and _exit_delay_weight_    | non-negative float                |  used to calculate total delay penalties in the [objective function](documentation/business_rules.md#objective-function) |
+| entry_delay_weight and _exit_delay_weight_    | non-negative float                |  used to calculate total delay penalties in the [objective function](business_rules.md#objective-function) |
 | connections                                                                     | list of connections, see below    |  see below |
 
 #### connections
 
 Connections are directed. They point _from_ a train that gives a connection _to_ another train that accepts the connection. In our model, a connection is listed under the train that _gives_ it.
 
-Here is an example: It is from [problem instance 02](problem_instances/02_a_little_less_dummy.json) ([direct link to the line](problem_instances/02_a_little_less_dummy.json?expanded=true&viewer=simple#L3375)) and specifies a connection from the _service_intention_ '18013' onto _service_intention_ '18224' on _section_marker_ 'WAE_Halt'. A minimum connection time of 2 minutes and 30s must be observed.
+Here is an example: It is from [problem instance 02](../problem_instances/02_a_little_less_dummy.json) ([direct link to the line](../problem_instances/02_a_little_less_dummy.json?expanded=true&viewer=simple#L3375)) and specifies a connection from the _service_intention_ '18013' onto _service_intention_ '18224' on _section_marker_ 'WAE_Halt'. A minimum connection time of 2 minutes and 30s must be observed.
 
 ![](img/section_requirements_example_connection.png)
 
@@ -178,11 +178,11 @@ The model is as follows:
 | id                                                                                            | text                              | technical id. Irrelevant during processing |
 | onto_service_intention                                                           | text                              | reference to the _service_intention_ that accepts the connection|
 | onto_section_marker                                                | text                              | reference to a section marker. Specifies which route_sections in the _onto_service_intention_ are candidates to fulfil the connection|
-| min_connection_time                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Business Rules](documentation/business_rules.md) for details.    |
+| min_connection_time                                                        | ISO duration                      | minimum duration required between arrival and departure event. See [Business Rules](business_rules.md) for details.    |
 
 ### resources
 
-Back to the top-level of our [sample scenario](sample_files/sample_scenario.json):
+Back to the top-level of our [sample scenario](../sample_files/sample_scenario.json):
 
 ![](img/resources_example.png)
 
@@ -215,9 +215,9 @@ Can be used to set global or solver-specific guidelines for the instance. Do not
 We guarantee that all sample files and problem instances used in this challenge have the following properties. Let's call them 'axioms'
 
 ### Axiom 1: Start with _entry_earliest_ and end with _exit_latest_
-A _service_intention_ always has a _entry_earliest_ time set for its first _section_requirement_ and has an _exit_latest_ time set for its last _section_requirement.<br>For example, here is the [sample instance](sample_files/sample_scenario.json):<br>![](img/axiom_1.png)
+A _service_intention_ always has a _entry_earliest_ time set for its first _section_requirement_ and has an _exit_latest_ time set for its last _section_requirement.<br>For example, here is the [sample instance](../sample_files/sample_scenario.json):<br>![](img/axiom_1.png)
 ### Axiom 2: A _route_ for each _service_intention_ and vice versa
-There is a one-to-one correspondence between _service_intentions_ and _routes_ and moreover, they use the same _id_.<br>For example, the [sample instance](sample_files/sample_scenario.json) has two _service_intentions_, 111 and 113, and two _routes_ with the same _id_:<br>![](img/axiom_2.png)
+There is a one-to-one correspondence between _service_intentions_ and _routes_ and moreover, they use the same _id_.<br>For example, the [sample instance](../sample_files/sample_scenario.json) has two _service_intentions_, 111 and 113, and two _routes_ with the same _id_:<br>![](img/axiom_2.png)
 ### Axiom 3: Well-behaved Route Graphs
 The route graph for a _service_intention_ (see the [detailed description](input_data_model.md#routes) for an in-depth discussion) has the following properties
 
@@ -226,6 +226,6 @@ The route graph for a _service_intention_ (see the [detailed description](input_
 * In addition, such a path will always start with a _section_marker_ for the first _section_requirement_ and end with a _section_marker_ for the last _section_requirement_ of the _service_intention_
 
 ### Axiom 4: Key for _route_sections_
-The _sequence_number_ of a _route_section_ is unique among **all** _route_sections_ in a _route_. For example, _route_ 111 in the [sample instance](sample_files/sample_scenario.json) has 5 _route_paths_, each containing a varying number of _route_sections_. These _sequence_numbers_ are **globally unique** in a _route_. It will never happen that two _route_pahts_ contain _route_sections_ with the same _sequence_number_.<br>![](img/axiom_4.png)
+The _sequence_number_ of a _route_section_ is unique among **all** _route_sections_ in a _route_. For example, _route_ 111 in the [sample instance](../sample_files/sample_scenario.json) has 5 _route_paths_, each containing a varying number of _route_sections_. These _sequence_numbers_ are **globally unique** in a _route_. It will never happen that two _route_pahts_ contain _route_sections_ with the same _sequence_number_.<br>![](img/axiom_4.png)
 
 As a consequence, the pattern <_route_._id_>#<_route_section_._sequence_number_> is a key for a _route_section_ globally over the whole problem instance.

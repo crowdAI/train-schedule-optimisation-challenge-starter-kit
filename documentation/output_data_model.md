@@ -9,9 +9,9 @@ A _solution_ to a problem instance must contain the following information for ea
 
 For example, a full solution to the [sample instance](sample_files/sample_scenario.json) looks as follows:
 
-![](documentation/img/solution_JSON_all.png)
+![](img/solution_JSON_all.png)
 
-The data model is much easier than the one for the [problem instances](documentation/input_data_model.md). Basically, all one has to specify is a list of route_sections one would like to take and give an entry and exit time for each of them. Let's make this precise:
+The data model is much easier than the one for the [problem instances](input_data_model.md). Basically, all one has to specify is a list of route_sections one would like to take and give an entry and exit time for each of them. Let's make this precise:
 
 ## Data Model of a solution
 

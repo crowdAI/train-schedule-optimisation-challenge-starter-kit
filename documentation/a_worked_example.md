@@ -11,7 +11,7 @@ You do not need to be familiar with the data models yet or the business rules, b
 __Tip:__ In order to work with the large JSON files it can be helpful to use an editor that offers a 'grid view', such as the screenshots below, to keep the overview. If anybody knows a good freeware too, please let us know! Otherwise you can also use evaluation versions of [Altova](https://www.altova.com/download-xml-editor-b?gclid=Cj0KCQjw45_bBRD_ARIsAJ6wUXSBmRsSmdnwA9DWEl_ryWfwWdG-sEOSQdQy7_Sf2I1HAb0SElcDy8gaAufOEALw_wcB) or [Oxygen](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html).
 
 ## The sample instance
-We study what is contained in the [sample instance](sample_files/sample_scenario.json)
+We study what is contained in the [sample instance](../sample_files/sample_scenario.json)
 ### Service intentions
 There are two service intentions, for trains 111 and 113.
 

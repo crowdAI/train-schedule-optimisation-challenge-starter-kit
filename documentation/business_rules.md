@@ -44,17 +44,17 @@ The "formula" for the objective function is as follows:
 ![](img/objective_function.gif)
 
 where:
-* The first sum is taken over all _service_intentions_ **SI** and all _section_requirements_ $`SR`$ therein,
+* The first sum is taken over all _service_intentions_ **SI** and all _section_requirements_ **SR** therein,
 * The second sum is taken over all _train_run_sections_ **TRS**,
-* **entry_delay_weight_<sup>SR</sup>** stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
-* $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ associated to this _section_requirement_,
-* $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`\infty`$, i.e. the $`max`$ will be zero and the term can be ignored.
-* $`\textrm{exit\_delay\_weight}_{SR}`$ is analogous to $`\textrm{entry\_delay\_weight}_{SR}`$, except for the _exit_delay_weight_ of this particular _section_requirement_,
-* $`t_{exit}`$ denotes the scheduled time of the _exit_event_ from the _train_run_section_ associated to this _section_requirement_,
-* $`\textrm{exit\_latest}_{SR}`$ is analogous to $`\textrm{entry\_latest}_{SR}`$, except for the _exit_ time (as specified in _exit_latest_ of the _section_requirement_),
-* $`\textrm{penalty}_{\textrm{route\_section}_{\textrm{TRS}}}`$ denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
+* **entry_delay_weight<sub>SR</sub>** stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
+* **t<sub>entry</sub>** denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ associated to this _section_requirement_,
+* **entry_latest<sub>SR</sub>** denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be &infin;, i.e. the **max** will be zero and the term can be ignored.
+* **exit_delay_weight<sub>SR</sub>** is analogous to **entry_delay_weight<sub>SR</sub>**, except for the _exit_delay_weight_ of this particular _section_requirement_,
+* **t<sub>exit</sub>** denotes the scheduled time of the _exit_event_ from the _train_run_section_ associated to this _section_requirement_,
+* **exit_latest<sub>SR</sub>** is analogous to **entry_latest<sub>SR</sub>*, except for the _exit_ time (as specified in _exit_latest_ of the _section_requirement_),
+* **penalty<sub>route_section<sub>TRS</sub></sub>** denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
 
-__Remark__: All time differences are measured in seconds. The normalization constant $`1/60`$ for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1). In other words, we count the delay 'minutes'.
+__Remark__: All time differences are measured in seconds. The normalization constant 1/60 for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1). In other words, we count the delay 'minutes'.
 
 We give a couple of simple examples illustrating the calculation of the delay and routing penalties.
 

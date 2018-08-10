@@ -41,9 +41,7 @@ The best possible objective value a solution can obtain is 0 (zero). A value > 0
 
 The "formula" for the objective function is as follows:
 
-```math
-\frac{1}{60} \cdot \Big( \sum_{\textrm{SI, SR}} \textrm{entry\_delay\_weight}_{SR} \; \cdot \; max(0, t_{entry} - \textrm{entry\_latest}_{SR}) \; + \; \textrm{exit\_delay\_weight}_{SR} \; \cdot \; max(0, t_{exit} - \textrm{exit\_latest}_{SR}) \Big) + \sum_{\textrm{TRS}} \textrm{penalty}_{\textrm{route\_section}_\textrm{TRS}}
-```
+![](img/objective_function.gif)
 
 where:
 * The first sum is taken over all _service_intentions_ $`SI`$ and all _section_requirements_ $`SR`$ therein,

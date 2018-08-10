@@ -44,9 +44,9 @@ The "formula" for the objective function is as follows:
 ![](img/objective_function.gif)
 
 where:
-* The first sum is taken over all _service_intentions_ $`SI`$ and all _section_requirements_ $`SR`$ therein,
-* The second sum is taken over all _train_run_sections_ $`TRS`$,
-* $`\textrm{entry\_delay\_weight}_{SR}`$ stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
+* The first sum is taken over all _service_intentions_ **SI** and all _section_requirements_ $`SR`$ therein,
+* The second sum is taken over all _train_run_sections_ **TRS**,
+* **entry_delay_weight_<sup>SR</sup>** stands for the _entry_delay_weight_ specified for this particular _section_requirement_. If the _section_requirement_ does not specify an _entry_delay_weight_, then it is assumed to be = 0.
 * $`t_{entry}`$ denotes the scheduled time in the solution for the _entry_event_ into the _train_run_section_ associated to this _section_requirement_,
 * $`\textrm{entry\_latest}_{SR}`$ denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be $`\infty`$, i.e. the $`max`$ will be zero and the term can be ignored.
 * $`\textrm{exit\_delay\_weight}_{SR}`$ is analogous to $`\textrm{entry\_delay\_weight}_{SR}`$, except for the _exit_delay_weight_ of this particular _section_requirement_,

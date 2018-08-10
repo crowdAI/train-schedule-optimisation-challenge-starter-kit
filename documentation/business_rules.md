@@ -51,7 +51,7 @@ where:
 * **entry_latest<sub>SR</sub>** denotes the desired latest entry time specified in the field _entry_latest_ of the _section_requirement_<br> _Note_: If the _section_requirement_ does not specify an _entry_latest_, then it is assumed to be &infin;, i.e. the **max** will be zero and the term can be ignored.
 * **exit_delay_weight<sub>SR</sub>** is analogous to **entry_delay_weight<sub>SR</sub>**, except for the _exit_delay_weight_ of this particular _section_requirement_,
 * **t<sub>exit</sub>** denotes the scheduled time of the _exit_event_ from the _train_run_section_ associated to this _section_requirement_,
-* **exit_latest<sub>SR</sub>** is analogous to **entry_latest<sub>SR</sub>*, except for the _exit_ time (as specified in _exit_latest_ of the _section_requirement_),
+* **exit_latest<sub>SR</sub>** is analogous to **entry_latest<sub>SR</sub>**, except for the _exit_ time (as specified in _exit_latest_ of the _section_requirement_),
 * **penalty<sub>route_section<sub>TRS</sub></sub>** denotes the value of the field _penalty_ of the _route_section_ associated to this _train_run_section_.
 
 __Remark__: All time differences are measured in seconds. The normalization constant 1/60 for the delay penalty term means that 60s of delay will incur 1 penalty point (provided all _delay_weight_ are equal to 1). In other words, we count the delay 'minutes'.
@@ -132,4 +132,4 @@ This solution chooses a route with two _route_section_ with positve _penalty_, n
 
 The routing penalty for this route is therefore 6 + 1.3 = 7.3
 
-![](img/route_ex_4.png)
+[![](img/route_ex_4.png)](img/route_ex_4.png?raw=true)

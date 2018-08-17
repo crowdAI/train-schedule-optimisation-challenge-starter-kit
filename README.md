@@ -40,7 +40,7 @@ The goal is to create a submission with __as small a score as possible__.
 
 * In the [Documentation](documentation) folder you find all documentation texts, such as
     - the [Quick Introduction](documentation/quick_introduction.md) mentioned above
-    - the [Worked Example](documentation/worked_example.md)
+    - the [Worked Example](documentation/a_worked_example.md)
     - description of the [input data model](documentation/input_data_model.md)
     - description of the [output data model](documentation/output_data_mode.md)
     - definition of the twelve 'timetabling', or [business rules](documentation/business_rules.md)

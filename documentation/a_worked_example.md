@@ -32,7 +32,7 @@ We recall from the [short introduction](quick_introduction.md) that producing a 
 * picking exactly one of the possible routes for each train, i.e. __selecting a path from a source to a sink node__ in the route graph
 * then assign times to all events (nodes) on this path (such that all twelve [business rules](business_rules.md) are satisfied)
 
-We also recall that the __route graphs are always directed and acyclic grpahs__.
+We also recall that the __route graphs are always directed and acyclic graphs__.
 
 So, what are the possible routes for the two services? We will see in the discussion of the [problem instance data model](input_data_model.md#routes) how to derive the graph structure from the JSON. For the purpose of this example, let us just pretend we already knew that the two route graphs for service intentions 111 and 113 are actually identical and look as follows:
 

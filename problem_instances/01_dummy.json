@@ -11363,6 +11363,6 @@
 		}
 	],
 	"parameters": {
-		"maxBandabweichung": "PT5M"
+		"maxBandabweichung": "PT24H"
 	}
 }
